@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statement Splitter - Benjamin Liu</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .tool-page {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 100px 24px 80px;
+    }
+    .tool-page h1 { font-size: 1.75rem; margin-bottom: 8px; }
+    .tool-page .description { color: var(--text-muted); margin-bottom: 32px; }
+    .back-link {
+      display: inline-block; margin-bottom: 24px;
+      color: var(--accent); text-decoration: none; font-size: 0.9rem;
+    }
+    .back-link:hover { color: var(--accent-hover); }
+    .tool-body {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 32px;
+    }
+
+    /* Drop zone */
+    .drop-zone {
+      border: 2px dashed var(--border); border-radius: var(--radius);
+      padding: 48px 24px; text-align: center; cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      color: var(--text-muted); margin-bottom: 24px;
+    }
+    .drop-zone.dragover { border-color: var(--accent); background: rgba(108,158,255,0.05); }
+    .drop-zone input { display: none; }
+
+    /* Cardholder list */
+    .cardholders { margin-bottom: 24px; }
+    .cardholder-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 16px; border: 1px solid var(--border);
+      border-radius: 8px; margin-bottom: 8px; background: var(--bg);
+    }
+    .cardholder-item label { flex: 1; cursor: pointer; }
+    .cardholder-item .pages { color: var(--text-muted); font-size: 0.85rem; }
+
+    /* Options */
+    .options { margin-bottom: 24px; display: flex; gap: 20px; align-items: center; }
+    .options label { display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 0.9rem; }
+
+    /* Status / log */
+    #status {
+      margin-top: 16px; padding: 12px 16px;
+      background: var(--bg); border-radius: 8px;
+      font-size: 0.85rem; color: var(--text-muted);
+      white-space: pre-wrap; display: none;
+      max-height: 200px; overflow-y: auto;
+    }
+
+    /* Download links */
+    .downloads { margin-top: 16px; }
+    .downloads a {
+      display: inline-block; margin-right: 12px; margin-bottom: 8px;
+      padding: 8px 16px; background: var(--accent); color: #000;
+      border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 500;
+    }
+    .downloads a:hover { background: var(--accent-hover); }
+
+    /* Loading spinner */
+    .loading { display: none; margin-top: 16px; color: var(--text-muted); font-size: 0.9rem; }
+    .loading.active { display: block; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="nav-logo">BL</a>
+    <div class="nav-links">
+      <a href="/#about">About</a>
+      <a href="/#tools">Tools</a>
+      <a href="/#resume">Resume</a>
+    </div>
+  </nav>
+
+  <div class="tool-page">
+    <a href="/#tools" class="back-link">&larr; Back to Tools</a>
+    <h1>Statement Splitter</h1>
+    <p class="description">Split a Capital One Venture X statement by cardholder with true PDF redaction. Everything runs locally in your browser.</p>
+
+    <div class="tool-body">
+      <div class="drop-zone" id="dropZone">
+        <p>Drop a PDF statement here, or click to select</p>
+        <input type="file" id="fileInput" accept=".pdf">
+      </div>
+
+      <div id="cardholderSection" style="display:none">
+        <h3 style="margin-bottom:12px">Cardholders found</h3>
+        <div class="cardholders" id="cardholderList"></div>
+
+        <div class="options">
+          <label><input type="checkbox" id="redactToggle" checked> Redact other cardholders</label>
+        </div>
+
+        <button class="btn btn-primary" id="splitBtn">Split &amp; Download</button>
+        <div class="loading" id="loading">Processing...</div>
+        <div id="status"></div>
+        <div class="downloads" id="downloads"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Benjamin Liu</p>
+    </div>
+  </footer>
+
+  <script type="module">
+    import * as mupdf from "https://cdn.jsdelivr.net/npm/mupdf@latest/dist/mupdf.js";
+
+    const ALIASES = {
+      "RUBY LIANG LI": "Ruby",
+      "SHIAO LOW": "Rachel",
+    };
+
+    const SECTION_RE = /([A-Z][A-Z .'\-&]+?)\s+#(\d{4})\s*:/g;
+    const X_INSET_L = 41.0, X_INSET_R = 18.0, PAD = 3.0;
+
+    let currentDoc = null;
+    let currentSections = null;
+    let currentBuffer = null;
+    let currentStem = null;
+
+    // --- UI wiring ---
+    const dropZone = document.getElementById("dropZone");
+    const fileInput = document.getElementById("fileInput");
+    const cardholderSection = document.getElementById("cardholderSection");
+    const cardholderList = document.getElementById("cardholderList");
+    const splitBtn = document.getElementById("splitBtn");
+    const statusEl = document.getElementById("status");
+    const downloadsEl = document.getElementById("downloads");
+    const loadingEl = document.getElementById("loading");
+
+    dropZone.addEventListener("click", () => fileInput.click());
+    dropZone.addEventListener("dragover", e => { e.preventDefault(); dropZone.classList.add("dragover"); });
+    dropZone.addEventListener("dragleave", () => dropZone.classList.remove("dragover"));
+    dropZone.addEventListener("drop", e => {
+      e.preventDefault(); dropZone.classList.remove("dragover");
+      if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+    });
+    fileInput.addEventListener("change", () => { if (fileInput.files.length) handleFile(fileInput.files[0]); });
+    splitBtn.addEventListener("click", runSplit);
+
+    function log(msg) {
+      statusEl.style.display = "block";
+      statusEl.textContent += msg + "\n";
+      statusEl.scrollTop = statusEl.scrollHeight;
+    }
+
+    // --- Load PDF and discover cardholders ---
+    async function handleFile(file) {
+      statusEl.style.display = "none";
+      statusEl.textContent = "";
+      downloadsEl.innerHTML = "";
+      cardholderList.innerHTML = "";
+
+      dropZone.querySelector("p").textContent = file.name;
+      currentStem = file.name.replace(/\.pdf$/i, "");
+      currentBuffer = new Uint8Array(await file.arrayBuffer());
+
+      try {
+        currentDoc = mupdf.Document.openDocument(currentBuffer, "application/pdf");
+      } catch (err) {
+        log("Error opening PDF: " + err.message);
+        return;
+      }
+
+      currentSections = discover(currentDoc);
+      const keys = Object.keys(currentSections);
+
+      if (keys.length === 0) {
+        log("No cardholder sections found in this PDF.");
+        return;
+      }
+
+      for (const key of keys) {
+        const [name, last4] = key.split("|");
+        const pages = currentSections[key];
+        const alias = ALIASES[name] || name.replace(/\b\w+/g, w => w[0] + w.slice(1).toLowerCase());
+        const item = document.createElement("div");
+        item.className = "cardholder-item";
+        item.innerHTML = `
+          <input type="checkbox" id="ch-${last4}" value="${key}" checked>
+          <label for="ch-${last4}">${alias} <span style="color:var(--text-muted)">(#${last4})</span></label>
+          <span class="pages">pp ${pages[0] + 1}-${pages[pages.length - 1] + 1}</span>
+        `;
+        cardholderList.appendChild(item);
+      }
+
+      cardholderSection.style.display = "block";
+      log(`Found ${keys.length} cardholder(s).`);
+    }
+
+    // --- Discovery: scan pages for section headers ---
+    function discover(doc) {
+      const found = {};
+      for (let i = 0; i < doc.countPages(); i++) {
+        const page = doc.loadPage(i);
+        const text = page.toStructuredText("preserve-whitespace").asText();
+        let m;
+        SECTION_RE.lastIndex = 0;
+        while ((m = SECTION_RE.exec(text)) !== null) {
+          const name = m[1].trim();
+          const last4 = m[2];
+          const key = name + "|" + last4;
+          if (!found[key]) found[key] = new Set();
+          found[key].add(i);
+        }
+      }
+      const sorted = {};
+      for (const key of Object.keys(found).sort()) {
+        sorted[key] = [...found[key]].sort((a, b) => a - b);
+      }
+      return sorted;
+    }
+
+    // --- Get text lines with bounding boxes from a page ---
+    function getLines(page) {
+      const json = JSON.parse(page.toStructuredText("preserve-spans").asJSON());
+      const out = [];
+      for (const block of json.blocks || []) {
+        for (const line of block.lines || []) {
+          const text = line.text || "";
+          if (!text.trim()) continue;
+          const bbox = line.bbox || block.bbox;
+          // bbox: {x, y, w, h}
+          const y0 = bbox.y;
+          const y1 = bbox.y + bbox.h;
+          const x0 = bbox.x;
+          const x1 = bbox.x + bbox.w;
+          out.push({ y0, y1, x0, x1, text: text.trim() });
+        }
+      }
+      out.sort((a, b) => a.y0 - b.y0);
+      return out;
+    }
+
+    // --- Find the bottom of the transaction table border ---
+    function frameBottomY(page) {
+      // We can't easily access get_drawings() in mupdf.js,
+      // so we use a heuristic: the frame is typically near y=708 on a 792pt page.
+      const bounds = page.getBounds();
+      return bounds[3] - 84; // ~708 on standard letter
+    }
+
+    // --- Compute redaction rectangles for a page ---
+    function redactionRects(page, ownerName, ownerLast4) {
+      const lines = getLines(page);
+      const bounds = page.getBounds();
+      const W = bounds[2] - bounds[0];
+      const H = bounds[3] - bounds[1];
+      const tag = ownerName + " #" + ownerLast4;
+      const frameBotY = frameBottomY(page);
+
+      function firstLine(pred) {
+        for (const ln of lines) {
+          if (pred(ln.text)) return ln;
+        }
+        return null;
+      }
+
+      const banner = firstLine(t => t.includes("Transactions (Continued)") || t === "Transactions");
+      const bannerBot = banner ? banner.y1 : 60.0;
+
+      // Owner's section start
+      const ownerHead = firstLine(t =>
+        t.startsWith(tag) &&
+        (t.includes("Payments, Credits") || t.endsWith(": Transactions")) &&
+        !t.includes("Total Transactions")
+      );
+
+      // Owner's total line
+      const ownerTotal = firstLine(t =>
+        t.startsWith(tag) && t.includes("Total Transactions") && !t.includes("for This Period")
+      );
+
+      const footer = firstLine(t => t.includes("Additional Information on the next page"));
+      const footerTop = footer ? footer.y0 : H - 40.0;
+
+      const x0 = X_INSET_L;
+      const x1 = W - X_INSET_R;
+      const rects = [];
+
+      // Foreign content ABOVE owner
+      if (ownerHead) {
+        const top = bannerBot + 2;
+        const bot = ownerHead.y0 - PAD;
+        if (bot - top > 6) rects.push([x0, top, x1, bot]);
+      }
+
+      // Foreign content + fees/summary BELOW owner
+      if (ownerTotal) {
+        const top = ownerTotal.y1 + PAD;
+        let bot = footerTop - PAD - 1;
+        bot = Math.min(bot, frameBotY - 2);
+        if (bot - top > 6) rects.push([x0, top, x1, bot]);
+      }
+
+      // Redact "Page X of Y" header
+      const pageLine = firstLine(t => /^Page \d+ of \d+$/.test(t));
+      if (pageLine) {
+        rects.push([pageLine.x0 - 2, pageLine.y0 - 2, pageLine.x1 + 2, pageLine.y1 + 2]);
+      }
+
+
+      return rects;
+    }
+
+    // --- Main split logic ---
+    async function runSplit() {
+      const checked = [...cardholderList.querySelectorAll("input:checked")];
+      if (checked.length === 0) { log("Select at least one cardholder."); return; }
+
+      const redact = document.getElementById("redactToggle").checked;
+      downloadsEl.innerHTML = "";
+      statusEl.textContent = "";
+      statusEl.style.display = "block";
+      loadingEl.classList.add("active");
+      splitBtn.disabled = true;
+
+      // Yield to UI before heavy work
+      await new Promise(r => setTimeout(r, 50));
+
+      try {
+        for (const cb of checked) {
+          const key = cb.value;
+          const [name, last4] = key.split("|");
+          const pages = currentSections[key];
+          const lo = pages[0], hi = pages[pages.length - 1];
+          const alias = ALIASES[name] || name.replace(/\b\w+/g, w => w[0] + w.slice(1).toLowerCase());
+          const label = alias.replace(/\s+/g, "");
+
+          log(`Processing ${alias} (#${last4}), pages ${lo + 1}-${hi + 1}...`);
+
+          // Open a fresh copy of the source for each cardholder
+          const srcDoc = mupdf.Document.openDocument(currentBuffer, "application/pdf");
+          const pdfSrc = srcDoc.asPDF();
+
+          // Delete pages outside the range (delete from end to preserve indices)
+          const totalPages = pdfSrc.countPages();
+          for (let i = totalPages - 1; i >= 0; i--) {
+            if (i < lo || i > hi) {
+              pdfSrc.deletePage(i);
+            }
+          }
+
+          // Apply redactions
+          let redactedCount = 0;
+          if (redact) {
+            const extractedCount = pdfSrc.countPages();
+            for (let i = 0; i < extractedCount; i++) {
+              const page = pdfSrc.loadPage(i);
+              const rects = redactionRects(page, name, last4);
+
+              // On last page, also redact the continuation footer
+              if (i === extractedCount - 1) {
+                const lines = getLines(page);
+                const footerLine = lines.find(l => l.text.includes("Additional Information on the next page"));
+                if (footerLine) {
+                  rects.push([footerLine.x0 - 2, footerLine.y0 - 2, footerLine.x1 + 2, footerLine.y1 + 2]);
+                }
+              }
+
+              for (const [rx0, ry0, rx1, ry1] of rects) {
+                const annot = page.createAnnotation("Redact");
+                annot.setRect([rx0, ry0, rx1, ry1]);
+                annot.update();
+              }
+              if (rects.length > 0) {
+                page.applyRedactions(false);
+                redactedCount++;
+              }
+
+
+            }
+          }
+
+          // Save
+          const outBuf = pdfSrc.saveToBuffer("compress").asUint8Array();
+          const blob = new Blob([outBuf], { type: "application/pdf" });
+          const url = URL.createObjectURL(blob);
+
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = `${currentStem}_${label}.pdf`;
+          a.textContent = `${alias} (#${last4})`;
+          downloadsEl.appendChild(a);
+
+          const tag = redact ? "redacted" : "no-redact";
+          log(`  -> ${label}.pdf  (${tag}, ${redactedCount} page(s) cleaned)`);
+
+          // Yield between cardholders
+          await new Promise(r => setTimeout(r, 10));
+        }
+
+        // Add "Download All" button
+        if (downloadsEl.children.length > 1) {
+          const dlAll = document.createElement("a");
+          dlAll.href = "#";
+          dlAll.textContent = "Download All";
+          dlAll.style.background = "var(--surface)";
+          dlAll.style.color = "var(--text)";
+          dlAll.style.border = "1px solid var(--border)";
+          dlAll.addEventListener("click", e => {
+            e.preventDefault();
+            for (const link of downloadsEl.querySelectorAll("a[download]")) {
+              link.click();
+            }
+          });
+          downloadsEl.appendChild(dlAll);
+        }
+
+        log("Done!");
+      } catch (err) {
+        log("Error: " + err.message);
+        console.error(err);
+      } finally {
+        loadingEl.classList.remove("active");
+        splitBtn.disabled = false;
+      }
+    }
+  </script>
+</body>
+</html>
