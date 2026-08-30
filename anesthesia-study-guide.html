@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anesthesia Study Guide - Benjamin Liu</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .study-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 100px 24px 80px;
+    }
+
+    .study-page h1 {
+      font-size: 1.75rem;
+      margin-bottom: 8px;
+    }
+
+    .study-page .description {
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      font-size: 0.95rem;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .back-link:hover {
+      color: var(--accent-hover);
+    }
+
+    /* Filter buttons */
+    .filter-controls {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 10px 20px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text-muted);
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+
+    /* Chapters container */
+    .chapters-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .chapter-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      transition: border-color 0.2s, background 0.2s;
+      cursor: pointer;
+    }
+
+    .chapter-item:hover {
+      border-color: var(--accent);
+      background: rgba(108, 158, 255, 0.05);
+    }
+
+    .chapter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .chapter-info {
+      flex: 1;
+    }
+
+    .chapter-source {
+      display: inline-block;
+      padding: 4px 10px;
+      background: var(--bg);
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .chapter-number {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .chapter-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .chapter-pages {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .pages-badge {
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--bg);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* Stats */
+    .stats-bar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 32px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .stat {
+      padding: 12px 0;
+    }
+
+    .stat-number {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* PDF download button */
+    .pdf-download {
+      background: var(--accent);
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-block;
+      margin-bottom: 32px;
+      transition: background 0.2s;
+    }
+
+    .pdf-download:hover {
+      background: var(--accent-hover);
+    }
+
+    .view-pdf-btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--accent);
+      color: #000;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-left: 12px;
+      transition: background 0.2s;
+    }
+
+    .view-pdf-btn:hover {
+      background: var(--accent-hover);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--text-muted);
+    }
+
+    .empty-state p {
+      margin-bottom: 16px;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .study-page {
+        padding: 80px 20px 60px;
+      }
+
+      .study-page h1 {
+        font-size: 1.4rem;
+      }
+
+      .chapter-header {
+        flex-direction: column;
+      }
+
+      .pages-badge {
+        display: block;
+        margin-top: 12px;
+      }
+
+      .filter-controls {
+        gap: 8px;
+      }
+
+      .filter-btn {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+      }
+
+      .stats-bar {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .view-pdf-btn {
+        display: block;
+        margin-left: 0;
+        margin-top: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="nav-logo">BL</a>
+    <div class="nav-links">
+      <a href="/#about">About</a>
+      <a href="/#tools">Tools</a>
+      <a href="/#resume">Resume</a>
+    </div>
+  </nav>
+
+  <div class="study-page">
+    <a href="/#tools" class="back-link">&larr; Back to Tools</a>
+    <h1>Anesthesia Study Guide</h1>
+    <p class="description">Comprehensive key points compiled from Miller's Anesthesia (10th Edition) and Barash Clinical Anesthesia (9th Edition). Navigate by textbook or browse all chapters.</p>
+
+    <a href="Miller10_Barash9_Complete_Key_Points.pdf" class="pdf-download" download>↓ Download Full PDF</a>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number">87</div>
+        <div class="stat-label">Miller Chapters</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">59</div>
+        <div class="stat-label">Barash Chapters</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">196</div>
+        <div class="stat-label">Total Pages</div>
+      </div>
+    </div>
+
+    <div class="filter-controls">
+      <button class="filter-btn active" data-filter="all">All Chapters</button>
+      <button class="filter-btn" data-filter="Miller 10e">Miller 10e</button>
+      <button class="filter-btn" data-filter="Barash 9e">Barash 9e</button>
+    </div>
+
+    <div class="chapters-container" id="chaptersContainer"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Benjamin Liu</p>
+    </div>
+  </footer>
+
+  <script>
+    // Chapter data from manifest
+    const chapters = [
+      { source: "Miller 10e", chapter: 1, title: "The Scope of Modern Anesthetic Practice", startPage: 7, endPage: 8 },
+      { source: "Miller 10e", chapter: 2, title: "Anesthesia and Global Health Equity", startPage: 9, endPage: 10 },
+      { source: "Miller 10e", chapter: 3, title: "Perioperative Medicine", startPage: 11, endPage: 12 },
+      { source: "Miller 10e", chapter: 4, title: "Informatics in Perioperative Medicine", startPage: 13, endPage: 13 },
+      { source: "Miller 10e", chapter: 5, title: "Quality Improvement in Anesthesia Practice and Patient Safety", startPage: 14, endPage: 15 },
+      { source: "Miller 10e", chapter: 6, title: "Human Behavior and Simulation in Anesthesia", startPage: 16, endPage: 16 },
+      { source: "Miller 10e", chapter: 7, title: "Ethical Aspects of Anesthesia Care", startPage: 17, endPage: 17 },
+      { source: "Miller 10e", chapter: 8, title: "CONSCIOUSNESS, MEMORY, AND ANESTHESIA", startPage: 18, endPage: 18 },
+      { source: "Miller 10e", chapter: 9, title: "Sleep Medicine", startPage: 19, endPage: 19 },
+      { source: "Miller 10e", chapter: 10, title: "Cerebral Physiology and the Effects of Anesthetic Drugs", startPage: 20, endPage: 21 },
+      { source: "Miller 10e", chapter: 11, title: "Neuromuscular Physiology and Pharmacology", startPage: 22, endPage: 23 },
+      { source: "Miller 10e", chapter: 12, title: "Respiratory Physiology and Pathophysiology", startPage: 24, endPage: 24 },
+      { source: "Miller 10e", chapter: 13, title: "Cardiac Physiology", startPage: 25, endPage: 25 },
+      { source: "Miller 10e", chapter: 14, title: "Gastrointestinal and Hepatic Physiology, Pathophysiology, and Anesthetic Considerations", startPage: 26, endPage: 27 },
+      { source: "Miller 10e", chapter: 15, title: "Renal Anatomy, Physiology, Pharmacology, and Evaluation of Function", startPage: 28, endPage: 29 },
+      { source: "Miller 10e", chapter: 16, title: "Basic Principles of Pharmacology", startPage: 30, endPage: 31 },
+      { source: "Miller 10e", chapter: 17, title: "Inhaled Anesthetics: Mechanisms of Action", startPage: 32, endPage: 32 },
+      { source: "Miller 10e", chapter: 18, title: "Inhaled Anesthetic Uptake, Distribution, Metabolism, and Toxicity", startPage: 33, endPage: 34 },
+      { source: "Miller 10e", chapter: 19, title: "Pulmonary Pharmacology of Inhaled Anesthetics", startPage: 35, endPage: 35 },
+      { source: "Miller 10e", chapter: 20, title: "Inhaled Anesthetic Delivery Systems", startPage: 36, endPage: 38 },
+      { source: "Miller 10e", chapter: 21, title: "Intravenous Anesthetics", startPage: 39, endPage: 40 },
+      { source: "Miller 10e", chapter: 22, title: "Opioids", startPage: 41, endPage: 41 },
+      { source: "Miller 10e", chapter: 23, title: "Intravenous Drug Delivery Systems", startPage: 42, endPage: 42 },
+      { source: "Miller 10e", chapter: 24, title: "Pharmacology of Neuromuscular Blocking Drugs and Antagonists (Reversal Agents)", startPage: 43, endPage: 44 },
+      { source: "Miller 10e", chapter: 25, title: "Local Anesthetics", startPage: 45, endPage: 45 },
+      { source: "Miller 10e", chapter: 26, title: "Immune Implications of Anesthesia Care and Practice", startPage: 46, endPage: 46 },
+      { source: "Miller 10e", chapter: 27, title: "Risk of Anesthesia", startPage: 47, endPage: 47 },
+      { source: "Miller 10e", chapter: 28, title: "Preoperative Evaluation", startPage: 48, endPage: 48 },
+      { source: "Miller 10e", chapter: 29, title: "Anesthetic Implications of Concurrent Diseases", startPage: 49, endPage: 49 },
+      { source: "Miller 10e", chapter: 30, title: "Patient Positioning and Associated Risks", startPage: 50, endPage: 50 },
+      { source: "Miller 10e", chapter: 31, title: "Neuromuscular Disorders and Other Genetic Disorders", startPage: 51, endPage: 52 },
+      { source: "Miller 10e", chapter: 32, title: "Cardiovascular Monitoring", startPage: 53, endPage: 54 },
+      { source: "Miller 10e", chapter: 33, title: "Perioperative Echocardiography and Point-of-Care Ultrasound (POCUS)", startPage: 55, endPage: 55 },
+      { source: "Miller 10e", chapter: 34, title: "Implantable Cardiac Pulse Generators: Pacemakers and Cardioverter-Defibrillators", startPage: 56, endPage: 56 },
+      { source: "Miller 10e", chapter: 35, title: "Neurophysiologic Monitoring", startPage: 57, endPage: 57 },
+      { source: "Miller 10e", chapter: 36, title: "Monitoring the Brain's Response to Anesthesia and Surgery", startPage: 58, endPage: 58 },
+      { source: "Miller 10e", chapter: 37, title: "Respiratory Monitoring", startPage: 59, endPage: 59 },
+      { source: "Miller 10e", chapter: 38, title: "Renal Pathophysiology and Treatment for Perioperative Ischemia and Nephrotoxic Injury", startPage: 60, endPage: 60 },
+      { source: "Miller 10e", chapter: 39, title: "Neuromuscular Monitoring", startPage: 61, endPage: 61 },
+      { source: "Miller 10e", chapter: 40, title: "Airway Management in the Adult", startPage: 62, endPage: 62 },
+      { source: "Miller 10e", chapter: 41, title: "Spinal, Epidural, and Caudal Anesthesia", startPage: 63, endPage: 63 },
+      { source: "Miller 10e", chapter: 42, title: "Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia", startPage: 64, endPage: 64 },
+      { source: "Miller 10e", chapter: 43, title: "Perioperative Fluid and Electrolyte Therapy", startPage: 65, endPage: 65 },
+      { source: "Miller 10e", chapter: 44, title: "Perioperative Acid–Base Balance", startPage: 66, endPage: 66 },
+      { source: "Miller 10e", chapter: 45, title: "Patient Blood Management: Transfusion Therapy", startPage: 67, endPage: 67 },
+      { source: "Miller 10e", chapter: 46, title: "Patient Blood Management: Coagulation", startPage: 68, endPage: 68 },
+      { source: "Miller 10e", chapter: 47, title: "Management of the Patient with Chronic Pain", startPage: 69, endPage: 69 },
+      { source: "Miller 10e", chapter: 48, title: "Palliative Medicine", startPage: 70, endPage: 70 },
+      { source: "Miller 10e", chapter: 49, title: "Anesthesia for Thoracic Surgery", startPage: 71, endPage: 71 },
+      { source: "Miller 10e", chapter: 50, title: "Anesthesia for Cardiac Surgical Procedures", startPage: 72, endPage: 72 },
+      { source: "Miller 10e", chapter: 51, title: "Anesthesia for Correction of Cardiac Arrhythmias", startPage: 73, endPage: 73 },
+      { source: "Miller 10e", chapter: 52, title: "Anesthesia for Vascular Surgery", startPage: 74, endPage: 75 },
+      { source: "Miller 10e", chapter: 53, title: "Anesthesia for Neurologic Surgery and Neurointerventions", startPage: 76, endPage: 76 },
+      { source: "Miller 10e", chapter: 54, title: "Anesthesia for Bariatric Surgery", startPage: 77, endPage: 77 },
+      { source: "Miller 10e", chapter: 55, title: "Anesthesia and the Renal and Genitourinary Systems", startPage: 78, endPage: 79 },
+      { source: "Miller 10e", chapter: 56, title: "Anesthesia for Abdominal Organ Transplantation", startPage: 80, endPage: 80 },
+      { source: "Miller 10e", chapter: 57, title: "Anesthesia for Organ Procurement", startPage: 81, endPage: 81 },
+      { source: "Miller 10e", chapter: 58, title: "Anesthesia for Obstetrics", startPage: 82, endPage: 83 },
+      { source: "Miller 10e", chapter: 59, title: "Anesthesia for Fetal Surgery and Other Fetal Therapies", startPage: 84, endPage: 84 },
+      { source: "Miller 10e", chapter: 60, title: "Anesthesia for Orthopedic Surgery", startPage: 85, endPage: 86 },
+      { source: "Miller 10e", chapter: 61, title: "Geriatric Anesthesia", startPage: 87, endPage: 87 },
+      { source: "Miller 10e", chapter: 62, title: "Anesthesia for Trauma", startPage: 88, endPage: 88 },
+      { source: "Miller 10e", chapter: 63, title: "Prehospital Care for Medical Emergencies and Trauma", startPage: 89, endPage: 89 },
+      { source: "Miller 10e", chapter: 64, title: "Biologic, Natural, and Human-Induced Disasters: The Role of the Anesthesiologist", startPage: 90, endPage: 91 },
+      { source: "Miller 10e", chapter: 65, title: "Anesthesia for Ophthalmic Surgery", startPage: 92, endPage: 92 },
+      { source: "Miller 10e", chapter: 66, title: "Anesthesia for Otolaryngologic and Head–Neck Surgery", startPage: 93, endPage: 94 },
+      { source: "Miller 10e", chapter: 67, title: "Anesthesia for Robotic Surgery", startPage: 95, endPage: 95 },
+      { source: "Miller 10e", chapter: 68, title: "Ambulatory (Outpatient) Anesthesia", startPage: 96, endPage: 96 },
+      { source: "Miller 10e", chapter: 69, title: "Non–Operating Room Anesthesia", startPage: 97, endPage: 97 },
+      { source: "Miller 10e", chapter: 70, title: "Clinical Care in Extreme Environments: Physiology at High Altitude and in Space", startPage: 98, endPage: 98 },
+      { source: "Miller 10e", chapter: 71, title: "Clinical Care in Extreme Environments: High Pressure, Immersion, Drowning, Hypo-, and Hyperthermia", startPage: 99, endPage: 100 },
+      { source: "Miller 10e", chapter: 72, title: "Pediatric Anesthesia", startPage: 101, endPage: 101 },
+      { source: "Miller 10e", chapter: 73, title: "Anesthesia for Pediatric Cardiac Surgery", startPage: 102, endPage: 103 },
+      { source: "Miller 10e", chapter: 74, title: "Regional Anesthesia in Children", startPage: 104, endPage: 104 },
+      { source: "Miller 10e", chapter: 75, title: "Pediatric and Neonatal Critical Care", startPage: 105, endPage: 105 },
+      { source: "Miller 10e", chapter: 76, title: "The Postanesthesia Care Unit", startPage: 106, endPage: 106 },
+      { source: "Miller 10e", chapter: 77, title: "Acute Postoperative Pain", startPage: 107, endPage: 107 },
+      { source: "Miller 10e", chapter: 78, title: "Perioperative Neurocognitive Disorders", startPage: 108, endPage: 108 },
+      { source: "Miller 10e", chapter: 79, title: "Critical Care Anesthesiology", startPage: 109, endPage: 109 },
+      { source: "Miller 10e", chapter: 80, title: "Neurocritical Care", startPage: 110, endPage: 110 },
+      { source: "Miller 10e", chapter: 81, title: "Extracorporeal Membrane Oxygenation and Cardiac Devices", startPage: 111, endPage: 111 },
+      { source: "Miller 10e", chapter: 82, title: "Cardiopulmonary Resuscitation and Advanced Cardiac Life Support", startPage: 112, endPage: 113 },
+      { source: "Miller 10e", chapter: 83, title: "Burn Management", startPage: 114, endPage: 115 },
+      { source: "Miller 10e", chapter: 84, title: "Occupational Safety, Infection Control, and Substance Use Disorders", startPage: 116, endPage: 117 },
+      { source: "Miller 10e", chapter: 85, title: "Emergency Preparedness in Health Care", startPage: 118, endPage: 118 },
+      { source: "Miller 10e", chapter: 86, title: "Clinical Research", startPage: 119, endPage: 119 },
+      { source: "Miller 10e", chapter: 87, title: "Interpreting the Medical Literature", startPage: 120, endPage: 120 },
+      { source: "Barash 9e", chapter: 1, title: "The History of Anesthesia", startPage: 121, endPage: 121 },
+      { source: "Barash 9e", chapter: 2, title: "The Practice of Anesthesiology", startPage: 122, endPage: 123 },
+      { source: "Barash 9e", chapter: 3, title: "Occupational Health and Well-Being", startPage: 124, endPage: 124 },
+      { source: "Barash 9e", chapter: 4, title: "Anesthetic Risk, Quality Improvement, and Liability", startPage: 125, endPage: 125 },
+      { source: "Barash 9e", chapter: 5, title: "Electrical Safety and Fires in the Operating Room", startPage: 126, endPage: 126 },
+      { source: "Barash 9e", chapter: 6, title: "Genomic Basis of Perioperative Precision Medicine", startPage: 127, endPage: 127 },
+      { source: "Barash 9e", chapter: 7, title: "Experimental Design and Statistics", startPage: 128, endPage: 128 },
+      { source: "Barash 9e", chapter: 8, title: "Inflammation, Wound Healing, and Infection", startPage: 129, endPage: 130 },
+      { source: "Barash 9e", chapter: 9, title: "The Allergic Response", startPage: 131, endPage: 131 },
+      { source: "Barash 9e", chapter: 10, title: "Mechanisms of Anesthesia and Consciousness", startPage: 132, endPage: 133 },
+      { source: "Barash 9e", chapter: 11, title: "Basic Principles of Clinical Pharmacology", startPage: 134, endPage: 135 },
+      { source: "Barash 9e", chapter: 12, title: "Cardiac Anatomy and Physiology", startPage: 136, endPage: 137 },
+      { source: "Barash 9e", chapter: 13, title: "Autonomic and Cardiovascular Pharmacology", startPage: 138, endPage: 138 },
+      { source: "Barash 9e", chapter: 14, title: "Autonomic Nervous System Anatomy and Physiology", startPage: 139, endPage: 139 },
+      { source: "Barash 9e", chapter: 15, title: "Respiratory Function in Anesthesia", startPage: 140, endPage: 140 },
+      { source: "Barash 9e", chapter: 16, title: "Acid–Base, Fluids, and Electrolytes", startPage: 141, endPage: 141 },
+      { source: "Barash 9e", chapter: 17, title: "Hemostasis and Transfusion Medicine", startPage: 142, endPage: 143 },
+      { source: "Barash 9e", chapter: 18, title: "Inhaled Anesthetics", startPage: 144, endPage: 144 },
+      { source: "Barash 9e", chapter: 19, title: "Intravenous Anesthetics", startPage: 145, endPage: 145 },
+      { source: "Barash 9e", chapter: 20, title: "Opioids", startPage: 146, endPage: 147 },
+      { source: "Barash 9e", chapter: 21, title: "Neuromuscular Blocking Drugs", startPage: 148, endPage: 149 },
+      { source: "Barash 9e", chapter: 22, title: "Local Anesthetics", startPage: 150, endPage: 150 },
+      { source: "Barash 9e", chapter: 23, title: "Preoperative Patient Assessment and Management", startPage: 151, endPage: 151 },
+      { source: "Barash 9e", chapter: 24, title: "Rare Coexisting Diseases", startPage: 152, endPage: 152 },
+      { source: "Barash 9e", chapter: 25, title: "The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics", startPage: 153, endPage: 154 },
+      { source: "Barash 9e", chapter: 26, title: "Commonly Used Monitoring Techniques", startPage: 155, endPage: 156 },
+      { source: "Barash 9e", chapter: 27, title: "Echocardiography and Point-of-Care Ultrasound", startPage: 157, endPage: 157 },
+      { source: "Barash 9e", chapter: 28, title: "Airway Management", startPage: 158, endPage: 158 },
+      { source: "Barash 9e", chapter: 29, title: "Patient Positioning and Potential Injuries", startPage: 159, endPage: 159 },
+      { source: "Barash 9e", chapter: 30, title: "Monitored Anesthesia Care", startPage: 160, endPage: 160 },
+      { source: "Barash 9e", chapter: 31, title: "Ambulatory Anesthesia", startPage: 161, endPage: 161 },
+      { source: "Barash 9e", chapter: 32, title: "Office-Based Anesthesia", startPage: 162, endPage: 162 },
+      { source: "Barash 9e", chapter: 33, title: "Nonoperating Room Anesthesia", startPage: 163, endPage: 163 },
+      { source: "Barash 9e", chapter: 34, title: "Anesthesia for the Older Patient", startPage: 164, endPage: 164 },
+      { source: "Barash 9e", chapter: 35, title: "Neuraxial Anesthesia", startPage: 165, endPage: 165 },
+      { source: "Barash 9e", chapter: 36, title: "Peripheral Nerve Blockade", startPage: 166, endPage: 166 },
+      { source: "Barash 9e", chapter: 37, title: "Anesthesia for Neurosurgery", startPage: 167, endPage: 168 },
+      { source: "Barash 9e", chapter: 38, title: "Anesthesia for Thoracic Surgery", startPage: 169, endPage: 169 },
+      { source: "Barash 9e", chapter: 39, title: "Anesthesia for Cardiac Surgery", startPage: 170, endPage: 170 },
+      { source: "Barash 9e", chapter: 40, title: "Anesthesia for Vascular and Endovascular Surgery", startPage: 171, endPage: 171 },
+      { source: "Barash 9e", chapter: 41, title: "Obstetric Anesthesia", startPage: 172, endPage: 172 },
+      { source: "Barash 9e", chapter: 42, title: "Neonatal Anesthesia", startPage: 173, endPage: 173 },
+      { source: "Barash 9e", chapter: 43, title: "Pediatric Anesthesia", startPage: 174, endPage: 174 },
+      { source: "Barash 9e", chapter: 44, title: "Anesthesia for Laparoscopic and Robotic Surgeries", startPage: 175, endPage: 175 },
+      { source: "Barash 9e", chapter: 45, title: "Anesthesia and Obesity", startPage: 176, endPage: 176 },
+      { source: "Barash 9e", chapter: 46, title: "The Liver: Surgery and Anesthesia", startPage: 177, endPage: 177 },
+      { source: "Barash 9e", chapter: 47, title: "Endocrine Function", startPage: 178, endPage: 178 },
+      { source: "Barash 9e", chapter: 48, title: "Anesthesia for Otolaryngologic Surgery", startPage: 179, endPage: 179 },
+      { source: "Barash 9e", chapter: 49, title: "Anesthesia for Ophthalmologic Surgery", startPage: 180, endPage: 180 },
+      { source: "Barash 9e", chapter: 50, title: "The Renal System and Anesthesia for Urologic Surgery", startPage: 181, endPage: 182 },
+      { source: "Barash 9e", chapter: 51, title: "Anesthesia for Orthopedic Surgery", startPage: 183, endPage: 183 },
+      { source: "Barash 9e", chapter: 52, title: "Transplant Anesthesia", startPage: 184, endPage: 184 },
+      { source: "Barash 9e", chapter: 53, title: "Anesthesia for Trauma and Burns", startPage: 185, endPage: 185 },
+      { source: "Barash 9e", chapter: 54, title: "Postanesthesia Recovery", startPage: 186, endPage: 187 },
+      { source: "Barash 9e", chapter: 55, title: "Acute Pain Management", startPage: 188, endPage: 189 },
+      { source: "Barash 9e", chapter: 56, title: "Chronic Pain Management", startPage: 190, endPage: 190 },
+      { source: "Barash 9e", chapter: 57, title: "Critical Care Medicine", startPage: 191, endPage: 192 },
+      { source: "Barash 9e", chapter: 58, title: "Cardiopulmonary Resuscitation", startPage: 193, endPage: 194 },
+      { source: "Barash 9e", chapter: 59, title: "Disaster Preparedness", startPage: 195, endPage: 196 },
+    ];
+
+    let currentFilter = "all";
+    const container = document.getElementById("chaptersContainer");
+
+    function renderChapters() {
+      container.innerHTML = "";
+      
+      const filtered = currentFilter === "all" 
+        ? chapters 
+        : chapters.filter(ch => ch.source === currentFilter);
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<div class="empty-state"><p>No chapters found.</p></div>';
+        return;
+      }
+
+      filtered.forEach(chapter => {
+        const item = document.createElement("div");
+        item.className = "chapter-item";
+        const pageLabel = chapter.startPage === chapter.endPage 
+          ? `p. ${chapter.startPage}` 
+          : `pp. ${chapter.startPage}–${chapter.endPage}`;
+        
+        item.innerHTML = `
+          <div class="chapter-header">
+            <div class="chapter-info">
+              <div class="chapter-source">${chapter.source}</div>
+              <div class="chapter-number">Chapter ${chapter.chapter}</div>
+              <div class="chapter-title">${chapter.title}</div>
+            </div>
+            <div class="pages-badge">${pageLabel}</div>
+          </div>
+          <a href="Miller10_Barash9_Complete_Key_Points.pdf#page=${chapter.startPage}" class="view-pdf-btn" target="_blank">View PDF</a>
+        `;
+        container.appendChild(item);
+      });
+    }
+
+    // Filter button handlers
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentFilter = btn.dataset.filter;
+        renderChapters();
+      });
+    });
+
+    // Initial render
+    renderChapters();
+  </script>
+</body>
+</html>
