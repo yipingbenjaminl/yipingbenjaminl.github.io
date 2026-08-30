@@ -204,6 +204,30 @@
       text-transform: uppercase;
     }
 
+    .chapter-full-content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .chapter-bullet {
+      color: var(--text);
+      font-size: 0.94rem;
+      line-height: 1.6;
+      margin: 0;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .chapter-bullet::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
     /* Empty state */
     .empty-state {
       text-align: center;
@@ -6284,6 +6308,7 @@
       chapter: chapter.chapter,
       title: chapter.title.replace(/^Chapter\s+\d+:\s*/, "").replace(/\s+/g, " ").trim(),
       summary: buildSummary(chapter),
+      bullets: chapter.bullets,
     }));
 
     let currentFilter = "all";
@@ -6305,6 +6330,10 @@
         const item = document.createElement("article");
         item.className = "chapter-item";
 
+        const bulletsHtml = (chapter.bullets || [])
+          .map((bullet) => `<p class="chapter-bullet">${normalizePhrase(bullet)}</p>`)
+          .join("");
+
         item.innerHTML = `
           <div class="chapter-header">
             <div class="chapter-info">
@@ -6315,8 +6344,8 @@
             </div>
           </div>
           <div class="chapter-content">
-            <div class="chapter-paragraphs">
-              <p class="chapter-summary">${chapter.summary}</p>
+            <div class="chapter-full-content">
+              ${bulletsHtml}
             </div>
           </div>
         `;
