@@ -182,8 +182,26 @@
       font-size: 0.96rem;
     }
 
-    .chapter-paragraph {
-      margin: 0 0 12px;
+    .chapter-summary {
+      color: var(--text);
+      font-size: 0.96rem;
+      line-height: 1.7;
+      margin: 0;
+      padding-left: 14px;
+      border-left: 2px solid rgba(108, 158, 255, 0.45);
+    }
+
+    .chapter-label {
+      display: inline-block;
+      margin-bottom: 8px;
+      padding: 3px 8px;
+      background: rgba(108, 158, 255, 0.08);
+      border-radius: 999px;
+      color: var(--accent);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
 
     /* Empty state */
@@ -6231,52 +6249,45 @@
 ];;
 
     const chapterCatalog = anesthesiaChapterContent || [];
+
+    const normalizePhrase = (value) => String(value || "")
+      .replace(/\s+/g, " ")
+      .replace(/\s+([,.;:!?])/g, "$1")
+      .replace(/\s+\(/g, " (")
+      .replace(/\(\s+/g, "(")
+      .replace(/\s+\)/g, ")")
+      .replace(/\s+(["'])/g, "$1")
+      .trim();
+
+    const extractSentences = (bullets) => {
+      return (bullets || [])
+        .map((bullet) => normalizePhrase(bullet))
+        .filter(Boolean)
+        .flatMap((sentence) => sentence.split(/(?<=[.!?])\s+/))
+        .map((sentence) => sentence.replace(/^[-•*]\s*/, "").trim())
+        .filter((sentence) => sentence.length > 35 && !/^source:/i.test(sentence) && !/^chapter\s+\d+/i.test(sentence));
+    };
+
+    const buildSummary = (chapter) => {
+      const sentences = extractSentences(chapter.bullets);
+      if (!sentences.length) {
+        return "Key concepts in this chapter are emphasized here for efficient review.";
+      }
+
+      const strongSentences = sentences.filter((sentence) => sentence.length < 220).slice(0, 2);
+      const summary = strongSentences.length ? strongSentences.join(" ") : sentences[0];
+      return summary.length > 260 ? `${summary.slice(0, 257).trim()}...` : summary;
+    };
+
     const chapters = chapterCatalog.map((chapter) => ({
       source: chapter.source,
       chapter: chapter.chapter,
-      title: chapter.title.replace(/^Chapter\s+\d+:\s*/, ""),
-      bullets: chapter.bullets || [],
+      title: chapter.title.replace(/^Chapter\s+\d+:\s*/, "").replace(/\s+/g, " ").trim(),
+      summary: buildSummary(chapter),
     }));
 
     let currentFilter = "all";
     const container = document.getElementById("chaptersContainer");
-
-    function buildParagraphs(bullets) {
-      const paragraphs = [];
-      let current = "";
-
-      bullets.forEach((bullet) => {
-        const clean = String(bullet || "").replace(/\s+/g, " ").trim();
-        if (!clean) return;
-
-        if (!current) {
-          current = clean;
-          return;
-        }
-
-        const prevEndsWithSentence = /[.!?]$/.test(current);
-        const nextStartsNewSentence = /^[A-Z0-9\(]/.test(clean) || /^[a-z]/.test(clean) && prevEndsWithSentence;
-
-        if (prevEndsWithSentence && nextStartsNewSentence && current.length > 80) {
-          paragraphs.push(current.trim());
-          current = clean;
-          return;
-        }
-
-        current += ` ${clean}`;
-
-        if (/[.!?]$/.test(clean) || current.length > 260) {
-          paragraphs.push(current.trim());
-          current = "";
-        }
-      });
-
-      if (current.trim()) {
-        paragraphs.push(current.trim());
-      }
-
-      return paragraphs.filter(Boolean);
-    }
 
     function renderChapters() {
       container.innerHTML = "";
@@ -6294,21 +6305,19 @@
         const item = document.createElement("article");
         item.className = "chapter-item";
 
-        const paragraphs = buildParagraphs(chapter.bullets);
-        const paragraphMarkup = paragraphs
-          .map((paragraph) => `<p class="chapter-paragraph">${paragraph}</p>`)
-          .join("");
-
         item.innerHTML = `
           <div class="chapter-header">
             <div class="chapter-info">
               <div class="chapter-source">${chapter.source}</div>
+              <div class="chapter-label">Key points</div>
               <div class="chapter-number">Chapter ${chapter.chapter}</div>
               <div class="chapter-title">${chapter.title}</div>
             </div>
           </div>
           <div class="chapter-content">
-            <div class="chapter-paragraphs">${paragraphMarkup || '<p class="chapter-paragraph">No excerpt available for this chapter.</p>'}</div>
+            <div class="chapter-paragraphs">
+              <p class="chapter-summary">${chapter.summary}</p>
+            </div>
           </div>
         `;
         container.appendChild(item);
