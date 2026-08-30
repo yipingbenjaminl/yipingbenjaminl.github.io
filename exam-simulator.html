@@ -470,6 +470,35 @@
         flex: 1;
       }
 
+      .layout {
+        display: block;
+      }
+
+      .sidebar {
+        position: fixed;
+        right: 12px;
+        bottom: 16px;
+        z-index: 50;
+        width: min(84vw, 240px);
+        max-height: 70vh;
+        padding: 10px;
+        border-radius: 14px;
+        backdrop-filter: blur(12px);
+      }
+
+      .sidebar.collapsed {
+        width: 54px;
+        padding: 8px;
+      }
+
+      .sidebar-header {
+        margin-bottom: 8px;
+      }
+
+      .question-grid {
+        max-height: 50vh;
+      }
+
       .question-card {
         padding: 18px 14px;
       }
@@ -555,14 +584,16 @@
     const optionExplanations = document.getElementById('optionExplanations');
 
     function parseMarkdownToQuestions(markdown) {
-      const sectionRegex = /^###\s+\d+\.\s+`([^`]+)`(?:\s+—\s*([A-D]))?\s*\n([\s\S]*?)(?=^###\s+\d+\.\s+`|\Z)/gm;
-      const matches = [...markdown.matchAll(sectionRegex)];
+      const blocks = markdown.split(/\n(?=###\s+\d+\.\s+`)/);
       const byId = new Map();
 
-      matches.forEach((match) => {
-        const id = (match[1] || '').trim();
-        const section = (match[3] || '').trim();
-        const letter = (match[2] || '').trim();
+      blocks.forEach((block) => {
+        const headingMatch = block.match(/^###\s+\d+\.\s+`([^`]+)`(?:\s+—\s*([A-D]))?/);
+        if (!headingMatch) return;
+
+        const id = (headingMatch[1] || '').trim();
+        const letter = (headingMatch[2] || '').trim();
+        const section = block.replace(/^###\s+\d+\.\s+`[^`]+`(?:\s+—\s*[A-D])?\s*\n?/, '').trim();
 
         if (!id) return;
 
