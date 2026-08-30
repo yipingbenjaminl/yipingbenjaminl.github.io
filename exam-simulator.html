@@ -181,6 +181,15 @@
       position: sticky;
       top: 18px;
       padding: 18px 16px 16px;
+      transition: width 0.2s ease, padding 0.2s ease;
+    }
+
+    .sidebar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
     }
 
     .sidebar h2 {
@@ -188,7 +197,35 @@
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--muted);
-      margin: 0 0 12px;
+      margin: 0;
+    }
+
+    .nav-toggle {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(148, 163, 184, 0.05);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 1rem;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sidebar.collapsed {
+      width: 92px;
+      padding: 14px 10px 12px;
+    }
+
+    .sidebar.collapsed .sidebar-header h2 {
+      display: none;
+    }
+
+    .sidebar.collapsed .question-grid {
+      display: none;
     }
 
     .question-grid {
@@ -486,7 +523,10 @@
 
     <div class="layout">
       <aside class="sidebar card" aria-label="Question navigator">
-        <h2>Questions</h2>
+        <div class="sidebar-header">
+          <h2>Questions</h2>
+          <button id="navToggle" class="nav-toggle" type="button" aria-label="Toggle question navigator">»</button>
+        </div>
         <div id="questionGrid" class="question-grid"></div>
       </aside>
 
@@ -603,6 +643,19 @@
         });
         questionGrid.appendChild(button);
       });
+    }
+
+    function setSidebarCollapsed(isCollapsed) {
+      const sidebar = document.querySelector('.sidebar');
+      const toggle = document.getElementById('navToggle');
+      if (!sidebar || !toggle) return;
+      sidebar.classList.toggle('collapsed', isCollapsed);
+      toggle.textContent = isCollapsed ? '«' : '»';
+      toggle.setAttribute('aria-label', isCollapsed ? 'Expand question navigator' : 'Collapse question navigator');
+      const layout = document.querySelector('.layout');
+      if (layout) {
+        layout.style.gridTemplateColumns = isCollapsed ? '92px minmax(0, 1fr)' : '260px minmax(0, 1fr)';
+      }
     }
 
     function renderQuestion() {
@@ -756,6 +809,14 @@
       render();
     });
 
+    document.getElementById('navToggle').addEventListener('click', () => {
+      const sidebar = document.querySelector('.sidebar');
+      if (!sidebar) return;
+      const nextCollapsed = !sidebar.classList.contains('collapsed');
+      setSidebarCollapsed(nextCollapsed);
+    });
+
+    setSidebarCollapsed(true);
     loadExam();
   </script>
 </body>
