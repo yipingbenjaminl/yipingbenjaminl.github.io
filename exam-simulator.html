@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anesthesiology Exam Simulator</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-alt: #111827;
+      --surface: #111827;
+      --surface-strong: #1f2937;
+      --panel: rgba(17, 24, 39, 0.9);
+      --border: rgba(148, 163, 184, 0.28);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --primary: #7dd3fc;
+      --primary-strong: #38bdf8;
+      --success: #34d399;
+      --success-soft: rgba(52, 211, 153, 0.12);
+      --error: #f87171;
+      --error-soft: rgba(248, 113, 113, 0.12);
+      --warning: #fbbf24;
+      --shadow: 0 18px 50px rgba(15, 23, 42, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(56, 189, 248, 0.12), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .back-link {
+      font-size: 0.95rem;
+      color: var(--primary);
+      opacity: 0.95;
+    }
+
+    .page-header {
+      margin-bottom: 18px;
+    }
+
+    .page-header h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(2rem, 3vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+
+    .page-header p {
+      margin: 0;
+      max-width: 820px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 24px;
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(15, 23, 42, 0.75);
+      box-shadow: var(--shadow);
+      flex-wrap: wrap;
+    }
+
+    .stats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      min-width: 120px;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: rgba(148, 163, 184, 0.06);
+      border: 1px solid var(--border);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      color: var(--primary);
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .action-btn,
+    .question-chip,
+    .option-btn {
+      cursor: pointer;
+      border: 1px solid var(--border);
+      transition: 0.15s ease;
+    }
+
+    .action-btn {
+      border-radius: 10px;
+      background: rgba(148, 163, 184, 0.06);
+      color: var(--text);
+      padding: 10px 16px;
+      font-weight: 600;
+    }
+
+    .action-btn:hover,
+    .question-chip:hover,
+    .option-btn:hover {
+      border-color: rgba(125, 211, 252, 0.65);
+      transform: translateY(-1px);
+    }
+
+    .action-btn.primary {
+      background: var(--primary);
+      color: #082f49;
+      border-color: transparent;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.72);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 18px;
+      padding: 18px 16px 16px;
+    }
+
+    .sidebar h2 {
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+
+    .question-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+      max-height: 720px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .question-chip {
+      background: rgba(148, 163, 184, 0.04);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 8px 6px;
+      min-height: 34px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .question-chip.current {
+      background: rgba(125, 211, 252, 0.18);
+      border-color: rgba(125, 211, 252, 0.8);
+      color: var(--primary);
+    }
+
+    .question-chip.answered-correct {
+      background: rgba(52, 211, 153, 0.12);
+      border-color: rgba(52, 211, 153, 0.7);
+      color: #d1fae5;
+    }
+
+    .question-chip.answered-wrong {
+      background: rgba(248, 113, 113, 0.12);
+      border-color: rgba(248, 113, 113, 0.7);
+      color: #fecaca;
+    }
+
+    .question-card {
+      padding: 22px 22px 18px;
+    }
+
+    .question-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      flex-wrap: wrap;
+    }
+
+    .question-meta .id {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .question-text {
+      margin: 0 0 22px;
+      font-size: clamp(1.2rem, 2vw, 1.7rem);
+      line-height: 1.5;
+      letter-spacing: -0.02em;
+    }
+
+    .options {
+      display: grid;
+      gap: 12px;
+    }
+
+    .option-btn {
+      width: 100%;
+      text-align: left;
+      background: rgba(148, 163, 184, 0.03);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 14px 16px;
+      display: grid;
+      grid-template-columns: 36px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+    }
+
+    .option-btn .letter {
+      width: 36px;
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(148, 163, 184, 0.09);
+      border: 1px solid var(--border);
+      font-weight: 700;
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .option-btn.selected {
+      border-color: rgba(125, 211, 252, 0.8);
+      background: rgba(125, 211, 252, 0.08);
+    }
+
+    .option-btn.correct {
+      border-color: rgba(52, 211, 153, 0.8);
+      background: var(--success-soft);
+    }
+
+    .option-btn.incorrect {
+      border-color: rgba(248, 113, 113, 0.75);
+      background: var(--error-soft);
+    }
+
+    .option-label {
+      font-weight: 600;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    .answer-panel {
+      margin-top: 20px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      display: none;
+    }
+
+    .answer-panel.visible {
+      display: block;
+    }
+
+    .answer-panel.success {
+      background: var(--success-soft);
+      border-color: rgba(52, 211, 153, 0.75);
+    }
+
+    .answer-panel.error {
+      background: var(--error-soft);
+      border-color: rgba(248, 113, 113, 0.75);
+    }
+
+    .answer-panel h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .answer-panel p {
+      margin: 0 0 10px;
+      color: var(--text);
+    }
+
+    .answer-panel .rationale {
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .option-explanations {
+      margin-top: 22px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .explanation-item {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: rgba(148, 163, 184, 0.03);
+    }
+
+    .explanation-item.correct {
+      border-color: rgba(52, 211, 153, 0.7);
+      background: rgba(52, 211, 153, 0.08);
+    }
+
+    .explanation-item.incorrect {
+      border-color: rgba(248, 113, 113, 0.7);
+      background: rgba(248, 113, 113, 0.08);
+    }
+
+    .explanation-item strong {
+      display: inline-block;
+      margin-right: 6px;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .explanation-item span {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .question-grid {
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .toolbar {
+        padding: 14px;
+      }
+
+      .stats {
+        width: 100%;
+      }
+
+      .stat {
+        flex: 1 1 calc(33.333% - 8px);
+        min-width: 90px;
+      }
+
+      .actions {
+        width: 100%;
+      }
+
+      .action-btn {
+        flex: 1;
+      }
+
+      .question-card {
+        padding: 18px 14px;
+      }
+
+      .option-btn {
+        grid-template-columns: 30px minmax(0, 1fr);
+        padding: 12px 12px;
+      }
+
+      .option-btn .letter {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar">
+      <a href="/" class="back-link">← Back to home</a>
+      <a href="anesthesia-study-guide.html" class="back-link">Open chapter key points →</a>
+    </div>
+
+    <header class="page-header">
+      <h1>Anesthesiology Exam Simulator</h1>
+      <p>Work through the complete 260-question exam using the answer-key markdown file as the source of truth. Pick an option, review the feedback, and read the rationale for each choice.</p>
+    </header>
+
+    <section class="toolbar card" aria-label="Exam progress controls">
+      <div class="stats">
+        <div class="stat">
+          <strong id="answeredCount">0</strong>
+          <span>Answered</span>
+        </div>
+        <div class="stat">
+          <strong id="correctCount">0</strong>
+          <span>Correct</span>
+        </div>
+        <div class="stat">
+          <strong id="questionTotal">0</strong>
+          <span>Questions</span>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="prevButton" class="action-btn" type="button">Previous</button>
+        <button id="nextButton" class="action-btn primary" type="button">Next</button>
+        <button id="resetButton" class="action-btn" type="button">Reset</button>
+      </div>
+    </section>
+
+    <div class="layout">
+      <aside class="sidebar card" aria-label="Question navigator">
+        <h2>Questions</h2>
+        <div id="questionGrid" class="question-grid"></div>
+      </aside>
+
+      <section class="question-card card" aria-live="polite">
+        <div id="questionMeta" class="question-meta"></div>
+        <h2 id="questionText" class="question-text"></h2>
+        <div id="options" class="options" aria-label="Answer choices"></div>
+        <div id="answerPanel" class="answer-panel"></div>
+        <div id="optionExplanations" class="option-explanations"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const state = {
+      questions: [],
+      currentIndex: 0,
+      selected: {}
+    };
+
+    const questionGrid = document.getElementById('questionGrid');
+    const questionMeta = document.getElementById('questionMeta');
+    const questionText = document.getElementById('questionText');
+    const optionsWrap = document.getElementById('options');
+    const answerPanel = document.getElementById('answerPanel');
+    const optionExplanations = document.getElementById('optionExplanations');
+
+    function parseMarkdownToQuestions(markdown) {
+      const sectionRegex = /^###\s+\d+\.\s+`([^`]+)`(?:\s+—\s*([A-D]))?\s*\n([\s\S]*?)(?=^###\s+\d+\.\s+`|\Z)/gm;
+      const matches = [...markdown.matchAll(sectionRegex)];
+      const byId = new Map();
+
+      matches.forEach((match) => {
+        const id = (match[1] || '').trim();
+        const section = (match[3] || '').trim();
+        const letter = (match[2] || '').trim();
+
+        if (!id) return;
+
+        const existing = byId.get(id) || {
+          id,
+          number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
+          prompt: '',
+          options: {},
+          correct: '',
+          answerText: '',
+          rationale: '',
+          optionExplanationMap: {}
+        };
+
+        const hasAnswerKeyContent = /\*\*Answer:\*\*|\*\*Rationale:\*\*|\*\*Option explanations\*\*/.test(section);
+
+        if (hasAnswerKeyContent) {
+          const answerTextMatch = section.match(/\*\*Answer:\*\*\s*([\s\S]+?)(?=\n\n\*\*Rationale:\*\*)/m);
+          const rationaleMatch = section.match(/\*\*Rationale:\*\*\s*([\s\S]+?)(?=\n\n\*\*Option explanations\*\*|$)/m);
+          const answerText = answerTextMatch ? answerTextMatch[1].replace(/\s+/g, ' ').trim() : '';
+          const rationale = rationaleMatch ? rationaleMatch[1].replace(/\s+/g, ' ').trim() : '';
+
+          existing.answerText = answerText || existing.answerText;
+          existing.rationale = rationale || existing.rationale;
+          existing.correct = letter || existing.correct;
+
+          const explanationMatches = [...section.matchAll(/-\s*([A-D]):\s*([\s\S]+?)(?=\n-\s*[A-D]:|$)/g)];
+          explanationMatches.forEach((expMatch) => {
+            existing.optionExplanationMap[expMatch[1]] = expMatch[2].replace(/\s+/g, ' ').trim();
+          });
+        } else {
+          const optionPattern = /(^|\n)([A-D])\.\s*([^\n]+(?:\n(?![A-D]\.)[^\n]+)*)/g;
+          const optionMatches = [...section.matchAll(optionPattern)];
+
+          optionMatches.forEach((optionMatch) => {
+            const letterKey = optionMatch[2];
+            const text = optionMatch[3].replace(/\s+/g, ' ').trim();
+            existing.options[letterKey] = text;
+          });
+
+          if (optionMatches.length) {
+            existing.prompt = section.slice(0, optionMatches[0].index).replace(/\n{3,}/g, '\n\n').trim();
+          } else {
+            existing.prompt = section.replace(/\n{3,}/g, '\n\n').trim();
+          }
+        }
+
+        byId.set(id, existing);
+      });
+
+      return Array.from(byId.values())
+        .filter((question) => question && question.id && question.prompt)
+        .sort((a, b) => a.number - b.number)
+        .map((question) => ({
+          ...question,
+          correct: question.correct || 'A'
+        }));
+    }
+
+    function renderQuestionNavigator() {
+      questionGrid.innerHTML = '';
+      state.questions.forEach((question, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'question-chip';
+        if (index === state.currentIndex) button.classList.add('current');
+
+        const selected = state.selected[index];
+        if (selected) {
+          button.classList.add(selected === question.correct ? 'answered-correct' : 'answered-wrong');
+        }
+
+        button.textContent = question.number;
+        button.setAttribute('aria-label', `Question ${question.number}`);
+        button.addEventListener('click', () => {
+          state.currentIndex = index;
+          render();
+        });
+        questionGrid.appendChild(button);
+      });
+    }
+
+    function renderQuestion() {
+      const question = state.questions[state.currentIndex];
+      if (!question) return;
+
+      const selected = state.selected[state.currentIndex];
+
+      questionMeta.innerHTML = `
+        <span class="id">Question ${question.number}</span>
+        <span>${question.id}</span>
+      `;
+
+      questionText.textContent = question.prompt;
+      optionsWrap.innerHTML = '';
+
+      Object.entries(question.options).forEach(([letter, text]) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'option-btn';
+
+        if (selected === letter) {
+          button.classList.add('selected');
+        }
+        if (selected) {
+          if (letter === question.correct) {
+            button.classList.add('correct');
+          }
+          if (letter === selected && selected !== question.correct) {
+            button.classList.add('incorrect');
+          }
+        }
+
+        button.innerHTML = `
+          <span class="letter">${letter}</span>
+          <span class="option-label">${text}</span>
+        `;
+
+        button.addEventListener('click', () => {
+          state.selected[state.currentIndex] = letter;
+          render();
+        });
+
+        optionsWrap.appendChild(button);
+      });
+
+      const hasSelected = typeof selected !== 'undefined';
+      const answerPanelClass = selected === question.correct ? 'success' : 'error';
+      answerPanel.className = `answer-panel ${hasSelected ? 'visible' : ''} ${hasSelected ? answerPanelClass : ''}`;
+
+      if (hasSelected) {
+        const correctText = selected === question.correct ? 'Correct.' : `Incorrect. The correct answer is ${question.correct}.`;
+        answerPanel.innerHTML = `
+          <h3>${selected === question.correct ? 'Correct' : 'Incorrect'}</h3>
+          <p>${correctText}</p>
+          <p class="rationale"><strong>Rationale:</strong> ${question.rationale || question.answerText || 'No rationale was parsed for this question.'}</p>
+        `;
+      } else {
+        answerPanel.innerHTML = '';
+      }
+
+      optionExplanations.innerHTML = '';
+      if (hasSelected) {
+        Object.keys(question.options).forEach((letter) => {
+          const explanation = question.optionExplanationMap[letter] || 'No explanation provided.';
+          const item = document.createElement('div');
+          item.className = 'explanation-item';
+          if (letter === question.correct) item.classList.add('correct');
+          if (letter === selected && letter !== question.correct) item.classList.add('incorrect');
+
+          item.innerHTML = `
+            <strong>${letter}:</strong>
+            <span>${explanation}</span>
+          `;
+          optionExplanations.appendChild(item);
+        });
+      } else {
+        optionExplanations.classList.add('hidden');
+      }
+
+      if (hasSelected) {
+        optionExplanations.classList.remove('hidden');
+      } else {
+        optionExplanations.classList.add('hidden');
+      }
+    }
+
+    function updateStats() {
+      const answered = Object.keys(state.selected).length;
+      const correct = Object.entries(state.selected).filter(([index, value]) => {
+        const question = state.questions[Number(index)];
+        return question && value === question.correct;
+      }).length;
+
+      document.getElementById('answeredCount').textContent = String(answered);
+      document.getElementById('correctCount').textContent = String(correct);
+      document.getElementById('questionTotal').textContent = String(state.questions.length || 0);
+    }
+
+    function render() {
+      renderQuestionNavigator();
+      renderQuestion();
+      updateStats();
+    }
+
+    function loadExam() {
+      fetch('complete_exam_with_keys_and_rationales_260.md')
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`Failed to load markdown (${response.status})`);
+          }
+          return response.text();
+        })
+        .then((markdown) => {
+          state.questions = parseMarkdownToQuestions(markdown);
+          if (!state.questions.length) {
+            throw new Error('No questions could be parsed from the markdown file.');
+          }
+
+          state.currentIndex = 0;
+          state.selected = {};
+          render();
+        })
+        .catch((error) => {
+          console.error(error);
+          questionText.textContent = 'The exam file could not be loaded.';
+          optionsWrap.innerHTML = '<p style="color: #fca5a5;">Please serve this site from a local web server or GitHub Pages so the browser can read the markdown file.</p>';
+          answerPanel.className = 'answer-panel visible error';
+          answerPanel.innerHTML = '<h3>Load error</h3><p>Check that the markdown file is present in the same folder and served over HTTP.</p>';
+          optionExplanations.innerHTML = '';
+          document.getElementById('questionTotal').textContent = '0';
+        });
+    }
+
+    document.getElementById('prevButton').addEventListener('click', () => {
+      if (state.currentIndex > 0) {
+        state.currentIndex -= 1;
+        render();
+      }
+    });
+
+    document.getElementById('nextButton').addEventListener('click', () => {
+      if (state.currentIndex < state.questions.length - 1) {
+        state.currentIndex += 1;
+        render();
+      }
+    });
+
+    document.getElementById('resetButton').addEventListener('click', () => {
+      state.selected = {};
+      render();
+    });
+
+    loadExam();
+  </script>
+</body>
+</html>
