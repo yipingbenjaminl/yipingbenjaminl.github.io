@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anesthesia Study Guide - Benjamin Liu</title>
+  <title>Miller 10e + Barash 9e Complete Chapter Key Points</title>
   <link rel="stylesheet" href="style.css">
   <style>
     .study-layout {
@@ -91,6 +91,10 @@
     .chapter-item:hover {
       border-color: var(--accent);
       background: rgba(108, 158, 255, 0.05);
+    }
+
+    .chapter-toggle {
+      display: none;
     }
 
     .chapter-header {
@@ -553,10 +557,29 @@
         margin-bottom: 4px;
       }
 
+      .chapter-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        color: var(--text);
+        cursor: pointer;
+        font-size: 1rem;
+        line-height: 1;
+        align-self: flex-start;
+        margin-left: auto;
+        flex-shrink: 0;
+      }
+
       .chapter-header {
-        flex-direction: column;
-        gap: 6px;
+        flex-direction: row;
+        gap: 8px;
         margin-bottom: 8px;
+        align-items: center;
       }
 
       .chapter-title {
@@ -622,8 +645,8 @@
 
     <div class="study-page">
       <a href="/#tools" class="back-link">&larr; Back to Tools</a>
-      <h1>Anesthesia Study Guide</h1>
-      <p class="description">Comprehensive key points compiled from Miller's Anesthesia (10th Edition) and Barash Clinical Anesthesia (9th Edition).</p>
+      <h1>Miller 10e + Barash 9e<br>Complete Chapter Key Points</h1>
+      <p class="description">Comprehensive chapter key points compiled from Miller's Anesthesia (10th Edition) and Barash Clinical Anesthesia (9th Edition).</p>
 
       <div class="stats-bar">
         <div class="stat">
@@ -790,11 +813,24 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
             <span class="chapter-source">${source}</span>
             <div class="chapter-title">${title}</div>
           </div>
+          <button class="chapter-toggle" type="button" aria-expanded="true" aria-label="Collapse chapter">−</button>
         </div>
         <div class="chapter-content">
           ${bulletHTML}
         </div>
       `;
+
+      const toggleButton = chapterEl.querySelector('.chapter-toggle');
+      const content = chapterEl.querySelector('.chapter-content');
+
+      if (toggleButton && content) {
+        toggleButton.addEventListener('click', () => {
+          const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+          toggleButton.setAttribute('aria-expanded', String(!isExpanded));
+          toggleButton.textContent = isExpanded ? '+' : '−';
+          content.style.display = isExpanded ? 'none' : 'flex';
+        });
+      }
 
       container.appendChild(chapterEl);
       chaptersData.push({ index, title, source });
