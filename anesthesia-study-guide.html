@@ -6,10 +6,20 @@
   <title>Anesthesia Study Guide - Benjamin Liu</title>
   <link rel="stylesheet" href="style.css">
   <style>
+    .study-layout {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 100px 24px 80px;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 32px;
+      align-items: start;
+    }
+
     .study-page {
       max-width: 900px;
       margin: 0 auto;
-      padding: 100px 24px 80px;
+      width: 100%;
     }
 
     .study-page h1 {
@@ -175,10 +185,188 @@
       color: var(--text-muted);
     }
 
+    .toc-panel {
+      position: sticky;
+      top: 96px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .toc-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      padding: 0 8px;
+    }
+
+    .toc-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-height: calc(100vh - 180px);
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .toc-item {
+      display: block;
+      width: 100%;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 9px 10px;
+      background: transparent;
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .toc-item:hover,
+    .toc-item:focus-visible {
+      background: rgba(108, 158, 255, 0.08);
+      border-color: rgba(108, 158, 255, 0.2);
+      outline: none;
+    }
+
+    .toc-item.is-hidden {
+      display: none;
+    }
+
+    .toc-item strong {
+      display: block;
+      font-size: 0.76rem;
+      color: var(--accent);
+      margin-bottom: 2px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .toc-item span {
+      display: block;
+      font-size: 0.88rem;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .toc-button,
+    .toc-drawer-close {
+      display: none;
+    }
+
+    .toc-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(9, 12, 18, 0.45);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease;
+      z-index: 40;
+    }
+
+    .toc-overlay.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .toc-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: min(82vw, 340px);
+      height: 100vh;
+      background: var(--bg);
+      border-left: 1px solid var(--border);
+      transform: translateX(100%);
+      transition: transform 0.2s ease;
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+      box-shadow: -12px 0 28px rgba(0, 0, 0, 0.12);
+    }
+
+    .toc-drawer.is-open {
+      transform: translateX(0);
+    }
+
+    .toc-drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 18px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .toc-drawer-header h3 {
+      margin: 0;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
+
+    .toc-drawer-close {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      width: 34px;
+      height: 34px;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+
+    .toc-drawer .toc-list {
+      padding: 16px 12px 24px;
+      max-height: none;
+      overflow-y: auto;
+    }
+
     .empty-state {
       text-align: center;
       padding: 60px 24px;
       color: var(--text-muted);
+    }
+
+    @media (max-width: 900px) {
+      .study-layout {
+        grid-template-columns: 1fr;
+        padding-top: 80px;
+      }
+
+      .toc-panel {
+        display: none;
+      }
+
+      .toc-button {
+        position: fixed;
+        right: 16px;
+        bottom: 20px;
+        z-index: 30;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        color: var(--text);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      .toc-drawer-close {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
 
     @media (max-width: 768px) {
@@ -413,40 +601,56 @@
     </div>
   </nav>
 
-  <div class="study-page">
-    <a href="/#tools" class="back-link">&larr; Back to Tools</a>
-    <h1>Anesthesia Study Guide</h1>
-    <p class="description">Comprehensive key points compiled from Miller's Anesthesia (10th Edition) and Barash Clinical Anesthesia (9th Edition).</p>
+  <div class="study-layout">
+    <aside class="toc-panel" aria-label="Table of contents">
+      <div class="toc-title">Table of Contents</div>
+      <nav id="desktopTocList" class="toc-list" aria-label="Desktop table of contents"></nav>
+    </aside>
 
-    <div class="stats-bar">
-      <div class="stat">
-        <div class="stat-number">146</div>
-        <div class="stat-label">Total Chapters</div>
+    <div class="study-page">
+      <a href="/#tools" class="back-link">&larr; Back to Tools</a>
+      <h1>Anesthesia Study Guide</h1>
+      <p class="description">Comprehensive key points compiled from Miller's Anesthesia (10th Edition) and Barash Clinical Anesthesia (9th Edition).</p>
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-number">146</div>
+          <div class="stat-label">Total Chapters</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">87</div>
+          <div class="stat-label">Miller 10e</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">59</div>
+          <div class="stat-label">Barash 9e</div>
+        </div>
       </div>
-      <div class="stat">
-        <div class="stat-number">87</div>
-        <div class="stat-label">Miller 10e</div>
+
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Chapters</button>
+        <button class="filter-btn" data-filter="Miller 10e">Miller 10e</button>
+        <button class="filter-btn" data-filter="Barash 9e">Barash 9e</button>
       </div>
-      <div class="stat">
-        <div class="stat-number">59</div>
-        <div class="stat-label">Barash 9e</div>
-      </div>
+
+      <div id="chaptersContainer" class="chapters-container"></div>
     </div>
-
-    <div class="filter-controls">
-      <button class="filter-btn active" data-filter="all">All Chapters</button>
-      <button class="filter-btn" data-filter="Miller 10e">Miller 10e</button>
-      <button class="filter-btn" data-filter="Barash 9e">Barash 9e</button>
-    </div>
-
-    <div id="chaptersContainer" class="chapters-container"></div>
   </div>
 
+  <button id="tocButton" class="toc-button" aria-label="Open table of contents">Contents</button>
+  <div id="tocOverlay" class="toc-overlay" aria-hidden="true"></div>
+  <aside id="tocDrawer" class="toc-drawer" aria-label="Mobile table of contents">
+    <div class="toc-drawer-header">
+      <h3>Contents</h3>
+      <button id="tocCloseButton" class="toc-drawer-close" aria-label="Close table of contents">×</button>
+    </div>
+    <nav id="mobileTocList" class="toc-list" aria-label="Mobile table of contents"></nav>
+  </aside>
+
   <script>
-    // Chapter data from the markdown
     const chaptersData = [];
-    
-    // Load from embedded markdown data
+    let activeFilter = 'all';
+
     const markdownContent = `
 Miller 10e — Complete Key Points
 
@@ -464,9 +668,46 @@ Chapter 1: The Scope of Modern Anesthetic Practice
 Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
 `;
 
-    // Parse and display content
+    function renderToC() {
+      const tocLists = [
+        document.getElementById('desktopTocList'),
+        document.getElementById('mobileTocList')
+      ];
+
+      tocLists.forEach(list => {
+        if (!list) return;
+        list.innerHTML = '';
+      });
+
+      chaptersData.forEach((chapter) => {
+        const item = document.createElement('a');
+        item.href = `#chapter-${chapter.index}`;
+        item.className = 'toc-item';
+        item.dataset.source = chapter.source;
+        item.innerHTML = `
+          <strong>${chapter.source}</strong>
+          <span>${chapter.title}</span>
+        `;
+
+        if (activeFilter !== 'all' && chapter.source !== activeFilter) {
+          item.classList.add('is-hidden');
+        }
+
+        item.addEventListener('click', () => {
+          if (window.innerWidth <= 900) {
+            closeMobileToc();
+          }
+        });
+
+        tocLists.forEach(list => {
+          if (list) {
+            list.appendChild(item.cloneNode(true));
+          }
+        });
+      });
+    }
+
     function initializeContent() {
-      // Fetch the markdown file content
       fetch('Miller10_Barash9_Complete_Key_Points.md')
         .then(response => response.text())
         .then(content => {
@@ -481,8 +722,8 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
     function renderContent(markdown) {
       const container = document.getElementById('chaptersContainer');
       container.innerHTML = '';
+      chaptersData.length = 0;
 
-      // Simple parser for markdown chapters
       const lines = markdown.split('\n');
       let currentChapter = null;
       let currentBullets = [];
@@ -492,14 +733,12 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
 
-        // Detect Miller or Barash section
         if (line.includes('Miller 10e')) {
           source = 'Miller 10e';
         } else if (line.includes('Barash 9e')) {
           source = 'Barash 9e';
         }
 
-        // Detect chapter headers
         if (line.startsWith('## Chapter')) {
           if (currentChapter && currentBullets.length > 0) {
             renderChapter(currentChapter, currentBullets, source, chapterNumber);
@@ -509,24 +748,25 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
           currentBullets = [];
         } else if (line.startsWith('- ') && currentChapter) {
           currentBullets.push(line.substring(2).trim());
-        } else if (line.startsWith('*Source:')) {
-          // Skip source lines
         }
       }
 
-      // Render last chapter
       if (currentChapter && currentBullets.length > 0) {
         renderChapter(currentChapter, currentBullets, source, chapterNumber);
       }
+
+      renderToC();
     }
 
     function renderChapter(title, bullets, source, index) {
       const container = document.getElementById('chaptersContainer');
       const chapterEl = document.createElement('div');
       chapterEl.className = 'chapter-item';
+      chapterEl.id = `chapter-${index}`;
       chapterEl.setAttribute('data-source', source);
+      chapterEl.setAttribute('data-title', title);
 
-      let bulletHTML = bullets
+      const bulletHTML = bullets
         .filter(b => b.length > 0)
         .map(b => `<p class="chapter-bullet">${b}</p>`)
         .join('');
@@ -544,6 +784,7 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
       `;
 
       container.appendChild(chapterEl);
+      chaptersData.push({ index, title, source });
     }
 
     function renderFallback() {
@@ -552,25 +793,39 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
     }
 
     function filterBySource(source) {
-      const buttons = document.querySelectorAll('.filter-btn');
-      buttons.forEach(btn => btn.classList.remove('active'));
-      event.target.classList.add('active');
+      activeFilter = source;
 
       const chapters = document.querySelectorAll('.chapter-item');
       chapters.forEach(chapter => {
-        if (source === 'all') {
-          chapter.style.display = '';
-        } else {
-          chapter.style.display = chapter.getAttribute('data-source') === source ? '' : 'none';
-        }
+        const shouldShow = source === 'all' || chapter.getAttribute('data-source') === source;
+        chapter.style.display = shouldShow ? '' : 'none';
+      });
+
+      document.querySelectorAll('.toc-item').forEach(item => {
+        const shouldShow = source === 'all' || item.dataset.source === source;
+        item.classList.toggle('is-hidden', !shouldShow);
       });
     }
 
-    // Initialize on page load
+    function openMobileToc() {
+      const drawer = document.getElementById('tocDrawer');
+      const overlay = document.getElementById('tocOverlay');
+      if (!drawer || !overlay) return;
+      drawer.classList.add('is-open');
+      overlay.classList.add('is-open');
+    }
+
+    function closeMobileToc() {
+      const drawer = document.getElementById('tocDrawer');
+      const overlay = document.getElementById('tocOverlay');
+      if (!drawer || !overlay) return;
+      drawer.classList.remove('is-open');
+      overlay.classList.remove('is-open');
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
       initializeContent();
 
-      // Add filter button listeners
       document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
           const filter = e.target.getAttribute('data-filter');
@@ -579,6 +834,49 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
           e.target.classList.add('active');
         });
       });
+
+      const tocButton = document.getElementById('tocButton');
+      const tocCloseButton = document.getElementById('tocCloseButton');
+      const tocOverlay = document.getElementById('tocOverlay');
+
+      if (tocButton) {
+        tocButton.addEventListener('click', openMobileToc);
+      }
+
+      if (tocCloseButton) {
+        tocCloseButton.addEventListener('click', closeMobileToc);
+      }
+
+      if (tocOverlay) {
+        tocOverlay.addEventListener('click', closeMobileToc);
+      }
+
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      document.addEventListener('touchstart', (event) => {
+        const touch = event.changedTouches[0];
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+      }, { passive: true });
+
+      document.addEventListener('touchend', (event) => {
+        if (window.innerWidth > 900) return;
+
+        const touch = event.changedTouches[0];
+        const deltaX = touch.clientX - touchStartX;
+        const deltaY = touch.clientY - touchStartY;
+
+        if (Math.abs(deltaY) > 60 || Math.abs(deltaX) < 70) return;
+
+        if (deltaX > 0) {
+          openMobileToc();
+        }
+
+        if (deltaX < 0 && document.getElementById('tocDrawer').classList.contains('is-open')) {
+          closeMobileToc();
+        }
+      }, { passive: true });
     });
   </script>
 </body>
