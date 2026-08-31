@@ -124,8 +124,8 @@ body {
 }
 
 .hero-photo {
-  width: 140px;
-  height: 140px;
+  width: clamp(160px, 45vw, 400px);
+  height: clamp(160px, 45vw, 400px);
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 24px;
