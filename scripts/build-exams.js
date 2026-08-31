@@ -153,3 +153,4 @@ function build(mdFile, idPrefix, title, outFile) {
 
 build('exam-set-1.md', 'S01', 'Exam Set 1', 'exam-set-1.json');
 build('exam-set-2.md', 'S02', 'Exam Set 2', 'exam-set-2.json');
+build('exam-set-3.md', 'S03', 'Exam Set 3', 'exam-set-3.json');

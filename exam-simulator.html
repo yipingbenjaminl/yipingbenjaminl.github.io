@@ -1296,7 +1296,7 @@
 
     const params = new URLSearchParams(window.location.search);
     const requestedSet = params.get('set');
-    const defaultSet = requestedSet && ['data/exams/exam-set-1.json', 'data/exams/exam-set-2.json'].includes(requestedSet)
+    const defaultSet = requestedSet && ['data/exams/exam-set-1.json', 'data/exams/exam-set-2.json', 'data/exams/exam-set-3.json'].includes(requestedSet)
       ? requestedSet
       : state.selectedExamFile;
 
