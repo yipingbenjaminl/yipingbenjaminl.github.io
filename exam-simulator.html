@@ -302,6 +302,15 @@
       font-weight: 500;
     }
 
+    .question-meta .difficulty {
+      color: var(--primary);
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(125, 211, 252, 0.08);
+    }
+
     .question-text {
       margin: 0 0 22px;
       font-size: clamp(1.2rem, 2vw, 1.7rem);
@@ -448,6 +457,14 @@
     .explanation-item span {
       color: var(--muted);
       line-height: 1.6;
+    }
+
+    .explanation-item .reasoning {
+      display: block;
+      margin-top: 6px;
+      color: var(--text);
+      font-style: italic;
+      opacity: 0.85;
     }
 
     .hidden {
@@ -642,6 +659,7 @@
         <span class="meta-left">
           <span class="id">Question ${question.number}</span>
           ${question.domain ? `<span class="domain">${question.domain}</span>` : ''}
+          ${question.difficulty ? `<span class="difficulty">${question.difficulty}</span>` : ''}
         </span>
         <span>${question.id}</span>
       `;
@@ -708,9 +726,15 @@
           if (letter === question.correct) item.classList.add('correct');
           if (letter === selected && letter !== question.correct) item.classList.add('incorrect');
 
+          const reasoning = letter === question.correct
+            ? question.bestAnswerReasoning
+            : (question.whyNotBest || {})[letter];
+          const reasoningHtml = reasoning ? `<span class="reasoning">${reasoning}</span>` : '';
+
           item.innerHTML = `
             <strong>${letter}:</strong>
             <span>${explanation}</span>
+            ${reasoningHtml}
           `;
           optionExplanations.appendChild(item);
         });
