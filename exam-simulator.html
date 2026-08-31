@@ -471,6 +471,172 @@
       display: none !important;
     }
 
+    .filter-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 18px;
+      height: 18px;
+      padding: 0 5px;
+      margin-left: 8px;
+      border-radius: 999px;
+      background: var(--primary);
+      color: #082f49;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .filter-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 300;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: rgba(2, 6, 23, 0.72);
+    }
+
+    .filter-panel {
+      width: 100%;
+      max-width: 520px;
+      max-height: 84vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .filter-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .filter-header h2 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .filter-body {
+      padding: 18px 20px;
+      overflow-y: auto;
+      display: grid;
+      gap: 22px;
+    }
+
+    .filter-group h3 {
+      margin: 0 0 10px;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .pill-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-pill {
+      cursor: pointer;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(148, 163, 184, 0.05);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .filter-pill.active {
+      border-color: rgba(125, 211, 252, 0.85);
+      background: rgba(125, 211, 252, 0.16);
+      color: var(--primary);
+    }
+
+    .filter-search {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.9);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      margin-bottom: 10px;
+    }
+
+    .domain-list {
+      max-height: 300px;
+      overflow-y: auto;
+      display: grid;
+      gap: 4px;
+    }
+
+    .domain-group-label {
+      margin: 10px 0 2px;
+      padding: 0 4px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .domain-group-label:first-child {
+      margin-top: 0;
+    }
+
+    .domain-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .domain-option:hover {
+      background: rgba(148, 163, 184, 0.06);
+    }
+
+    .domain-option input {
+      accent-color: var(--primary-strong);
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    .domain-empty {
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 8px 4px;
+    }
+
+    .filter-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .filter-match-count {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .filter-footer-actions {
+      display: flex;
+      gap: 10px;
+    }
+
     @media (max-width: 900px) {
       .layout {
         grid-template-columns: 1fr;
@@ -509,7 +675,7 @@
       }
 
       .action-btn {
-        flex: 1;
+        flex: 1 1 calc(50% - 5px);
       }
 
       .layout {
@@ -532,6 +698,18 @@
       .option-btn .letter {
         width: 30px;
         height: 30px;
+      }
+
+      .filter-overlay {
+        align-items: flex-end;
+        padding: 0;
+      }
+
+      .filter-panel {
+        max-width: none;
+        width: 100%;
+        max-height: 88vh;
+        border-radius: 20px 20px 0 0;
       }
     }
   </style>
@@ -564,6 +742,9 @@
       </div>
 
       <div class="actions">
+        <button id="filterButton" class="action-btn" type="button">
+          Filters<span id="filterBadge" class="filter-badge hidden">0</span>
+        </button>
         <button id="prevButton" class="action-btn" type="button">Previous</button>
         <button id="nextButton" class="action-btn primary" type="button">Next</button>
         <button id="resetButton" class="action-btn" type="button">Reset</button>
@@ -589,12 +770,51 @@
     </div>
   </main>
 
+  <div id="filterOverlay" class="filter-overlay hidden">
+    <div class="filter-panel card" role="dialog" aria-modal="true" aria-label="Filter questions">
+      <div class="filter-header">
+        <h2>Filter questions</h2>
+        <button id="filterCloseButton" class="nav-toggle" type="button" aria-label="Close filters">✕</button>
+      </div>
+
+      <div class="filter-body">
+        <div class="filter-group">
+          <h3>Difficulty</h3>
+          <div id="difficultyPills" class="pill-group"></div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Domain</h3>
+          <input id="domainSearch" type="text" class="filter-search" placeholder="Search domains…" autocomplete="off">
+          <div id="domainList" class="domain-list"></div>
+        </div>
+      </div>
+
+      <div class="filter-footer">
+        <span id="filterMatchCount" class="filter-match-count"></span>
+        <div class="filter-footer-actions">
+          <button id="filterClearButton" class="action-btn" type="button">Clear all</button>
+          <button id="filterDoneButton" class="action-btn primary" type="button">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
+    const DIFFICULTY_ORDER = ['Foundational', 'Intermediate', 'Advanced'];
+
     const state = {
       questions: [],
-      currentIndex: 0,
+      availableDomains: [],
+      availableDifficulties: [],
+      currentQuestionId: null,
       selected: {},
-      selectedExamFile: 'exams/exam-set-1.json'
+      selectedExamFile: 'exams/exam-set-1.json',
+      filters: {
+        difficulties: new Set(),
+        domains: new Set()
+      },
+      domainSearch: ''
     };
 
     const questionGrid = document.getElementById('questionGrid');
@@ -603,6 +823,20 @@
     const optionsWrap = document.getElementById('options');
     const answerPanel = document.getElementById('answerPanel');
     const optionExplanations = document.getElementById('optionExplanations');
+    const answeredCountEl = document.getElementById('answeredCount');
+    const correctCountEl = document.getElementById('correctCount');
+    const questionTotalEl = document.getElementById('questionTotal');
+
+    const filterButton = document.getElementById('filterButton');
+    const filterBadge = document.getElementById('filterBadge');
+    const filterOverlay = document.getElementById('filterOverlay');
+    const filterCloseButton = document.getElementById('filterCloseButton');
+    const filterDoneButton = document.getElementById('filterDoneButton');
+    const filterClearButton = document.getElementById('filterClearButton');
+    const difficultyPillsWrap = document.getElementById('difficultyPills');
+    const domainSearchInput = document.getElementById('domainSearch');
+    const domainListWrap = document.getElementById('domainList');
+    const filterMatchCount = document.getElementById('filterMatchCount');
 
     function normalizeQuestions(examData) {
       const questions = (examData && examData.questions) || [];
@@ -613,15 +847,40 @@
       }));
     }
 
-    function renderQuestionNavigator() {
+    function getFilteredQuestions() {
+      return state.questions.filter((question) => {
+        if (state.filters.difficulties.size && !state.filters.difficulties.has(question.difficulty)) {
+          return false;
+        }
+        if (state.filters.domains.size && !state.filters.domains.has(question.domain)) {
+          return false;
+        }
+        return true;
+      });
+    }
+
+    function getCurrentView() {
+      const filtered = getFilteredQuestions();
+      let index = filtered.findIndex((question) => question.id === state.currentQuestionId);
+      if (index === -1) index = 0;
+      return { filtered, index, question: filtered[index] };
+    }
+
+    function renderQuestionNavigator(filtered, currentId) {
       questionGrid.innerHTML = '';
-      state.questions.forEach((question, index) => {
+
+      if (!filtered.length) {
+        questionGrid.innerHTML = '<p class="domain-empty">No questions match your filters.</p>';
+        return;
+      }
+
+      filtered.forEach((question) => {
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'question-chip';
-        if (index === state.currentIndex) button.classList.add('current');
+        if (question.id === currentId) button.classList.add('current');
 
-        const selected = state.selected[index];
+        const selected = state.selected[question.id];
         if (selected) {
           button.classList.add(selected === question.correct ? 'answered-correct' : 'answered-wrong');
         }
@@ -629,7 +888,7 @@
         button.textContent = question.number;
         button.setAttribute('aria-label', `Question ${question.number}`);
         button.addEventListener('click', () => {
-          state.currentIndex = index;
+          state.currentQuestionId = question.id;
           render();
         });
         questionGrid.appendChild(button);
@@ -649,11 +908,19 @@
       }
     }
 
-    function renderQuestion() {
-      const question = state.questions[state.currentIndex];
-      if (!question) return;
+    function renderQuestion(question) {
+      if (!question) {
+        questionMeta.innerHTML = '';
+        questionText.textContent = 'No questions match your filters.';
+        optionsWrap.innerHTML = '<p style="color: var(--muted);">Adjust or clear filters to see more questions.</p>';
+        answerPanel.className = 'answer-panel';
+        answerPanel.innerHTML = '';
+        optionExplanations.innerHTML = '';
+        optionExplanations.classList.add('hidden');
+        return;
+      }
 
-      const selected = state.selected[state.currentIndex];
+      const selected = state.selected[question.id];
 
       questionMeta.innerHTML = `
         <span class="meta-left">
@@ -690,7 +957,7 @@
         `;
 
         button.addEventListener('click', () => {
-          state.selected[state.currentIndex] = letter;
+          state.selected[question.id] = letter;
           render();
         });
 
@@ -749,23 +1016,161 @@
       }
     }
 
-    function updateStats() {
-      const answered = Object.keys(state.selected).length;
-      const correct = Object.entries(state.selected).filter(([index, value]) => {
-        const question = state.questions[Number(index)];
-        return question && value === question.correct;
-      }).length;
+    function updateStats(filtered) {
+      const answered = filtered.filter((question) => typeof state.selected[question.id] !== 'undefined').length;
+      const correct = filtered.filter((question) => state.selected[question.id] === question.correct).length;
 
-      document.getElementById('answeredCount').textContent = String(answered);
-      document.getElementById('correctCount').textContent = String(correct);
-      document.getElementById('questionTotal').textContent = String(state.questions.length || 0);
+      answeredCountEl.textContent = String(answered);
+      correctCountEl.textContent = String(correct);
+      questionTotalEl.textContent = String(filtered.length);
     }
 
     function render() {
-      renderQuestionNavigator();
-      renderQuestion();
-      updateStats();
+      const { filtered, question } = getCurrentView();
+      state.currentQuestionId = question ? question.id : null;
+      renderQuestionNavigator(filtered, state.currentQuestionId);
+      renderQuestion(question);
+      updateStats(filtered);
     }
+
+    // --- Filters ---------------------------------------------------------
+
+    function parseDomain(domain) {
+      const match = domain.match(/^Domain (\d+) · (.+)$/);
+      return match ? { number: Number(match[1]), label: match[2] } : { number: 0, label: domain };
+    }
+
+    function updateFilterBadge() {
+      const count = state.filters.difficulties.size + state.filters.domains.size;
+      filterBadge.textContent = String(count);
+      filterBadge.classList.toggle('hidden', count === 0);
+    }
+
+    function updateFilterMatchCount() {
+      const filtered = getFilteredQuestions();
+      filterMatchCount.textContent = `${filtered.length} of ${state.questions.length} questions match`;
+    }
+
+    function renderDifficultyPills() {
+      const ordered = DIFFICULTY_ORDER.filter((level) => state.availableDifficulties.includes(level))
+        .concat(state.availableDifficulties.filter((level) => !DIFFICULTY_ORDER.includes(level)));
+
+      difficultyPillsWrap.innerHTML = '';
+      ordered.forEach((level) => {
+        const pill = document.createElement('button');
+        pill.type = 'button';
+        pill.className = 'filter-pill';
+        if (state.filters.difficulties.has(level)) pill.classList.add('active');
+        pill.textContent = level;
+        pill.addEventListener('click', () => {
+          if (state.filters.difficulties.has(level)) {
+            state.filters.difficulties.delete(level);
+          } else {
+            state.filters.difficulties.add(level);
+          }
+          onFiltersChanged();
+        });
+        difficultyPillsWrap.appendChild(pill);
+      });
+    }
+
+    function renderDomainList() {
+      const previousScroll = domainListWrap.scrollTop;
+      const term = state.domainSearch.trim().toLowerCase();
+      const groups = new Map();
+
+      state.availableDomains.forEach((domain) => {
+        if (term && !domain.toLowerCase().includes(term)) return;
+        const { number, label } = parseDomain(domain);
+        if (!groups.has(number)) groups.set(number, []);
+        groups.get(number).push({ domain, label });
+      });
+
+      domainListWrap.innerHTML = '';
+      const sortedNumbers = [...groups.keys()].sort((a, b) => a - b);
+
+      if (!sortedNumbers.length) {
+        domainListWrap.innerHTML = '<p class="domain-empty">No domains match your search.</p>';
+        return;
+      }
+
+      sortedNumbers.forEach((number) => {
+        const groupLabel = document.createElement('div');
+        groupLabel.className = 'domain-group-label';
+        groupLabel.textContent = `Domain ${number}`;
+        domainListWrap.appendChild(groupLabel);
+
+        groups.get(number).forEach(({ domain, label }) => {
+          const row = document.createElement('label');
+          row.className = 'domain-option';
+
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.checked = state.filters.domains.has(domain);
+          checkbox.addEventListener('change', () => {
+            if (checkbox.checked) {
+              state.filters.domains.add(domain);
+            } else {
+              state.filters.domains.delete(domain);
+            }
+            onFiltersChanged();
+          });
+
+          const span = document.createElement('span');
+          span.textContent = label;
+
+          row.appendChild(checkbox);
+          row.appendChild(span);
+          domainListWrap.appendChild(row);
+        });
+      });
+
+      domainListWrap.scrollTop = previousScroll;
+    }
+
+    function onFiltersChanged() {
+      renderDifficultyPills();
+      renderDomainList();
+      updateFilterBadge();
+      updateFilterMatchCount();
+      render();
+    }
+
+    function openFilterOverlay() {
+      renderDifficultyPills();
+      renderDomainList();
+      updateFilterMatchCount();
+      filterOverlay.classList.remove('hidden');
+    }
+
+    function closeFilterOverlay() {
+      filterOverlay.classList.add('hidden');
+    }
+
+    filterButton.addEventListener('click', openFilterOverlay);
+    filterCloseButton.addEventListener('click', closeFilterOverlay);
+    filterDoneButton.addEventListener('click', closeFilterOverlay);
+    filterOverlay.addEventListener('click', (event) => {
+      if (event.target === filterOverlay) closeFilterOverlay();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !filterOverlay.classList.contains('hidden')) {
+        closeFilterOverlay();
+      }
+    });
+
+    domainSearchInput.addEventListener('input', (event) => {
+      state.domainSearch = event.target.value;
+      renderDomainList();
+    });
+
+    filterClearButton.addEventListener('click', () => {
+      state.filters.difficulties.clear();
+      state.filters.domains.clear();
+      onFiltersChanged();
+    });
+
+    // --- Loading / navigation ---------------------------------------------
 
     function loadExam(fileName = state.selectedExamFile) {
       state.selectedExamFile = fileName;
@@ -783,8 +1188,22 @@
             throw new Error('No questions found in the exam data file.');
           }
 
-          state.currentIndex = 0;
+          state.availableDomains = [...new Set(state.questions.map((q) => q.domain).filter(Boolean))]
+            .sort((a, b) => {
+              const pa = parseDomain(a);
+              const pb = parseDomain(b);
+              return pa.number - pb.number || pa.label.localeCompare(pb.label);
+            });
+          state.availableDifficulties = [...new Set(state.questions.map((q) => q.difficulty).filter(Boolean))];
+
+          state.currentQuestionId = state.questions[0].id;
           state.selected = {};
+          state.filters.difficulties.clear();
+          state.filters.domains.clear();
+          state.domainSearch = '';
+          domainSearchInput.value = '';
+
+          updateFilterBadge();
           render();
         })
         .catch((error) => {
@@ -794,20 +1213,22 @@
           answerPanel.className = 'answer-panel visible error';
           answerPanel.innerHTML = '<h3>Load error</h3><p>Check that the exam JSON file is present in the same folder and served over HTTP.</p>';
           optionExplanations.innerHTML = '';
-          document.getElementById('questionTotal').textContent = '0';
+          questionTotalEl.textContent = '0';
         });
     }
 
     document.getElementById('prevButton').addEventListener('click', () => {
-      if (state.currentIndex > 0) {
-        state.currentIndex -= 1;
+      const { filtered, index } = getCurrentView();
+      if (index > 0) {
+        state.currentQuestionId = filtered[index - 1].id;
         render();
       }
     });
 
     document.getElementById('nextButton').addEventListener('click', () => {
-      if (state.currentIndex < state.questions.length - 1) {
-        state.currentIndex += 1;
+      const { filtered, index } = getCurrentView();
+      if (index < filtered.length - 1) {
+        state.currentQuestionId = filtered[index + 1].id;
         render();
       }
     });
