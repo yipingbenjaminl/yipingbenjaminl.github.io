@@ -528,8 +528,8 @@
       <div class="exam-selector">
         <label for="examSetSelect">Exam set</label>
         <select id="examSetSelect" aria-label="Choose exam set">
-          <option value="exams/exam-set-1-complete-260.md">Set 1: Complete exam</option>
-          <option value="exams/exam-set-2-alternate-260.md">Set 2: Alternate exam</option>
+          <option value="exams/exam-set-1-complete-260.json">Set 1: Complete exam</option>
+          <option value="exams/exam-set-2-alternate-260.json">Set 2: Alternate exam</option>
         </select>
       </div>
 
@@ -579,7 +579,7 @@
       questions: [],
       currentIndex: 0,
       selected: {},
-      selectedExamFile: 'exams/exam-set-1-complete-260.md'
+      selectedExamFile: 'exams/exam-set-1-complete-260.json'
     };
 
     const questionGrid = document.getElementById('questionGrid');
@@ -590,69 +590,13 @@
     const optionExplanations = document.getElementById('optionExplanations');
     const examSetSelect = document.getElementById('examSetSelect');
 
-    function parseMarkdownToQuestions(markdown) {
-      const blocks = markdown.split(/\n(?=(?:###\s+\d+\.\s+`|##\s+S\d{2}-Q\d{3}))/);
-      const byId = new Map();
-
-      blocks.forEach((block) => {
-        const headingMatch = block.match(/^(?:###\s+\d+\.\s+`([^`]+)`|##\s+([A-Za-z0-9-]+))(?:\s+—\s*([A-D]))?/);
-        if (!headingMatch) return;
-
-        const id = (headingMatch[1] || headingMatch[2] || '').trim();
-        const letter = (headingMatch[3] || '').trim();
-        const section = block.replace(/^(?:###\s+\d+\.\s+`[^`]+`|##\s+[A-Za-z0-9-]+)(?:\s+—\s*[A-D])?\s*\n?/, '').trim();
-
-        if (!id) return;
-
-        const existing = byId.get(id) || {
-          id,
-          number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
-          prompt: '',
-          options: {},
-          correct: '',
-          answerText: '',
-          rationale: '',
-          optionExplanationMap: {}
-        };
-
-        const optionPattern = /(^|\n)([A-D])\.\s*([^\n]+(?:\n(?![A-D]\.)[^\n]+)*)/g;
-        const optionMatches = [...section.matchAll(optionPattern)];
-
-        optionMatches.forEach((optionMatch) => {
-          const letterKey = optionMatch[2];
-          const text = optionMatch[3].replace(/\s+/g, ' ').trim();
-          existing.options[letterKey] = text;
-        });
-
-        if (optionMatches.length) {
-          const optionStartIndex = optionMatches[0].index;
-          existing.prompt = section.slice(0, optionStartIndex).replace(/\n{3,}/g, '\n\n').trim();
-        } else {
-          existing.prompt = section.replace(/\n{3,}/g, '\n\n').trim();
-        }
-
-        const answerLabelMatch = section.match(/\*\*Answer:\*\*\s*([A-D])/i);
-        const correct = (answerLabelMatch ? answerLabelMatch[1].toUpperCase() : letter || 'A').toUpperCase();
-        existing.correct = correct;
-
-        const explanationMatches = [...section.matchAll(/\*\*\s*([A-D])\s*(?:—\s*correct)?\s*:\*\*\s*([\s\S]+?)(?=\n\n\*\*\s*[A-D]\s*(?:—\s*correct)?\s*:\*\*|\n\n\*\*Evidence sources:\*\*|$)/g)];
-        explanationMatches.forEach((expMatch) => {
-          const explanationKey = expMatch[1].toUpperCase();
-          existing.optionExplanationMap[explanationKey] = expMatch[2].replace(/\s+/g, ' ').trim();
-        });
-
-        existing.rationale = existing.optionExplanationMap[correct] || existing.answerText || 'No rationale was parsed for this question.';
-
-        byId.set(id, existing);
-      });
-
-      return Array.from(byId.values())
-        .filter((question) => question && question.id && question.prompt)
-        .sort((a, b) => a.number - b.number)
-        .map((question) => ({
-          ...question,
-          correct: (question.correct || 'A').toUpperCase()
-        }));
+    function normalizeQuestions(examData) {
+      const questions = (examData && examData.questions) || [];
+      return questions.map((question) => ({
+        ...question,
+        correct: (question.correct || 'A').toUpperCase(),
+        optionExplanationMap: question.optionExplanations || {}
+      }));
     }
 
     function renderQuestionNavigator() {
@@ -803,14 +747,14 @@
       fetch(fileName)
         .then((response) => {
           if (!response.ok) {
-            throw new Error(`Failed to load markdown (${response.status})`);
+            throw new Error(`Failed to load exam data (${response.status})`);
           }
-          return response.text();
+          return response.json();
         })
-        .then((markdown) => {
-          state.questions = parseMarkdownToQuestions(markdown);
+        .then((examData) => {
+          state.questions = normalizeQuestions(examData);
           if (!state.questions.length) {
-            throw new Error('No questions could be parsed from the markdown file.');
+            throw new Error('No questions found in the exam data file.');
           }
 
           state.currentIndex = 0;
@@ -820,9 +764,9 @@
         .catch((error) => {
           console.error(error);
           questionText.textContent = 'The exam file could not be loaded.';
-          optionsWrap.innerHTML = '<p style="color: #fca5a5;">Please serve this site from a local web server or GitHub Pages so the browser can read the markdown file.</p>';
+          optionsWrap.innerHTML = '<p style="color: #fca5a5;">Please serve this site from a local web server or GitHub Pages so the browser can read the exam data.</p>';
           answerPanel.className = 'answer-panel visible error';
-          answerPanel.innerHTML = '<h3>Load error</h3><p>Check that the markdown file is present in the same folder and served over HTTP.</p>';
+          answerPanel.innerHTML = '<h3>Load error</h3><p>Check that the exam JSON file is present in the same folder and served over HTTP.</p>';
           optionExplanations.innerHTML = '';
           document.getElementById('questionTotal').textContent = '0';
         });
@@ -866,7 +810,7 @@
 
     const params = new URLSearchParams(window.location.search);
     const requestedSet = params.get('set');
-    const defaultSet = requestedSet && ['exams/exam-set-1-complete-260.md', 'exams/exam-set-2-alternate-260.md'].includes(requestedSet)
+    const defaultSet = requestedSet && ['exams/exam-set-1-complete-260.json', 'exams/exam-set-2-alternate-260.json'].includes(requestedSet)
       ? requestedSet
       : state.selectedExamFile;
 
