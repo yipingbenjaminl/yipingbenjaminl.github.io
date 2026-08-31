@@ -96,6 +96,24 @@
       flex-wrap: wrap;
     }
 
+    .exam-selector {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .exam-selector select {
+      background: rgba(15, 23, 42, 0.9);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      min-width: 220px;
+    }
+
     .stats {
       display: flex;
       gap: 12px;
@@ -503,10 +521,18 @@
 
     <header class="page-header">
       <h1>Anesthesiology Exam Simulator</h1>
-      <p>Work through the complete 260-question exam using the answer-key markdown file as the source of truth. Pick an option, review the feedback, and read the rationale for each choice.</p>
+      <p>Work through one of the available exam sets, switch between practice rounds, and review the rationale for every answer choice.</p>
     </header>
 
     <section class="toolbar card" aria-label="Exam progress controls">
+      <div class="exam-selector">
+        <label for="examSetSelect">Exam set</label>
+        <select id="examSetSelect" aria-label="Choose exam set">
+          <option value="exams/exam-set-1-complete-260.md">Set 1: Complete exam</option>
+          <option value="exams/exam-set-2-alternate-260.md">Set 2: Alternate exam</option>
+        </select>
+      </div>
+
       <div class="stats">
         <div class="stat">
           <strong id="answeredCount">0</strong>
@@ -552,7 +578,8 @@
     const state = {
       questions: [],
       currentIndex: 0,
-      selected: {}
+      selected: {},
+      selectedExamFile: 'exams/exam-set-1-complete-260.md'
     };
 
     const questionGrid = document.getElementById('questionGrid');
@@ -561,6 +588,7 @@
     const optionsWrap = document.getElementById('options');
     const answerPanel = document.getElementById('answerPanel');
     const optionExplanations = document.getElementById('optionExplanations');
+    const examSetSelect = document.getElementById('examSetSelect');
 
     function parseMarkdownToQuestions(markdown) {
       const blocks = markdown.split(/\n(?=###\s+\d+\.\s+`)/);
@@ -771,8 +799,13 @@
       updateStats();
     }
 
-    function loadExam() {
-      fetch('complete_exam_with_keys_and_rationales_260.md')
+    function loadExam(fileName = state.selectedExamFile) {
+      state.selectedExamFile = fileName;
+      if (examSetSelect) {
+        examSetSelect.value = fileName;
+      }
+
+      fetch(fileName)
         .then((response) => {
           if (!response.ok) {
             throw new Error(`Failed to load markdown (${response.status})`);
@@ -826,8 +859,24 @@
       setSidebarCollapsed(nextCollapsed);
     });
 
+    if (examSetSelect) {
+      examSetSelect.addEventListener('change', (event) => {
+        const nextFile = event.target.value;
+        const url = new URL(window.location.href);
+        url.searchParams.set('set', nextFile);
+        window.history.replaceState({}, '', url);
+        loadExam(nextFile);
+      });
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const requestedSet = params.get('set');
+    const defaultSet = requestedSet && ['exams/exam-set-1-complete-260.md', 'exams/exam-set-2-alternate-260.md'].includes(requestedSet)
+      ? requestedSet
+      : state.selectedExamFile;
+
     setSidebarCollapsed(true);
-    loadExam();
+    loadExam(defaultSet);
   </script>
 </body>
 </html>
