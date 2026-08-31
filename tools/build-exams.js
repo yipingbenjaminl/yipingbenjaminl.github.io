@@ -14,6 +14,14 @@ function normalize(text) {
   return text.replace(/\s+/g, ' ').trim();
 }
 
+// Unifies both formats' source citations into "Textbook (Year).pdf — PDF p. N"
+// and drops internal passage IDs, which aren't meaningful to a reader.
+function normalizeSource(text) {
+  return normalize(text)
+    .replace(/\s*\(PDF p.\s*(\d+)\)/, ' — PDF p. $1')
+    .replace(/,\s*passage\s*\d+\s*$/i, '');
+}
+
 // --- Set 1 format ---------------------------------------------------------
 // Paper N — question stem + options only, heading: "### 1. `S01-Q001`"
 // Paper N Answer Key — heading: "### 1. `S01-Q001` — A", then
@@ -76,7 +84,7 @@ function parseSet1(markdown) {
 
       const sourcesMatch = body.match(/\*\*Sources:\*\*\s*([^\n]+)/);
       if (sourcesMatch) {
-        existing.sources = sourcesMatch[1].split(';').map((s) => s.trim()).filter(Boolean);
+        existing.sources = sourcesMatch[1].split(';').map((s) => normalizeSource(s)).filter(Boolean);
       }
     }
 
@@ -137,7 +145,7 @@ function parseSet2(markdown) {
 
     const sourcesBlockMatch = body.match(/\*\*Evidence sources:\*\*\s*\n([\s\S]*)$/);
     const sources = sourcesBlockMatch
-      ? [...sourcesBlockMatch[1].matchAll(/-\s*([^\n]+)/g)].map((m) => m[1].trim())
+      ? [...sourcesBlockMatch[1].matchAll(/-\s*([^\n]+)/g)].map((m) => normalizeSource(m[1]))
       : [];
 
     byId.set(id, {
@@ -161,6 +169,7 @@ function finalize(questions, title) {
     questions: questions
       .filter((q) => q.id && q.prompt && Object.keys(q.options).length)
       .sort((a, b) => a.number - b.number)
+      .map((q) => ({ ...q, sources: [...new Set(q.sources)] }))
   };
 }
 

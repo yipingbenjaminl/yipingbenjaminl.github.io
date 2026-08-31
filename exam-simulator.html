@@ -407,6 +407,19 @@
       line-height: 1.7;
     }
 
+    .answer-panel .sources {
+      margin: 10px 0 0;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .answer-panel .sources strong {
+      color: var(--text);
+    }
+
     .option-explanations {
       margin-top: 22px;
       display: grid;
@@ -685,10 +698,15 @@
 
       if (hasSelected) {
         const correctText = selected === question.correct ? 'Correct.' : `Incorrect. The correct answer is ${question.correct}.`;
+        const sources = question.sources || [];
+        const sourcesHtml = sources.length
+          ? `<p class="sources"><strong>Textbook references:</strong> ${sources.join(' · ')}</p>`
+          : '';
         answerPanel.innerHTML = `
           <h3>${selected === question.correct ? 'Correct' : 'Incorrect'}</h3>
           <p>${correctText}</p>
           <p class="rationale"><strong>Rationale:</strong> ${question.rationale || question.answerText || 'No rationale was parsed for this question.'}</p>
+          ${sourcesHtml}
         `;
       } else {
         answerPanel.innerHTML = '';
