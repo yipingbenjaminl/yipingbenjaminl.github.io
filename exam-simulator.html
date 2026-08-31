@@ -96,24 +96,6 @@
       flex-wrap: wrap;
     }
 
-    .exam-selector {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    .exam-selector select {
-      background: rgba(15, 23, 42, 0.9);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 12px;
-      font: inherit;
-      min-width: 220px;
-    }
-
     .stats {
       display: flex;
       gap: 12px;
@@ -529,23 +511,14 @@
   <main class="container">
     <div class="topbar">
       <a href="/" class="back-link">← Back to home</a>
-      <a href="anesthesia-study-guide.html" class="back-link">Open chapter key points →</a>
     </div>
 
     <header class="page-header">
       <h1>Anesthesiology Exam Simulator</h1>
-      <p>Work through one of the available exam sets, switch between practice rounds, and review the rationale for every answer choice.</p>
+      <p>Work through this exam set and review the rationale for every answer choice.</p>
     </header>
 
     <section class="toolbar card" aria-label="Exam progress controls">
-      <div class="exam-selector">
-        <label for="examSetSelect">Exam set</label>
-        <select id="examSetSelect" aria-label="Choose exam set">
-          <option value="exams/exam-set-1-complete-260.json">Set 1: Complete exam</option>
-          <option value="exams/exam-set-2-alternate-260.json">Set 2: Alternate exam</option>
-        </select>
-      </div>
-
       <div class="stats">
         <div class="stat">
           <strong id="answeredCount">0</strong>
@@ -601,7 +574,6 @@
     const optionsWrap = document.getElementById('options');
     const answerPanel = document.getElementById('answerPanel');
     const optionExplanations = document.getElementById('optionExplanations');
-    const examSetSelect = document.getElementById('examSetSelect');
 
     function normalizeQuestions(examData) {
       const questions = (examData && examData.questions) || [];
@@ -758,9 +730,6 @@
 
     function loadExam(fileName = state.selectedExamFile) {
       state.selectedExamFile = fileName;
-      if (examSetSelect) {
-        examSetSelect.value = fileName;
-      }
 
       fetch(fileName)
         .then((response) => {
@@ -815,16 +784,6 @@
       const nextCollapsed = !sidebar.classList.contains('collapsed');
       setSidebarCollapsed(nextCollapsed);
     });
-
-    if (examSetSelect) {
-      examSetSelect.addEventListener('change', (event) => {
-        const nextFile = event.target.value;
-        const url = new URL(window.location.href);
-        url.searchParams.set('set', nextFile);
-        window.history.replaceState({}, '', url);
-        loadExam(nextFile);
-      });
-    }
 
     const params = new URLSearchParams(window.location.search);
     const requestedSet = params.get('set');
