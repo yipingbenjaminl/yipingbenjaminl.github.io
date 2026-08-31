@@ -290,6 +290,18 @@
       font-weight: 700;
     }
 
+    .question-meta .meta-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .question-meta .domain {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
     .question-text {
       margin: 0 0 22px;
       font-size: clamp(1.2rem, 2vw, 1.7rem);
@@ -627,7 +639,10 @@
       const selected = state.selected[state.currentIndex];
 
       questionMeta.innerHTML = `
-        <span class="id">Question ${question.number}</span>
+        <span class="meta-left">
+          <span class="id">Question ${question.number}</span>
+          ${question.domain ? `<span class="domain">${question.domain}</span>` : ''}
+        </span>
         <span>${question.id}</span>
       `;
 

@@ -48,6 +48,7 @@ function parseSet1(markdown) {
       id,
       number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
       prompt: '',
+      domain: '',
       options: {},
       correct: '',
       rationale: '',
@@ -128,6 +129,7 @@ function parseSet2(markdown) {
     });
 
     const domainMatch = body.match(/^Domain[^\n]*\n/);
+    const domain = domainMatch ? normalize(domainMatch[0]) : '';
     const promptStart = domainMatch ? domainMatch[0].length : 0;
     const promptEnd = optionMatches.length ? optionMatches[0].index : body.length;
     const prompt = normalize(body.slice(promptStart, promptEnd));
@@ -152,6 +154,7 @@ function parseSet2(markdown) {
       id,
       number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
       prompt,
+      domain,
       options,
       correct,
       rationale: optionExplanations[correct] || '',
