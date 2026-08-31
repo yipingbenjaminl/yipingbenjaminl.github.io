@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-// Parses exams/*.md into a single consistent JSON schema consumed by
+// Parses data/exams/*.md into a single consistent JSON schema consumed by
 // exam-simulator.html, so the browser never has to regex-parse markdown
 // at runtime.
 //
-// Usage: node tools/build-exams.js
+// Usage: node scripts/build-exams.js
 
 const fs = require('fs');
 const path = require('path');
 
-const EXAMS_DIR = path.join(__dirname, '..', 'exams');
+const EXAMS_DIR = path.join(__dirname, '..', 'data', 'exams');
 
 function normalize(text) {
   return text.replace(/\s+/g, ' ').trim();

@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Miller 10e + Barash 9e Complete Chapter Key Points</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="theme.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/theme.js"></script>
   <style>
     .study-layout {
       max-width: 1280px;
@@ -746,7 +746,7 @@ Source: Miller 10e, Chapter 1, Key Points, PDF pp. 23–24.
     }
 
     function initializeContent() {
-      fetch('Miller10_Barash9_Complete_Key_Points.md')
+      fetch('data/miller-barash-key-points.md')
         .then(response => response.text())
         .then(content => {
           renderContent(content);

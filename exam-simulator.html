@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anesthesiology Exam Simulator</title>
-  <script src="theme.js"></script>
+  <script src="assets/js/theme.js"></script>
   <style>
     :root {
       --bg: #0f172a;
@@ -858,7 +858,7 @@
       availableDifficulties: [],
       currentQuestionId: null,
       selected: {},
-      selectedExamFile: 'exams/exam-set-1.json',
+      selectedExamFile: 'data/exams/exam-set-1.json',
       filters: {
         difficulties: new Set(),
         domains: new Set()
@@ -1296,7 +1296,7 @@
 
     const params = new URLSearchParams(window.location.search);
     const requestedSet = params.get('set');
-    const defaultSet = requestedSet && ['exams/exam-set-1.json', 'exams/exam-set-2.json'].includes(requestedSet)
+    const defaultSet = requestedSet && ['data/exams/exam-set-1.json', 'data/exams/exam-set-2.json'].includes(requestedSet)
       ? requestedSet
       : state.selectedExamFile;
 
