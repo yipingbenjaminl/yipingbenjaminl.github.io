@@ -151,5 +151,5 @@ function build(mdFile, idPrefix, title, outFile) {
   console.log(`${mdFile} -> ${outFile}: ${data.questions.length} questions`);
 }
 
-build('exam-set-1-complete-260.md', 'S01', 'Set 1: Complete exam', 'exam-set-1-complete-260.json');
-build('exam-set-2-alternate-260.md', 'S02', 'Set 2: Alternate exam', 'exam-set-2-alternate-260.json');
+build('exam-set-1.md', 'S01', 'Exam Set 1', 'exam-set-1.json');
+build('exam-set-2.md', 'S02', 'Exam Set 2', 'exam-set-2.json');

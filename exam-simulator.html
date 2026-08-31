@@ -594,7 +594,7 @@
       questions: [],
       currentIndex: 0,
       selected: {},
-      selectedExamFile: 'exams/exam-set-1-complete-260.json'
+      selectedExamFile: 'exams/exam-set-1.json'
     };
 
     const questionGrid = document.getElementById('questionGrid');
@@ -826,7 +826,7 @@
 
     const params = new URLSearchParams(window.location.search);
     const requestedSet = params.get('set');
-    const defaultSet = requestedSet && ['exams/exam-set-1-complete-260.json', 'exams/exam-set-2-alternate-260.json'].includes(requestedSet)
+    const defaultSet = requestedSet && ['exams/exam-set-1.json', 'exams/exam-set-2.json'].includes(requestedSet)
       ? requestedSet
       : state.selectedExamFile;
 
