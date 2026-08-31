@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Statement Splitter - Benjamin Liu</title>
   <link rel="stylesheet" href="../style.css">
+  <script src="../theme.js"></script>
   <style>
     .tool-page {
       max-width: 750px;
@@ -60,7 +61,7 @@
     .downloads { margin-top: 16px; }
     .downloads a {
       display: inline-block; margin-right: 12px; margin-bottom: 8px;
-      padding: 8px 16px; background: var(--accent); color: #000;
+      padding: 8px 16px; background: var(--accent); color: var(--on-accent);
       border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 500;
     }
     .downloads a:hover { background: var(--accent-hover); }
@@ -77,6 +78,7 @@
       <a href="/#about">About</a>
       <a href="/#tools">Tools</a>
       <a href="/#resume">Resume</a>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle light and dark theme">☀️</button>
     </div>
   </nav>
 

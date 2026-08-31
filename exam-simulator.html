@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anesthesiology Exam Simulator</title>
+  <script src="theme.js"></script>
   <style>
     :root {
       --bg: #0f172a;
@@ -11,6 +12,8 @@
       --surface: #111827;
       --surface-strong: #1f2937;
       --panel: rgba(17, 24, 39, 0.9);
+      --input-bg: rgba(15, 23, 42, 0.9);
+      --on-primary: #082f49;
       --border: rgba(148, 163, 184, 0.28);
       --text: #e5e7eb;
       --muted: #9ca3af;
@@ -18,10 +21,35 @@
       --primary-strong: #38bdf8;
       --success: #34d399;
       --success-soft: rgba(52, 211, 153, 0.12);
+      --success-text: #d1fae5;
       --error: #f87171;
       --error-soft: rgba(248, 113, 113, 0.12);
+      --error-text: #fecaca;
       --warning: #fbbf24;
       --shadow: 0 18px 50px rgba(15, 23, 42, 0.35);
+    }
+
+    :root[data-theme="light"] {
+      --bg: #f8fafc;
+      --bg-alt: #eef2f7;
+      --surface: #ffffff;
+      --surface-strong: #eef2f7;
+      --panel: rgba(255, 255, 255, 0.92);
+      --input-bg: #ffffff;
+      --on-primary: #ffffff;
+      --border: rgba(15, 23, 42, 0.14);
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #0284c7;
+      --primary-strong: #0369a1;
+      --success: #059669;
+      --success-soft: rgba(5, 150, 105, 0.12);
+      --success-text: #065f46;
+      --error: #dc2626;
+      --error-soft: rgba(220, 38, 38, 0.12);
+      --error-text: #991b1b;
+      --warning: #b45309;
+      --shadow: 0 18px 50px rgba(15, 23, 42, 0.12);
     }
 
     * { box-sizing: border-box; }
@@ -91,7 +119,7 @@
       padding: 18px 20px;
       border: 1px solid var(--border);
       border-radius: 18px;
-      background: rgba(15, 23, 42, 0.75);
+      background: var(--panel);
       box-shadow: var(--shadow);
       flex-wrap: wrap;
     }
@@ -159,7 +187,7 @@
 
     .action-btn.primary {
       background: var(--primary);
-      color: #082f49;
+      color: var(--on-primary);
       border-color: transparent;
     }
 
@@ -171,7 +199,7 @@
     }
 
     .card {
-      background: rgba(15, 23, 42, 0.72);
+      background: var(--panel);
       border: 1px solid var(--border);
       border-radius: 20px;
       box-shadow: var(--shadow);
@@ -213,6 +241,26 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+    }
+
+    .theme-toggle {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(148, 163, 184, 0.05);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 1rem;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.15s ease;
+    }
+
+    .theme-toggle:hover {
+      border-color: rgba(125, 211, 252, 0.65);
     }
 
     .sidebar.collapsed {
@@ -259,13 +307,13 @@
     .question-chip.answered-correct {
       background: rgba(52, 211, 153, 0.12);
       border-color: rgba(52, 211, 153, 0.7);
-      color: #d1fae5;
+      color: var(--success-text);
     }
 
     .question-chip.answered-wrong {
       background: rgba(248, 113, 113, 0.12);
       border-color: rgba(248, 113, 113, 0.7);
-      color: #fecaca;
+      color: var(--error-text);
     }
 
     .question-card {
@@ -481,7 +529,7 @@
       margin-left: 8px;
       border-radius: 999px;
       background: var(--primary);
-      color: #082f49;
+      color: var(--on-primary);
       font-size: 0.72rem;
       font-weight: 700;
     }
@@ -560,7 +608,7 @@
 
     .filter-search {
       width: 100%;
-      background: rgba(15, 23, 42, 0.9);
+      background: var(--input-bg);
       color: var(--text);
       border: 1px solid var(--border);
       border-radius: 10px;
@@ -718,6 +766,7 @@
   <main class="container">
     <div class="topbar">
       <a href="/" class="back-link">← Back to home</a>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle light and dark theme">☀️</button>
     </div>
 
     <header class="page-header">
@@ -1209,7 +1258,7 @@
         .catch((error) => {
           console.error(error);
           questionText.textContent = 'The exam file could not be loaded.';
-          optionsWrap.innerHTML = '<p style="color: #fca5a5;">Please serve this site from a local web server or GitHub Pages so the browser can read the exam data.</p>';
+          optionsWrap.innerHTML = '<p style="color: var(--error);">Please serve this site from a local web server or GitHub Pages so the browser can read the exam data.</p>';
           answerPanel.className = 'answer-panel visible error';
           answerPanel.innerHTML = '<h3>Load error</h3><p>Check that the exam JSON file is present in the same folder and served over HTTP.</p>';
           optionExplanations.innerHTML = '';
