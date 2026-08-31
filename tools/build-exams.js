@@ -49,10 +49,13 @@ function parseSet1(markdown) {
       number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
       prompt: '',
       domain: '',
+      difficulty: '',
       options: {},
       correct: '',
       rationale: '',
       optionExplanations: {},
+      bestAnswerReasoning: '',
+      whyNotBest: {},
       sources: []
     };
 
@@ -101,11 +104,14 @@ function parseSet1(markdown) {
 //   <prompt>
 //   A. ...
 //   B. ...
+//   **Difficulty: Foundational|Intermediate|Advanced**
 //   **Answer: A**
 //   **A — correct:** ...
 //   <explanation>
+//   Best-answer reasoning: ...        (correct option only, not always present)
 //   **B:** ...
 //   <explanation>
+//   Why it is not best here: ...      (incorrect options only, not always present)
 //   **Evidence sources:**
 //   - source, passage
 function parseSet2(markdown) {
@@ -134,15 +140,36 @@ function parseSet2(markdown) {
     const promptEnd = optionMatches.length ? optionMatches[0].index : body.length;
     const prompt = normalize(body.slice(promptStart, promptEnd));
 
+    const difficultyMatch = body.match(/\*\*Difficulty:\s*([^*]+)\*\*/);
+    const difficulty = difficultyMatch ? normalize(difficultyMatch[1]) : '';
+
     const answerMatch = body.match(/\*\*Answer:\s*([A-D])\*\*/);
     const correct = answerMatch ? answerMatch[1] : '';
 
     const optionExplanations = {};
+    let bestAnswerReasoning = '';
+    const whyNotBest = {};
     const explanationMatches = [...body.matchAll(
       /\*\*\s*([A-D])\s*(?:—\s*correct)?\s*:\*\*\s*[^\n]+\n\n([\s\S]+?)(?=\n\n\*\*\s*[A-D]\s*(?:—\s*correct)?\s*:\*\*|\n\n\*\*Evidence sources:\*\*|$)/g
     )];
     explanationMatches.forEach((m) => {
-      optionExplanations[m[1]] = normalize(m[2]);
+      const letter = m[1];
+      const raw = m[2];
+
+      const bestMatch = raw.match(/\n\nBest-answer reasoning:\s*([\s\S]+)$/);
+      const whyMatch = raw.match(/\n\nWhy it is not best here:\s*([\s\S]+)$/);
+
+      if (bestMatch) {
+        bestAnswerReasoning = normalize(bestMatch[1]);
+      }
+      if (whyMatch) {
+        whyNotBest[letter] = normalize(whyMatch[1]);
+      }
+
+      const mainText = bestMatch ? raw.slice(0, bestMatch.index)
+        : whyMatch ? raw.slice(0, whyMatch.index)
+        : raw;
+      optionExplanations[letter] = normalize(mainText);
     });
 
     const sourcesBlockMatch = body.match(/\*\*Evidence sources:\*\*\s*\n([\s\S]*)$/);
@@ -155,10 +182,13 @@ function parseSet2(markdown) {
       number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
       prompt,
       domain,
+      difficulty,
       options,
       correct,
       rationale: optionExplanations[correct] || '',
       optionExplanations,
+      bestAnswerReasoning,
+      whyNotBest,
       sources
     });
   });
