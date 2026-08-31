@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// Parses exams/*.md (two different source formats) into a single consistent
-// JSON schema consumed by exam-simulator.html, so the browser never has to
-// regex-parse markdown at runtime.
+// Parses exams/*.md into a single consistent JSON schema consumed by
+// exam-simulator.html, so the browser never has to regex-parse markdown
+// at runtime.
 //
 // Usage: node tools/build-exams.js
 
@@ -14,113 +14,39 @@ function normalize(text) {
   return text.replace(/\s+/g, ' ').trim();
 }
 
-// Unifies both formats' source citations into "Textbook (Year).pdf — PDF p. N"
-// and drops internal passage IDs, which aren't meaningful to a reader.
+// Unifies source citations into "Textbook (Year).pdf — PDF p. N" and drops
+// internal passage IDs, which aren't meaningful to a reader.
 function normalizeSource(text) {
   return normalize(text)
     .replace(/\s*\(PDF p.\s*(\d+)\)/, ' — PDF p. $1')
     .replace(/,\s*passage\s*\d+\s*$/i, '');
 }
 
-// --- Set 1 format ---------------------------------------------------------
-// Paper N — question stem + options only, heading: "### 1. `S01-Q001`"
-// Paper N Answer Key — heading: "### 1. `S01-Q001` — A", then
-//   **Answer:** ...
-//   **Rationale:** ...
-//   **Option explanations**
-//   - A: ...
-//   - B: ...
-//   **Sources:** ...
-function parseSet1(markdown) {
-  const byId = new Map();
-
-  const blocks = markdown.split(/\n(?=### \d+\.\s+`S01-Q\d+`)/);
-
-  blocks.forEach((block) => {
-    const headingMatch = block.match(/^### \d+\.\s+`(S01-Q\d+)`(?:\s+—\s*([A-D]))?/);
-    if (!headingMatch) return;
-
-    const id = headingMatch[1];
-    const answerLetter = headingMatch[2];
-    const body = block.slice(headingMatch[0].length).trim();
-
-    const existing = byId.get(id) || {
-      id,
-      number: Number((id.match(/Q0*(\d+)/) || [])[1] || 0),
-      prompt: '',
-      domain: '',
-      difficulty: '',
-      options: {},
-      correct: '',
-      rationale: '',
-      optionExplanations: {},
-      bestAnswerReasoning: '',
-      whyNotBest: {},
-      sources: []
-    };
-
-    if (!answerLetter) {
-      // Question-stem block (Paper section).
-      const optionPattern = /(^|\n)([A-D])\.\s*([^\n]+(?:\n(?![A-D]\.)[^\n]+)*)/g;
-      const optionMatches = [...body.matchAll(optionPattern)];
-
-      optionMatches.forEach((m) => {
-        existing.options[m[2]] = normalize(m[3]);
-      });
-
-      existing.prompt = optionMatches.length
-        ? normalize(body.slice(0, optionMatches[0].index))
-        : normalize(body);
-    } else {
-      // Answer Key block.
-      existing.correct = answerLetter;
-
-      const explanationBlockMatch = body.match(/\*\*Option explanations\*\*\s*\n([\s\S]*?)(?=\n\*\*Sources:\*\*|$)/);
-      if (explanationBlockMatch) {
-        const lines = [...explanationBlockMatch[1].matchAll(/-\s*([A-D]):\s*([^\n]+)/g)];
-        lines.forEach((m) => {
-          existing.optionExplanations[m[1]] = normalize(m[2]);
-        });
-      }
-
-      existing.rationale = existing.optionExplanations[answerLetter]
-        || normalize((body.match(/\*\*Rationale:\*\*\s*([^\n]+)/) || [])[1] || '');
-
-      const sourcesMatch = body.match(/\*\*Sources:\*\*\s*([^\n]+)/);
-      if (sourcesMatch) {
-        existing.sources = sourcesMatch[1].split(';').map((s) => normalizeSource(s)).filter(Boolean);
-      }
-    }
-
-    byId.set(id, existing);
-  });
-
-  return Array.from(byId.values());
-}
-
-// --- Set 2 format ----------------------------------------------------------
-// Single block per question, heading: "## S02-Q001"
+// Both Set 1 and Set 2 now share one source format: a single block per
+// question, heading "## <idPrefix>-Q001", then:
 //   Domain N · Topic
 //   <prompt>
 //   A. ...
 //   B. ...
 //   **Difficulty: Foundational|Intermediate|Advanced**
+//   **First-pass status: ...**              (optional)
 //   **Answer: A**
 //   **A — correct:** ...
 //   <explanation>
-//   Best-answer reasoning: ...        (correct option only, not always present)
+//   Best-answer reasoning: ...               (correct option, not always present)
 //   **B:** ...
 //   <explanation>
-//   Why it is not best here: ...      (incorrect options only, not always present)
+//   Why it is not best here: ...             (incorrect options, not always present)
 //   **Evidence sources:**
 //   - source, passage
-function parseSet2(markdown) {
+function parseQuestionBlocks(markdown, idPrefix) {
   const byId = new Map();
+  const idPattern = new RegExp(`${idPrefix}-Q\\d+`);
 
-  const blocks = markdown.split(/\n(?=## S02-Q\d+)/);
+  const blocks = markdown.split(new RegExp(`\\n(?=## ${idPrefix}-Q\\d+)`));
 
   blocks.forEach((block) => {
-    const headingMatch = block.match(/^## (S02-Q\d+)/);
+    const headingMatch = block.match(new RegExp(`^## (${idPrefix}-Q\\d+)`));
     if (!headingMatch) return;
 
     const id = headingMatch[1];
@@ -142,6 +68,9 @@ function parseSet2(markdown) {
 
     const difficultyMatch = body.match(/\*\*Difficulty:\s*([^*]+)\*\*/);
     const difficulty = difficultyMatch ? normalize(difficultyMatch[1]) : '';
+
+    const firstPassMatch = body.match(/\*\*First-pass status:\s*([^*]+)\*\*/);
+    const firstPassStatus = firstPassMatch ? normalize(firstPassMatch[1]) : '';
 
     const answerMatch = body.match(/\*\*Answer:\s*([A-D])\*\*/);
     const correct = answerMatch ? answerMatch[1] : '';
@@ -183,6 +112,7 @@ function parseSet2(markdown) {
       prompt,
       domain,
       difficulty,
+      firstPassStatus,
       options,
       correct,
       rationale: optionExplanations[correct] || '',
@@ -206,11 +136,11 @@ function finalize(questions, title) {
   };
 }
 
-function build(mdFile, parser, title, outFile) {
+function build(mdFile, idPrefix, title, outFile) {
   const mdPath = path.join(EXAMS_DIR, mdFile);
   const outPath = path.join(EXAMS_DIR, outFile);
   const markdown = fs.readFileSync(mdPath, 'utf8');
-  const data = finalize(parser(markdown), title);
+  const data = finalize(parseQuestionBlocks(markdown, idPrefix), title);
 
   const missingRationale = data.questions.filter((q) => !q.correct || !q.rationale);
   if (missingRationale.length) {
@@ -221,5 +151,5 @@ function build(mdFile, parser, title, outFile) {
   console.log(`${mdFile} -> ${outFile}: ${data.questions.length} questions`);
 }
 
-build('exam-set-1-complete-260.md', parseSet1, 'Set 1: Complete exam', 'exam-set-1-complete-260.json');
-build('exam-set-2-alternate-260.md', parseSet2, 'Set 2: Alternate exam', 'exam-set-2-alternate-260.json');
+build('exam-set-1-complete-260.md', 'S01', 'Set 1: Complete exam', 'exam-set-1-complete-260.json');
+build('exam-set-2-alternate-260.md', 'S02', 'Set 2: Alternate exam', 'exam-set-2-alternate-260.json');

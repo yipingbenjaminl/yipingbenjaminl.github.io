@@ -7,6 +7,7 @@
       "prompt": "Which bedside airway-assessment approach most directly estimates the mandibular space available for tongue displacement?",
       "domain": "Domain 1 · Assessment and prediction",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Measure the thyromental distance.",
         "B": "Repeat Mallampati scoring during pregnancy and labor.",
@@ -37,6 +38,7 @@
       "prompt": "Which finding–implication pairing directly describes the consequence of limited mouth opening during direct laryngoscopy?",
       "domain": "Domain 1 · Assessment and prediction",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "A beard — difficulty obtaining a mask seal.",
         "B": "Limited mouth opening — difficult blade insertion and tongue displacement.",
@@ -67,6 +69,7 @@
       "prompt": "A severely obese patient cannot be positioned head-up and will undergo supine preoxygenation with CPAP. Which documented benefit best supports using 10 cm H2O rather than no positive pressure?",
       "domain": "Domain 1 · Preoxygenation and mask ventilation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Combine CPAP during preoxygenation with PEEP and postinduction ventilation to extend nonhypoxemic apnea from 2 to 3 minutes.",
         "B": "Use a 25-degree head-up position rather than supine positioning without positive airway pressure to increase time to desaturation.",
@@ -97,6 +100,7 @@
       "prompt": "Only 30 seconds are available before induction, so the team is weighing a rapid breathing regimen against longer tidal-volume preoxygenation. Which statement captures the four-breath tradeoff?",
       "domain": "Domain 1 · Preoxygenation and mask ventilation",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Eight deep breaths over 1 minute appear to protect against apnea desaturation better than four deep breaths over 30 seconds.",
         "B": "Pregnancy-associated reduced functional residual capacity and increased oxygen consumption accelerate hypoxemia during apnea.",
@@ -127,6 +131,7 @@
       "prompt": "Under the Difficult Airway Society (DAS) 2025 guidelines Plan-A strategy, a hyperangulated videolaryngoscope provides the view but tube delivery remains difficult. Which adjunct is described for use with that blade?",
       "domain": "Domain 1 · Airway devices and intubation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use a flexible bronchoscope as an adjunct with the hyperangulated videolaryngoscope blade.",
         "B": "Use direct laryngoscopy rather than videolaryngoscopy as the first-line technique.",
@@ -160,6 +165,7 @@
       "prompt": "An airway team compares direct and video laryngoscopy for a patient whose laryngeal view has previously been difficult. Which view-related benefit is supported for video laryngoscopy?",
       "domain": "Domain 1 · Airway devices and intubation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A video laryngoscope may show the glottis well while endotracheal-tube passage remains difficult.",
         "B": "Adequate mouth opening is required for video-laryngoscope use.",
@@ -190,6 +196,7 @@
       "prompt": "During adult tracheal-tube exchange, where should the distal tip of an airway exchange catheter ideally be positioned?",
       "domain": "Domain 1 · Difficult-airway rescue",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "In a mainstem bronchus.",
         "B": "At the carina.",
@@ -220,6 +227,7 @@
       "prompt": "Under the Difficult Airway Society (DAS) 2025 guidelines, a second-generation supraglottic airway provides satisfactory ventilation after failed intubation. The operation is essential, but tracheal intubation itself is not. What may be considered?",
       "domain": "Domain 1 · Difficult-airway rescue",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Continue the operation using the supraglottic airway device.",
         "B": "Perform blind tracheal intubation through the supraglottic airway.",
@@ -251,6 +259,7 @@
       "prompt": "A patient with a previously difficult airway is fully responsive and maintaining spontaneous ventilation before planned tube removal. Which physiologic rationale supports an awake extubation approach?",
       "domain": "Domain 1 · Extubation and complications",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Deep extubation avoids coughing and adverse hemodynamic effects but risks obstruction and hypoventilation.",
         "B": "An awake patient more easily maintains a patent airway because pharyngeal tone and airway reflexes recover.",
@@ -281,6 +290,7 @@
       "prompt": "Immediately after extubation, jaw thrust with CPAP has been tried but the upper airway remains obstructed. What next noninvasive airway adjunct is supported before tracheal reintubation?",
       "domain": "Domain 1 · Extubation and complications",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Delay airway opening until the cause of obstruction has been identified and treated.",
         "B": "Proceed immediately to tracheal reintubation without another noninvasive airway-opening measure.",
@@ -313,6 +323,7 @@
       "prompt": "A patient's cardiac output falls after induction. Which framework most completely identifies the direct determinants that should be assessed?",
       "domain": "Domain 2 · Cardiovascular physiology and hemodynamics",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The relation of preload to stroke volume or cardiac output.",
         "B": "Heart rate, preload, myocardial contractility, and afterload.",
@@ -343,6 +354,7 @@
       "prompt": "When estimating left-ventricular coronary perfusion, why is aortic diastolic rather than systolic pressure used as the upstream pressure term?",
       "domain": "Domain 2 · Cardiovascular physiology and hemodynamics",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Because systolic contraction reduces intraventricular pressure and coronary resistance.",
         "B": "Because higher aortic pressure lowers afterload and wall tension.",
@@ -376,6 +388,7 @@
       "prompt": "Across a tissue bed, the pressure difference doubles while vascular resistance remains constant. What happens to blood flow?",
       "domain": "Domain 2 · Cardiovascular physiology and hemodynamics",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "It is unchanged because only viscosity and vessel length determine resistance.",
         "B": "It cannot be determined without mean arterial pressure, right atrial pressure, and cardiac output.",
@@ -406,6 +419,7 @@
       "prompt": "A patient with coronary disease becomes markedly tachycardic and develops ischemic changes despite preserved mean arterial pressure. Which physiological fact best explains the loss of coronary oxygen supply?",
       "domain": "Domain 2 · Ischemic heart disease and perioperative risk",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Seventy to eighty percent of coronary arterial blood flow occurs during diastole.",
         "B": "LV coronary perfusion pressure equals aortic diastolic pressure minus LV end-diastolic pressure.",
@@ -436,6 +450,7 @@
       "prompt": "Under otherwise unchanged conditions, a patient's horizontal ST depression in V5 progresses from 1 mm to 3 mm. Which interpretation is best supported?",
       "domain": "Domain 2 · Ischemic heart disease and perioperative risk",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Both tracings only cross a binary ischemia threshold, so the magnitude adds no information.",
         "B": "The larger ST-segment depression indicates more severe myocardial ischemia.",
@@ -466,6 +481,7 @@
       "prompt": "A patient had PCI 3 years ago and now requires noncardiac surgery. Surgical bleeding risk permits aspirin. What is the preferred perioperative antiplatelet plan?",
       "domain": "Domain 2 · Ischemic heart disease and perioperative risk",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Continue dual antiplatelet therapy because surgery is within 30 days of stent placement.",
         "B": "Treat the patient as being in the highest-risk first 6 weeks after stenting.",
@@ -496,6 +512,7 @@
       "prompt": "Which perioperative scenario most strongly supports continuing a patient's established aspirin therapy?",
       "domain": "Domain 2 · Ischemic heart disease and perioperative risk",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Continuing aspirin through a high-bleeding-risk operation despite a decision to interrupt it.",
         "B": "Stopping aspirin for a minimal-bleeding-risk procedure.",
@@ -526,6 +543,7 @@
       "prompt": "Which definition encompasses both the systolic and diastolic pathways by which left-ventricular dysfunction produces heart failure?",
       "domain": "Domain 2 · Heart failure and cardiomyopathy",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Failure to eject enough blood for metabolic demand or failure to fill without elevated pressure.",
         "B": "Failure of a chamber to collect blood effectively at a normal filling pressure.",
@@ -556,6 +574,7 @@
       "prompt": "A patient has clinical heart failure and a left-ventricular ejection fraction of 52%. Using the passage-defined threshold, which phenotype applies?",
       "domain": "Domain 2 · Heart failure and cardiomyopathy",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Heart failure with reduced ejection fraction.",
         "B": "Heart failure with preserved ejection fraction.",
@@ -586,6 +605,7 @@
       "prompt": "In hypertrophic cardiomyopathy, left-ventricular systolic pressure rises after a premature ventricular contraction while arterial pulse pressure falls. Which change best explains this response?",
       "domain": "Domain 2 · Heart failure and cardiomyopathy",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "An outflow obstruction gradient of at least 30 mm Hg is clinically significant.",
         "B": "Dynamic left-ventricular outflow tract obstruction is a hallmark of hypertrophic cardiomyopathy.",
@@ -616,6 +636,7 @@
       "prompt": "A patient with hypertrophic cardiomyopathy develops hypotension after induction. Which hemodynamic strategy best addresses the obstructive physiology?",
       "domain": "Domain 2 · Valvular disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "For mitral stenosis, maintain heart rate at the low end of normal and avoid and treat tachycardia.",
         "B": "For aortic stenosis, maintain sinus rhythm, a normal heart rate, and adequate preload, afterload, and contractility.",
@@ -649,6 +670,7 @@
       "prompt": "A patient with high-risk aortic stenosis and LV dysfunction is being considered for neuraxial sympathectomy. Which management plan best limits hemodynamic deterioration?",
       "domain": "Domain 2 · Valvular disease",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Avoid myocardial depressants and vasodilators, meticulously maintain preload and afterload, and avoid an abrupt SVR decrease with sympathectomy.",
         "B": "For mitral stenosis, avoid tachyarrhythmias, hypervolemia, and further increases in right-ventricular afterload.",
@@ -681,6 +703,7 @@
       "prompt": "A patient with atrial fibrillation and rheumatic mitral stenosis needs long-term stroke-prevention anticoagulation. Which management option best matches this scenario?",
       "domain": "Domain 2 · Valvular disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use aspirin plus warfarin as the mechanical-heart-valve strategy.",
         "B": "Use warfarin and avoid a direct oral anticoagulant.",
@@ -714,6 +737,7 @@
       "prompt": "During surgery on a patient with an implanted cardioverter-defibrillator, a magnet is applied to address electrocautery interference. What response should be expected?",
       "domain": "Domain 2 · Arrhythmias and CIEDs",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Magnet application induces an asynchronous mode in a majority of pacemakers.",
         "B": "Convert the ICD to an asynchronous pacemaker without affecting its antitachycardia function.",
@@ -746,6 +770,7 @@
       "prompt": "Immediately before induction for elective surgery, a patient develops new-onset atrial fibrillation. Which perioperative plan is most appropriate if the operation can be deferred?",
       "domain": "Domain 2 · Arrhythmias and CIEDs",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use esmolol for ventricular-rate control and to increase conversion to sinus rhythm from 8% to 34%.",
         "B": "Control the ventricular response rate as the immediate goal in new-onset atrial fibrillation.",
@@ -779,6 +804,7 @@
       "prompt": "According to Stoelting P&P, 6th edition, an adult cardiac-surgery team discusses whether an ACT threshold of 360 seconds can ever be accepted during cardiopulmonary bypass. Which interpretation matches the supplied evidence?",
       "domain": "Domain 2 · Cardiac surgery and CPB",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "An ACT longer than 350 seconds is sometimes considered adequate, although it is not the target used by most centers.",
         "B": "In children, an ACT below 300 seconds despite standard heparin raises suspicion for antithrombin III deficiency.",
@@ -811,6 +837,7 @@
       "prompt": "After cardiopulmonary bypass, new ventricular dysfunction follows an episode in which air, thrombus, or calcium could have entered the coronary circulation. Which recognized ischemic etiology should be considered?",
       "domain": "Domain 2 · Cardiac surgery and CPB",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Kinked or clotted grafts are recognized technical ischemic causes of post-bypass ventricular dysfunction.",
         "B": "Coronary embolism from air, thrombus, or calcium can cause the post-bypass ventricular dysfunction.",
@@ -841,6 +868,7 @@
       "prompt": "During the checklist before separation from cardiopulmonary bypass, which item specifically addresses volatile-anesthetic delivery?",
       "domain": "Domain 2 · Cardiac surgery and CPB",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Confirm that the heart is de-aired by checking lead II and TEE.",
         "B": "Assess vascular resistance because CPB flow is proportional to mean arterial pressure divided by resistance.",
@@ -871,6 +899,7 @@
       "prompt": "During thoracoabdominal aortic surgery, the team wants a spinal-cord-protection technique that lowers spinal-cord metabolic demand. Which approach matches the supplied evidence?",
       "domain": "Domain 2 · Vascular aortic and carotid anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use cerebrospinal-fluid drainage for spinal-cord protection during thoracoabdominal aortic surgery.",
         "B": "Maintain proximal hypertension during aortic cross-clamping for spinal-cord protection.",
@@ -901,6 +930,7 @@
       "prompt": "Which monitoring modality used during carotid endarterectomy is described as a poor indicator of cerebral-perfusion adequacy?",
       "domain": "Domain 2 · Vascular aortic and carotid anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Carotid stump pressure.",
         "B": "Transcranial Doppler ultrasonography.",
@@ -931,6 +961,7 @@
       "prompt": "During carotid clamping in a patient with severe contralateral carotid disease and no neurophysiologic monitor, which blood-pressure response is advised?",
       "domain": "Domain 2 · Vascular aortic and carotid anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "If a patient becomes agitated, confused, or unresponsive following carotid occlusion during awake carotid surgery, the anesthesiologist should increase systemic blood pressure up to 20% greater than preoperative values.",
         "B": "Induce hypertension to approximately 10%–20% above baseline during clamping.",
@@ -964,6 +995,7 @@
       "prompt": "In a structured ICU handoff, which intervention is the most direct safety benefit of implementing a formal protocol?",
       "domain": "Domain 3 · Quality human factors and systems safety",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The handoff process is intended to be strictly sequential, with monitoring transferred before ventilator transfer, and all phase 1 items completed before information transfer.",
         "B": "During phase 2 of the handoff, the anesthesiologist presents patient-specific information including age, weight, medical and surgical history, allergy status, baseline vital signs, pertinent laboratory results, diagnosis, current condition, and vital signs.",
@@ -994,6 +1026,7 @@
       "prompt": "In the text's discrete list of personal factors predisposing to anesthesia error, which set includes production pressure?",
       "domain": "Domain 3 · Quality human factors and systems safety",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Expertise or procedural familiarity, distraction, fatigue, and production pressure.",
         "B": "Faulty clinical decision-making identified in 54% of reviewed airway medicolegal cases.",
@@ -1026,6 +1059,7 @@
       "prompt": "Which departmental adverse-event reporting policy best supports a nonpunitive learning culture?",
       "domain": "Domain 3 · Quality human factors and systems safety",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Discourage departmental adverse-event reporting.",
         "B": "Encourage voluntary reporting without threat of punishment.",
@@ -1059,6 +1093,7 @@
       "prompt": "According to Miller’s Anesthesia, 10th edition, a grade 1–2 hypersensitivity reaction has generalized urticaria or angioedema without hemodynamic compromise. Which treatment relationship is stated?",
       "domain": "Domain 3 · Anesthetic complications and crises",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "For grade 5 anaphylaxis presenting as cardiopulmonary arrest, advanced cardiac life support methods are used.",
         "B": "For grade 4 (severe) anaphylaxis, epinephrine 0.01 mg/kg IM is given, and if there is no response, an epinephrine infusion is started, along with a 1 L crystalloid bolus repeated if no response and vasopressin for persistent hypotension lasting more than 10 minutes.",
@@ -1089,6 +1124,7 @@
       "prompt": "During venous air embolism, what pattern is expected when exhaled nitrogen concentration is monitored?",
       "domain": "Domain 3 · Anesthetic complications and crises",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "A gradual decrease in exhaled nitrogen concentration.",
         "B": "No change in exhaled nitrogen concentration.",
@@ -1119,6 +1155,7 @@
       "prompt": "At the first signs of local-anesthetic systemic toxicity, help has already been summoned. Which immediate airway and oxygenation action should follow?",
       "domain": "Domain 3 · Anesthetic complications and crises",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Secure the airway and ventilate with 100% oxygen.",
         "B": "Give the 20% lipid-emulsion bolus as the airway intervention.",
@@ -1149,6 +1186,7 @@
       "prompt": "During an acute malignant-hyperthermia crisis, which trigger-related action is required first?",
       "domain": "Domain 3 · Anesthetic complications and crises",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Dysrhythmias during malignant hyperthermia treatment should be controlled with lidocaine while avoiding calcium channel blockers.",
         "B": "Discontinue halogenated inhaled anesthetics and succinylcholine.",
@@ -1179,6 +1217,7 @@
       "prompt": "A patient refuses a recommended anesthetic after discussing alternatives. Which capacity element is being assessed when asking whether the patient appreciates the disorder and consequences?",
       "domain": "Domain 3 · Ethics consent and professionalism",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "The final functional element of competence is whether the patient can communicate a choice.",
         "B": "One functional element of competence is whether the patient can receive and understand treatment-related information.",
@@ -1209,6 +1248,7 @@
       "prompt": "A capacitated patient refuses treatment because other values outweigh the proposed medical outcome. Which interpretation is appropriate?",
       "domain": "Domain 3 · Ethics consent and professionalism",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The majority of patients referred for capacity evaluations are found to have decision-making capacity.",
         "B": "Capacity assessment tools have been shown to be more likely to classify a female or non-White patient as lacking capacity.",
@@ -1239,6 +1279,7 @@
       "prompt": "An adolescent asks to discuss a sensitive health issue without a parent present. Before the issue and its potential risks have been assessed, which initial clinician action best supports trust?",
       "domain": "Domain 3 · Ethics consent and professionalism",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "When confidentiality entails minimal harm, encourage adolescents to be forthright with parents but respect their decision not to be.",
         "B": "When confidentiality may result in serious harm, clinicians may be ethically justified in notifying the parents.",
@@ -1265,6 +1306,7 @@
       "prompt": "A diagnostic test produces a discordant response pattern. Which sensitivity–specificity interpretation matches the supplied evidence?",
       "domain": "Domain 3 · Statistics and evidence",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Given a concordant response, a practitioner can be 88% confident that a positive response is a true positive.",
         "B": "Given a discordant response, a practitioner can be 81% confident that a positive response is a true positive.",
@@ -1295,6 +1337,7 @@
       "prompt": "In a randomized trial, groups receive different levels of care beyond the interventions being evaluated. Which bias does this describe?",
       "domain": "Domain 3 · Statistics and evidence",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Performance bias: systematic differences in care other than the preplanned interventions.",
         "B": "Selection bias in a randomized trial is systematic difference between patients receiving each intervention.",
@@ -1325,6 +1368,7 @@
       "prompt": "For a two-by-two outcome table with A and B in the intervention group and C and D in the comparison group, which formula calculates the risk difference?",
       "domain": "Domain 3 · Statistics and evidence",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Calculate the risk ratio as (A/(A + B)) divided by (C/(C + D)).",
         "B": "A/(A + B) minus C/(C + D).",
@@ -1355,6 +1399,7 @@
       "prompt": "Which readability-level recommendation is intended to improve patient understanding of written and oral risk communication?",
       "domain": "Domain 3 · Adverse outcomes and risk communication",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Track and respond to family emotional cues to reduce cognitive load.",
         "B": "Present risk data using absolute risks and frequencies.",
@@ -1385,6 +1430,7 @@
       "prompt": "After an adverse perioperative outcome, an initial factual disclosure and apology have occurred, but new information continues to emerge. Which communication practice should persist over time?",
       "domain": "Domain 3 · Adverse outcomes and risk communication",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Speculate about which other team member should be blamed.",
         "B": "Repeat the initial known-facts disclosure and simple empathetic apology as though no new information emerged.",
@@ -1415,6 +1461,7 @@
       "prompt": "Which bundle consists of personal protective equipment appropriate for a high-risk occupational exposure?",
       "domain": "Domain 3 · Occupational environmental and infection hazards",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Gloves, gowns, boots, shoe covers, eyewear, masks, and shields.",
         "B": "Wash hands frequently and thoroughly before and after patient care.",
@@ -1445,6 +1492,7 @@
       "prompt": "According to Cote, 7th edition, an anesthesia provider sustains an occupational HIV exposure. When should postexposure prophylaxis be initiated?",
       "domain": "Domain 3 · Occupational environmental and infection hazards",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Wait 24 hours before initiating prophylaxis.",
         "B": "Initiate occupational HIV postexposure prophylaxis within 2 hours; efficacy is thought to diminish after 24–36 hours.",
@@ -1477,6 +1525,7 @@
       "prompt": "Which pre-exposure measure specifically provides hepatitis B immunization and confirms that the healthcare provider developed an antibody response?",
       "domain": "Domain 3 · Occupational environmental and infection hazards",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Wash hands frequently and thoroughly before and after patient care.",
         "B": "Dispose of used sharps immediately in puncture-proof receptacles and do not recap needles.",
@@ -1503,6 +1552,7 @@
       "prompt": "After a large acute myocardial infarction, a patient develops pulmonary edema, cool extremities, low cardiac output, and increased systemic vascular resistance. Which shock type best integrates these findings?",
       "domain": "Domain 4 · Shock and sepsis",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Cardiogenic shock.",
         "B": "Distributive shock.",
@@ -1533,6 +1583,7 @@
       "prompt": "A patient in cardiogenic shock has pulmonary edema and cool extremities. Which hemodynamic profile is expected?",
       "domain": "Domain 4 · Shock and sepsis",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Low cardiac output with increased peripheral resistance from hemorrhage.",
         "B": "Low cardiac output with increased systemic vascular resistance.",
@@ -1563,6 +1614,7 @@
       "prompt": "According to Miller’s Anesthesia, 10th edition, septic shock remains hypotensive after fluid. Which first-line vasopressor relationship is stated?",
       "domain": "Domain 4 · Shock and sepsis",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The initial septic-shock MAP target is 65 mm Hg.",
         "B": "Vasopressin or epinephrine may be added as a second agent when needed.",
@@ -1594,6 +1646,7 @@
       "prompt": "A patient remains hypotensive despite norepinephrine during septic shock. Which mechanism explains the action of an adjunctive vasopressin infusion?",
       "domain": "Domain 4 · Shock and sepsis",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The described low-dose vasopressin regimen is 0.03 U/min.",
         "B": "A randomized trial found no mortality difference when vasopressin and norepinephrine were added to open-label therapy.",
@@ -1624,6 +1677,7 @@
       "prompt": "An ARDS trial compares 6 mL/kg and 12 mL/kg predicted-body-weight ventilation. What comparison was reported?",
       "domain": "Domain 4 · Respiratory failure and ventilation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The ARMA study compared lung-protective ventilation with 12 mL/kg predicted-body-weight ventilation.",
         "B": "Low-tidal-volume ventilation has become standard of care for ARDS.",
@@ -1654,6 +1708,7 @@
       "prompt": "Which statement defines the effect of auto-PEEP specifically in terms of end-expiratory lung volume?",
       "domain": "Domain 4 · Respiratory failure and ventilation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Management may include more expiratory time and a lower tidal volume or respiratory rate.",
         "B": "End-expiratory lung volume remains larger than it would be without auto-PEEP.",
@@ -1684,6 +1739,7 @@
       "prompt": "What does the ratio VD/VT represent?",
       "domain": "Domain 4 · Respiratory failure and ventilation",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Respiratory rate divided by tidal volume.",
         "B": "Tidal volume divided by physiologic dead-space volume.",
@@ -1716,6 +1772,7 @@
       "prompt": "A septic patient develops dysfunction in neurologic, cardiovascular, respiratory, renal, liver, and hematologic systems. Which score summarizes these domains?",
       "domain": "Domain 4 · Multiorgan failure and ICU care",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "SIRS features can occur in trauma, surgery, burns, and pancreatitis.",
         "B": "Sepsis is life-threatening organ dysfunction from dysregulated host response, often involving MODS.",
@@ -1746,6 +1803,7 @@
       "prompt": "An intubated ICU patient has fluctuating inattention and disorganized thinking. Which bedside tool is designed to screen for ICU delirium?",
       "domain": "Domain 4 · Multiorgan failure and ICU care",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "CAM-ICU is a structured screening instrument for ICU delirium diagnosis.",
         "B": "Light sedation and daily awakening trials can shorten ventilation and ICU stay.",
@@ -1776,6 +1834,7 @@
       "prompt": "A patient has new confusion, a respiratory rate of 26 per minute, and a systolic blood pressure of 95 mm Hg. How should this qSOFA screen be interpreted?",
       "domain": "Domain 4 · Multiorgan failure and ICU care",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use serum creatinine above 0.8 mg/dL as a qSOFA criterion.",
         "B": "Require dysfunction in all six full-SOFA organ domains before identifying risk.",
@@ -1806,6 +1865,7 @@
       "prompt": "During adult CPR, which minimum compression-depth target is required for high-quality compressions?",
       "domain": "Domain 4 · Cardiac arrest and post-arrest care",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "At least 2 inches (5 cm).",
         "B": "Use a compression rate of 100 to 120 per minute.",
@@ -1836,6 +1896,7 @@
       "prompt": "According to the AHA 2025 Resuscitation Algorithms, waveform capnography during adult cardiac arrest shows a low or decreasing ETCO2. What should the team do?",
       "domain": "Domain 4 · Cardiac arrest and post-arrest care",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "After ROSC, transition to post-cardiac-arrest care.",
         "B": "Promptly reassess CPR quality.",
@@ -1866,6 +1927,7 @@
       "prompt": "Which option correctly states both the CRASH-2 tranexamic-acid dosing regimen and its overall-mortality finding?",
       "domain": "Domain 4 · Trauma resuscitation",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Tranexamic acid reduced deaths due to bleeding in the reported trial.",
         "B": "The trial included 20,211 trauma patients.",
@@ -1896,6 +1958,7 @@
       "prompt": "A patient with suspected unstable pelvic-ring injury remains hypotensive during initial trauma care. Which temporary maneuver can stabilize and tamponade some pelvic fractures?",
       "domain": "Domain 4 · Trauma resuscitation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use preperitoneal packing to rapidly control pelvic-fracture hemorrhage and reduce transfusion and mortality.",
         "B": "Provide greater fluid and blood resuscitation volumes for mechanically unstable pelvic-ring fractures.",
@@ -1926,6 +1989,7 @@
       "prompt": "A neurocritical-care patient has an ICP of 28 mm Hg with impending herniation while definitive ICP-lowering measures are being arranged. Which temporary ventilation target is supported?",
       "domain": "Domain 4 · Neurocritical care",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use short-term hyperventilation to PaCO2 30–35 mm Hg.",
         "B": "Use hyperventilation only as a temporizing measure until other ICP-lowering measures are available.",
@@ -1956,6 +2020,7 @@
       "prompt": "Which agents are listed as hyperosmolar options for intracranial hypertension in the supplied neurocritical-care checklist?",
       "domain": "Domain 4 · Neurocritical care",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Consider barbiturate therapy under EEG monitoring.",
         "B": "Mannitol or hypertonic saline.",
@@ -1986,6 +2051,7 @@
       "prompt": "A patient on VA-ECMO develops rising pulmonary-artery pressure followed by pulmonary edema and hemorrhage. Which ECMO complication best explains this sequence?",
       "domain": "Domain 4 · ECMO organ donation and end-of-life care",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Left-upper-extremity VA-ECMO blood gases may not reflect coronary or cerebral perfusion because of the mixing-cloud location.",
         "B": "Use pulmonary-artery catheter information during VA-ECMO weaning.",
@@ -2016,6 +2082,7 @@
       "prompt": "Before apnea testing for possible brain death, which set of prerequisites must be confirmed?",
       "domain": "Domain 4 · ECMO organ donation and end-of-life care",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Begin the apnea test with PaCO2 40±5 mm Hg and PEEP 5 cm H2O oxygenation.",
         "B": "Rule out all reversible causes of coma before reflex assessment.",
@@ -2046,6 +2113,7 @@
       "prompt": "Under ASA Standard I, what personnel requirement applies during general, regional, and monitored anesthesia care?",
       "domain": "Domain 5 · Standards and basic monitors",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Modify anesthesia based on clinical observations and patient responses to surgery or drugs.",
         "B": "Qualified personnel must be continuously present.",
@@ -2076,6 +2144,7 @@
       "prompt": "A pulse-oximeter site loses a reliable pulsatile signal during peripheral vasoconstriction. Which response directly addresses that problem?",
       "domain": "Domain 5 · Standards and basic monitors",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Evaluate for pediatric endobronchial intubation despite no tube-position concern.",
         "B": "Rely on supplemental oxygen to make desaturation appear sooner during apnea.",
@@ -2106,6 +2175,7 @@
       "prompt": "Why can oscillometric cuff results differ between devices even when cuffs are used across age groups?",
       "domain": "Domain 5 · Standards and basic monitors",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The cuff inflates above systolic pressure and gradually deflates while oscillations are measured.",
         "B": "Oscillometry can satisfy evaluation of arterial pressure and heart rate at least every five minutes.",
@@ -2136,6 +2206,7 @@
       "prompt": "Which equation correctly defines Fick cardiac output when oxygen consumption and the arteriovenous oxygen difference are known?",
       "domain": "Domain 5 · Cardiovascular monitoring",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Fick cardiac output equals oxygen consumption divided by arteriovenous oxygen difference.",
         "B": "The Fick principle was first described by Adolf Fick in 1870.",
@@ -2166,6 +2237,7 @@
       "prompt": "An arterial waveform’s fast-flush response is being assessed after transducer setup. What does the test evaluate?",
       "domain": "Domain 5 · Cardiovascular monitoring",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Damping coefficient is determined from the heights of adjacent oscillation peaks.",
         "B": "A fast-flush test evaluates natural frequency and damping coefficient of an arterial-pressure monitoring system.",
@@ -2196,6 +2268,7 @@
       "prompt": "The monitor shows a CVP waveform synchronized with the ECG. Which event corresponds to the v wave?",
       "domain": "Domain 5 · Cardiovascular monitoring",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Atrial fibrillation causes an absent a wave.",
         "B": "The x descent represents right-atrial relaxation.",
@@ -2226,6 +2299,7 @@
       "prompt": "At the beginning of expiration, which normal capnogram phase is sampled first?",
       "domain": "Domain 5 · Respiratory and gas monitoring",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Phase C-D is the alveolar expiratory plateau and is normally almost horizontal.",
         "B": "A sharp upstroke occurs when CO2-containing gas reaches the sampling site.",
@@ -2256,6 +2330,7 @@
       "prompt": "Immediately after induction, ETCO2 falls near zero and the waveform disappears. Which option gives the appropriately broad differential diagnosis?",
       "domain": "Domain 5 · Respiratory and gas monitoring",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Tube malposition, severe hypotension, pulmonary embolism, cardiac arrest, or circuit disconnection.",
         "B": "Tube malposition alone.",
@@ -2286,6 +2361,7 @@
       "prompt": "A deeply blocked patient has no TOF responses but is being assessed with posttetanic stimulation. What pattern indicates complete peripheral-muscle block?",
       "domain": "Domain 5 · Neurologic and neuromuscular monitoring",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "During moderate block, the first TOF response appears and posttetanic facilitation increases.",
         "B": "In complete peripheral-muscle block, no response occurs to TOF, tetanic, or posttetanic stimulation.",
@@ -2316,6 +2392,7 @@
       "prompt": "Which postoperative complication has been consistently associated with severe intraoperative EEG suppression, including burst suppression?",
       "domain": "Domain 5 · Neurologic and neuromuscular monitoring",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Severe EEG suppression, including burst suppression, is consistently associated with delirium.",
         "B": "Recognize that older patients have decreased cardiovascular reserve.",
@@ -2342,6 +2419,7 @@
       "prompt": "After succinylcholine, four TOF responses remain equal without fade. Which statement about this depolarizing-block assessment is correct?",
       "domain": "Domain 5 · Neurologic and neuromuscular monitoring",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "During partial nondepolarizing block, TOF ratio decreases and fades with block depth.",
         "B": "During partial depolarizing block, TOF fade does not occur and TOF ratio remains 1.0.",
@@ -2372,6 +2450,7 @@
       "prompt": "An anesthesia machine develops rebreathing and erratic circuit pressure. Which broad statement best describes the vulnerability created by the circle system's complex design?",
       "domain": "Domain 5 · Workstations circuits and ventilators",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Recognize that malfunction of unidirectional valves can be life-threatening.",
         "B": "Recognize that circle systems may compromise tidal-volume delivery because they are large and compliant.",
@@ -2402,6 +2481,7 @@
       "prompt": "Which statement correctly identifies the Bain breathing circuit?",
       "domain": "Domain 5 · Workstations circuits and ventilators",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "An unrecognized disconnection or kinking of the inner fresh-gas hose can cause hypercapnia.",
         "B": "Bain fresh-gas inflow must be 2.5 times minute ventilation to prevent rebreathing.",
@@ -2432,6 +2512,7 @@
       "prompt": "When selecting a ventilator mode, which flow pattern comparison supports favoring pressure-controlled over volume-controlled ventilation?",
       "domain": "Domain 5 · Workstations circuits and ventilators",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Pressure-controlled ventilation uses decelerating flow, whereas volume-controlled ventilation uses continuous flow.",
         "B": "Pressure-controlled ventilation has variable tidal volume because of respiratory-circuit compliance and resistance.",
@@ -2462,6 +2543,7 @@
       "prompt": "Which vaporizer-safety feature specifically prevents filling a vaporizer with the wrong volatile anesthetic?",
       "domain": "Domain 5 · Gas vaporizers electrical safety and fire",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Locating the filler port at the maximum safe liquid level minimizes overfilling.",
         "B": "Keyed filling devices prevent filling a vaporizer with the wrong agent.",
@@ -2492,6 +2574,7 @@
       "prompt": "Which triplet contains one example from each operating-room fire-triangle category?",
       "domain": "Domain 5 · Gas vaporizers electrical safety and fire",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Electrosurgery, lasers, and bipolar electrosurgery.",
         "B": "Drapes, gauze, and hair.",
@@ -2522,6 +2605,7 @@
       "prompt": "Which combination best characterizes the echocardiographic physiology of cardiac tamponade?",
       "domain": "Domain 5 · Echocardiography and POCUS",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Right-atrial collapse is an echocardiographic sign of tamponade.",
         "B": "Right-ventricular collapse is an echocardiographic sign of tamponade.",
@@ -2552,6 +2636,7 @@
       "prompt": "A dyspneic patient has diffuse bilateral B-lines moving with preserved lung sliding and no focal liver-like consolidation. Which diagnosis is best supported?",
       "domain": "Domain 5 · Echocardiography and POCUS",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Pulmonary edema.",
         "B": "Normally aerated lung with an A-line pattern.",
@@ -2584,6 +2669,7 @@
       "prompt": "During controlled ventilation, PaCO2 is increased while cerebral perfusion pressure is held constant. Which cerebral-flow response is supported?",
       "domain": "Domain 6 · Cerebral physiology and ICP",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The PaO2 response is a threshold phenomenon rather than continuous.",
         "B": "A maintained PaCO2 permits CBF to increase when PaO2 falls sufficiently.",
@@ -2614,6 +2700,7 @@
       "prompt": "After severe head injury, cerebral autoregulation is absent. Which quantitative relationship between cerebral blood flow and cerebral perfusion pressure is expected?",
       "domain": "Domain 6 · Cerebral physiology and ICP",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "CBF is fixed at approximately 50 mL/100 g/min.",
         "B": "CBF remains constant as CPP changes.",
@@ -2644,6 +2731,7 @@
       "prompt": "An intracranial mass expands after cerebrospinal-fluid compensation is exhausted. Which volume-conservation principle explains why ICP now rises?",
       "domain": "Domain 6 · Cerebral physiology and ICP",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "An increase in one intracranial-volume component must be offset by a decrease in another.",
         "B": "The relevant principle is that normal ICP is 5 to 15 mm Hg.",
@@ -2674,6 +2762,7 @@
       "prompt": "During prolonged controlled hyperventilation for craniotomy, which time-dependent cerebral response should be anticipated?",
       "domain": "Domain 6 · Intracranial surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "PaCO2 should increase after retractors are removed when dural closure permits.",
         "B": "During prolonged hyperventilation, brain pH and CBF return toward normal over 8 to 12 hours despite persistent arterial hypocapnia.",
@@ -2704,6 +2793,7 @@
       "prompt": "During sitting craniotomy, which paired precordial-Doppler and capnography findings support venous air embolism?",
       "domain": "Domain 6 · Intracranial surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Absence of air on echocardiography with a precipitous ETCO2 decrease.",
         "B": "A continuous windmill Doppler murmur with a sudden decrease in exhaled nitrogen.",
@@ -2735,6 +2825,7 @@
       "prompt": "After sitting-position neurosurgery, imaging shows an expanding intracranial air collection producing mass effect. Which complication is present?",
       "domain": "Domain 6 · Intracranial surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Position-related cerebral hypoperfusion.",
         "B": "Tension pneumocephalus.",
@@ -2765,6 +2856,7 @@
       "prompt": "A patient sustains a traumatic spinal-cord injury. Which framework distinguishes the immediate mechanical damage from later injury caused by the body's response?",
       "domain": "Domain 6 · Spine neurotrauma and spinal cord",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Secondary injury accounts for much death and disability after trauma.",
         "B": "Prompt diagnosis and early goal-directed therapy mitigate secondary CNS injury.",
@@ -2795,6 +2887,7 @@
       "prompt": "Following spinal-cord injury, a patient has flaccid areflexia but no hypotension or bradycardia. Which terminology distinguishes this neurologic state from neurogenic shock?",
       "domain": "Domain 6 · Spine neurotrauma and spinal cord",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Cervical spinal injury can occur without visible skeletal injury.",
         "B": "High spinal injuries cause neurogenic shock through vasodilation, loss of cardiac inotropy, and bradycardia from cardiac-fiber denervation.",
@@ -2825,6 +2918,7 @@
       "prompt": "During prone neurosurgery without Mayfield fixation, which headrest plan directly protects the eyes from external pressure?",
       "domain": "Domain 6 · Neurointervention positioning and monitoring",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Use a padded or foam headrest, place the eyes in its opening, and check them frequently for pressure.",
         "B": "Permit impaired venous drainage and elevated intraocular pressure.",
@@ -2855,6 +2949,7 @@
       "prompt": "During cerebral rSO2 monitoring, PaCO2 is changing as ventilation is adjusted. What condition is needed before interpreting the rSO2 trend?",
       "domain": "Domain 6 · Neurointervention positioning and monitoring",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Interpret the value solely from the 0.5- to 3-cm sampling depth.",
         "B": "Establish steady-state ventilation and interpret rSO2 in relation to PaCO2.",
@@ -2885,6 +2980,7 @@
       "prompt": "In a term pregnant patient, which combined physiologic change most increases risk of rapid desaturation during apnea?",
       "domain": "Domain 7 · Maternal physiology and pathology",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A 25-degree back-table elevation can make laryngoscopy easier and aid preoxygenation.",
         "B": "FRC is the primary oxygen reservoir during apnea.",
@@ -2915,6 +3011,7 @@
       "prompt": "During maternal hypotension, which uteroplacental-flow property makes fetal perfusion pressure-dependent?",
       "domain": "Domain 7 · Maternal physiology and pathology",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Uterine and placental blood flow have minimal autoregulation and depend on cardiac output and uterine perfusion pressure.",
         "B": "Term uterine blood flow is about 700 mL/min, approximately 10% of cardiac output.",
@@ -2945,6 +3042,7 @@
       "prompt": "Which paired change in alveolar ventilation and PaCO2 is expected during normal pregnancy?",
       "domain": "Domain 7 · Maternal physiology and pathology",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Only pH and bicarbonate change; alveolar ventilation and PaCO2 do not.",
         "B": "Alveolar ventilation increases by at least 30%, lowering PaCO2 to approximately 28–32 mm Hg.",
@@ -2975,6 +3073,7 @@
       "prompt": "Which combined spinal–epidural feature best explains its role in labor analgesia?",
       "domain": "Domain 7 · Labor analgesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Intrathecal fentanyl or sufentanil with bupivacaine provides 90–120 minutes of analgesia with minimal motor block.",
         "B": "Continuous epidural analgesia may maintain analgesia after spinal injection.",
@@ -3005,6 +3104,7 @@
       "prompt": "A hemodynamically stable woman with combined spinal–epidural labor analgesia asks whether ambulation improves labor or neonatal outcomes compared with bed rest. Which trial summary is most accurate?",
       "domain": "Domain 7 · Labor analgesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Ambulation shortened labor and reduced oxytocin augmentation.",
         "B": "The comparative outcome is determined only by indirect maternal effects on the fetus.",
@@ -3035,6 +3135,7 @@
       "prompt": "A healthy laboring patient requests epidural analgesia early in labor. Which timing principle should guide initiation?",
       "domain": "Domain 7 · Labor analgesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Maternal request is sufficient justification to initiate labor epidural analgesia; timing should not depend on arbitrary cervical dilation.",
         "B": "Lumbar epidural analgesia is a safe and effective mainstay of labor pain relief.",
@@ -3065,6 +3166,7 @@
       "prompt": "For cesarean delivery, which neuraxial feature most directly favors spinal over epidural anesthesia when rapid dense surgical anesthesia is needed?",
       "domain": "Domain 7 · Cesarean delivery",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Spinal anesthesia is usually administered as a single-injection, single-shot procedure.",
         "B": "Spinal anesthesia provides rapid, dense, generally more profound neuroblockade than epidural anesthesia for cesarean delivery.",
@@ -3095,6 +3197,7 @@
       "prompt": "According to Miller’s Anesthesia, 10th edition, which combined strategy is recommended to prevent spinal hypotension during cesarean delivery?",
       "domain": "Domain 7 · Cesarean delivery",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Use phenylephrine as the vasopressor of choice for treatment, with prophylactic infusion increasingly supported.",
         "B": "Account for phenylephrine's potential reflex maternal slowing of the heart rate and decreased cardiac output.",
@@ -3125,6 +3228,7 @@
       "prompt": "A pregnant patient requires general anesthesia for cesarean delivery. Which interpretation best distinguishes volatile-anesthetic MAC from the dose needed to produce hypnosis?",
       "domain": "Domain 7 · Cesarean delivery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Interpret the pregnancy-associated MAC decrease as a decreased inhaled-anesthetic requirement.",
         "B": "One study found no difference in bispectral-index values between pregnant cesarean and nonpregnant gynecologic groups.",
@@ -3155,6 +3259,7 @@
       "prompt": "According to Chestnut’s Obstetric Anesthesia, 6th edition, uterine atony is suspected immediately after delivery. While the oxytocin infusion continues and before second-line uterotonics are administered, which initial bedside maneuver is appropriate?",
       "domain": "Domain 7 · Obstetric hemorrhage and transfusion",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "If oxytocin response is inadequate, employ additional uterotonic agents.",
         "B": "Use oxytocin as first-line prophylaxis for uterine atony after third-trimester delivery.",
@@ -3182,6 +3287,7 @@
       "prompt": "During major obstetric hemorrhage, blood-bank supplies are becoming insufficient. Which statement specifically describes the indication and potential benefit of intraoperative cell salvage in this scenario?",
       "domain": "Domain 7 · Obstetric hemorrhage and transfusion",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "A leucocyte-depletion filter is associated with very low amniotic-fluid contamination risk.",
         "B": "Rapid volume replacement matters more than the particular fluid type.",
@@ -3212,6 +3318,7 @@
       "prompt": "According to Stoelting’s Pharmacology & Physiology in Anesthetic Practice, 6th edition, a patient with preeclampsia is receiving magnesium sulfate. Which monitoring plan best detects toxicity or renal impairment?",
       "domain": "Domain 7 · Hypertensive disorders",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use loading/maintenance dosing with urine-output, respiratory-rate, deep-tendon-reflex, and serum-level monitoring.",
         "B": "Prolonged magnesium administration can cause neonatal lethargy, hypotension, and respiratory depression.",
@@ -3242,6 +3349,7 @@
       "prompt": "According to Stoelting’s Anesthesia and Co-Existing Disease, 8th edition, which option identifies the recommended effective antihypertensive agents for severe-range hypertension during pregnancy?",
       "domain": "Domain 7 · Hypertensive disorders",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Target systolic pressure below 160 mm Hg and diastolic pressure below 110 mm Hg.",
         "B": "Use hydralazine, labetalol, or nifedipine as effective recommended antihypertensives.",
@@ -3268,6 +3376,7 @@
       "prompt": "During nonobstetric surgery in pregnancy, which positioning intervention is imperative to prevent aortocaval compression?",
       "domain": "Domain 7 · High-risk disease and nonobstetric surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Maternal blood pressure and flow are directly linked to fetal perfusion through the placenta.",
         "B": "A decrease in maternal blood pressure decreases placental and fetal blood flow because uteroplacental flow is not autoregulated.",
@@ -3298,6 +3407,7 @@
       "prompt": "In animal studies of pregnancy with pneumoperitoneum, which finding was reported when maternal ventilation was guided by end-tidal rather than arterial CO2?",
       "domain": "Domain 7 · High-risk disease and nonobstetric surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A clinical study found the same acidosis and tachycardia pattern.",
         "B": "Uteroplacental perfusion increased by 61% at 20-mm Hg pneumoperitoneum.",
@@ -3328,6 +3438,7 @@
       "prompt": "According to the AHA 2025 Cardiac Arrest in Pregnancy Algorithm, if spontaneous circulation has not returned during maternal arrest, what delivery target applies?",
       "domain": "Domain 7 · Emergencies and maternal resuscitation",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Aim for resuscitative delivery by 5 minutes if there is no return of spontaneous circulation, to improve maternal and, when feasible, newborn outcome.",
         "B": "Prioritize early airway management during pregnancy cardiac arrest.",
@@ -3358,6 +3469,7 @@
       "prompt": "According to the AHA 2025 Cardiac Arrest in Pregnancy Algorithm, which bundle best adapts resuscitation to pregnancy?",
       "domain": "Domain 7 · Emergencies and maternal resuscitation",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "If there is no ROSC, set a delivery goal of 5 minutes.",
         "B": "Use indicated defibrillation, address the arrest etiology, prioritize early airway management, place IV access above the diaphragm, and stop magnesium and give calcium when applicable.",
@@ -3388,6 +3500,7 @@
       "prompt": "According to Barash’s Clinical Anesthesia, 9th edition, a term newborn is breathing or crying with good tone. What cord-management plan is supported?",
       "domain": "Domain 7 · Fetal considerations and neonatal transition",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Begin the newborn appraisal by asking whether gestation was term, whether the newborn is crying or breathing vigorously, and whether tone is good.",
         "B": "Designate one delivery-room team member specifically to care for the newborn at every delivery.",
@@ -3418,6 +3531,7 @@
       "prompt": "During prolonged prone orthopedic surgery, after the head-support device has been selected and positioning completed, which repeated intraoperative safety check is most important?",
       "domain": "Domain 8 · Orthopedics positioning and tourniquets",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Repeatedly verify that the eyes are free of pressure, the airway is secure, and head weight rests only on bony facial prominences.",
         "B": "Support the forehead and malar regions with a horseshoe headrest while maintaining reasonable airway access.",
@@ -3444,6 +3558,7 @@
       "prompt": "During limb surgery under a regional anesthetic that is otherwise adequate, when can tourniquet pain emerge?",
       "domain": "Domain 8 · Orthopedics positioning and tourniquets",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "A thigh tourniquet is routinely inflated during total knee arthroplasty to reduce blood loss and provide a bloodless field.",
         "B": "Tourniquet pain may occur after 60 minutes despite an adequate regional anesthetic.",
@@ -3474,6 +3589,7 @@
       "prompt": "When setting a pneumatic tourniquet for extremity surgery, which pressure principle best limits ischemic and pressure-related injury while maintaining the surgical field?",
       "domain": "Domain 8 · Orthopedics positioning and tourniquets",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Most clinicians limit tourniquet inflation to a maximum of 1.5–2 hours.",
         "B": "In children, tourniquet pressure may be set 50 mm Hg above Doppler-measured arterial occlusion pressure.",
@@ -3504,6 +3620,7 @@
       "prompt": "In exsanguinating trauma managed with damage-control resuscitation, which outcome interpretation of a balanced 1:1:1 blood-product strategy versus 1:1:2 is best supported?",
       "domain": "Domain 8 · Major trauma assessment and resuscitation",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Damage-control resuscitation supplies clotting factors through plasma transfusion and direct platelet administration.",
         "B": "Tissue injury and endogenous anticoagulants can produce sustained coagulation abnormalities during large-volume resuscitation.",
@@ -3534,6 +3651,7 @@
       "prompt": "After high cervical spinal cord injury, hypotension and bradycardia persist despite no convincing evidence of major hemorrhage. Which shock phenotype is most consistent with the supplied physiology?",
       "domain": "Domain 8 · Major trauma assessment and resuscitation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Neurogenic shock causes bradycardia and vasodilation from loss of central supraspinal sympathetic control.",
         "B": "Biochemical, vascular, and electrolyte changes can worsen spinal-cord lesions for up to 3 days.",
@@ -3565,6 +3683,7 @@
       "prompt": "A patient rescued after prolonged limb compression develops dark urine and rising creatinine. Which crush-syndrome consequence best explains the expected complication pattern?",
       "domain": "Domain 8 · Major trauma assessment and resuscitation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Mannitol osmotic diuresis and sodium-bicarbonate urine alkalization remain controversial.",
         "B": "Severe rhabdomyolysis may produce a total body fluid deficit of 15 L.",
@@ -3595,6 +3714,7 @@
       "prompt": "A patient has severe facial burns with suspected upper-airway inhalation injury and progressive edema. Which early airway plan is supported?",
       "domain": "Domain 8 · Burns",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Prophylactic intubation is indicated when severe facial or pulmonary burns and upper-airway inhalation injury are suspected.",
         "B": "Burn-airway deterioration occurs rapidly because upper-airway epithelium swells precipitously in the first hours.",
@@ -3625,6 +3745,7 @@
       "prompt": "Which hemodynamic profile describes burn shock?",
       "domain": "Domain 8 · Burns",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "A hyperdynamic, euvolemic state with increased cardiac output.",
         "B": "A hypodynamic, hypovolemic state with rapid intravascular fluid loss and decreased cardiac output.",
@@ -3655,6 +3776,7 @@
       "prompt": "According to Thrombosis Canada: Orthopedic Surgery Thromboprophylaxis Guidance, which procedure or injury setting is particularly high risk for venous thromboembolism?",
       "domain": "Domain 8 · Analgesia VTE and procedure complications",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Evidence-based thromboprophylaxis reduces DVT risk by at least 50% in these patients.",
         "B": "Recommend extended prophylaxis for 14–35 days after hip or knee arthroplasty or hip-fracture surgery.",
@@ -3685,6 +3807,7 @@
       "prompt": "After spine surgery, which postoperative analgesic plan best reduces opioid exposure and opioid-related adverse effects within an enhanced-recovery pathway?",
       "domain": "Domain 8 · Analgesia VTE and procedure complications",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Select systemic opioids while anticipating respiratory depression, sedation, and gastrointestinal ileus.",
         "B": "Use an indwelling local-anesthetic catheter to prolong analgesia with minimal opioid-related side effects.",
@@ -3716,6 +3839,7 @@
       "prompt": "Which four-factor infant respiratory profile best explains rapid desaturation during anesthetic apnea?",
       "domain": "Domain 9 · Pediatric physiology and pharmacology",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Increased FRC, larger low-resistance airways, a mature sustained hypoxic response, and low oxygen consumption.",
         "B": "Reduced FRC, smaller high-resistance airways, an immature biphasic hypoxic response, and high oxygen consumption.",
@@ -3747,6 +3871,7 @@
       "prompt": "Compared with adults, what volatile-anesthetic potency relationship should be anticipated in children?",
       "domain": "Domain 9 · Pediatric physiology and pharmacology",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Neonates have relatively larger volumes of distribution and lower clearances for most drugs.",
         "B": "Allometric scaling is more accurate for pediatric drug dose requirements than relying on a mg/kg calculation.",
@@ -3777,6 +3902,7 @@
       "prompt": "A neonate receives a highly protein-bound anesthetic. Which pharmacokinetic consequence should be anticipated?",
       "domain": "Domain 9 · Pediatric physiology and pharmacology",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Neonatal protein concentrations reach adult levels by the first year of life.",
         "B": "Clearance per kilogram is greater in a toddler than in an older child.",
@@ -3807,6 +3933,7 @@
       "prompt": "A neonate receiving morphine has greater weight-based respiratory-depression risk than an adult. Which immature barrier feature specifically explains this risk?",
       "domain": "Domain 9 · Pediatric physiology and pharmacology",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Incomplete neonatal blood–brain-barrier function permits greater morphine brain penetration and respiratory depression.",
         "B": "Codeine has approximately one-tenth morphine potency, a separate opioid comparison.",
@@ -3838,6 +3965,7 @@
       "prompt": "When selecting a cuffed or uncuffed tube for a young child, which comparative statement about subglottic airway-trauma risk is supported?",
       "domain": "Domain 9 · Airway and respiratory management",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Cuffed tubes have lower subglottic-trauma risk than uncuffed tubes because they improve CO2 sampling and reduce pollution.",
         "B": "Cuffed versus uncuffed tubes have no documented increase in subglottic airway trauma.",
@@ -3868,6 +3996,7 @@
       "prompt": "Which direct effects of general anesthesia create a physiologic predisposition to rapid desaturation during pediatric emergence?",
       "domain": "Domain 9 · Airway and respiratory management",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Hypoventilation, airway obstruction, bronchospasm, aspiration, and atelectasis can reduce oxygenation during emergence.",
         "B": "Active upper-respiratory infection increases airway reactivity, atelectasis, and secretions, worsening desaturation.",
@@ -3894,6 +4023,7 @@
       "prompt": "A child develops upper-airway obstruction during emergence. Which clinical pattern supports laryngospasm rather than bronchospasm?",
       "domain": "Domain 9 · Airway and respiratory management",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Nebulized levalbuterol or metaproterenol in oxygen can resolve postoperative bronchospasm.",
         "B": "Prolonged expiration or wheezing during forced vital-capacity expiration can reveal airway resistance.",
@@ -3925,6 +4055,7 @@
       "prompt": "A severely hypoxemic neonate has pulmonary hypertension. During immediate ventilatory stabilization, the goal is to reduce pulmonary vascular resistance by correcting hypoxemia and inducing respiratory alkalosis. Which combined intervention accomplishes this?",
       "domain": "Domain 9 · Neonatal anesthesia",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Use hyperventilation to induce respiratory alkalosis together with 100% oxygen.",
         "B": "Ventilate with small tidal volumes and low inflating pressures to avoid a contralateral pneumothorax.",
@@ -3951,6 +4082,7 @@
       "prompt": "A newborn becomes hypoxemic and acidotic while fetal shunt pathways remain open. Which change can reverse the circulation to right-to-left shunting?",
       "domain": "Domain 9 · Neonatal anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Increased afterload closes the foramen-ovale flap valve and reverses ductal shunt direction.",
         "B": "Increased pulmonary vascular reactivity in response to hypoxia and acidosis may precipitate reversal to right-to-left shunting.",
@@ -3981,6 +4113,7 @@
       "prompt": "A cyanotic child with reduced pulmonary blood flow is being induced; anesthetic changes in SVR and PVR may alter shunt flow. Which congenital-heart classification applies?",
       "domain": "Domain 9 · Congenital and coexisting disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A simple right-to-left shunt with decreased pulmonary blood flow and cyanosis.",
         "B": "A complex shunt with mixing of pulmonary and systemic blood flow with cyanosis.",
@@ -4011,6 +4144,7 @@
       "prompt": "A child at high risk for postoperative complications from obstructive sleep apnea is scheduled for adenotonsillectomy. Which perioperative plan is supported?",
       "domain": "Domain 9 · Congenital and coexisting disease",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Use the five-item STBUR tool because it is easy to administer in a busy perioperative clinic.",
         "B": "Operate in a facility capable of treating complex pediatric patients and hospitalize the child overnight for close monitoring.",
@@ -4041,6 +4175,7 @@
       "prompt": "During induction of a child with an obstructing mediastinal mass, airway or cardiovascular obstruction worsens. Which immediate positional rescue should the team be prepared to use?",
       "domain": "Domain 9 · Common pediatric operations",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Select biopsy under local anesthesia when airway or cardiovascular obstruction is present.",
         "B": "Select biopsy under general anesthesia when there is no airway or cardiovascular obstruction.",
@@ -4071,6 +4206,7 @@
       "prompt": "An infant with pyloric stenosis has dehydration, hypochloremic hypokalemic alkalosis, and is not ready for induction. Which correction plan is most appropriate?",
       "domain": "Domain 9 · Common pediatric operations",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Proceed directly to induction because correction is immediate.",
         "B": "Replace free water alone because vomiting loses only water.",
@@ -4101,6 +4237,7 @@
       "prompt": "During prolonged neonatal anesthesia, approximately what endogenous glucose-production rate must gluconeogenesis provide?",
       "domain": "Domain 9 · Fluids blood glucose and temperature",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Approximately 4 mg/kg/min.",
         "B": "A rate equal to 60%–70% of the maternal serum glucose concentration.",
@@ -4131,6 +4268,7 @@
       "prompt": "Why are premature infants and neonates particularly dependent on nonshivering thermogenesis during anesthesia?",
       "domain": "Domain 9 · Fluids blood glucose and temperature",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Regulation of skin blood flow is less efficient in the preterm neonate.",
         "B": "Preterm infants and neonates have minimal muscle mass for shivering, so nonshivering thermogenesis via brown fat is their prime source of generating body heat.",
@@ -4161,6 +4299,7 @@
       "prompt": "Multiple pediatric intercostal injection sites require enough local-anesthetic volume while the total bupivacaine dose remains within the safety limit. Which adjustment is appropriate?",
       "domain": "Domain 9 · Regional anesthesia and analgesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Ignore concentration as long as the maximum dose is 2 mg/kg.",
         "B": "Keep the concentration unchanged and rely only on epinephrine.",
@@ -4191,6 +4330,7 @@
       "prompt": "During an ultrasound-guided pediatric axillary block, which local-anesthetic distribution is called the doughnut sign?",
       "domain": "Domain 9 · Regional anesthesia and analgesia",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Separate injections limited to the median, radial, and ulnar nerves.",
         "B": "Spread only at the anterior, posterior, and lateral aspects of the artery.",
@@ -4221,6 +4361,7 @@
       "prompt": "According to the 2025 AHA/AAP Pediatric Bradycardia With a Pulse Algorithm, a 4-year-old has a heart rate of 52/min with hypotension and altered mental status. Which sequence is indicated for this bradycardia with cardiopulmonary compromise?",
       "domain": "Domain 9 · Emergencies",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "For pediatric bradycardia with cardiopulmonary compromise, maintain the airway, provide oxygen and positive-pressure ventilation, then start CPR if the heart rate remains below 60; give epinephrine if bradycardia persists.",
         "B": "The algorithm lists hypothermia, hypoxia, toxins or medications, increased intracranial pressure, vagal tone, and heart block as possible causes.",
@@ -4251,6 +4392,7 @@
       "prompt": "A patient with insulin-treated diabetes and a creatinine of 2.3 mg/dL is being evaluated before noncardiac surgery. Which statement correctly identifies the predictor set used by the Revised Cardiac Risk Index (RCRI)?",
       "domain": "Domain 10 · Preoperative evaluation testing and risk",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Cardiac complications rise as the number of RCRI risk factors increases.",
         "B": "An RCRI score of 0 carries approximately 0.4% perioperative cardiovascular risk.",
@@ -4281,6 +4423,7 @@
       "prompt": "A patient with unstable angina is being considered for elective noncardiac surgery. Which statement best describes the appropriate preoperative priority?",
       "domain": "Domain 10 · Preoperative evaluation testing and risk",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "For high-risk surgery with multiple risk factors and poor functional capacity, noninvasive stress testing is reasonable if it will change management.",
         "B": "Further-testing decisions depend on the interaction of clinical risk factors, surgery-specific risk, and functional capacity.",
@@ -4312,6 +4455,7 @@
       "prompt": "A patient with known chronic lung disease is being evaluated before a planned thoracic operation. Which statement best describes the role of pulmonary function testing in this setting?",
       "domain": "Domain 10 · Preoperative evaluation testing and risk",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Pulmonary function tests complement preoperative evaluation and risk stratification in patients with known risk factors, preexisting lung disease, or planned thoracic surgery.",
         "B": "Active smoking, diffuse wheezing, and productive cough may predict pulmonary complications better than spirometric tests.",
@@ -4343,6 +4487,7 @@
       "prompt": "A 68-year-old with stable symptoms is scheduled for intermediate-risk noncardiac surgery. The team agrees that an abnormal preoperative stress-test result would not change medical therapy or the decision to proceed. Which principle should guide additional cardiovascular testing?",
       "domain": "Domain 10 · Preoperative evaluation testing and risk",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Functional status determines the need for further cardiac workup in patients at elevated perioperative MACE risk.",
         "B": "Preoperative cardiovascular testing should not be performed when its results would not change perioperative management.",
@@ -4374,6 +4519,7 @@
       "prompt": "According to Barash's Clinical Anesthesia, 9th edition, a patient with type 1 diabetes is fasting before surgery. Which insulin plan is supported?",
       "domain": "Domain 10 · Endocrinology and diabetes",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Insulin-pump patients may continue the pump for short operations or switch to intravenous insulin for longer or major operations.",
         "B": "Patients should arrive early and have blood glucose checked on arrival and hourly if surgery is delayed.",
@@ -4405,6 +4551,7 @@
       "prompt": "A patient with pheochromocytoma is being prepared for anesthesia and develops an arrhythmia requiring treatment. Which blockade sequence is essential before adding a beta blocker?",
       "domain": "Domain 10 · Endocrinology and diabetes",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Nicardipine is an alternative preoperative approach for pheochromocytoma.",
         "B": "Pheochromocytoma preparation includes alpha blockade and intravascular volume repletion in norepinephrine-dominant disease.",
@@ -4435,6 +4582,7 @@
       "prompt": "According to A Practice of Anesthesia for Infants and Children, 7th edition (Coté et al.), a patient with hypothalamic-pituitary-adrenal-axis suppression is undergoing a physiologically stressful procedure. Which perioperative steroid plan is supported?",
       "domain": "Domain 10 · Endocrinology and diabetes",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Patients with hypothalamic-pituitary-adrenal-axis suppression or high adrenal-insufficiency risk require stress-dose hydrocortisone for physiologically stressful procedures, with perioperative redosing and postoperative tapering.",
         "B": "The postoperative steroid taper should be planned according to the patient and procedure.",
@@ -4465,6 +4613,7 @@
       "prompt": "In a patient with chronic kidney disease at risk for perioperative acute kidney injury, which prevention principle is most appropriate?",
       "domain": "Domain 10 · Renal disease",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "GFR is the best measure of overall renal function.",
         "B": "Perioperative AKI prevention depends on maintaining adequate renal perfusion and avoiding nephrotoxins.",
@@ -4495,6 +4644,7 @@
       "prompt": "A dialysis-dependent patient is scheduled for elective surgery. Which complete perioperative plan is best?",
       "domain": "Domain 10 · Renal disease",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Dialyze on the operative morning, sample potassium immediately, and use nondominant upper-extremity veins for access.",
         "B": "Dialyze immediately before surgery, supplement potassium from the first postdialysis sample, and preserve access veins.",
@@ -4526,6 +4676,7 @@
       "prompt": "A patient with advanced chronic kidney disease is scheduled for a painful operation and will need opioid analgesia. Which statement specifically addresses opioid-metabolite accumulation and should guide selection?",
       "domain": "Domain 10 · Renal disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Gabapentinoids are renally excreted and must be dose adjusted based on creatinine clearance.",
         "B": "Postoperative urinary retention is a frequent cause of failure to void after surgery.",
@@ -4556,6 +4707,7 @@
       "prompt": "A child with chronic liver disease is being assessed before surgery using a PELD/MELD-style hepatic-reserve score. Which statement correctly describes what the score estimates?",
       "domain": "Domain 10 · Hepatic and gastrointestinal disease",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "PELD and MELD scoring systems assign a score reflecting probability of mortality within the next 3 months.",
         "B": "Interpret the PELD/MELD score as the portal vein's approximately 70% contribution to hepatic blood flow.",
@@ -4587,6 +4739,7 @@
       "prompt": "A patient with portal hypertension and delayed gastric emptying is scheduled for transjugular intrahepatic portosystemic shunt (TIPS) placement and cannot reliably remain still during the procedure. Which statement specifically describes a benefit of general anesthesia for this case?",
       "domain": "Domain 10 · Hepatic and gastrointestinal disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Sedation is commonly used to facilitate TIPS placement.",
         "B": "General anesthesia for TIPS can limit patient movement, control diaphragmatic excursion, and reduce aspiration risk.",
@@ -4617,6 +4770,7 @@
       "prompt": "Which pair names the liver's two vascular inflow sources?",
       "domain": "Domain 10 · Hepatic and gastrointestinal disease",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "At any given time, the liver contains approximately 13% of circulating blood volume.",
         "B": "During the neonatal period, liver function is immature and clearance of most xenobiotics is poor.",
@@ -4647,6 +4801,7 @@
       "prompt": "According to Miller’s Anesthesia, 10th edition, a patient develops fever, flank pain, and dark urine shortly after a transfusion begins. What immediate action is required when a hemolytic transfusion reaction is suspected?",
       "domain": "Domain 10 · Hematology coagulation and transfusion",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Maintain urine output at a minimum of 75–100 mL/h with fluids, mannitol, and possibly furosemide.",
         "B": "Determine platelet count, prothrombin time, partial thromboplastin time, and serum fibrinogen level.",
@@ -4677,6 +4832,7 @@
       "prompt": "Which plan combines avoidance of the principal perioperative sickling triggers with individualized transfusion decision factors?",
       "domain": "Domain 10 · Hematology coagulation and transfusion",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Avoid dehydration, hypothermia, hypoxia, and acidosis; individualize transfusion by baseline hemoglobin, prior complications, disease severity, and surgical stress.",
         "B": "Tourniquets should be avoided if possible to avoid metabolic acidosis and regional hypoxemia.",
@@ -4707,6 +4863,7 @@
       "prompt": "According to the current Thrombosis Canada Clinical Guide: Warfarin, a patient taking warfarin needs emergency reversal before urgent surgery. Which regimen is recommended?",
       "domain": "Domain 10 · Hematology coagulation and transfusion",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Warfarin should be interrupted for most surgery or procedures, with bridging reserved for a small selected high-risk group.",
         "B": "For emergency warfarin reversal, administer intravenous vitamin K together with a four-factor prothrombin complex concentrate.",
@@ -4738,6 +4895,7 @@
       "prompt": "Which option is a multicomponent postoperative delirium-prevention program rather than screening, evidence limitation, or treatment after onset?",
       "domain": "Domain 10 · Geriatrics and frailty",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Preoperative delirium screening with a validated tool.",
         "B": "Sleep support, reorientation and sensory aids, early mobility, pain care, medication reconciliation, and nutrition optimization.",
@@ -4768,6 +4926,7 @@
       "prompt": "Which definition describes the Fried frailty phenotype?",
       "domain": "Domain 10 · Geriatrics and frailty",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "The nine-level Clinical Frailty Scale defines frailty at a Clinical Frailty Scale score of 4 or greater.",
         "B": "Patient frailty is associated with adverse surgical outcomes.",
@@ -4798,6 +4957,7 @@
       "prompt": "According to Barash's Clinical Anesthesia, 9th edition, which postoperative oxygen-and-oximetry plan applies to a hospitalized patient at increased perioperative risk from OSA?",
       "domain": "Domain 10 · Obesity and sleep-disordered breathing",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Patients with confirmed or suspected OSA should be considered at high risk for a difficult airway and postoperative pulmonary complications.",
         "B": "Preoperative initiation of CPAP should be considered, especially in severe OSA.",
@@ -4830,6 +4990,7 @@
       "prompt": "Which statement specifically describes airway resistance and work of breathing during spontaneous ventilation in obesity?",
       "domain": "Domain 10 · Obesity and sleep-disordered breathing",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Both airway resistance and work of breathing are increased.",
         "B": "Supine positioning further reduces FRC and may cause dangerous hypoxemia.",
@@ -4861,6 +5022,7 @@
       "prompt": "A patient with myasthenia gravis requires neuromuscular blockade for tracheal intubation. Which dosing and monitoring plan is most appropriate if a nondepolarizing blocker is necessary?",
       "domain": "Domain 10 · Neuromuscular genetic and uncommon disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Tracheal intubation can often be accomplished without neuromuscular blockers because of intrinsic muscle weakness and volatile-anesthetic relaxation.",
         "B": "If a nondepolarizing neuromuscular blocker is necessary in myasthenia gravis, the initial dose should be decreased by one-half to two-thirds and the response monitored with a peripheral nerve stimulator.",
@@ -4891,6 +5053,7 @@
       "prompt": "A child with a personal or family history suggesting susceptibility to malignant hyperthermia is scheduled for anesthesia. Which anesthetic trigger specifically must be avoided?",
       "domain": "Domain 10 · Neuromuscular genetic and uncommon disease",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Nondepolarizing agents without cardiovascular adverse effects may avoid tachycardia as an early sign of malignant hyperthermia.",
         "B": "Total intravenous anesthesia is the safest general-anesthetic technique for children at risk for malignant hyperthermia.",
@@ -4921,6 +5084,7 @@
       "prompt": "A child with suspected Duchenne muscular dystrophy needs airway management. Which succinylcholine policy best reflects the hyperkalemic cardiac-arrest risk?",
       "domain": "Domain 10 · Neuromuscular genetic and uncommon disease",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Atropine 0.01–0.02 mg/kg IV should precede succinylcholine to decrease arrhythmias, particularly after a second dose.",
         "B": "In infants younger than 1 year, 3 mg/kg IV succinylcholine is appropriate because of the larger volume of distribution.",
@@ -4951,6 +5115,7 @@
       "prompt": "During perioperative anaphylaxis, which mediator-effect profile is correctly matched to histamine?",
       "domain": "Domain 10 · Infection immunology and allergy",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Histamine increases capillary permeability, causes peripheral vasodilation and bronchoconstriction, and produces urticaria.",
         "B": "Prostaglandins cause bronchoconstriction and attract eosinophils.",
@@ -4981,6 +5146,7 @@
       "prompt": "A child has repeated mucosal exposure to latex during prior procedures. Which statement best explains the resulting latex-sensitization mechanism?",
       "domain": "Domain 10 · Infection immunology and allergy",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Latex allergy occurs more frequently in atopic individuals and those with selected fruit and vegetable allergies.",
         "B": "Latex allergy is an acquired immunologic IgE-mediated sensitivity resulting from repeated exposure to latex, usually on mucous membranes.",
@@ -5011,6 +5177,7 @@
       "prompt": "A patient taking a serotonergic antidepressant requires methylene blue for an urgent procedure, and the medication cannot be deferred. Which mechanism specifically explains the perioperative serotonin-toxicity risk from this exposure?",
       "domain": "Domain 10 · Perioperative medication management",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The interaction of meperidine with monoamine-oxidase inhibitors is the most classic drug–drug interaction associated with serotonin syndrome.",
         "B": "High CNS concentrations of serotonin can produce confusion, hyperactivity, memory problems, muscle twitching, sweating, shivering, and fever.",
@@ -5042,6 +5209,7 @@
       "prompt": "During anesthesia, which perioperative situations are supported indications for atropine to treat or prevent bradycardia?",
       "domain": "Domain 10 · Perioperative medication management",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Atropine administered intramuscularly is painful.",
         "B": "Excessive atropine or scopolamine can cause central-nervous-system excitation after crossing the blood–brain barrier.",
@@ -5073,6 +5241,7 @@
       "prompt": "A child develops upper-airway obstruction during recovery from anesthesia. Which mechanism best explains this complication?",
       "domain": "Domain 10 · PACU and postoperative complications",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Anesthetic drugs may further decrease pharyngeal muscle tone, precipitating airway obstruction during recovery from anesthesia.",
         "B": "Postoperative apneic episodes usually involve failure to breathe and/or failure to maintain a patent airway.",
@@ -5103,6 +5272,7 @@
       "prompt": "A child has recurrent postoperative apnea after anesthesia. Which group contains the most common broad categories of causes described in the pediatric anesthesia text?",
       "domain": "Domain 10 · PACU and postoperative complications",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Pharmacologic effects on respirations cannot be avoided because most anesthetic drugs depress the respiratory system directly or indirectly.",
         "B": "The most common causes of postoperative apnea relate to metabolic derangements, pharmacologic effects, or central-nervous-system immaturity.",
@@ -5133,6 +5303,7 @@
       "prompt": "A patient has chronic hyponatremia of more than 48 hours' duration and requires correction before surgery. Which principle should guide the rate of correction?",
       "domain": "Domain 10 · Fluids electrolytes and acid-base",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Brain cells may compensate over time by lowering intracellular osmolality through movement of potassium and organic solutes out of brain cells.",
         "B": "Hyponatremia treatment should be tailored to intravascular volume status, chronicity, and the presence of symptoms.",
@@ -5164,6 +5335,7 @@
       "prompt": "Two patients with PaCO2 of 60 mm Hg have respiratory failure: one developed it abruptly with pH 7.20, and the other has chronic CO2 retention with pH 7.38. Which statement best explains this difference?",
       "domain": "Domain 10 · Fluids electrolytes and acid-base",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Respiratory failure is often accompanied by decreased functional residual capacity and lung compliance, with pulmonary vascular resistance and pulmonary hypertension likely if it persists.",
         "B": "In acute respiratory failure, PaCO2 can be increased, unchanged, or decreased depending on alveolar ventilation relative to metabolic carbon-dioxide production.",
@@ -5194,6 +5366,7 @@
       "prompt": "Compared with systemic opioids, which perioperative regional-analgesia relationship is supported?",
       "domain": "Domain 10 · Perioperative systems and enhanced recovery",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Neuraxial and peripheral regional analgesia can provide superior analgesia and improve outcomes including major morbidity.",
         "B": "Use multimodal agents acting at different mechanisms and nervous-system sites.",
@@ -5224,6 +5397,7 @@
       "prompt": "Two nondepolarizing neuromuscular blockers are compared at equipotent doses. Which statement correctly relates potency measurements to their expected onset?",
       "domain": "Domain 11 · Pharmacokinetics pharmacodynamics and delivery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Efficacy refers to the position of the concentration-response curve on the y-axis, whereas potency refers to relative drug concentration for a particular response.",
         "B": "Efficacy measures the intrinsic ability of a drug to produce a physiologic or clinical effect.",
@@ -5255,6 +5429,7 @@
       "prompt": "A patient receives a propofol infusion for a 4-hour operation, whereas another patient receives propofol continuously for several days in the ICU. Which recovery statement is most accurate after the infusions are stopped?",
       "domain": "Domain 11 · Pharmacokinetics pharmacodynamics and delivery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Remifentanil context-sensitive half-time is independent of infusion duration and is estimated at about 4 minutes.",
         "B": "Context-sensitive half-time is the time for plasma drug concentration to decline by 50% after terminating an infusion of a particular duration.",
@@ -5287,6 +5462,7 @@
       "prompt": "When estimating the half-life of a drug undergoing first-order elimination, which graphical method is supported?",
       "domain": "Domain 11 · Pharmacokinetics pharmacodynamics and delivery",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "A series of concentration-time points on a semilogarithmic graph can determine half-life when the kinetics are first-order exponential.",
         "B": "Context-sensitive half-time is the time for plasma concentration to decrease by 50% after an infusion ends.",
@@ -5318,6 +5494,7 @@
       "prompt": "A highly blood-soluble inhaled anesthetic is producing a slow induction. Which statement captures both the strategy that speeds induction and its safety limitation?",
       "domain": "Domain 11 · Inhaled anesthetics",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A high initial inspired partial pressure offsets uptake and accelerates induction by increasing the rate of rise of alveolar partial pressure.",
         "B": "Increasing inspired partial pressure above the maintenance target can offset high blood solubility and speed induction, but sustained high inspired partial pressure risks anesthetic overdose.",
@@ -5349,6 +5526,7 @@
       "prompt": "A patient with an air-filled intracranial cavity is scheduled to receive nitrous oxide. The surrounding cavity wall is noncompliant. What pressure effect should be anticipated?",
       "domain": "Domain 11 · Inhaled anesthetics",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "The magnitude of nitrous-oxide-related volume or pressure increase is influenced by nitrous-oxide partial pressure, blood flow to the cavity, and duration of administration.",
         "B": "Nitrous oxide entering an air-filled cavity surrounded by a compliant wall, such as a pneumothorax, causes the gas space to expand.",
@@ -5381,6 +5559,7 @@
       "prompt": "Nitrous oxide is stopped abruptly at the end of anesthesia. Which diffusion-related change can lower arterial oxygen tension during recovery?",
       "domain": "Domain 11 · Inhaled anesthetics",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Nitrous-oxide outpouring into alveoli is greatest during the first 1–5 minutes after discontinuation at the end of anesthesia.",
         "B": "Negative middle-ear pressure may develop after nitrous oxide discontinuation and lead to serous otitis.",
@@ -5413,6 +5592,7 @@
       "prompt": "During total intravenous anesthesia with propofol and an opioid, which dosing and monitoring principle best supports adequate hypnosis, antinociception, hemodynamic control, and timely recovery?",
       "domain": "Domain 11 · Intravenous anesthetics and sedatives",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "During TIVA, profound opioid–propofol synergy permits greater doses of a short-context-sensitive-half-time opioid with reduced propofol without compromising recovery time, while dosing regimens and plasma-concentration assessment support antinociceptive, hypnotic, and hemodynamic control.",
         "B": "Combining propofol and remifentanil can produce strikingly synergistic severe respiratory depression.",
@@ -5446,6 +5626,7 @@
       "prompt": "A patient with limited cardiovascular reserve requires intravenous induction. Which statement best characterizes propofol's onset, recovery, and cardiovascular effects?",
       "domain": "Domain 11 · Intravenous anesthetics and sedatives",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Intravenous anesthetics rapidly distribute to highly perfused, vessel-rich tissues.",
         "B": "Propofol has rapid onset and rapid recovery after a bolus because of redistribution, but induction doses can decrease systemic vascular resistance, blood pressure, and cardiac output.",
@@ -5478,6 +5659,7 @@
       "prompt": "A child with severe cardiovascular instability requires induction, and the team is weighing hemodynamic stability against adrenal effects. Which statement best describes etomidate's tradeoff?",
       "domain": "Domain 11 · Intravenous anesthetics and sedatives",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Etomidate can cause pain and myoclonic movements when injected intravenously.",
         "B": "Etomidate is indicated for induction in children with sepsis, cardiac instability, cardiomyopathy, or hypovolemic shock.",
@@ -5509,6 +5691,7 @@
       "prompt": "A neonate requires an opioid infusion whose clearance is not dependent on immature hepatic or renal pathways. Which statement correctly describes remifentanil clearance?",
       "domain": "Domain 11 · Opioids and antagonism",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Clearance expressed per kilogram reaches its zenith at 2 years of age and decreases subsequently.",
         "B": "Clearance is immature in infancy.",
@@ -5539,6 +5722,7 @@
       "prompt": "A patient has moderate postoperative pain in the recovery unit. Which plan best applies an opioid-sparing multimodal analgesia strategy while maintaining adequate analgesia?",
       "domain": "Domain 11 · Opioids and antagonism",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Postoperative pain management should focus on multimodal analgesia using nonopioid analgesics, neuraxial or regional techniques, and opioids titrated to effect.",
         "B": "Patient-controlled epidural or intravenous analgesia may benefit patients with the developmental capability to use those devices.",
@@ -5569,6 +5753,7 @@
       "prompt": "A patient receiving long-term high-dose opioids reports worsening pain despite dose escalation. Which integrated explanation and analgesic principle best applies?",
       "domain": "Domain 11 · Opioids and antagonism",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Opioid-induced hyperalgesia is a paradoxical opioid effect in which pain sensitivity increases.",
         "B": "During long-term or high-dose opioid treatment, opioid-induced hyperalgesia can cause a paradoxical increase in pain, and NMDA-receptor antagonism can reduce opioid tolerance and opioid-induced hyperalgesia.",
@@ -5600,6 +5785,7 @@
       "prompt": "In severe renal and hepatic dysfunction, which nondepolarizing-blocker profile provides organ-independent elimination?",
       "domain": "Domain 11 · Neuromuscular blockers and reversal",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Vecuronium is partly renally eliminated and lasts longer in renal failure.",
         "B": "Approximately 40%–50% of pancuronium is excreted in urine.",
@@ -5631,6 +5817,7 @@
       "prompt": "After nondepolarizing neuromuscular blockade, which monitoring and reversal plan best establishes readiness for tracheal extubation?",
       "domain": "Domain 11 · Neuromuscular blockers and reversal",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "At a train-of-four count of 2 or more, give sugammadex 2 mg/kg and extubate after 2 to 4 minutes without confirming the ratio.",
         "B": "Use head lift and handgrip as sufficient evidence that clinically important residual paralysis is absent.",
@@ -5662,6 +5849,7 @@
       "prompt": "Which statement integrates injection-site vascularity, dose, age, and plasma-protein binding when reducing LAST risk?",
       "domain": "Domain 11 · Local anesthetics and LAST",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Consider site vascularity and anatomy, use a judicious dose, and account for age extremes and low protein binding.",
         "B": "Prevention and risk reduction are the starting point for LAST management.",
@@ -5692,6 +5880,7 @@
       "prompt": "Which statement addresses both ester-versus-amide metabolism and their allergy distinction?",
       "domain": "Domain 11 · Local anesthetics and LAST",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Amide agents have largely supplanted ester agents in modern anesthesia.",
         "B": "Esters use plasma cholinesterase and often form allergenic PABA; common amides use hepatic CYP metabolism and true amide allergy is rare.",
@@ -5724,6 +5913,7 @@
       "prompt": "A patient develops acute hypotension accompanied by bradycardia during anesthesia. Which ephedrine profile best explains its usual role in this situation?",
       "domain": "Domain 11 · Autonomic and cardiovascular pharmacology",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Phenylephrine acts directly at alpha1 receptors and does not depend on presynaptic norepinephrine displacement.",
         "B": "Repeated ephedrine dosing produces tachyphylaxis as presynaptic norepinephrine stores are depleted.",
@@ -5755,6 +5945,7 @@
       "prompt": "A patient needs brief, titratable perioperative heart-rate control during anesthesia. Which beta-blocker profile best supports choosing esmolol?",
       "domain": "Domain 11 · Autonomic and cardiovascular pharmacology",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Esmolol clearance in neonates can be twice that in older children.",
         "B": "A major potential adverse effect of esmolol is hypotension, particularly during bolus therapy.",
@@ -5786,6 +5977,7 @@
       "prompt": "A patient taking a boosted protease-inhibitor regimen is scheduled for surgery and will receive fentanyl, lidocaine, rocuronium, and midazolam. Which interaction statement best anticipates the anesthetic exposure?",
       "domain": "Domain 11 · Special populations and interactions",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Cytochrome inhibition can increase perioperative anesthetic exposure: boosted protease inhibitors strongly inhibit CYP3A4 and increase blood levels of fentanyl, lidocaine, rocuronium, and midazolam; induction or inhibition can likewise alter opioid pharmacokinetics.",
         "B": "Fentanyl is metabolized by CYP3A4/5, and CYP3A4/5 polymorphism affects its pharmacokinetics.",
@@ -5820,6 +6012,7 @@
       "prompt": "A patient takes serotonergic psychiatric medication and a tricyclic antidepressant. Which option addresses both the perioperative serotonin-toxicity interaction and the ketamine–tricyclic hazard?",
       "domain": "Domain 11 · Special populations and interactions",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Many SSRIs have long elimination half-lives that would require more than four weeks of cessation for washout.",
         "B": "Perioperative serotonin toxicity is associated with meperidine/MAOI and phenylpiperidine-opioid interactions, while ketamine in patients taking tricyclic antidepressants can produce acute hypertension and cardiac dysrhythmias.",
@@ -5853,6 +6046,7 @@
       "prompt": "A patient presents after an acetaminophen overdose. The ingestion time is known and the serum level is available. Which treatment plan is appropriate?",
       "domain": "Domain 11 · Toxicology and antidotes",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "N-acetylcysteine has shown no benefit over normal saline hydration for prevention of contrast-induced nephropathy.",
         "B": "Acetaminophen is antipyretic and analgesic but has little, if any, antiinflammatory action.",
@@ -5886,6 +6080,7 @@
       "prompt": "An epidural is planned for surgery requiring a defined thoracic sensory level while limiting excessive cephalad spread. Which dose-and-site principle should guide placement?",
       "domain": "Domain 12 · Neuraxial anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Hyperbaric local anesthetic flows with gravity toward dependent spinal areas.",
         "B": "Choose epidural dose and insertion site to control block spread: small 5–10 mL doses produce a band around the injection site, whereas lumbar injection spreads more cephalad than caudad, so the planned surgical level must be selected accordingly.",
@@ -5918,6 +6113,7 @@
       "prompt": "According to the current Thrombosis Canada Clinical Guide: DOACs: Perioperative Management, a patient taking rivaroxaban is scheduled for spinal or epidural anesthesia. Which interruption schedule applies to this high-bleed-risk procedure?",
       "domain": "Domain 12 · Neuraxial anesthesia",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Resume therapeutic-dose rivaroxaban cautiously after the procedure because the dose is therapeutic.",
         "B": "Take the last rivaroxaban dose 2 days before the procedure, skipping 1 dose.",
@@ -5948,6 +6144,7 @@
       "prompt": "Immediately after an epidural injection, a patient reports a metallic taste and tinnitus and then develops neurologic or cardiovascular deterioration. Which complication best explains this presentation?",
       "domain": "Domain 12 · Neuraxial anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Expected prevention of local-anesthetic toxicity through incremental injection and a marker-containing test dose.",
         "B": "Postdural-puncture headache after lumbar puncture, which is less frequent with a smaller-gauge needle.",
@@ -5980,6 +6177,7 @@
       "prompt": "Three days after prolonged epidural catheterization, a patient develops severe localized backache, fever, and new leg weakness. Which evaluation and treatment pathway is most appropriate?",
       "domain": "Domain 12 · Neuraxial anesthesia",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Suspect epidural abscess, obtain prompt MRI, and arrange urgent decompression/laminectomy when neurologic signs are present, with directed antibiotics.",
         "B": "Start directed antibiotics for a routine 4–6 weeks without tailoring therapy or considering neurologic decompression.",
@@ -6011,6 +6209,7 @@
       "prompt": "Before needle advancement for a peripheral nerve block, which complete practice combines a systematic ultrasound survey with color-Doppler vessel identification?",
       "domain": "Domain 12 · Peripheral blocks and ultrasound",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Small mono-fascicular nerves may be difficult to identify and can resemble small blood vessels.",
         "B": "Systematically scan the area with ultrasound and use color Doppler to identify vascular structures before needle advancement.",
@@ -6043,6 +6242,7 @@
       "prompt": "A patient with limited respiratory reserve needs analgesia for shoulder surgery, and preservation of postoperative hemidiaphragmatic function is important. Which regional strategy is best supported?",
       "domain": "Domain 12 · Peripheral blocks and ultrasound",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Choose supraclavicular block as fully phrenic-sparing because its phrenic palsy incidence is lower than interscalene block.",
         "B": "Use posterior suprascapular plus axillary nerve block for major shoulder surgery because it provides superior analgesia to interscalene block.",
@@ -6074,6 +6274,7 @@
       "prompt": "Which statement best summarizes how ultrasound improves the safety and performance of a pediatric or adult peripheral nerve block?",
       "domain": "Domain 12 · Peripheral blocks and ultrasound",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Ultrasound-guided peripheral nerve blocks can reduce local-anesthetic doses and the number of punctures.",
         "B": "Ultrasound guidance can shorten block onset time and prolong sensory-block duration.",
@@ -6104,6 +6305,7 @@
       "prompt": "A peripheral block is incomplete, and the ultrasound image shows a small structure that could be either the target nerve or a nearby artery. Which troubleshooting plan is most appropriate before further injection?",
       "domain": "Domain 12 · Peripheral blocks and ultrasound",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "When a block is incomplete, rescan dynamically to identify the nerve, use color Doppler because nearby arteries can mimic it, and target injectate immediately before the relevant nerve branch.",
         "B": "Generally, 10–15 mL of local anesthetic is used for this block, although volumes as low as 5 mL can be successful.",
@@ -6134,6 +6336,7 @@
       "prompt": "After an epidural test dose containing approximately 15 mcg epinephrine, which hemodynamic response is expected if the catheter is intravascular?",
       "domain": "Domain 12 · Local anesthetic application and LAST",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Lower-extremity numbness and motor block without a high spinal.",
         "B": "A slight tachycardic or hypertensive response.",
@@ -6164,6 +6367,7 @@
       "prompt": "After an epidural test dose produces no immediate change in vital signs or neurologic status, which safety principle should guide continued catheter dosing?",
       "domain": "Domain 12 · Local anesthetic application and LAST",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Intrathecal injection may produce lower-extremity numbness and motor block without a high spinal block.",
         "B": "Adding approximately 15 mcg of epinephrine makes intravascular placement produce a slight tachycardic or hypertensive response.",
@@ -6194,6 +6398,7 @@
       "prompt": "Neuraxial hematoma is reported more commonly after which block type?",
       "domain": "Domain 12 · Antithrombotic safety",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Epidural block rather than subarachnoid block.",
         "B": "Only blocks involving orthopedic surgery, difficult insertion, or coagulopathy.",
@@ -6225,6 +6430,7 @@
       "prompt": "According to the current Thrombosis Canada Clinical Guide: DOACs: Perioperative Management, a patient taking apixaban is being considered for spinal or epidural anesthesia. Which plan best addresses interruption and safety assessment before proceeding?",
       "domain": "Domain 12 · Antithrombotic safety",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "For high-bleed-risk neuraxial anesthesia, stop rivaroxaban 3 days before surgery.",
         "B": "For high-bleed-risk neuraxial anesthesia, stop apixaban 3 days before the procedure and incorporate renal function plus current platelet/coagulation assessment.",
@@ -6256,6 +6462,7 @@
       "prompt": "After major abdominal or thoracic surgery, which analgesic strategy best supports rehabilitation and accelerated recovery while limiting opioid exposure?",
       "domain": "Domain 12 · Acute pain",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Combine agents acting at different mechanisms and receptors to obtain synergistic analgesia and physiologic benefits.",
         "B": "Use multimodal perioperative recovery because ERAS pathways accelerate recovery and decrease hospital length of stay.",
@@ -6286,6 +6493,7 @@
       "prompt": "A patient has acute postoperative pain and a functioning regional catheter. Which plan best provides opioid-sparing analgesia without withholding opioid coverage when it is needed?",
       "domain": "Domain 12 · Acute pain",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use NSAIDs, acetaminophen, and selective COX-2 inhibitors without considering regional continuation or opioid rescue.",
         "B": "Maintain opioid coverage as needed, but use no nonopioid or regional opioid-sparing component.",
@@ -6316,6 +6524,7 @@
       "prompt": "A patient receiving chronic high-dose opioids develops worsening pain during rapid dose escalation. Which interpretation best distinguishes this pattern from simple opioid tolerance?",
       "domain": "Domain 12 · Chronic pain",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A paradoxical increase in pain during rapid escalation suggests opioid-induced hyperalgesia rather than simple loss of analgesic effect.",
         "B": "Attribute the worsening pain to neuroexcitatory effects in the RVM and PAG caused by rapid opioid reversal.",
@@ -6348,6 +6557,7 @@
       "prompt": "A patient receiving chronic opioids has perioperative localized pain. Which explanation and analgesic implication best reflect chronic-opioid effects on pain modulation?",
       "domain": "Domain 12 · Chronic pain",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Use the finding that dorsal-lateral-funiculus lesions prevent abnormal pain in animals as the perioperative analgesic plan.",
         "B": "Chronic opioids alter descending and spinal pain-modulatory systems; neuraxial or peripheral local-anesthetic techniques can reduce systemic opioid needs.",
@@ -6379,6 +6589,7 @@
       "prompt": "A patient with chronic high-dose opioid therapy has worsening pain despite dose escalation and also has a localized operative pain site. Which integrated analgesic interpretation and strategy is best?",
       "domain": "Domain 12 · Chronic pain",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Assume ordinary analgesic tolerance, which occurs unpredictably in a minority of chronic opioid recipients.",
         "B": "Rotate to another μ-opioid agonist because incomplete cross-tolerance usually reduces opioid dosage.",
@@ -6411,6 +6622,7 @@
       "prompt": "A patient with advanced cancer has multifocal pain and is entering palliative anesthesia planning. Which framework best integrates tumor treatment, analgesic/adjuvant therapy, nociceptive interruption, and the patient’s goals?",
       "domain": "Domain 12 · Cancer and palliative pain",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Limit pain therapy because opioid-related bowel dysfunction may complicate cancer therapy.",
         "B": "Use palliative surgery primarily because it may improve organ function as an ancillary cancer-therapy effect.",
@@ -6441,6 +6653,7 @@
       "prompt": "During controlled ventilation, the PaCO2–PETCO2 gradient widens while airway dead space is otherwise stable. Which interpretation is supported?",
       "domain": "Domain 13 · Respiratory physiology and gas exchange",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Use the inverse PaCO2–alveolar-ventilation relationship to interpret the widening gradient.",
         "B": "Substitute PETCO2 for PaCO2 in the Bohr equation because alveolar dead space is very small.",
@@ -6471,6 +6684,7 @@
       "prompt": "During anesthesia, which integrated profile correctly relates ventilation, wasted ventilation, hypoxic pulmonary vasoconstriction, and arterial oxygenation?",
       "domain": "Domain 13 · Respiratory physiology and gas exchange",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Ventilation to adequately ventilated areas with inadequate blood flow is wasted or dead-space ventilation.",
         "B": "Chronic hypoxemia increases red-cell mass to improve oxygen-carrying capacity.",
@@ -6501,6 +6715,7 @@
       "prompt": "A patient becomes hypoxemic during anesthesia after a reduction in inspired oxygen. Which framework best integrates the major transport mechanisms that should be considered?",
       "domain": "Domain 13 · Respiratory physiology and gas exchange",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Consider low inspired PO2 or hypoventilation lowering PAO2, V/Q mismatch, right-to-left shunt, and diffusion limitation; hypoventilation, V/Q mismatch, and shunt account for most perioperative cases.",
         "B": "Classify ventilation reaching adequately ventilated but poorly perfused regions as wasted dead-space ventilation.",
@@ -6532,6 +6747,7 @@
       "prompt": "A patient with low hemoglobin and reduced cardiac output has impaired systemic oxygen delivery. Which Fick-principle relationships should guide interpretation of delivery and extraction?",
       "domain": "Domain 13 · Respiratory physiology and gas exchange",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Recognize that hemorrhage lowers delivery through both reduced cardiac output and reduced arterial oxygen content.",
         "B": "DO2 = CO × CaO2; VO2 = CO × (CaO2 − CvO2); and oxygen extraction is (CaO2 − CvO2)/CaO2.",
@@ -6563,6 +6779,7 @@
       "prompt": "A patient with restrictive lung disease has low compliance and persistent hypoxemia during mechanical ventilation. Which ventilator strategy is best supported?",
       "domain": "Domain 13 · Respiratory mechanics and ventilation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Delay extubation for tachypnea alone even when gas exchange and other assessments are satisfactory.",
         "B": "Expect rapid, shallow breathing during weaning as the primary ventilator adjustment.",
@@ -6593,6 +6810,7 @@
       "prompt": "During volume-control ventilation, peak airway pressure rises abruptly while plateau pressure is unchanged. Which pressure relationship best localizes the problem?",
       "domain": "Domain 13 · Respiratory mechanics and ventilation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Pressure-control ventilation has no discernible peak-to-plateau difference, making static and dynamic compliance difficult to distinguish.",
         "B": "Static compliance driving pressure is plateau pressure minus PEEP.",
@@ -6624,6 +6842,7 @@
       "prompt": "A mechanically ventilated patient’s expiratory flow remains above zero when the next breath begins. Which adjustment best permits complete lung emptying?",
       "domain": "Domain 13 · Respiratory mechanics and ventilation",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Recognize auto-PEEP and increase expiratory time while reducing tidal volume or respiratory rate.",
         "B": "Measure auto-PEEP with end-expiratory flow interruption on an intensive-care ventilator.",
@@ -6655,6 +6874,7 @@
       "prompt": "A patient with severe COPD is scheduled for major surgery. Which integrated profile best captures the pulmonary physiology and perioperative risk that should shape anesthetic planning?",
       "domain": "Domain 13 · Pulmonary disease and assessment",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Use PFT-predicted values and GOLD criteria to categorize COPD severity as the complete perioperative risk assessment.",
         "B": "Expect air-space enlargement with alveolar-wall destruction, air trapping and hyperinflation, impaired mechanics and gas exchange, and increased risk of postoperative pneumonia, prolonged ventilation, and respiratory failure.",
@@ -6685,6 +6905,7 @@
       "prompt": "During forced expiration in a patient with COPD, which mechanism best explains expiratory flow limitation and the resulting perioperative respiratory concern?",
       "domain": "Domain 13 · Pulmonary disease and assessment",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use PFT-predicted values and GOLD criteria to categorize COPD severity.",
         "B": "Expect severe COPD to produce right-ventricular dysfunction or cor pulmonale that complicates management.",
@@ -6716,6 +6937,7 @@
       "prompt": "During one-lung ventilation, which ventilator plan best limits ventilator-induced injury while maintaining lung-protective pressure targets?",
       "domain": "Domain 13 · Lung isolation and OLV",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use a tidal volume no greater than 6 mL/kg predicted body weight and keep end-inspiratory plateau pressure preferably below 25 cmH2O.",
         "B": "Use low-to-moderate PEEP to prevent atelectrauma during OLV.",
@@ -6747,6 +6969,7 @@
       "prompt": "During one-lung ventilation, which physiologic response helps preserve ventilation-perfusion matching?",
       "domain": "Domain 13 · Lung isolation and OLV",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Pulmonary vascular resistance is lowest at FRC and rises when lung volume moves above or below FRC.",
         "B": "Hypoxic pulmonary vasoconstriction improves ventilation-perfusion matching, although anesthetic interventions can impair it.",
@@ -6778,6 +7001,7 @@
       "prompt": "A patient’s right-upper-lobe bronchus originates close to the carina, making right-sided double-lumen placement vulnerable to obstruction. Which tube choice is most appropriate?",
       "domain": "Domain 13 · Lung isolation and OLV",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Choose a right-sided DLT with a modified cuff or slot that ventilates the right upper lobe.",
         "B": "Choose a right-sided DLT when its slot aligns with the right-upper-lobe bronchus and distal bronchi remain visible.",
@@ -6809,6 +7033,7 @@
       "prompt": "After lung resection with one-lung ventilation, which perioperative strategy best reduces acute lung-injury risk in the reduced residual pulmonary vascular bed?",
       "domain": "Domain 13 · Thoracic procedures",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Treat right pneumonectomy as lower risk than left because left-lung lymphatic drainage is more compromised.",
         "B": "Avoid restrictive fluid management because it has been shown to increase oliguria and acute kidney injury after thoracic surgery.",
@@ -6843,6 +7068,7 @@
       "prompt": "During open pneumonectomy, the pulmonary vascular bed is abruptly reduced and pulmonary-artery clamping produces hemodynamic deterioration. Which consequence should be anticipated?",
       "domain": "Domain 13 · Thoracic procedures",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The right ventricle must pump normal cardiac output through a reduced vascular bed, and clamping can cause acute right-heart overload, dilation, ischemia, or arrhythmia.",
         "B": "High PEEP increases right-ventricular impedance and can cause dilation and decreased contractility.",
@@ -6875,6 +7101,7 @@
       "prompt": "After thoracotomy, a patient has substantial pain and limited respiratory reserve. Which analgesic strategy best limits respiratory depression while improving respiratory function?",
       "domain": "Domain 13 · Thoracic procedures",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use thoracic epidural analgesia because it can reduce respiratory complications and improve movement pain.",
         "B": "Use a paravertebral block, which may cause less respiratory depression than epidural analgesia because it avoids neuraxial opioids and can improve pain, spirometry, and blood gases.",
@@ -6907,6 +7134,7 @@
       "prompt": "A patient develops postoperative hypoxemia after pulmonary-resection thoracotomy with shallow breathing and poor secretion clearance. Which initial management strategy is most appropriate before invasive ventilation?",
       "domain": "Domain 13 · Postoperative pulmonary complications",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Assume atelectasis is inevitable because it has been reported in up to 100% after pulmonary-resection thoracotomy.",
         "B": "Attribute the problem to poor cough and secretion clearance without adding lung-expansion measures.",
@@ -6938,6 +7166,7 @@
       "prompt": "After thoracic surgery for malignancy, a patient develops new dyspnea, tachypnea, hypoxemia, pleuritic chest pain, pulmonary hypertension, and right-ventricular failure. Which diagnosis should be prioritized?",
       "domain": "Domain 13 · Postoperative pulmonary complications",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Wait for autopsy confirmation because pulmonary embolism was found in 19 of 20 early fatal cardiopulmonary-failure cases.",
         "B": "Begin prophylaxis with calf compression and low-dose heparin instead of prioritizing diagnosis of the acute deterioration.",
@@ -6969,6 +7198,7 @@
       "prompt": "Early after lung transplantation, a patient develops pulmonary edema; later surveillance shows a declining FEV1/FVC ratio. Which interpretation best distinguishes graft injury from later graft or airway complications?",
       "domain": "Domain 13 · Bronchoscopy and lung transplantation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Early pulmonary edema suggests primary graft dysfunction, whereas a declining FEV1/FVC ratio may indicate infection, rejection, or bronchial-anastomotic stenosis.",
         "B": "Diagnose primary graft dysfunction solely from the fact that severe cases can be managed with VV-ECMO.",
@@ -7003,6 +7233,7 @@
       "prompt": "According to Barash's Clinical Anesthesia, 9th edition, which complete pre-sedation readiness bundle best satisfies standards for a nonoperating-room anesthesia location?",
       "domain": "Domain 14 · Ambulatory office and NORA",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Transport the patient after NORA to an appropriate PACU with anesthesia-trained personnel accompanying and monitoring the patient.",
         "B": "Use anesthetic and monitoring equipment that meets the same standards as operating-room equipment.",
@@ -7034,6 +7265,7 @@
       "prompt": "After ambulatory anesthesia, what should written discharge instructions provide to support safe recovery at home?",
       "domain": "Domain 14 · Ambulatory office and NORA",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Written instructions should account for early-recovery information retention, specify procedure-related warning signs and actions, and ideally be repeated to the escort.",
         "B": "Patients should be oriented and comfortable with cardiovascular stability before discharge.",
@@ -7064,6 +7296,7 @@
       "prompt": "During office-based sedation, which statement best distinguishes deep sedation from general anesthesia by response and airway requirements?",
       "domain": "Domain 14 · Ambulatory office and NORA",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Moderate sedation preserves a purposeful response to verbal or tactile stimulation.",
         "B": "Deep sedation preserves purposeful response only after repeated or painful stimulation, may require airway intervention, and may leave spontaneous ventilation inadequate; general anesthesia is unrousable to painful stimulus.",
@@ -7094,6 +7327,7 @@
       "prompt": "According to Barash's Clinical Anesthesia, 9th edition, during microlaryngoscopy with an airway laser, which complete plan best reduces airway-fire risk while preserving a workable shared airway?",
       "domain": "Domain 14 · ENT and head-neck",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "In the cited laser model, fire risk increases 2.3-fold for every 10% oxygen-concentration increase above 60%.",
         "B": "Continuous lasing longer than 5 seconds markedly increases airway-fire risk.",
@@ -7126,6 +7360,7 @@
       "prompt": "A patient with severe epistaxis is undergoing bloody nasal/ENT airway control. Which airway-protection measure is most important during laryngoscopy?",
       "domain": "Domain 14 · ENT and head-neck",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Avoid nasal airways in patients at high risk for bleeding because they may cause epistaxis.",
         "B": "Apply oxymetazoline or phenylephrine before nasal-airway insertion to decrease bleeding risk.",
@@ -7157,6 +7392,7 @@
       "prompt": "A patient has severe laryngeal trauma with disrupted airway anatomy. Which approach may be the most prudent way to secure the airway?",
       "domain": "Domain 14 · ENT and head-neck",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Anticipate complete airway loss with intubation, avoid worsening subcutaneous emphysema with positive pressure, coordinate surgical rescue, and consider tracheostomy to secure the airway.",
         "B": "If intubation is attempted after laryngeal trauma, use fiberoptic bronchoscopy with a small endotracheal tube.",
@@ -7187,6 +7423,7 @@
       "prompt": "Which option identifies both a complication from intracranial spread of retrobulbar local anesthetic and a direct ocular-needle injury?",
       "domain": "Domain 14 · Ophthalmic anesthesia",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Peribulbar injection outside the cone reduces retrobulbar hemorrhage and optic-nerve injury.",
         "B": "Progressive brainstem anesthesia and globe perforation with retinal detachment or vitreous hemorrhage.",
@@ -7218,6 +7455,7 @@
       "prompt": "A patient recently underwent vitrectomy and has an intraocular gas bubble. Which anesthetic choice is required?",
       "domain": "Domain 14 · Ophthalmic anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Nitrous oxide and oxygen increase SF6 bubble volume by more than threefold compared with air or oxygen alone.",
         "B": "Patients with intraocular gas should wear a warning tag alerting anesthesiologists to the bubble.",
@@ -7249,6 +7487,7 @@
       "prompt": "During laparoscopic upper-abdominal surgery with high intraabdominal pressure and reverse Trendelenburg, which integrated cardiopulmonary response should be anticipated?",
       "domain": "Domain 14 · GI and hepatobiliary surgery",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "In neonatal pigs, cardiac index decreased by 55% when intraabdominal pressure exceeded 20 mm Hg.",
         "B": "At 15 mm Hg or less, splanchnic compression may increase venous return and cardiac output.",
@@ -7279,6 +7518,7 @@
       "prompt": "For a prolonged or high-risk ERCP performed in the prone position, when aspiration risk or airway inaccessibility makes sedation unsafe, which airway and anesthetic approach is best?",
       "domain": "Domain 14 · GI and hepatobiliary surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Consider general anesthesia with tracheal intubation to protect the airway and maintain access and ventilation.",
         "B": "Patients are usually in the prone position for ERCP.",
@@ -7311,6 +7551,7 @@
       "prompt": "During an open hepatic resection, which plan best limits blood loss while preserving hemodynamic tolerance?",
       "domain": "Domain 14 · GI and hepatobiliary surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "The hepatic veins are a significant source of blood loss during hepatic resection.",
         "B": "During open hepatic resection, low central venous pressure (often below 5 cm H2O) and vascular control can reduce blood loss; portal-triad clamping and total vascular occlusion are effective, with portal-triad clamping better tolerated hemodynamically when intermittent.",
@@ -7343,6 +7584,7 @@
       "prompt": "A patient develops hypertension, bradycardia, pulmonary edema, and neurologic changes during prolonged TURP using hypotonic irrigation. Which interpretation is most appropriate?",
       "domain": "Domain 14 · Genitourinary surgery",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Neuraxial techniques can provide continuous neurologic monitoring during TURP, although spinal hypotension, nausea, and vomiting can mimic TURP-syndrome symptoms.",
         "B": "Glycine irrigant can break down into glyoxylic acid and ammonia, and excessive ammonia can cause encephalopathy.",
@@ -7374,6 +7616,7 @@
       "prompt": "A patient with suspected pheochromocytoma is being prepared for surgery after recurrent blood-pressure instability. Which preparation plan is most appropriate?",
       "domain": "Domain 14 · Genitourinary surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Norepinephrine is the most predominant catecholamine secreted by pediatric pheochromocytomas, whereas only 10% to 20% secrete epinephrine and dopamine.",
         "B": "Calcium-channel blockers may be used as second-line adjuncts when blood pressure is not controlled with alpha blockade or alpha-blocker side effects prevent dose escalation.",
@@ -7406,6 +7649,7 @@
       "prompt": "During liver transplantation, which sequence best anticipates the major hemodynamic transitions from dissection through reperfusion?",
       "domain": "Domain 14 · Transplantation",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "During liver transplantation, dissection commonly produces hypotension from hemorrhage, third-space loss, or mechanical compression; the anhepatic caval clamp reduces preload and cardiac output while increasing systemic vascular resistance; reperfusion can cause a greater-than-30% MAP decrease with myocardial dysfunction, arrhythmias, and bleeding.",
         "B": "The classic liver-transplant approach clamps the suprahepatic and infrahepatic vena cava, portal vein, and hepatic artery, whereas the piggyback technique requires only partial vena-cava clamping.",
@@ -7438,6 +7682,7 @@
       "prompt": "During the anhepatic phase of liver transplantation, the vena cava is cross-clamped. Which hemodynamic pattern should be expected?",
       "domain": "Domain 14 · Transplantation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "A temporary portocaval shunt may attenuate anhepatic hemodynamic changes by preserving portal-vein preload.",
         "B": "During the anhepatic phase, IVC cross-clamping decreases preload, cardiac output, CVP, and pulmonary-artery pressure while increasing systemic vascular resistance.",
@@ -7469,6 +7714,7 @@
       "prompt": "Immediately after liver-graft reperfusion, the MAP falls by more than 30% with arrhythmia and myocardial dysfunction. Which interpretation is most appropriate?",
       "domain": "Domain 14 · Transplantation",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Fibrinolysis after reperfusion is associated with increased tissue plasminogen-activator activity and decreased synthesis of fibrinolysis inhibitors.",
         "B": "Liver-graft reperfusion syndrome is characterized by a greater-than-30% decrease in MAP and may involve myocardial dysfunction, arrhythmias, bleeding, and cardiovascular collapse; nitric-oxide and TNF-alpha release contributes to myocardial dysfunction.",
@@ -7499,6 +7745,7 @@
       "prompt": "Which preoperative plan best integrates the major anesthetic risks of a patient presenting for bariatric surgery?",
       "domain": "Domain 14 · Bariatric surgery",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Obesity-related airway anatomy includes limited atlantoaxial/cervical movement, excess pharyngeal tissue, a short thick neck, and a thick submental fat pad.",
         "B": "The head-up position provides the longest safe apnea period during induction in an obese patient.",
@@ -7531,6 +7778,7 @@
       "prompt": "An obese patient is being preoxygenated before induction and will need to remain supine. Which positioning principle best preserves oxygen reserve during apnea?",
       "domain": "Domain 14 · Bariatric surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Continuous positive airway pressure after tracheal extubation can improve end-expiratory lung volumes in morbidly obese patients.",
         "B": "Functional residual capacity helps determine oxygen reserves, propensity to atelectasis, and biologic effects of mechanical ventilation.",
@@ -7563,6 +7811,7 @@
       "prompt": "During robotic pelvic surgery with CO2 pneumoperitoneum and steep Trendelenburg, airway pressure and intracranial pressure rise while venous return falls. Which integrated explanation is most appropriate?",
       "domain": "Domain 14 · Laparoscopic and robotic surgery",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "During robotic surgery with CO2 pneumoperitoneum and steep Trendelenburg, cephalad diaphragm displacement decreases compliance and FRC and increases airway pressures; increased IAP can reduce venous return/cardiac output and, with Trendelenburg, markedly increase intracranial and intraocular pressure.",
         "B": "At intraabdominal pressures of 15 mm Hg or less, blood is compressed from the splanchnic circulation, increasing venous return and either increasing or not changing cardiac output.",
@@ -7594,6 +7843,7 @@
       "prompt": "During CO2 pneumoperitoneum for laparoscopic surgery, the patient develops increased airway pressure and reduced venous return. Which combined physiologic interpretation is correct?",
       "domain": "Domain 14 · Laparoscopic and robotic surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "In infants and children, pressure- and volume-controlled ventilation with 5 mm Hg PEEP can maintain effective ventilation and gas exchange during laparoscopy.",
         "B": "CO2 pneumoperitoneum increases IAP and can shift the diaphragm cephalad, reducing compliance and FRC; at pressures above 15 mm Hg, IVC compression reduces venous return and cardiac output, with head-up or head-down positioning able to exaggerate cardiovascular changes.",
@@ -7625,6 +7875,7 @@
       "prompt": "During open fetal surgery, which overarching anesthetic goal best balances uterine relaxation with fetal oxygenation?",
       "domain": "Domain 14 · Fetal surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use a volatile-anesthetic concentration greater than 2 MAC when maternal/fetal anesthesia and uterine relaxation require it.",
         "B": "Accept maternal hypotension because placental and fetal blood flow are not autoregulated.",
@@ -7658,6 +7909,7 @@
       "prompt": "Which statement best describes the anesthetic objective of an EXIT procedure during fetal airway intervention?",
       "domain": "Domain 14 · Fetal surgery",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Open fetal surgery requires profound uterine relaxation.",
         "B": "Keep the fetus supported by the placental unit with adequate oxygenation and perfusion during EXIT.",
@@ -7690,6 +7942,7 @@
       "prompt": "A patient with pheochromocytoma cannot tolerate escalating alpha-blocker doses before elective surgery. Which alternative calcium-entry-blocking approach is supported?",
       "domain": "Domain 14 · Endocrine surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Use nicardipine as an alternative calcium-entry-blocking approach for preoperative preparation.",
         "B": "Use alpha-adrenergic blockade with intravascular-volume repletion as the standard preparation.",
@@ -7720,6 +7973,7 @@
       "prompt": "During pheochromocytoma resection, which integrated sequence best anticipates anesthetic instability from induction through tumor removal?",
       "domain": "Domain 14 · Endocrine surgery",
       "difficulty": "Advanced",
+      "firstPassStatus": "",
       "options": {
         "A": "Most patients require 7–14 days of treatment to meet adequate preoperative alpha-blockade criteria.",
         "B": "Establish alpha blockade before beta blockade, anticipate severe hypertension with induction/manipulation, and prepare for severe postexcision hypotension from abrupt catecholamine decline.",
@@ -7751,6 +8005,7 @@
       "prompt": "During prolonged free-flap reconstructive surgery, which perioperative plan best protects flap viability?",
       "domain": "Domain 14 · Plastic and reconstructive surgery",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Doppler ultrasound can contribute to intraoperative and postoperative free-flap monitoring.",
         "B": "A microvascular free flap uses distant donor-site vessels reanastomosed to recipient-site vessels.",
@@ -7782,6 +8037,7 @@
       "prompt": "At high altitude, a patient breathes the same gas mixture by fraction but develops hypoxia. Which physical explanation is correct?",
       "domain": "Domain 14 · Remote extreme-environment and disaster anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Critical care or anesthesia at altitude is further complicated by extreme remoteness.",
         "B": "Given sufficient time, humans can adapt to both hypobaric hypoxia and microgravity.",
@@ -7812,6 +8068,7 @@
       "prompt": "During a disaster with a severe shortage of IV fluids and anesthesia supplies, which resource-triage principle should guide use?",
       "domain": "Domain 14 · Remote extreme-environment and disaster anesthesia",
       "difficulty": "Foundational",
+      "firstPassStatus": "",
       "options": {
         "A": "Confirm patient need before opening scarce resources and triage patients to capable trauma centers when possible.",
         "B": "Keep patients at nearby hospitals rather than triaging them to other trauma centers.",
@@ -7842,6 +8099,7 @@
       "prompt": "During organ procurement from a brain-dead donor, which management goal best preserves transplantable organs?",
       "domain": "Domain 14 · Organ procurement",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "DCD donors have an obligatory hypotensive period before cardiac arrest that compromises organ perfusion.",
         "B": "Actively manage the donor's physiologic alterations and hemodynamic instability; goal-directed management can increase organs transplanted per donor.",
@@ -7873,6 +8131,7 @@
       "prompt": "During maxillofacial anesthesia, a patient aspirates a tooth or dental appliance. Which complication profile should guide airway and postoperative vigilance?",
       "domain": "Domain 14 · Dental and maxillofacial anesthesia",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "Secondary infection is a threat when purulent matter or tissue is aspirated.",
         "B": "Blood aspiration after trauma, epistaxis, or airway surgery can produce radiographic changes out of proportion to clinical signs.",
@@ -7903,6 +8162,7 @@
       "prompt": "According to Barash's Clinical Anesthesia, 9th edition, an interventional-radiology procedure will position the patient's head away from the anesthesiologist and prevent immediate airway access. Which anesthetic plan is best?",
       "domain": "Domain 14 · Interventional radiology and procedural settings",
       "difficulty": "Intermediate",
+      "firstPassStatus": "",
       "options": {
         "A": "NORA standards require oxygen, suction, backup positive-pressure ventilation, monitoring, and immediate resuscitation equipment.",
         "B": "Provide the same standard of care at the NORA site as in the operating room.",
