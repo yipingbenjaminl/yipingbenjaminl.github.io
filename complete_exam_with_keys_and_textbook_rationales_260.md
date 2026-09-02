@@ -1,0 +1,7332 @@
+# S01 — Complete examination with textbook-grounded option rationales
+
+> Exam content and keyed letters are reproduced unchanged from the frozen export. Only the rationale layer was rewritten. Anesthesia textbooks are the exclusive source of truth.
+
+# Paper 1
+
+## S01-Q001
+
+A parturient had Mallampati class II before labour and class III on reassessment before urgent anaesthesia. Which airway-planning interpretation is most appropriate?
+
+A. Use Mallampati with other airway assessments, not as a sole predictor.
+
+B. Reassess Mallampati during pregnancy and labour.
+
+C. Treat a higher Mallampati score as increasing intubation difficulty.
+
+D. Assess mandibular space with thyromental distance.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The changing Mallampati score is a reason to integrate this finding with other airway assessments, not to use it as a standalone predictor. The cited passage reports high false-positive and false-negative rates when Mallampati is used alone. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 764, printed p. 697, passage ID 273626]
+
+**A — correct:** This is the best interpretation because the cited passage directly warns against using Mallampati as the sole difficult-airway predictor. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 764, printed p. 697, passage ID 273626]
+
+**B — true but irrelevant:** Reassessment is supported because scores can change during pregnancy and labour, but reassessment has already occurred and this does not provide the planning interpretation requested. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 764, printed p. 697, passage ID 273626]
+
+**C — incomplete:** A higher score is associated with greater laryngoscopy and intubation difficulty, but this statement omits the cited limitation of using Mallampati alone. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 764, printed p. 697, passage ID 273626]
+
+**D — true but irrelevant:** Thyromental distance is a valid mandibular-space assessment, but it does not interpret the observed change in Mallampati class as the lead-in asks. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 764, printed p. 697, passage ID 273626]
+
+**Evidence sufficiency:** The frozen textbook passage directly supports the key and each distractor as true but less responsive.
+
+**Editorial QA observations:**
+
+- The original explanations mostly restated claims without making the stem-relative exclusions explicit.
+
+## S01-Q002
+
+Which airway examination finding most directly reflects both neck mobility and retrognathia?
+
+A. Mallampati grade
+
+B. A short thyromental distance
+
+C. Limited mouth opening
+
+D. A beard
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A short thyromental distance is the finding that directly reflects both neck mobility and retrognathia, matching the wording of the lead-in. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2302, passage ID 247157]
+
+**A — true but irrelevant:** Mallampati grade describes mouth opening, tongue size, and pharyngeal space, not both neck mobility and retrognathia. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2302, passage ID 247157]
+
+**B — correct:** The cited table directly states that thyromental distance reflects neck mobility and the degree of retrognathia. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2302, passage ID 247157]
+
+**C — less direct:** Limited mouth opening can make blade insertion and tongue displacement difficult, but it does not directly represent both features named in the stem. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2302, passage ID 247157]
+
+**D — true but irrelevant:** A beard is associated with a difficult mask seal, not with direct assessment of neck mobility and retrognathia. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2302, passage ID 247157]
+
+**Evidence sufficiency:** The frozen Barash table directly maps each finding to its airway implication and establishes B as the best match.
+
+## S01-Q003
+
+A markedly obese patient is anaesthetized for urgent surgery. Which complete preoxygenation strategy from the available evidence most prolongs time to desaturation before airway instrumentation?
+
+A. Use 10 cm H2O CPAP during supine preoxygenation.
+
+B. Use 7.5 cm H2O CPAP during 3 minutes of supine preoxygenation.
+
+C. Use a 25-degree head-up position for preoxygenation rather than supine without positive airway pressure.
+
+D. Combine CPAP during preoxygenation with PEEP and ventilation after induction.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem asks which complete strategy most prolongs apnea-desaturation time in an obese patient. The cited study comparison directly supports a 25-degree head-up position over supine preoxygenation without positive airway pressure. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**A — true but irrelevant:** Ten cm H2O CPAP produced higher post-intubation PaO2 and less atelectasis, but that is not the compared positioning strategy asked for. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**B — true but irrelevant:** The 7.5 cm H2O CPAP intervention during 3 minutes of supine preoxygenation did not change time to SpO2 90% desaturation, so it is a true described comparison but less effective than the keyed 25-degree head-up strategy. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**C — correct:** The cited comparison states that 25-degree head-up preoxygenation increases elapsed time to desaturation compared with supine positioning without positive airway pressure. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**D — true but irrelevant:** Combining CPAP before induction with PEEP and ventilation afterward increased nonhypoxemic apnea duration, but it is a different combined intervention than the keyed positioning comparison. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**Evidence sufficiency:** One frozen Miller passage directly supports C and separately describes A, B, and D in their different conditions or comparisons.
+
+## S01-Q004
+
+When time permits before urgent induction in a term pregnant patient at high risk of rapid desaturation, which preoxygenation approach provides the most reliable apnea-desaturation protection?
+
+A. Eight deep breaths over 1 minute
+
+B. No formal preoxygenation because pregnancy already increases oxygen consumption
+
+C. Four maximal breaths over 30 seconds
+
+D. Three minutes of tidal-volume breathing through a tight-fitting face mask
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** For a term pregnant patient at high risk of rapid desaturation, the cited Chestnut passage calls three minutes of tidal-volume breathing through a tight-fitting mask the ideal preoxygenation method. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 600, printed p. 591, passage ID 272842]
+
+**A — less direct:** Eight deep breaths over one minute may protect better than four breaths, but the cited passage still identifies three minutes of tidal-volume breathing as ideal. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 600, printed p. 591, passage ID 272842]
+
+**B — false:** The passage describes pregnancy-associated factors that accelerate apnea desaturation, so they do not justify omitting formal preoxygenation. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 600, printed p. 591, passage ID 272842]
+
+**C — less direct:** Four maximal breaths can achieve a similar PaO2, but the cited passage says they do not provide the same protection against rapid desaturation. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 600, printed p. 591, passage ID 272842]
+
+**D — correct:** The quoted textbook statement directly identifies three minutes of tidal-volume breathing with a tight-fitting face mask as ideal preoxygenation. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 600, printed p. 591, passage ID 272842]
+
+**Evidence sufficiency:** The frozen passage directly compares the recalled breath-count alternatives and identifies the ideal method.
+
+## S01-Q005
+
+According to the Difficult Airway Society (DAS) 2025 guidelines, which device is designated first line to facilitate tracheal intubation during induction in an adult?
+
+A. Video laryngoscope
+
+B. Direct laryngoscope
+
+C. Optical stylet
+
+D. Flexible bronchoscope
+
+**Answer: A**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored evidence includes a non-textbook DAS 2025 guideline claim about first-line videolaryngoscopy. Under the textbook-exclusive contract, the supplied textbook excerpt does not establish that adult first-line designation; no textbook-only keyed rationale is asserted.
+
+**A — evidence limited:** The stored textbook excerpt reports adult video-laryngoscope success compared with direct laryngoscopy, but it does not establish the requested adult first-line designation.
+
+**B — evidence limited:** The stored textbook evidence does not establish that direct laryngoscopy is or is not the designated first-line device for this adult stem.
+
+**C — evidence limited:** The stored textbook evidence does not establish the first-line status of an optical stylet for the specified adult induction scenario.
+
+**D — evidence limited:** The stored textbook evidence does not establish the requested first-line status of a flexible bronchoscope in this adult scenario.
+
+**Evidence sufficiency:** The keyed claim depends on the stored DAS guideline records, which are not permissible authority for this textbook-exclusive batch. Retrieve an adult textbook passage; the exam content remains frozen.
+
+**Editorial QA observations:**
+
+- Non-textbook guideline evidence was intentionally excluded from citation arrays.
+
+## S01-Q011
+
+Along a fixed cardiac function curve, which isolated change increases stroke volume?
+
+A. Increase heart rate while remaining on the same cardiac function curve.
+
+B. Increase preload while remaining on the same cardiac function curve.
+
+C. Increase myocardial contractility and shift to a different curve.
+
+D. Decrease afterload and shift to a different curve.
+
+**Answer: B**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored Miller passage directly states that increasing preload increases stroke volume. The question’s fixed-curve wording makes B the direct answer, but the stored distractor evidence does not fully establish every asserted curve-shift exclusion. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 348, printed p. 279, passage ID 282112]
+
+**A — true but irrelevant:** The cited passage identifies heart rate among factors determining cardiac output, but increasing heart rate is not the isolated preload change that increases stroke volume along the same curve. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 348, printed p. 279, passage ID 282112]
+
+**B — correct:** Miller directly states that increasing preload increases stroke volume, matching the fixed cardiac-function-curve condition. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 348, printed p. 279, passage ID 282112]
+
+**C — evidence limited:** The option proposes increasing myocardial contractility and moving to a different curve, but the stored evidence does not establish that full curve-shift claim; it is therefore not the directly supported preload change in B. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 348, printed p. 279, passage ID 282112]
+
+**D — evidence limited:** The option proposes decreasing afterload and moving to a different curve, but the stored evidence does not adequately establish that curve-shift exclusion; it remains evidence-limited.
+
+**Evidence sufficiency:** B is directly supported, but the frozen evidence packet does not adequately support the full exclusion of D; retrieve a complete textbook passage. The exam content remains frozen.
+
+**Editorial QA observations:**
+
+- Status is evidence_limited because one distractor’s stored quote concerns ESPVR rather than the option’s afterload/curve claim.
+
+## S01-Q012
+
+A patient has an aortic diastolic pressure of 65 mm Hg and a left-ventricular end-diastolic pressure of 15 mm Hg. What is the left-ventricular coronary perfusion pressure?
+
+A. 80 mm Hg
+
+B. 15 mm Hg
+
+C. 50 mm Hg
+
+D. 65 mm Hg
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Left-ventricular coronary perfusion pressure is calculated by subtracting LVEDP from aortic diastolic pressure. Therefore 65 minus 15 equals 50 mm Hg, which is option C. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**A — false:** Eighty mm Hg adds the two pressures, whereas the cited formula requires subtracting LVEDP from aortic diastolic pressure. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**B — false:** Fifteen mm Hg is the LVEDP alone and omits the aortic diastolic pressure term required by the cited perfusion-pressure formula. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**C — correct:** The cited formula gives 65 mm Hg minus 15 mm Hg, yielding a left-ventricular coronary perfusion pressure of 50 mm Hg. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**D — false:** Sixty-five mm Hg uses the aortic diastolic pressure alone and omits the LVEDP subtraction required by the cited formula. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**Evidence sufficiency:** The frozen Miller formula directly establishes C and excludes the alternative arithmetic operations without relying on unrelated distractor claims.
+
+## S01-Q013
+
+A monitor provides MAP, right atrial pressure, and cardiac output. Which relationship calculates systemic vascular resistance?
+
+A. Relate resistance directly to blood viscosity and vessel length.
+
+B. Relate resistance inversely to vessel radius to the fourth power.
+
+C. Relate tissue flow directly to pressure difference and inversely to resistance.
+
+D. (Mean arterial pressure − right atrial pressure) divided by cardiac output.
+
+**Answer: D**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored Stoelting passage directly gives systemic vascular resistance as mean arterial pressure minus right atrial pressure, divided by cardiac output. The formula matches option D, but one stored distractor quotation does not fully quote its asserted radius relationship. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1184, passage ID 313797]
+
+**A — true but irrelevant:** The passage supports resistance being directly proportional to viscosity and vessel length, but this is not the requested MAP/right-atrial-pressure/cardiac-output calculation. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1184, passage ID 313797]
+
+**B — true but irrelevant:** For the frozen B option, the stored Poiseuille relationship is that resistance varies inversely with the fourth power of vessel radius, but this does not answer the pressure-difference-over-resistance flow relationship in C. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1184, passage ID 313797]
+
+**C — true but irrelevant:** The stored evidence describes a flow-resistance relationship, but it does not calculate systemic vascular resistance from the three monitored variables in the stem. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1184, passage ID 313797]
+
+**D — correct:** The cited formula directly states that systemic vascular resistance is MAP minus right atrial pressure divided by cardiac output. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1184, passage ID 313797]
+
+**Evidence sufficiency:** The key and A–C are supported, but the stored quotation for the radius distractor does not entail its full asserted claim; retrieve a complete Poiseuille-law quotation before passing the item.
+
+**Editorial QA observations:**
+
+- Status is evidence_limited because the D distractor evidence record is underquoted, even though the keyed formula is direct.
+
+## S01-Q014
+
+A coronary patient develops elevated LV filling pressure during anesthesia. Which direct consequence most compromises perfusion of the inner ventricular myocardium?
+
+A. Elevated LV end-diastolic pressure impairs blood flow to the inner ventricular myocardium.
+
+B. Higher blood pressure raises coronary flow but also increases afterload, wall tension, and oxygen demand.
+
+C. Coronary arterial blood flow is greatest during diastole.
+
+D. LV coronary perfusion depends on the gradient between aortic diastolic pressure and LVEDP.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem asks for the direct consequence of elevated LVEDP for inner-ventricular perfusion. Miller directly states that elevated LVEDP impedes subendocardial blood flow, making A the stem-specific answer. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**A — correct:** The cited passage directly states that elevations in LVEDP impede subendocardial blood flow, matching the question’s inner-myocardium consequence. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**B — true but irrelevant:** The passage supports this blood-pressure effect on coronary flow, afterload, wall tension, and oxygen demand, but the stem asks specifically about elevated LVEDP and subendocardial flow. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**C — true but irrelevant:** The passage states that 70%–80% of coronary flow occurs during diastole, but this does not identify the direct consequence of elevated LVEDP asked for. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**D — true but irrelevant:** The cited formula correctly describes the coronary-perfusion gradient, but A states the direct perfusion consequence of the elevated LVEDP in this stem. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1936, printed p. 1626, passage ID 289609]
+
+**Evidence sufficiency:** The frozen Miller passage directly supports A and supplies the true but less direct statements in B–D.
+
+## S01-Q015
+
+Which ECG statement best matches the supplied characterization of myocardial ischemia?
+
+A. Traditional ischemia monitoring uses leads II and V5.
+
+B. Myocardial ischemia is characterized by ST-segment elevation or depression of at least 1 mm with T-wave inversion.
+
+C. Greater ST-segment depression parallels greater ischemia severity.
+
+D. Lead V5 reflects ischemia in LAD-supplied left-ventricular myocardium.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The supplied ischemia characterization asks for the statement defining the ECG pattern. The stored passage directly defines ischemia as ST elevation or depression of at least 1 mm with T-wave inversion. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 117, passage ID 232760]
+
+**A — true but irrelevant:** Two-lead monitoring with II and V5 is described as traditional, but it is a monitoring approach rather than the ischemia characterization requested. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 117, passage ID 232760]
+
+**B — correct:** The stored passage directly states the 1-mm ST-segment elevation or depression and T-wave inversion characterization. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 117, passage ID 232760]
+
+**C — true but irrelevant:** The passage supports a relationship between ST-depression degree and ischemia severity, but that does not define the ECG statement requested. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 117, passage ID 232760]
+
+**D — true but irrelevant:** The passage supports V5’s anatomic ischemia territory, but the question asks for the defining ST/T-wave pattern rather than lead localization. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 117, passage ID 232760]
+
+**Evidence sufficiency:** The frozen Stoelting passage directly supports B and the narrower truths in A, C, and D.
+
+## S01-Q016
+
+A patient is two weeks after elective PCI with a bare-metal stent for chronic coronary disease and is scheduled for an elective low-bleeding-risk noncardiac operation. Which perioperative plan best follows current guidance?
+
+A. For surgery during the first 6 weeks after stenting, recognize this as the highest cardiovascular-risk interval when planning timing.
+
+B. For PCI at least 12 months earlier, continue aspirin perioperatively if bleeding risk permits.
+
+C. Delay elective noncardiac surgery until at least 1 month after PCI and continue DAPT during that interval.
+
+D. For time-sensitive surgery within 30 days of BMS placement, generally continue DAPT unless bleeding risk outweighs benefit.
+
+**Answer: C**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored evidence for this source-bound item is a perioperative antiplatelet guideline rather than a textbook. Under the textbook-exclusive contract, the timing and DAPT recommendation cannot be asserted as a sourced rationale here.
+
+**A — evidence limited:** The non-textbook record contains a six-week risk statement, but no permissible textbook citation is attached to this option.
+
+**B — evidence limited:** The non-textbook record contains an aspirin statement, but textbook-only evidence for this timing is not present in the frozen packet.
+
+**C — evidence limited:** The keyed BMS timing and DAPT recommendation depend on the excluded non-textbook record and require textbook retrieval.
+
+**D — evidence limited:** The non-textbook record contains this time-sensitive DAPT statement, but it cannot serve as authority in this textbook-only batch.
+
+**Evidence sufficiency:** No textbook evidence record is attached to establish the time-sensitive PCI/DAPT recommendations. Retrieve textbook support or leave evidence_limited.
+
+**Editorial QA observations:**
+
+- Source item is mixed/current-practice and its attached evidence is non-textbook; all citation arrays remain empty.
+
+## S01-Q017
+
+In a patient without a coronary stent undergoing high-bleeding-risk noncardiac surgery, aspirin interruption is chosen. What schedule is suggested?
+
+A. Continue aspirin for minimal or low/moderate bleeding-risk surgery.
+
+B. Do not start aspirin before surgery in a previous non-user to reduce perioperative events.
+
+C. Continue aspirin for carotid endarterectomy or recent acute coronary syndrome or stroke.
+
+D. Interrupt aspirin for 7 days and resume it when surgical bleeding risk has passed, typically within 24 hours.
+
+**Answer: D**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored evidence for aspirin interruption is a non-textbook antiplatelet guideline. The textbook-exclusive contract prevents using that record to establish the seven-day interruption and 24-hour resumption schedule.
+
+**A — evidence limited:** The attached non-textbook record discusses continuation for lower bleeding-risk surgery, but no textbook citation supports this option in the frozen packet.
+
+**B — evidence limited:** The attached non-textbook record discusses prior non-users, but textbook-only evidence for this claim is not present.
+
+**C — evidence limited:** The attached non-textbook record discusses carotid and recent ischemic conditions, but it is excluded as authority here.
+
+**D — evidence limited:** The keyed seven-day interruption and post-bleeding-risk resumption schedule require a textbook passage not present in the frozen evidence.
+
+**Evidence sufficiency:** This source-bound item has only non-textbook evidence attached; textbook retrieval is required before a rationale can be rewritten.
+
+**Editorial QA observations:**
+
+- All non-textbook citations were excluded.
+
+## S01-Q018
+
+A patient with reduced LV ejection is assessed before anaesthesia. Which physiologic characterization identifies HFrEF?
+
+A. Left-ventricular systolic dysfunction.
+
+B. Characterize HFpEF by LV diastolic dysfunction and ventricular and arterial stiffening.
+
+C. Define heart failure as inadequate ejection or elevated-pressure filling.
+
+D. Define diastolic function as effective filling at normal pressure.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The patient has reduced ejection fraction, and the stored Barash passage directly identifies LV systolic dysfunction as the characterization of HFrEF. [Barash 9e (2023).pdf, 12. Cardiac Anatomy and Physiology, PDF p. 841, passage ID 244672]
+
+**A — correct:** The cited passage directly states that LV systolic dysfunction characterizes heart failure with reduced ejection fraction. [Barash 9e (2023).pdf, 12. Cardiac Anatomy and Physiology, PDF p. 841, passage ID 244672]
+
+**B — true but irrelevant:** The passage describes diastolic dysfunction and stiffening as common in HFpEF, which is a different ejection-fraction category from the patient’s reduced EF. [Barash 9e (2023).pdf, 12. Cardiac Anatomy and Physiology, PDF p. 841, passage ID 244672]
+
+**C — incomplete:** The passage defines heart failure broadly by impaired filling or ejection, but that broad definition does not identify the HFrEF characterization requested. [Barash 9e (2023).pdf, 12. Cardiac Anatomy and Physiology, PDF p. 841, passage ID 244672]
+
+**D — true but irrelevant:** The passage defines diastolic function, but the stem asks for the physiologic characterization of reduced-ejection-fraction heart failure. [Barash 9e (2023).pdf, 12. Cardiac Anatomy and Physiology, PDF p. 841, passage ID 244672]
+
+**Evidence sufficiency:** The frozen Barash passage directly distinguishes HFrEF from the other true heart-failure statements.
+
+## S01-Q019
+
+A symptomatic patient has EF 35% before surgery. Which passage-defined threshold classifies HFrEF?
+
+A. Heart failure can result from impaired ventricular filling or ejection.
+
+B. An ejection fraction of 40% or less.
+
+C. An EF of 50% or more defines HFpEF.
+
+D. Diastolic dysfunction occurs in both HFrEF and HFpEF.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem supplies an EF of 35%. The stored Stoelting passage classifies HFrEF at an ejection fraction of 40% or less, so B is the applicable threshold. [Stoelting Coexisting 8e (2021).pdf, 10 Heart failure and cardiomyopathies, PDF p. 214, passage ID 233176]
+
+**A — incomplete:** The passage supports impaired filling or ejection as a broad heart-failure definition, but it does not give the HFrEF threshold asked for. [Stoelting Coexisting 8e (2021).pdf, 10 Heart failure and cardiomyopathies, PDF p. 214, passage ID 233176]
+
+**B — correct:** The stored quote directly defines HFrEF as an ejection fraction of 40% or less; the stem’s EF of 35% falls within that passage-defined category. [Stoelting Coexisting 8e (2021).pdf, 10 Heart failure and cardiomyopathies, PDF p. 214, passage ID 233176]
+
+**C — true but irrelevant:** The passage gives 50% or more for HFpEF, but the stem asks about reduced EF and the patient’s value is below that category. [Stoelting Coexisting 8e (2021).pdf, 10 Heart failure and cardiomyopathies, PDF p. 214, passage ID 233176]
+
+**D — true but irrelevant:** The passage states that diastolic dysfunction can occur in both categories, but that does not supply the requested HFrEF EF threshold. [Stoelting Coexisting 8e (2021).pdf, 10 Heart failure and cardiomyopathies, PDF p. 214, passage ID 233176]
+
+**Evidence sufficiency:** The frozen Stoelting passage directly supplies the HFrEF threshold and the alternative category statements.
+
+## S01-Q020
+
+During induction planning for hypertrophic cardiomyopathy, which finding represents the central obstructive mechanism that should guide management?
+
+A. The murmur becomes louder with Valsalva or standing.
+
+B. An LV outflow gradient of at least 30 mm Hg is clinically significant.
+
+C. Dynamic left-ventricular outflow tract obstruction.
+
+D. A premature ventricular contraction increases the obstruction gradient.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem asks for the central obstructive mechanism guiding hypertrophic-cardiomyopathy management. The stored Chestnut passage directly calls dynamic left-ventricular outflow-tract obstruction a hallmark. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1084, printed p. 1018, passage ID 275071]
+
+**A — true but irrelevant:** The passage supports a louder murmur with Valsalva or standing, but that is a clinical maneuver finding rather than the central obstructive mechanism. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1084, printed p. 1018, passage ID 275071]
+
+**B — true but irrelevant:** The passage identifies 30 mm Hg or more as clinically significant, but this is a gradient threshold and not the mechanism itself. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1084, printed p. 1018, passage ID 275071]
+
+**C — correct:** The stored quote directly states that dynamic left-ventricular outflow-tract obstruction is a hallmark of hypertrophic cardiomyopathy. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1084, printed p. 1018, passage ID 275071]
+
+**D — true but irrelevant:** The passage supports an increased obstruction gradient after a premature ventricular contraction, but that is a provoking event rather than the central mechanism. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1084, printed p. 1018, passage ID 275071]
+
+**Evidence sufficiency:** The frozen Chestnut passage directly supports C and separately supports each alternative as a true but narrower manifestation or threshold.
+
+## S01-Q032
+
+During a structured cardiac-surgery ICU handoff, which sequencing principle is violated when information transfer begins before equipment and monitoring checks are complete?
+
+A. Overlap phase-1 and phase-2 tasks to avoid increasing handoff duration
+
+B. Begin information transfer while equipment checks continue because protocols reduce omissions
+
+C. Begin phase-2 patient information before completing phase-1 checks
+
+D. Complete phase-1 equipment and monitoring checks before phase-2 information transfer.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The violated principle is strict sequencing: monitoring transfer precedes ventilator transfer, and all phase-1 items must be complete before information transfer. Miller’s handoff passage therefore supports D. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1909, printed p. 1599, passage ID 289484]
+
+**A — wrong timing or magnitude:** Overlapping phase-1 and phase-2 tasks violates the stored strictly sequential process, even though formal procedures do not increase handoff duration. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1909, printed p. 1599, passage ID 289484]
+
+**B — wrong timing or magnitude:** Protocols may reduce omissions and errors, but that benefit does not permit information transfer to begin while the required equipment checks remain incomplete. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1909, printed p. 1599, passage ID 289484]
+
+**C — wrong timing or magnitude:** Phase-2 patient-specific information is part of the handoff, but starting it before phase-1 completion contradicts the passage’s required sequence. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1909, printed p. 1599, passage ID 289484]
+
+**D — correct:** D states the stored sequencing rule: complete phase-1 equipment and monitoring checks before beginning phase-2 information transfer. [Miller 10e (2024).pdf, 50. Anesthesia for Cardiac Surgical Procedures, PDF p. 1909, printed p. 1599, passage ID 289484]
+
+**Evidence sufficiency:** The Miller handoff passage directly supports D and supplies the distinctions used for A–C.
+
+## S01-Q033
+
+In a 2021 Canadian review of airway-related anesthesia malpractice claims, which category was reported in more than half of cases?
+
+A. Faulty clinical decision-making.
+
+B. Psychomotor impairment resembling alcohol or drug intoxication after sleep deprivation.
+
+C. Individual performance effects of distraction, sleep deprivation, noise, illness, and aging.
+
+D. Personal factors such as expertise, distraction, fatigue, and production pressure.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks which category exceeded half of the reviewed airway-related medicolegal cases. Miller reports faulty clinical decision-making in 54%, so A is the only option matching the quantified finding. [Miller 10e (2024).pdf, 6. Human Behavior and Simulation in Anesthesia, PDF p. 134, printed p. 99, passage ID 281058]
+
+**A — correct:** A matches Miller’s quantified report: faulty clinical decision-making was identified in 54% of the Canadian airway-related medicolegal cases. [Miller 10e (2024).pdf, 6. Human Behavior and Simulation in Anesthesia, PDF p. 134, printed p. 99, passage ID 281058]
+
+**B — true but irrelevant:** Sleep deprivation can produce psychomotor changes resembling intoxication, but that Barash observation is not the more-than-half category in the Canadian airway-claims review. [Barash 9e (2023).pdf, 3. Occupational Health and Well-Being, PDF p. 241, passage ID 243529]
+
+**C — true but irrelevant:** Distraction, sleep deprivation, fatigue, noise, illness, aging, and team dynamics can influence performance, but this general list does not answer the review’s 54% finding. [Miller 10e (2024).pdf, 6. Human Behavior and Simulation in Anesthesia, PDF p. 133, printed p. 6, passage ID 281055]
+
+**D — true but irrelevant:** Expertise, distraction, fatigue, and production pressure can predispose to errors, but the passage does not identify this category as the 54% finding requested. [Miller 10e (2024).pdf, 6. Human Behavior and Simulation in Anesthesia, PDF p. 134, printed p. 99, passage ID 281058]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and the alternative textbook passages provide distinct but nonresponsive categories.
+
+## S01-Q034
+
+A hospital risk-management team is educating anesthesiologists about disclosing adverse events to patients under a just-culture framework. They want to highlight the specific evidence-based rationale for why timely, honest disclosure is advantageous from a medicolegal standpoint, as distinct from other benefits of a just-culture reporting system. Which statement reflects this medicolegal rationale?
+
+A. Disclosure should be limited to facts known at the time, since discovery is ongoing
+
+B. Timely disclosure of an adverse outcome may reduce legal risk
+
+C. It encourages voluntary event reporting without threat of punishment
+
+D. It reduces the likelihood patients change doctors, and improves satisfaction and trust
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question isolates the medicolegal benefit of timely disclosure from other communication and reporting benefits. Chestnut states that emerging evidence suggests timely disclosure may reduce legal risk, directly supporting B. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 857, printed p. 790, passage ID 274053]
+
+**A — true but irrelevant:** Limiting disclosure to facts known at the time is a stored communication principle, but it describes the scope of disclosure rather than the medicolegal advantage requested. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 858, printed p. 791, passage ID 274057]
+
+**B — correct:** B states the specific medicolegal rationale in the Chestnut passage: timely disclosure of an adverse outcome may reduce legal risk. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 857, printed p. 790, passage ID 274053]
+
+**C — true but irrelevant:** Voluntary reporting without punishment is a quality-improvement and just-culture reporting benefit, but it is not the disclosure-related legal-risk rationale asked for. [Miller 10e (2024).pdf, 5. Quality Improvement in Anesthesia Practice and Patient Safety, PDF p. 122, printed p. 90, passage ID 281004]
+
+**D — true but irrelevant:** Improved satisfaction, trust, and retention are reported benefits of error disclosure, but they are distinct from the specific legal-risk reduction asked for in the stem. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 159, printed p. 122, passage ID 281187]
+
+**Evidence sufficiency:** The Chestnut passage directly supports B; the other textbook passages support different communication, reporting, or patient-relation benefits.
+
+## S01-Q035
+
+During general anesthesia, a patient develops mild-to-moderate hypotension, tachycardia, and moderate bronchospasm shortly after a new intravenous antibiotic is administered, without severe hemodynamic collapse, severe angioedema, or loss of consciousness. According to standard severity-graded management, which treatment is indicated?
+
+A. Epinephrine IM, escalating to an infusion if no response, with a 1 L crystalloid bolus and vasopressin for persistent hypotension beyond 10 minutes
+
+B. Advanced cardiac life support methods
+
+C. Epinephrine 0.01 mg/kg IM (maximum 0.5 mg adults, 0.3 mg children) into the thigh, plus a 0.5 L crystalloid bolus repeated if no response
+
+D. No epinephrine; treat with antihistamines only
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem describes grade-3 mild-to-moderate anaphylaxis without arrest or severe collapse. Miller’s severity-graded table specifies intramuscular epinephrine 0.01 mg/kg with a 0.5-L crystalloid bolus for this grade, so C is the matching treatment. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1095, printed p. 920, passage ID 285644]
+
+**A — wrong timing or magnitude:** The 1-L bolus, infusion escalation, and vasopressin sequence is the stored grade-4 severe-anaphylaxis treatment, exceeding the mild-to-moderate presentation in the stem. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1095, printed p. 920, passage ID 285644]
+
+**B — wrong condition:** Advanced cardiac-life-support methods are specified for grade-5 cardiopulmonary arrest, which is not the hemodynamically present grade described in this stem. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1095, printed p. 920, passage ID 285644]
+
+**C — correct:** C matches the stored grade-3 regimen: epinephrine 0.01 mg/kg IM into the thigh with the stated adult and child maxima, plus a 0.5-L crystalloid bolus repeated if needed. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1095, printed p. 920, passage ID 285644]
+
+**D — wrong condition:** Antihistamines without epinephrine are listed for grade-1 or grade-2 reactions without hemodynamic compromise, but that treatment does not apply to this patient’s hypotension and bronchospasm. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1095, printed p. 920, passage ID 285644]
+
+**Evidence sufficiency:** The Miller severity-graded table directly supports C and distinguishes the grade-1/2, grade-4, and grade-5 alternatives.
+
+## S01-Q036
+
+A patient undergoing neurosurgery in the sitting position develops sudden hypotension, raising concern for venous air embolism. Which finding would be expected on capnography?
+
+A. Nitrogen monitoring during venous air embolism shows a sudden increase in nitrogen concentration in the exhaled breath.
+
+B. Transesophageal echocardiography during venous air embolism documents the presence of air in the right ventricular outflow tract.
+
+C. Precordial Doppler ultrasonography during venous air embolism produces a continuous windmill murmur.
+
+D. End-tidal carbon dioxide monitoring during venous air embolism is characterized by a precipitous decrease in carbon dioxide tension.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Venous air embolism reduces effective pulmonary blood flow, and the stored Cote passage identifies a precipitous decrease in end-tidal carbon dioxide as the capnographic finding. Thus D directly answers the lead-in. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**A — true but irrelevant:** A sudden increase in exhaled nitrogen is a stored monitoring finding for venous air embolism, but it is not the capnographic end-tidal-carbon-dioxide finding requested. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**B — true but irrelevant:** TEE can document air in the right-ventricular outflow tract, but that imaging observation does not answer what should appear on capnography. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**C — true but irrelevant:** A continuous windmill murmur is the stored precordial-Doppler finding, but Doppler auscultation is not the capnographic modality specified by the lead-in. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**D — correct:** D states the exact Cote capnography finding: end-tidal carbon dioxide shows a precipitous decrease during venous air embolism. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**Evidence sufficiency:** The Cote passage directly supports D and distinguishes the other modality-specific findings.
+
+## S01-Q037
+
+According to Barash 9th edition, which statement describes the recommended lipid-emulsion administration for local-anesthetic systemic toxicity?
+
+A. Lipid emulsion therapy for LAST is administered as a 20% lipid emulsion bolus given over 2 to 3 minutes.
+
+B. Seizures during LAST are managed by halting them with benzodiazepines.
+
+C. The first step in managing LAST is to get help at the first signs of toxicity.
+
+D. Airway management for LAST includes securing the airway and ventilating with 100% oxygen.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The lead-in asks specifically for the recommended lipid-emulsion administration. Barash specifies a 20% lipid-emulsion bolus over 2 to 3 minutes, which is the administration detail in A. [Barash 9e (2023).pdf, 22. Local Anesthetics, PDF p. 1721, passage ID 246193]
+
+**A — correct:** A directly states Barash’s lipid-rescue administration: use a 20% lipid emulsion and give the bolus over 2 to 3 minutes. [Barash 9e (2023).pdf, 22. Local Anesthetics, PDF p. 1721, passage ID 246193]
+
+**B — true but irrelevant:** Benzodiazepines are identified for halting seizures during LAST, but that is a seizure-management step rather than the lipid-emulsion administration detail asked for. [Barash 9e (2023).pdf, 22. Local Anesthetics, PDF p. 1721, passage ID 246193]
+
+**C — true but irrelevant:** Getting help at the first signs of LAST is the stored first step, but it does not describe how the lipid emulsion itself should be administered. [Barash 9e (2023).pdf, 22. Local Anesthetics, PDF p. 1721, passage ID 246193]
+
+**D — true but irrelevant:** Securing the airway and ventilating with 100% oxygen is part of LAST management, but it is airway support rather than the requested lipid-bolus timing. [Barash 9e (2023).pdf, 22. Local Anesthetics, PDF p. 1721, passage ID 246193]
+
+**Evidence sufficiency:** The Barash LAST passage directly supports A and separately supports the other management steps.
+
+## S01-Q038
+
+According to Barash 9th edition, what initial dantrolene dose is specified for an acute malignant-hyperthermia episode?
+
+A. Dysrhythmias during malignant hyperthermia treatment should be controlled with lidocaine while avoiding calcium channel blockers.
+
+B. The initial dantrolene dose for treatment of an acute malignant hyperthermia episode is 2.5 mg/kg.
+
+C. Management of malignant hyperthermia includes hyperventilating the patient with 100% oxygen.
+
+D. Treatment of an acute malignant hyperthermia episode requires discontinuing triggering agents such as halogenated inhaled anesthetics and succinylcholine.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the initial dantrolene dose in an acute malignant-hyperthermia episode. Barash specifies 2.5 mg/kg, so B is the dose that directly matches the stored treatment table. [Barash 9e (2023).pdf, 24. Rare Coexisting Diseases, PDF p. 1866, passage ID 246459]
+
+**A — true but irrelevant:** Lidocaine while avoiding calcium-channel blockers is a stored dysrhythmia-management instruction, but it does not provide the initial dantrolene dose requested. [Barash 9e (2023).pdf, 24. Rare Coexisting Diseases, PDF p. 1866, passage ID 246459]
+
+**B — correct:** B gives the precise initial dose in the Barash passage: dantrolene 2.5 mg/kg for the acute malignant-hyperthermia episode. [Barash 9e (2023).pdf, 24. Rare Coexisting Diseases, PDF p. 1866, passage ID 246459]
+
+**C — true but irrelevant:** Hyperventilation with 100% oxygen is part of malignant-hyperthermia treatment, but it is not the initial dantrolene dose asked for by the lead-in. [Barash 9e (2023).pdf, 24. Rare Coexisting Diseases, PDF p. 1866, passage ID 246459]
+
+**D — true but irrelevant:** Stopping halogenated anesthetics and succinylcholine is an essential trigger-removal step, but it does not answer the dose question in this stem. [Barash 9e (2023).pdf, 24. Rare Coexisting Diseases, PDF p. 1866, passage ID 246459]
+
+**Evidence sufficiency:** The Barash malignant-hyperthermia passage directly supports B and contains the other true treatment steps.
+
+## S01-Q039
+
+After an apparently thorough consent discussion, a patient cannot accurately explain the proposed treatment, alternatives, or material risks. Which functional element of decision-making capacity is most directly deficient?
+
+A. Another functional element of competence is whether the patient has insight about the disorder and its consequences and potential treatment options.
+
+B. The final functional element of competence is whether the patient can communicate a choice.
+
+C. One functional element of competence is whether the patient can receive and understand treatment-related information.
+
+D. A further functional element of competence is whether the patient is able to logically compare the risks and benefits of treatment alternatives.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The patient cannot explain the treatment, alternatives, or material risks, which identifies impaired receipt and understanding of treatment-related information. Miller lists that function separately from insight, comparison, and communication, so C is most direct. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 154, printed p. 117, passage ID 281158]
+
+**A — less direct:** Insight about the disorder and its consequences is a separate capacity element, but the stem’s specific failure is inability to explain treatment information and risks. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 154, printed p. 117, passage ID 281158]
+
+**B — less direct:** Communicating a choice is another listed element, but the patient’s described deficit occurs earlier in receiving and understanding the information needed for that choice. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 154, printed p. 117, passage ID 281158]
+
+**C — correct:** C directly identifies the deficient function: the patient cannot receive and understand treatment-related information, including alternatives and material risks. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 154, printed p. 117, passage ID 281158]
+
+**D — less direct:** Logical comparison of risks and benefits is a further capacity element, but the stem most directly establishes a failure to understand the information being compared. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 154, printed p. 117, passage ID 281158]
+
+**Evidence sufficiency:** The Miller passage directly lists all four capacity elements and makes C the stem-specific deficit.
+
+## S01-Q040
+
+A physician evaluating a patient's decision-making capacity before an elective procedure disagrees with the patient's choice to refuse treatment. Which of the following principles should guide the physician's assessment of capacity in this situation?
+
+A. The majority of patients referred for capacity evaluations are found to have decision-making capacity.
+
+B. Capacity assessment tools have been shown to be more likely to classify a female or non-White patient as lacking capacity.
+
+C. Treatment refusal may simply reflect a patient's prioritization of other values above medical outcomes rather than a problem with capacity.
+
+D. Functional capacity for decision-making must be judged separately from the perceived quality of the decision itself.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A physician’s disagreement with refusal does not determine capacity. Miller states that functional capacity must be judged separately from the perceived quality of the decision, which is the governing principle in D. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 153, printed p. 116, passage ID 281155]
+
+**A — true but irrelevant:** The majority of referred patients may retain capacity, but that prevalence observation does not state how this patient’s capacity should be judged despite disagreement with the choice. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 153, printed p. 116, passage ID 281155]
+
+**B — true but irrelevant:** The passage reports potential classification bias in capacity tools, but that observation does not supply the central rule for separating capacity from the quality of a refusal. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 153, printed p. 116, passage ID 281155]
+
+**C — true but irrelevant:** Prioritizing personal values over medical outcomes can explain treatment refusal, but it does not replace the functional capacity assessment required by the lead-in. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 153, printed p. 116, passage ID 281155]
+
+**D — correct:** D states Miller’s controlling principle: assess the patient’s functional decision-making capacity independently of whether the physician regards the decision as good or medically appropriate. [Miller 10e (2024).pdf, 7. Ethical Aspects of Anesthesia Care, PDF p. 153, printed p. 116, passage ID 281155]
+
+**Evidence sufficiency:** The Miller passage directly supports D and supplies the distinct observations represented by A–C.
+
+## S01-Q050
+
+According to Stoelting Coexisting Disease 8th edition, within what timeframe should empirical broad-spectrum antimicrobials be given after recognizing sepsis or septic shock?
+
+A. Empirical broad-spectrum antimicrobials should be administered within one hour of recognizing sepsis or septic shock.
+
+B. Blood cultures and other applicable cultures should be obtained before antibiotics.
+
+C. After intravascular volume is optimized, vasopressors may be needed to achieve adequate perfusion pressure.
+
+D. Initial fluid resuscitation should be undertaken with crystalloid.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem asks specifically for the time from recognition of sepsis or septic shock to empirical broad-spectrum antimicrobial administration. Stoelting specifies within one hour, making A the direct answer. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 72, passage ID 232549]
+
+**A — correct:** A directly matches the stored Stoelting timing recommendation: give empirical broad-spectrum antimicrobials within one hour of recognizing sepsis or septic shock. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 72, passage ID 232549]
+
+**B — true but irrelevant:** Obtaining cultures before antibiotics is part of sepsis care, but it does not answer the one-hour timing asked for in the lead-in. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 72, passage ID 232549]
+
+**C — true but irrelevant:** Vasopressors may be needed after volume optimization, but that hemodynamic step does not provide the requested antimicrobial timing. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 72, passage ID 232549]
+
+**D — true but irrelevant:** Crystalloid is used for initial fluid resuscitation, but the fluid choice does not answer when empirical antimicrobials should be given. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 72, passage ID 232549]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and contains the related sepsis-care steps in B–D.
+
+## S01-Q051
+
+A patient with early sepsis is warm peripherally and hypotensive. Cardiac output is increased. Which hemodynamic profile best describes this form of shock?
+
+A. Low cardiac output with increased peripheral resistance due to volume loss
+
+B. Reduced systemic vascular resistance with increased cardiac output
+
+C. Low cardiac output with increased systemic vascular resistance due to pump failure
+
+D. Obstruction to forward flow from tamponade, tension pneumothorax, or pulmonary embolism
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Warm extremities, hypotension, and increased cardiac output describe distributive physiology in early sepsis. Barash characterizes this profile by reduced systemic vascular resistance with often increased cardiac output, so B is correct. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**A — wrong condition:** Low output with increased peripheral resistance describes hypovolemic shock, but the stem presents early septic distributive physiology with increased output. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**B — correct:** B directly matches the stored Barash profile for distributive shock in sepsis: systemic vascular resistance falls while cardiac output is often increased. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**C — wrong condition:** Low output with increased systemic vascular resistance characterizes cardiogenic shock, not the warm, high-output septic pattern in this stem. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**D — wrong condition:** Tamponade, tension pneumothorax, and pulmonary embolism cause obstructive shock, but none describes the reduced-resistance, increased-output septic profile. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes hypovolemic, cardiogenic, and obstructive profiles.
+
+## S01-Q052
+
+According to Chestnut 6th edition, what initial mean arterial pressure target is used when titrating vasopressors in septic shock?
+
+A. Within the first three hours, 30 mL/kg of intravenous crystalloid is recommended for sepsis-induced hypotension.
+
+B. Norepinephrine is used as the first-line vasopressor.
+
+C. The initial target mean arterial pressure in septic shock is 65 mm Hg.
+
+D. Vasopressin or epinephrine may be added as a second agent when needed to achieve haemodynamic goals.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the initial MAP target when vasopressors are titrated in septic shock. Chestnut specifies an initial target of 65 mm Hg, directly supporting C. [Chestnut 6e (2019).pdf, 36 Infection, PDF p. 951, printed p. 885, passage ID 274481]
+
+**A — true but irrelevant:** Thirty milliliters per kilogram of crystalloid is an early fluid-resuscitation recommendation, but it is not the initial MAP target requested. [Chestnut 6e (2019).pdf, 36 Infection, PDF p. 951, printed p. 885, passage ID 274481]
+
+**B — true but irrelevant:** Norepinephrine is the first-line vasopressor in the stored passage, but the lead-in asks for the pressure target rather than the drug choice. [Chestnut 6e (2019).pdf, 36 Infection, PDF p. 951, printed p. 885, passage ID 274481]
+
+**C — correct:** C directly states the stored Chestnut target: titrate initial septic-shock vasopressor therapy toward a mean arterial pressure of 65 mm Hg. [Chestnut 6e (2019).pdf, 36 Infection, PDF p. 951, printed p. 885, passage ID 274481]
+
+**D — true but irrelevant:** Vasopressin or epinephrine may be added when needed, but that second-agent choice does not identify the initial MAP target. [Chestnut 6e (2019).pdf, 36 Infection, PDF p. 951, printed p. 885, passage ID 274481]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and supplies the associated resuscitation and vasopressor facts.
+
+## S01-Q053
+
+According to Chestnut 6th edition, a patient with septic shock remains hypotensive despite traditional vasopressor therapy. Which adjunctive strategy is supported?
+
+A. Vasopressin causes direct vascular smooth-muscle constriction through V1-receptor stimulation.
+
+B. The described low-dose vasopressin regimen is 0.03 U/min.
+
+C. A randomized trial found no mortality difference between vasopressin and norepinephrine when added to open-label vasopressor therapy.
+
+D. Low-dose vasopressin can be added to traditional vasopressor therapy in vasopressor-refractory septic shock to raise blood pressure.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem specifies hypotension despite traditional vasopressors, so the relevant adjunct is low-dose vasopressin added for refractory septic shock. Chestnut states that this raises blood pressure, directly supporting D. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1359, printed p. 1293, passage ID 276299]
+
+**A — true but irrelevant:** V1-receptor smooth-muscle constriction describes vasopressin’s mechanism, but the lead-in asks for the adjunctive strategy in refractory shock. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1359, printed p. 1293, passage ID 276299]
+
+**B — true but irrelevant:** A dose of 0.03 U/min is the described low-dose regimen, but the option does not state the refractory-shock strategy and pressure goal asked for here. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1359, printed p. 1293, passage ID 276299]
+
+**C — true but irrelevant:** The mortality comparison is a trial result, but it does not identify what should be added for the patient who remains hypotensive despite traditional therapy. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1359, printed p. 1293, passage ID 276299]
+
+**D — correct:** D directly applies the stored Chestnut recommendation: add low-dose vasopressin to traditional vasopressors in vasopressor-refractory septic shock to raise blood pressure. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1359, printed p. 1293, passage ID 276299]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and provides the mechanism, dose, and trial context for A–C.
+
+## S01-Q054
+
+According to Miller 10th edition, which ventilation target defines lung-protective ventilation for adult ARDS?
+
+A. Lung-protective ventilation for ARDS uses 6 mL/kg predicted body weight with plateau pressure below 30 cm H2O.
+
+B. The landmark study reduced mortality from 40% to 30% with lung-protective ventilation.
+
+C. Low-tidal-volume ventilation has become standard of care for patients with ARDS.
+
+D. The ARMA study compared lung-protective ventilation with ventilation at 12 mL/kg predicted body weight.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the ventilation target defining lung-protective ventilation in adult ARDS. Miller specifies 6 mL/kg predicted body weight with plateau pressure below 30 cm H2O, so A is the complete target. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3049, printed p. 2556, passage ID 295124]
+
+**A — correct:** A directly states both stored lung-protective targets: 6 mL/kg predicted body weight and plateau pressure below 30 cm H2O. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3049, printed p. 2556, passage ID 295124]
+
+**B — true but irrelevant:** The mortality reduction is a landmark-study result, but it does not define the tidal-volume and plateau-pressure target asked for. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3049, printed p. 2556, passage ID 295124]
+
+**C — incomplete:** Low-tidal-volume ventilation is a standard-of-care statement, but it omits the specific numerical target and plateau-pressure limit requested. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3049, printed p. 2556, passage ID 295124]
+
+**D — true but irrelevant:** The ARMA comparator of 12 mL/kg is study design context, but it does not state the lung-protective target requested by the lead-in. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3049, printed p. 2556, passage ID 295124]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and provides the related ARDS study facts in B–D.
+
+## S01-Q055
+
+A mechanically ventilated patient with severe airflow obstruction has expiratory flow that does not return to zero before the next inspiration. What does this finding indicate?
+
+A. A need to shorten expiratory time and increase tidal volume or respiratory rate
+
+B. Incomplete lung emptying with intrinsic positive end-expiratory pressure
+
+C. Reduced venous return caused by dynamic hyperinflation, without incomplete expiration
+
+D. An isolated increase in end-expiratory lung volume without intrinsic positive pressure
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Expiratory flow that remains above zero before the next inspiration means the lungs have not fully emptied. Miller identifies this incomplete emptying as intrinsic PEEP, making B the matching interpretation. [Miller 10e (2024).pdf, 37. Respiratory Monitoring, PDF p. 1409, printed p. 1179, passage ID 287087]
+
+**A — wrong timing or magnitude:** Shortening expiratory time and increasing tidal volume or respiratory rate would worsen incomplete emptying, whereas the finding indicates a need to address auto-PEEP. [Miller 10e (2024).pdf, 37. Respiratory Monitoring, PDF p. 1409, printed p. 1179, passage ID 287087]
+
+**B — correct:** B directly interprets the nonzero end-expiratory flow as incomplete lung emptying with intrinsic positive end-expiratory pressure. [Miller 10e (2024).pdf, 37. Respiratory Monitoring, PDF p. 1409, printed p. 1179, passage ID 287087]
+
+**C — incomplete:** Dynamic hyperinflation can reduce venous return, but the option denies the incomplete expiration that is the defining finding in this stem. [Miller 10e (2024).pdf, 37. Respiratory Monitoring, PDF p. 1409, printed p. 1179, passage ID 287087]
+
+**D — false:** Auto-PEEP can increase end-expiratory lung volume, but it is not an isolated volume increase without intrinsic positive pressure as this option claims. [Miller 10e (2024).pdf, 37. Respiratory Monitoring, PDF p. 1409, printed p. 1179, passage ID 287087]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and the auto-PEEP interpretation of the alternative options.
+
+## S01-Q056
+
+A mechanically ventilated patient has unchanged minute ventilation but changing dead space. Which statement should guide interpretation of the patient's PaCO2?
+
+A. In mechanically ventilated patients, minute volume depends totally in control modes or partially in assisted modes on ventilator settings.
+
+B. Minute ventilation is the product of respiratory rate and tidal volume.
+
+C. Alveolar ventilation, rather than minute ventilation alone, determines PaCO2; PaCO2 is inversely related to alveolar ventilation.
+
+D. The dead-space to tidal-volume ratio can be used to estimate dead space.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** With minute ventilation unchanged but dead space changing, PaCO2 cannot be interpreted from minute ventilation alone. Stoelting states that alveolar ventilation determines PaCO2 and that PaCO2 varies inversely with it, which supports C. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1766, passage ID 314687]
+
+**A — true but irrelevant:** Ventilator settings determine minute volume to varying degrees in control and assisted modes, but this does not account for the changing dead space that affects PaCO2. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1766, passage ID 314687]
+
+**B — true but irrelevant:** Minute ventilation is respiratory rate multiplied by tidal volume, but it is not the alveolar ventilation that determines PaCO2 in this changing-dead-space situation. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1766, passage ID 314687]
+
+**C — correct:** C provides the decisive interpretation: PaCO2 is determined by alveolar ventilation, not minute ventilation alone, and is inversely related to alveolar ventilation. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1766, passage ID 314687]
+
+**D — true but irrelevant:** The dead-space-to-tidal-volume ratio can estimate dead space, but that measurement statement does not itself give the PaCO2 relationship requested. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 326, printed p. 261, passage ID 282017]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C; the Miller passage supplies the narrower dead-space measurement fact in D.
+
+## S01-Q057
+
+Which statement both defines sepsis and identifies the typical mechanism of mortality in progressive organ dysfunction?
+
+A. Sepsis organ dysfunction includes clinical or laboratory abnormalities such as hypotension, hypoxemia, altered mental status, or oliguria.
+
+B. The SOFA score assesses neurologic, cardiovascular, respiratory, renal, liver, and hematologic function.
+
+C. Systemic inflammatory response syndrome features can occur in noninfectious conditions such as trauma, surgery, burns, and pancreatitis.
+
+D. Sepsis is life-threatening organ dysfunction from a dysregulated host response, with mortality typically resulting from multiple-organ dysfunction syndrome
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for both the definition of sepsis and the typical mechanism of mortality. Miller defines sepsis as life-threatening organ dysfunction from a dysregulated host response and identifies multiple-organ dysfunction syndrome as the typical mortality outcome, so D is complete. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3052, printed p. 2559, passage ID 295141]
+
+**A — true but irrelevant:** Hypotension, hypoxemia, altered mentation, and oliguria are examples of organ dysfunction, but this option does not supply the requested definition and mortality mechanism together. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3052, printed p. 2559, passage ID 295141]
+
+**B — true but irrelevant:** SOFA assesses six physiologic systems, but it is a scoring description rather than the definition of sepsis and its typical mortality mechanism. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3052, printed p. 2559, passage ID 295141]
+
+**C — true but irrelevant:** SIRS findings can occur in noninfectious conditions, but that observation does not define sepsis or explain the typical multiple-organ mortality outcome. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3052, printed p. 2559, passage ID 295141]
+
+**D — correct:** D combines both requested elements from Miller: dysregulated host-response organ dysfunction defines sepsis, and progressive multiple-organ dysfunction typically causes death. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3052, printed p. 2559, passage ID 295141]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and supplies the component sepsis and SOFA statements in A–C.
+
+## S01-Q058
+
+Which complete clinical pattern defines ICU delirium rather than describing a screening tool or a prevention strategy?
+
+A. ICU delirium is distinguished by acute onset, a fluctuating course, inattention, disorganized thinking, and altered consciousness.
+
+B. Light sedation practices and daily awakening trials can shorten ventilation and ICU stay and reduce mortality.
+
+C. Reorientation, day-night-cycle maintenance, and noise reduction can reduce delirium and confusion.
+
+D. CAM-ICU is a structured screening instrument available for ICU delirium diagnosis.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The lead-in asks for the clinical pattern defining ICU delirium, not a screening tool or intervention. Barash identifies acute onset, fluctuation, inattention, disorganized thinking, and altered consciousness, so A is the complete pattern. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4859, passage ID 251801]
+
+**A — correct:** A directly lists the stored Barash delirium pattern: acute onset, fluctuating course, inattention, disorganized thinking, and altered consciousness. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4859, passage ID 251801]
+
+**B — true but irrelevant:** Light sedation and awakening trials are prevention or outcome-improvement strategies, but they do not define the delirium syndrome requested. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4859, passage ID 251801]
+
+**C — true but irrelevant:** Reorientation and environmental measures may reduce delirium, but they are prevention measures rather than the diagnostic clinical pattern. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4859, passage ID 251801]
+
+**D — true but irrelevant:** CAM-ICU is a structured screening instrument, but naming the tool does not provide the complete delirium features asked for in the stem. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4859, passage ID 251801]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes the screening and prevention alternatives.
+
+## S01-Q068
+
+According to Miller 10th edition, which physiologic domains are addressed by the ASA Standards for Basic Anesthetic Monitoring?
+
+A. ASA pre-anesthesia checkout recommendations guide departments in designing procedures for their anesthetic delivery systems.
+
+B. ASA Standards for Basic Anesthetic Monitoring address minimal monitoring of oxygenation, ventilation, circulation, and body temperature.
+
+C. ISO 80601-2-13 defines current standards for basic safety and essential performance of an anesthetic workstation.
+
+D. The ASA publishes guidance for determining anesthesia-machine obsolescence using absolute and relative criteria.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The lead-in asks which physiologic domains are covered by the ASA Standards for Basic Anesthetic Monitoring. Miller lists minimal monitoring of oxygenation, ventilation, circulation, and body temperature, so B is complete. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 561, printed p. 459, passage ID 283093]
+
+**A — true but irrelevant:** ASA checkout recommendations guide department procedures, but they concern equipment checkout rather than the physiologic domains in the question. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 561, printed p. 459, passage ID 283093]
+
+**B — correct:** B directly gives Miller’s four monitoring domains: oxygenation, ventilation, circulation, and body temperature. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 561, printed p. 459, passage ID 283093]
+
+**C — true but irrelevant:** ISO 80601-2-13 addresses anesthetic-workstation safety and performance, but it is not the ASA physiologic-monitoring standard asked for. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 561, printed p. 459, passage ID 283093]
+
+**D — true but irrelevant:** ASA obsolescence guidance concerns equipment lifecycle assessment, but it does not identify the basic monitoring domains. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 561, printed p. 459, passage ID 283093]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes monitoring standards from equipment guidance.
+
+## S01-Q069
+
+Which principle explains how pulse oximetry estimates arterial hemoglobin oxygen saturation?
+
+A. Blood oxygen content combines dissolved oxygen with oxygen bound as haemoglobin.
+
+B. At approximately 660 nm, oxyhaemoglobin and deoxyhaemoglobin differ widely in absorbance.
+
+C. Pulse oximetry estimates hemoglobin saturation by comparing absorption at two wavelengths and correcting for arterial pulsation.
+
+D. Oxyhaemoglobin and deoxyhaemoglobin have similar absorbance at approximately 940 nm.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Pulse oximetry estimates saturation by using the differing wavelength absorption of oxyhaemoglobin and deoxyhaemoglobin while isolating the pulsatile arterial component. Stoelting describes that comparison and correction, supporting C. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1775, passage ID 314703]
+
+**A — true but irrelevant:** Blood oxygen content includes dissolved and haemoglobin-bound oxygen, but content is not the optical saturation-estimation principle asked for. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1775, passage ID 314703]
+
+**B — true but irrelevant:** The large absorbance difference near 660 nm is part of the optical basis, but it does not by itself describe comparing two wavelengths and correcting for pulsation. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1775, passage ID 314703]
+
+**C — correct:** C directly states the stored principle: compare absorption at two wavelengths and use arterial pulsation to estimate haemoglobin saturation. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1775, passage ID 314703]
+
+**D — true but irrelevant:** Similar absorbance near 940 nm contributes to the optical method, but this partial fact does not state the full pulse-oximetry calculation principle. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1775, passage ID 314703]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and contains the related optical and oxygen-content facts.
+
+## S01-Q070
+
+What does oscillometric noninvasive blood-pressure measurement analyze to estimate systolic, mean, and diastolic pressure?
+
+A. An arteriovenous dialysis fistula or PICC line in the limb is a contraindication to cuff use there.
+
+B. Repeated cuff compression can cause traumatic injury in a fractured limb or open extremity injury.
+
+C. Noninvasive blood-pressure cuffs apply enough force to occlude blood flow in the encircled limb.
+
+D. Oscillometric blood-pressure measurement analyzes cuff-pressure oscillations as they increase and decrease to estimate systolic, mean, and diastolic pressure.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Oscillometric measurement analyzes pressure oscillations generated as cuff pressure changes. Barash states that those increasing and decreasing oscillations are used to estimate systolic, mean, and diastolic pressure, making D correct. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2123, passage ID 246884]
+
+**A — true but irrelevant:** Avoiding a cuff over a dialysis fistula or PICC is a safety contraindication, but it does not describe the oscillometric measurement principle. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2123, passage ID 246884]
+
+**B — true but irrelevant:** Repeated compression can injure a fractured or open limb, but that safety warning does not explain how pressure is estimated. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2123, passage ID 246884]
+
+**C — true but irrelevant:** The cuff must occlude limb blood flow during measurement, but occlusion alone does not state the oscillometric analysis requested. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2123, passage ID 246884]
+
+**D — correct:** D directly matches Barash: analyze cuff-pressure oscillations as they increase and decrease to estimate systolic, mean, and diastolic pressure. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2123, passage ID 246884]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and distinguishes the associated cuff safety facts.
+
+## S01-Q071
+
+During pulmonary-artery-catheter monitoring, cold saline is injected and the change in blood temperature is measured. What principle determines the thermodilution cardiac output?
+
+A. It is determined from the change in blood temperature between the right atrium and pulmonary artery after cold-saline injection.
+
+B. Inject indocyanine green and calculate the area under its time-concentration curve.
+
+C. Interpret early indicator-dye recirculation as possible right-to-left intracardiac shunt.
+
+D. Use right-atrial and pulmonary-artery catheter ports with a distal temperature sensor.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Cold saline thermodilution uses the temperature change measured between injection in the right atrium and detection in the pulmonary artery. Stoelting states this relationship, so A is the requested principle. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1209, passage ID 313838]
+
+**A — correct:** A directly states the stored thermodilution principle: calculate cardiac output from the change in blood temperature between the right atrium and pulmonary artery after cold-saline injection. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1209, passage ID 313838]
+
+**B — true but irrelevant:** Indocyanine-green dilution and area-under-the-curve analysis are an indicator-dye method, but they are not the cold-saline thermodilution principle described. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1209, passage ID 313838]
+
+**C — true but irrelevant:** Early indicator-dye recirculation may suggest a right-to-left shunt, but this interpretation is not the cardiac-output principle in the stem. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1209, passage ID 313838]
+
+**D — true but irrelevant:** The catheter ports and distal temperature sensor are required hardware, but they do not state how the temperature change determines output. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1209, passage ID 313838]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and provides the related indicator-dye and catheter details.
+
+## S01-Q072
+
+An arterial pressure waveform shows systolic overshoot and extra nonphysiologic waves, while an overdamped waveform shows diminished pulse pressure. Which interpretation is correct?
+
+A. Systolic measurements are more affected than diastolic or mean measurements by waveform distortion.
+
+B. Underdamping causes systolic overshoot and extra waves, whereas overdamping diminishes pulse pressure.
+
+C. Mean arterial pressure remains unchanged despite an overdamped waveform.
+
+D. Underdamping makes the dicrotic notch difficult to discern.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem contrasts systolic overshoot and extra waves with diminished pulse pressure. Miller attributes the first to underdamping and the second to overdamping, directly supporting B. [Miller 10e (2024).pdf, 32. Cardiovascular Monitoring, PDF p. 1205, printed p. 1, passage ID 286181]
+
+**A — true but irrelevant:** Systolic values are more affected by distortion, but that general measurement consequence does not identify the two waveform patterns in the stem. [Miller 10e (2024).pdf, 32. Cardiovascular Monitoring, PDF p. 1205, printed p. 1, passage ID 286181]
+
+**B — correct:** B directly matches Miller’s interpretation: underdamping causes systolic overshoot and extra waves, whereas overdamping diminishes pulse pressure. [Miller 10e (2024).pdf, 32. Cardiovascular Monitoring, PDF p. 1205, printed p. 1, passage ID 286181]
+
+**C — true but irrelevant:** Mean pressure may be less affected by overdamping, but this does not provide the characteristic systolic overshoot and diminished-pulse-pressure distinction asked for. [Miller 10e (2024).pdf, 32. Cardiovascular Monitoring, PDF p. 1205, printed p. 1, passage ID 286181]
+
+**D — true but irrelevant:** Underdamping can make the dicrotic notch difficult to discern, but that is an additional waveform effect rather than the paired interpretation requested. [Miller 10e (2024).pdf, 32. Cardiovascular Monitoring, PDF p. 1205, printed p. 1, passage ID 286181]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and provides the related arterial-waveform effects.
+
+## S01-Q073
+
+A hypotensive patient has a central venous pressure measured through a right-sided catheter. Which statement should guide interpretation before a fluid challenge?
+
+A. Normal right-atrial pressure is approximately 5 mm Hg, with a lower limit near −5 mm Hg.
+
+B. Poor right-ventricular contractility and increased venous return tend to increase right-atrial pressure.
+
+C. Central venous pressure is right-atrial pressure and is an imperfect predictor of response to a fluid challenge.
+
+D. Hemorrhage can decrease right-atrial pressure by reducing venous return.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A central venous pressure is a right-atrial pressure measurement, but the stem asks how to interpret it before a fluid challenge. Stoelting states that CVP is an imperfect predictor of fluid responsiveness, making C the complete answer. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1176, passage ID 313785]
+
+**A — true but irrelevant:** A normal right-atrial pressure range is useful reference information, but it does not address the imperfect prediction of response to a fluid challenge. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1176, passage ID 313785]
+
+**B — true but irrelevant:** Poor right-ventricular contractility and increased venous return can raise right-atrial pressure, but those causes do not establish CVP’s predictive limitation. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1176, passage ID 313785]
+
+**C — correct:** C directly states the stored interpretation: CVP equals right-atrial pressure and is an imperfect predictor of response to a fluid challenge. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1176, passage ID 313785]
+
+**D — true but irrelevant:** Hemorrhage can lower right-atrial pressure by reducing venous return, but that physiologic example does not answer how CVP predicts fluid response. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1176, passage ID 313785]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and provides the pressure-range and causal examples in A, B, and D.
+
+## S01-Q074
+
+After tracheal intubation, which monitor finding is the best confirmation that an intubated patient is being ventilated?
+
+A. Continuous waveform capnography in the operating room, transport, or intensive-care location.
+
+B. A capnogram that diminishes during the first few breaths.
+
+C. Continuous waveform capnography during CPR to assess compressions and ventilation.
+
+D. An appropriate sustained exhaled-carbon-dioxide trace.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After intubation, the best confirmation of ventilation is a sustained exhaled-carbon-dioxide waveform. Cote identifies that sustained trace as the confirming monitor finding, so D is correct. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 574, passage ID 185194]
+
+**A — true but irrelevant:** Continuous waveform capnography is important in operating rooms, transport, and intensive care, but naming locations does not state the confirming trace itself. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 574, passage ID 185194]
+
+**B — wrong condition:** A capnogram that diminishes during the first few breaths suggests oesophageal intubation, but that is not the appropriate sustained confirmation of ventilation. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 574, passage ID 185194]
+
+**C — true but irrelevant:** Waveform capnography during CPR can assess compressions and ventilation, but the stem asks for post-intubation confirmation rather than CPR monitoring. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 574, passage ID 185194]
+
+**D — correct:** D directly states the stored Cote confirmation: an appropriate sustained exhaled-carbon-dioxide trace demonstrates ventilation after intubation. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 574, passage ID 185194]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and distinguishes location, oesophageal, and CPR capnography statements.
+
+## S01-Q075
+
+A capnogram has an upward-sloping alveolar plateau, while another has a slow second-phase upstroke. Which interpretation correctly matches these patterns?
+
+A. The upward plateau slope indicates ventilation–perfusion mismatch, while the slow second-phase upstroke suggests airway obstruction.
+
+B. The first capnogram phase samples anatomic dead space and is normally carbon-dioxide free.
+
+C. Unless carbon-dioxide rebreathing occurs, the capnogram baseline approaches zero during inspiration.
+
+D. End-tidal carbon dioxide is the highest carbon-dioxide value and best reflects alveolar carbon dioxide.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The two capnogram patterns identify different abnormalities: an upward alveolar plateau slope indicates ventilation-perfusion mismatch, while a slow second-phase upstroke indicates airway obstruction. Barash supports A. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2108, passage ID 246858]
+
+**A — correct:** A directly matches Barash’s waveform interpretation: the upward plateau slope indicates ventilation-perfusion mismatch and the slow second-phase upstroke suggests obstruction. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2108, passage ID 246858]
+
+**B — true but irrelevant:** The first phase samples anatomic dead space and is normally carbon-dioxide free, but that normal phase does not explain the two abnormal patterns in the stem. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2108, passage ID 246858]
+
+**C — true but irrelevant:** An inspiratory baseline near zero is expected without rebreathing, but it does not interpret the upward plateau and slow upstroke described. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2108, passage ID 246858]
+
+**D — true but irrelevant:** End-tidal carbon dioxide is the highest value and reflects alveolar gas, but that definition does not match the paired capnogram-pattern question. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2108, passage ID 246858]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and contains the foundational capnogram facts in B–D.
+
+## S01-Q076
+
+A patient is being assessed for neuromuscular recovery before tracheal extubation. Which quantitative finding confirms adequate recovery?
+
+A. Quantitative neuromuscular monitoring is the only method of assessing safe recovery of muscular function.
+
+B. An adductor-pollicis train-of-four ratio of at least 0.90, or 1.0 if acceleromyography is used.
+
+C. Residual neuromuscular block after neostigmine can affect 30% to 50% of patients without quantitative monitoring.
+
+D. Train-of-four ratios below 0.90 increase risk of critical respiratory events in the recovery unit.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The quantitative recovery threshold before extubation is a train-of-four ratio of at least 0.90 at the adductor pollicis, or 1.0 with acceleromyography. Miller specifies these values, directly supporting B. [Miller 10e (2024).pdf, 24. Pharmacology of Neuromuscular Blocking Drugs and Antagonists (Reversal Agents), PDF p. 815, printed p. 675, passage ID 284282]
+
+**A — true but irrelevant:** Quantitative monitoring is identified as the method for assessing safe recovery, but the question asks for the numeric threshold that confirms adequate recovery. [Miller 10e (2024).pdf, 24. Pharmacology of Neuromuscular Blocking Drugs and Antagonists (Reversal Agents), PDF p. 815, printed p. 675, passage ID 284282]
+
+**B — correct:** B directly provides Miller’s quantitative confirmation threshold: train-of-four ratio at least 0.90, or 1.0 when acceleromyography is used. [Miller 10e (2024).pdf, 24. Pharmacology of Neuromuscular Blocking Drugs and Antagonists (Reversal Agents), PDF p. 815, printed p. 675, passage ID 284282]
+
+**C — true but irrelevant:** Residual block can remain common without quantitative monitoring, but that frequency observation does not confirm adequate recovery in this patient. [Miller 10e (2024).pdf, 24. Pharmacology of Neuromuscular Blocking Drugs and Antagonists (Reversal Agents), PDF p. 815, printed p. 675, passage ID 284282]
+
+**D — true but irrelevant:** A ratio below 0.90 increases respiratory-event risk, but the question asks for the positive quantitative threshold confirming recovery. [Miller 10e (2024).pdf, 24. Pharmacology of Neuromuscular Blocking Drugs and Antagonists (Reversal Agents), PDF p. 815, printed p. 675, passage ID 284282]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and the associated monitoring-risk facts.
+
+## S01-Q086
+
+Which factors modulate cerebral blood flow in a patient undergoing neuroanesthetic management?
+
+A. During normal physiology, cerebral blood flow is autoregulated across a range of cerebral perfusion pressures.
+
+B. Cerebral perfusion pressure is the difference between mean arterial pressure and intracranial pressure.
+
+C. Cerebral blood flow is modulated by cerebral metabolic rate, cerebral perfusion pressure, and arterial carbon-dioxide and oxygen tensions.
+
+D. Normal awake cerebral blood flow is approximately 50 mL per 100 g of brain tissue per minute.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the principal physiologic determinants of cerebral blood flow. Stoelting identifies cerebral metabolic rate, cerebral perfusion pressure, and arterial carbon-dioxide and oxygen tensions, directly supporting C. [Stoelting Coexisting 8e (2021).pdf, 13 Diseases affecting the brain, PDF p. 284, passage ID 233452]
+
+**A — true but irrelevant:** Autoregulation maintains flow across a range of perfusion pressures in normal physiology, but this describes one mechanism rather than the complete set of modulators asked for. [Stoelting Coexisting 8e (2021).pdf, 13 Diseases affecting the brain, PDF p. 284, passage ID 233452]
+
+**B — true but irrelevant:** CPP is MAP minus ICP, but that formula is only one component and does not include metabolic and blood-gas modulation of flow. [Stoelting Coexisting 8e (2021).pdf, 13 Diseases affecting the brain, PDF p. 284, passage ID 233452]
+
+**C — correct:** C directly lists Stoelting’s three determinants: cerebral metabolic rate, cerebral perfusion pressure, and arterial carbon-dioxide and oxygen tensions. [Stoelting Coexisting 8e (2021).pdf, 13 Diseases affecting the brain, PDF p. 284, passage ID 233452]
+
+**D — true but irrelevant:** An awake-flow value of about 50 mL per 100 g per minute is a reference value, but it does not identify the factors that modulate cerebral blood flow. [Stoelting Coexisting 8e (2021).pdf, 13 Diseases affecting the brain, PDF p. 284, passage ID 233452]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and provides the related autoregulation, formula, and reference-value facts.
+
+## S01-Q087
+
+When comparing the cerebral effects of volatile anesthetics, which condition should be maintained to evaluate their effects on cerebral blood flow and metabolic rate?
+
+A. Volatile anesthetics have intrinsic vasodilatory activity and modify cerebral autoregulation.
+
+B. The vasodilating potency of common volatile agents ranges approximately from halothane through sevoflurane.
+
+C. Cerebral blood-flow and metabolic-rate effects depend on whether the comparison state is awake, sedated, or anesthetized.
+
+D. Volatile-anesthetic effects on cerebral blood flow and cerebral metabolic rate are best evaluated while arterial blood pressure is maintained constant.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** To compare volatile agents’ cerebral blood-flow and metabolic effects, the comparison must hold arterial pressure constant so pressure does not confound the result. Miller states this condition directly, making D correct. [Miller 10e (2024).pdf, 10. Cerebral Physiology and the Effects of Anesthetic Drugs, PDF p. 256, printed p. 203, passage ID 281665]
+
+**A — true but irrelevant:** Volatile agents have vasodilatory activity and alter autoregulation, but that general property does not specify the controlled comparison condition asked for. [Miller 10e (2024).pdf, 10. Cerebral Physiology and the Effects of Anesthetic Drugs, PDF p. 256, printed p. 203, passage ID 281665]
+
+**B — true but irrelevant:** The agents have different vasodilating potencies, but a potency range does not establish how blood pressure should be controlled during comparison. [Miller 10e (2024).pdf, 10. Cerebral Physiology and the Effects of Anesthetic Drugs, PDF p. 256, printed p. 203, passage ID 281665]
+
+**C — true but irrelevant:** Effects can depend on whether subjects are awake, sedated, or anesthetized, but that comparison-state issue is not the arterial-pressure control specified by the lead-in. [Miller 10e (2024).pdf, 10. Cerebral Physiology and the Effects of Anesthetic Drugs, PDF p. 256, printed p. 203, passage ID 281665]
+
+**D — correct:** D directly states Miller’s control condition: maintain arterial blood pressure constant when evaluating volatile-anesthetic effects on cerebral blood flow and metabolic rate. [Miller 10e (2024).pdf, 10. Cerebral Physiology and the Effects of Anesthetic Drugs, PDF p. 256, printed p. 203, passage ID 281665]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes agent properties and comparison-state effects.
+
+## S01-Q088
+
+According to the Monro-Kellie doctrine, what must occur when the volume of one intracranial compartment increases to avoid a rise in intracranial pressure?
+
+A. The Monro-Kellie doctrine states that increasing one intracranial compartment requires an equal reduction in another to avoid increased intracranial pressure.
+
+B. Cerebral blood volume can decrease through reflex arterial mechanisms to accommodate increased intracranial pressure.
+
+C. Cerebrospinal fluid can exit the cranial cavity into the spinal subarachnoid space when intracranial volume rises.
+
+D. The intracranial vault contains brain parenchyma, cerebrospinal fluid, and cerebral blood volume.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The Monro-Kellie doctrine treats intracranial volume as fixed, so an increase in one compartment must be offset by an equal reduction in another to avoid increased pressure. Barash supports A. [Barash 9e (2023).pdf, 37. Anesthesia for Neurosurgery, PDF p. 3070, passage ID 248482]
+
+**A — correct:** A directly states Barash’s Monro-Kellie relationship: increasing one intracranial compartment requires an equal reduction in another to avoid increased ICP. [Barash 9e (2023).pdf, 37. Anesthesia for Neurosurgery, PDF p. 3070, passage ID 248482]
+
+**B — true but irrelevant:** Cerebral blood volume can decrease through compensatory mechanisms, but that is one possible accommodation and not the doctrine’s complete volume relationship. [Barash 9e (2023).pdf, 37. Anesthesia for Neurosurgery, PDF p. 3070, passage ID 248482]
+
+**C — true but irrelevant:** CSF can shift into the spinal subarachnoid space, but that is one compensatory mechanism and does not state the general equal-reduction principle. [Barash 9e (2023).pdf, 37. Anesthesia for Neurosurgery, PDF p. 3070, passage ID 248482]
+
+**D — true but irrelevant:** The three intracranial components are brain, CSF, and cerebral blood volume, but listing them does not state what must change when one compartment expands. [Barash 9e (2023).pdf, 37. Anesthesia for Neurosurgery, PDF p. 3070, passage ID 248482]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and supplies the compartment and compensatory examples in B–D.
+
+## S01-Q089
+
+During prolonged controlled hyperventilation for intracranial surgery, which delayed physiologic change is described in the evidence?
+
+A. Once retractors are removed, PaCO2 should be allowed to increase when dural-closure requirements permit.
+
+B. During prolonged hyperventilation, decreased arterial PaCO2 and systemic alkalosis persist while brain pH and cerebral blood flow return toward normal over 8 to 12 hours.
+
+C. Hypocapnia may be used as an adjunct to brain relaxation during craniotomy.
+
+D. Maintaining cerebral perfusion pressure at normal or high-normal levels is emphasized during most intracranial neurosurgery.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After prolonged hyperventilation, the evidence describes persistent low PaCO2 and systemic alkalosis while brain pH and cerebral blood flow recover toward normal over 8 to 12 hours. Miller’s delayed-change description directly supports B. [Miller 10e (2024).pdf, 53. Anesthesia for Neurologic Surgery and Neurointerventions, PDF p. 2077, printed p. 1746, passage ID 290255]
+
+**A — true but irrelevant:** Allowing PaCO2 to rise after retractors are removed may be appropriate when closure permits, but it does not describe the delayed physiologic change asked for. [Miller 10e (2024).pdf, 53. Anesthesia for Neurologic Surgery and Neurointerventions, PDF p. 2077, printed p. 1746, passage ID 290255]
+
+**B — correct:** B directly states Miller’s delayed response: arterial hypocapnia and systemic alkalosis persist while brain pH and cerebral blood flow return toward normal over 8 to 12 hours. [Miller 10e (2024).pdf, 53. Anesthesia for Neurologic Surgery and Neurointerventions, PDF p. 2077, printed p. 1746, passage ID 290255]
+
+**C — true but irrelevant:** Hypocapnia may assist brain relaxation during craniotomy, but this is an intraoperative use rather than the delayed change after prolonged hyperventilation. [Miller 10e (2024).pdf, 53. Anesthesia for Neurologic Surgery and Neurointerventions, PDF p. 2077, printed p. 1746, passage ID 290255]
+
+**D — true but irrelevant:** Maintaining normal or high-normal cerebral perfusion pressure is a general neuroanesthetic emphasis, but it does not identify the hyperventilation-related time course. [Miller 10e (2024).pdf, 53. Anesthesia for Neurologic Surgery and Neurointerventions, PDF p. 2077, printed p. 1746, passage ID 290255]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes delayed physiology from intraoperative strategy and general goals.
+
+## S01-Q090
+
+During sitting-position neurosurgery, which combination of monitoring findings can identify venous air embolism?
+
+A. A sufficiently large air volume can obstruct right-ventricular outflow and cause acute right-sided failure and cardiovascular collapse.
+
+B. Smaller air volumes can reduce cardiac output and cause hypotension and myocardial or cerebral ischemia.
+
+C. Venous air embolism during sitting neurosurgery can be identified by transesophageal echocardiography, precordial Doppler, an abrupt end-tidal CO2 decrease, or nitrogen monitoring.
+
+D. A pressure gradient between the right atrium and surgical site increases air entrainment through open venous channels.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem asks for the combination of monitoring findings that can identify venous air embolism during sitting neurosurgery. Cote lists TEE, precordial Doppler, abrupt ETCO2 decrease, and nitrogen monitoring, directly supporting C. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**A — true but irrelevant:** Large air volumes can obstruct right-ventricular outflow and cause collapse, but this describes severity and mechanism rather than monitoring identification. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**B — true but irrelevant:** Smaller air volumes can reduce output and cause hypotension or ischemia, but those consequences do not name the monitoring combination requested. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**C — correct:** C directly lists the stored monitoring findings for venous air embolism: TEE, precordial Doppler, abrupt ETCO2 decrease, or nitrogen monitoring. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**D — true but irrelevant:** A right-atrium-to-surgical-site pressure gradient increases air entrainment, but it is a mechanism of entry rather than a monitoring finding. [Cote 7e (2024).pdf, 33 Plastic and reconstructive surgery, PDF p. 1457, passage ID 189360]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and distinguishes monitoring findings from air-embolism mechanisms and consequences.
+
+## S01-Q096
+
+A term pregnant patient becomes hypotensive when placed supine. Which physiologic statement best explains the effect of the gravid uterus?
+
+A. Neuraxial or general anaesthesia can impair the compensatory sympathetic response to supine hypotension.
+
+B. At term, the inferior vena cava may be nearly completely occluded in the supine position.
+
+C. Collateral venous return can occur through epidural, azygos, and vertebral veins.
+
+D. In the supine position, blood pressure commonly decreases as the result of aortocaval compression by the gravid uterus.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The gravid uterus can compress both the aorta and vena cava when supine, reducing uterine and systemic blood pressure. Stoelting identifies aortocaval compression as the common explanation, directly supporting D. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2691, passage ID 316105]
+
+**A — true but irrelevant:** Anesthesia can impair compensatory sympathetic responses, but that factor does not identify the gravid uterus’s direct mechanical effect asked for here. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2691, passage ID 316105]
+
+**B — true but irrelevant:** The vena cava may be nearly completely occluded at term, but that is one component of the broader aortocaval-compression explanation. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2691, passage ID 316105]
+
+**C — true but irrelevant:** Collateral venous pathways can return blood through epidural, azygos, and vertebral veins, but that does not explain the primary supine blood-pressure decrease. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2691, passage ID 316105]
+
+**D — correct:** D directly states the stored Stoelting mechanism: supine blood pressure commonly decreases because the gravid uterus causes aortocaval compression. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2691, passage ID 316105]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and distinguishes compression, collateral, and anesthetic-response details.
+
+## S01-Q097
+
+Which combination of late-pregnancy changes explains rapid oxyhaemoglobin desaturation during apnea?
+
+A. Pregnancy decreases functional residual capacity by about 20% and increases oxygen consumption by 15% to 20%, causing rapid oxyhaemoglobin desaturation during apnea.
+
+B. Pregnancy causes a PaCO2 of approximately 28 to 32 mm Hg from normal hyperventilation.
+
+C. Pregnancy increases blood volume and cardiac output by approximately 40% to 50%.
+
+D. Pregnancy increases tidal volume by approximately 35% to 45%.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Rapid apnea desaturation late in pregnancy reflects less oxygen reserve and greater oxygen use. Chestnut identifies approximately 20% lower functional residual capacity and 15% to 20% higher oxygen consumption, directly supporting A. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**A — correct:** A combines the two stored determinants of rapid apnea desaturation: functional residual capacity falls about 20% while oxygen consumption rises 15% to 20%. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**B — true but irrelevant:** A PaCO2 of about 28 to 32 mm Hg reflects pregnancy hyperventilation, but it does not explain the reduced oxygen reserve and increased consumption during apnea. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**C — true but irrelevant:** Increased blood volume and cardiac output are important pregnancy adaptations, but they do not provide the paired FRC and oxygen-consumption explanation requested. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**D — true but irrelevant:** Tidal volume rises during pregnancy, but that change does not explain why oxygen stores are depleted faster during apnea. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports A and provides the related pregnancy respiratory and cardiovascular changes.
+
+## S01-Q098
+
+Which uteroplacental vascular property explains why maternal hypotension directly threatens fetal perfusion?
+
+A. Extreme hypocapnia below PaCO2 20 mm Hg during labor hyperventilation can reduce uterine blood flow.
+
+B. Uterine and placental blood flow have minimal autoregulation and depend on maternal cardiac output and uterine perfusion pressure.
+
+C. Maternal hypotension from hypovolaemia, aortocaval compression, or anaesthetic-induced low resistance can reduce uterine perfusion pressure.
+
+D. Uterine blood flow rises to approximately 700 mL/min at term.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The key uteroplacental property is minimal autoregulation: uterine and placental flow depends on maternal cardiac output and uterine perfusion pressure. Stoelting states this directly, making B correct. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2704, passage ID 316128]
+
+**A — true but irrelevant:** Extreme hypocapnia can reduce uterine blood flow, but that is a labor-hyperventilation example rather than the general vascular property asked for. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2704, passage ID 316128]
+
+**B — correct:** B directly states Stoelting’s principle: uterine and placental flow have minimal autoregulation and depend on maternal cardiac output and uterine perfusion pressure. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2704, passage ID 316128]
+
+**C — true but irrelevant:** Maternal hypotension can result from hypovolemia, compression, or anesthesia and reduce perfusion pressure, but this is an example of the consequence rather than the underlying property. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2704, passage ID 316128]
+
+**D — true but irrelevant:** Uterine blood flow reaches approximately 700 mL/min at term, but that magnitude does not explain why maternal hypotension threatens fetal perfusion. [Stoelting P&P 6e (2022).pdf, 45. Maternal and Fetal Physiology and Pharmacology, PDF p. 2704, passage ID 316128]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports B and supplies the related flow, pressure, and hypocapnia facts.
+
+## S01-Q099
+
+Which labor-analgesia strategy provides satisfactory sensory analgesia while limiting motor block?
+
+A. Continuous lumbar epidural analgesia provides continuous pain relief and reduces the stimulus to hyperventilation.
+
+B. Continuous epidural analgesia can be extended to provide a sensory block for cesarean delivery.
+
+C. A dilute epidural local anaesthetic combined with a modest opioid dose provides satisfactory labor analgesia with less motor block than local anaesthetic alone.
+
+D. Intrathecal and epidural opioid techniques do not produce motor block.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The desired labor-analgesia strategy preserves sensory analgesia while limiting motor block. Chestnut states that dilute epidural local anesthetic plus a modest opioid provides satisfactory analgesia with less motor block than local anesthetic alone, directly supporting C. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1303, printed p. 1237, passage ID 276049]
+
+**A — true but irrelevant:** Continuous lumbar epidural provides pain relief and reduces hyperventilation stimulus, but it does not specify the dilute local-anesthetic and opioid combination that limits motor block. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1303, printed p. 1237, passage ID 276049]
+
+**B — true but irrelevant:** An epidural can be extended for cesarean sensory block, but that extension does not answer the labor strategy that minimizes motor block. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1303, printed p. 1237, passage ID 276049]
+
+**C — correct:** C directly matches Chestnut’s labor-analgesia recommendation: dilute epidural local anesthetic with a modest opioid gives satisfactory sensory analgesia and less motor block than local anesthetic alone. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1303, printed p. 1237, passage ID 276049]
+
+**D — true but irrelevant:** The stored passage states that intrathecal and epidural opioid techniques do not produce motor block, but this true statement does not identify the dilute local-anesthetic plus opioid strategy keyed by C. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1303, printed p. 1237, passage ID 276049]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and distinguishes continuous epidural, cesarean extension, and opioid-only claims.
+
+## S01-Q100
+
+During labor epidural dosing, which pattern distinguishes inadvertent intravascular from intrathecal catheter injection?
+
+A. Unrecognized intravascular or intrathecal catheter placement remains possible despite test dosing.
+
+B. Rapid vital-sign, central-nervous-system, or motor changes during dosing should prompt vigilance for malposition.
+
+C. Epidural catheter dosing should include intermittent aspiration and observation for cerebrospinal-fluid or blood return.
+
+D. Intravascular epidural test-dose injection may cause dizziness, ear buzzing, lip numbness, and with epinephrine tachycardia or hypertension; intrathecal injection causes lower-extremity numbness and motor block.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The distinguishing pattern is the physiologic response to the test dose: intravascular injection produces local-anesthetic symptoms and, with epinephrine, tachycardia or hypertension; intrathecal injection produces lower-extremity numbness and motor block. Miller’s passage supports D. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2258, printed p. 1898, passage ID 291170]
+
+**A — true but irrelevant:** Test dosing cannot eliminate all risk of unrecognized malposition, but that general limitation does not distinguish the intravascular and intrathecal response patterns. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2258, printed p. 1898, passage ID 291170]
+
+**B — true but irrelevant:** Rapid vital-sign, CNS, or motor changes should prompt vigilance, but this warning does not identify which pattern indicates intravascular versus intrathecal injection. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2258, printed p. 1898, passage ID 291170]
+
+**C — true but irrelevant:** Aspiration and observing for blood or CSF are recommended safety checks, but they do not provide the response-pattern distinction asked for. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2258, printed p. 1898, passage ID 291170]
+
+**D — correct:** D directly states Miller’s distinction: intravascular dosing may cause dizziness, ear buzzing, lip numbness, and epinephrine-related tachycardia or hypertension, whereas intrathecal dosing causes leg numbness and motor block. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2258, printed p. 1898, passage ID 291170]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and supplies the test-dose safety and malposition observations in A–C.
+
+## S01-Q101
+
+For a patient requiring a prolonged surgical block, which epidural approach best explains how duration can be extended?
+
+A. A single epidural bolus can provide surgical anaesthesia for about 45 minutes to 4 hours, and an indwelling catheter can extend the block indefinitely.
+
+B. Use chloroprocaine for epidural onset of 10 to 15 minutes and duration up to 60 minutes.
+
+C. Add epinephrine to prolong a chloroprocaine epidural block up to 90 minutes.
+
+D. Use five-percent procaine despite its slow onset and potentially unreliable, poor-quality block.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem asks how an epidural block can be prolonged for a long operation. Miller states that a single epidural bolus lasts about 45 minutes to 4 hours and that an indwelling catheter can extend the block indefinitely, directly supporting A. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1543, printed p. 1287, passage ID 287744]
+
+**A — correct:** A directly applies Miller’s duration distinction: a bolus supplies a finite block, while a catheter permits indefinite extension for prolonged surgery. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1543, printed p. 1287, passage ID 287744]
+
+**B — true but irrelevant:** Chloroprocaine has a rapid onset and limited duration, but that single-agent duration does not explain how an epidural can be extended indefinitely. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1543, printed p. 1287, passage ID 287744]
+
+**C — wrong timing or magnitude:** Epinephrine may prolong a chloroprocaine block to a limited duration, but it does not provide the prolonged catheter-based extension asked for. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1543, printed p. 1287, passage ID 287744]
+
+**D — true but irrelevant:** Five-percent procaine has slow onset and potentially poor block quality, but that limitation does not describe the effective extension strategy in the lead-in. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1543, printed p. 1287, passage ID 287744]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes short-acting drug choices from catheter extension.
+
+## S01-Q102
+
+According to Chestnut 6e, which conventional upper sensory-block level should be targeted before cesarean delivery under neuraxial anaesthesia?
+
+A. Approximately T10 when assessed by pinprick
+
+B. Approximately T4.
+
+C. Document the sensory block by testing caudad to cephalad in the mid-axillary line.
+
+D. Recognize that light touch, pinprick, and cold testing can differ by several spinal segments.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The conventional upper sensory level needed before cesarean delivery is approximately T4. Chestnut identifies that target, so B answers the level question directly. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 590, printed p. 581, passage ID 272792]
+
+**A — wrong timing or magnitude:** T10 is below the conventional upper level required for cesarean anesthesia, so it does not provide the T4 target specified by Chestnut. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 590, printed p. 581, passage ID 272792]
+
+**B — correct:** B directly states Chestnut’s conventional target: an upper sensory block to approximately T4 before cesarean delivery under neuraxial anesthesia. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 590, printed p. 581, passage ID 272792]
+
+**C — true but irrelevant:** Testing caudad to cephalad in the mid-axillary line documents a block, but it does not state the conventional upper sensory level requested. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 590, printed p. 581, passage ID 272792]
+
+**D — true but irrelevant:** Different sensory modalities may differ by spinal segments, but that measurement caveat does not identify the target T4 level. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 590, printed p. 581, passage ID 272792]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports B and addresses the related testing distinctions.
+
+## S01-Q103
+
+A patient asks about evidence comparing neuraxial with general anaesthesia for cesarean delivery. Which trial finding is accurately stated?
+
+A. General anaesthesia is used principally when neuraxial techniques are contraindicated or time-constrained.
+
+B. The estimated general-versus-neuraxial case-fatality risk ratio was as high as 16.7 in 1985–1990 data.
+
+C. Neuraxial anaesthesia was associated with less maternal blood loss and shivering but more nausea than general anaesthesia.
+
+D. Later 1991–2002 analysis found a nonsignificant risk ratio of 1.7.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the comparative trial finding, not general indications or older mortality estimates. Chestnut reports less maternal blood loss and shivering but more nausea with neuraxial anesthesia than general anesthesia, directly supporting C. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 587, printed p. 578, passage ID 272785]
+
+**A — true but irrelevant:** General anesthesia is used when neuraxial techniques are contraindicated or time-constrained, but this indication does not state the trial’s comparative outcome finding. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 587, printed p. 578, passage ID 272785]
+
+**B — true but irrelevant:** An older case-fatality risk estimate is historical context, but it does not report the maternal blood-loss, shivering, and nausea comparison asked for. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 587, printed p. 578, passage ID 272785]
+
+**C — correct:** C directly gives Chestnut’s comparative result: neuraxial anesthesia was associated with less blood loss and shivering but more nausea than general anesthesia. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 587, printed p. 578, passage ID 272785]
+
+**D — true but irrelevant:** A later risk-ratio analysis is another historical comparison, but it does not provide the specific perioperative outcome pattern requested. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 587, printed p. 578, passage ID 272785]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and distinguishes general indications and mortality analyses.
+
+## S01-Q104
+
+A labouring patient has received approximately 10 hours of oxytocin augmentation and now requires cesarean delivery. Which oxytocin dose finding applies to achieving adequate uterine tone?
+
+A. Use an ED90 bolus of 0.35 unit for nonlaboring women undergoing cesarean delivery.
+
+B. Use an estimated ED90 infusion rate of 0.29 unit per minute for elective cesarean delivery.
+
+C. Recognize that continued high-dose postpartum oxytocin can desensitize receptors and reduce myometrial responsiveness.
+
+D. The ED90 is 2.99 units in labouring women after this prolonged augmentation exposure.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** This patient has prolonged labor oxytocin exposure, which changes the uterine response and raises the relevant ED90. Chestnut reports an ED90 of 2.99 units in laboring women after prolonged exposure, directly supporting D. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 618, printed p. 609, passage ID 272934]
+
+**A — wrong condition:** An ED90 of 0.35 unit applies to nonlaboring women, but this patient has been laboring with prolonged oxytocin augmentation. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 618, printed p. 609, passage ID 272934]
+
+**B — wrong condition:** The 0.29-unit-per-minute infusion estimate applies to elective cesarean delivery, but it does not match the prolonged labor exposure in this stem. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 618, printed p. 609, passage ID 272934]
+
+**C — true but irrelevant:** Continued high-dose oxytocin can desensitize receptors and reduce responsiveness, but that mechanism does not provide the ED90 value requested. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 618, printed p. 609, passage ID 272934]
+
+**D — correct:** D directly matches Chestnut’s laboring-after-augmentation value: the ED90 is 2.99 units after this prolonged oxytocin exposure. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 618, printed p. 609, passage ID 272934]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and distinguishes nonlaboring, elective, and receptor-desensitization contexts.
+
+## S01-Q114
+
+A limb tourniquet is released after prolonged inflation. Which immediate haemodynamic consequence should be anticipated?
+
+A. Sudden metabolite washout and a transient blood-pressure decrease from blood-volume shift into the limb.
+
+B. The carbon-dioxide rise after release can transiently increase minute volume and cerebral blood volume.
+
+C. Tourniquet release can transiently increase potassium and carbon dioxide.
+
+D. Ischemia produces tissue hypoxia and acidosis, with severity depending on tissue, duration, and collateral circulation.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After tourniquet release, accumulated metabolites and blood flow return to the limb, producing a transient volume shift and blood-pressure decrease. Cote identifies this immediate consequence, directly supporting A. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188633]
+
+**A — correct:** A directly matches the stored Cote description: metabolite washout and limb pooling create a transient blood-volume shift and pressure decrease. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188633]
+
+**B — true but irrelevant:** Carbon-dioxide elevation can transiently affect minute ventilation and cerebral blood volume, but it does not state the immediate hemodynamic consequence asked for. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188633]
+
+**C — true but irrelevant:** Potassium and carbon dioxide may transiently rise after ischemia, but those biochemical changes do not identify the primary blood-pressure response. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188633]
+
+**D — true but irrelevant:** Tissue hypoxia and acidosis develop during ischemia, but this describes the preceding injury state rather than the immediate release hemodynamics. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188633]
+
+**Evidence sufficiency:** The stored Cote passage directly supports A and distinguishes hemodynamic, biochemical, and ischemic effects.
+
+## S01-Q115
+
+For prone spine surgery, which positioning plan best protects the chest, iliac spines, upper limbs, ulnar nerves, and eyes?
+
+A. Keep the arms below 90 degrees of abduction with slight internal rotation.
+
+B. Pad the chest and iliac spines, limit arm abduction, and protect the ulnar nerves and eyes.
+
+C. Avoid abdominal pressure because it can compress the vena cava, increase epidural-vein bleeding, and reduce cardiac output.
+
+D. Protect peripheral nerves, bony prominences, and eyes as the overall positioning goals.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The positioning plan must protect weight-bearing chest and iliac areas while limiting upper-limb and eye injury. Barash’s prone-position guidance combines chest and iliac padding, limited arm abduction, and protection of ulnar nerves and eyes, supporting B. [Barash 9e (2023).pdf, 51. Anesthesia for Orthopedic Surgery, PDF p. 4357, passage ID 250868]
+
+**A — incomplete:** Limiting arm abduction helps protect the brachial plexus, but this option omits the chest, iliac-spine, ulnar-nerve, and eye protections required by the lead-in. [Barash 9e (2023).pdf, 51. Anesthesia for Orthopedic Surgery, PDF p. 4357, passage ID 250868]
+
+**B — correct:** B directly combines the stored positioning priorities: pad the chest and iliac spines, limit arm abduction, and protect ulnar nerves and eyes. [Barash 9e (2023).pdf, 51. Anesthesia for Orthopedic Surgery, PDF p. 4357, passage ID 250868]
+
+**C — true but irrelevant:** Avoiding abdominal pressure can reduce venous-caval compression and epidural-vein bleeding, but it does not state the complete surface-protection plan asked for. [Barash 9e (2023).pdf, 51. Anesthesia for Orthopedic Surgery, PDF p. 4357, passage ID 250868]
+
+**D — incomplete:** Protecting nerves, prominences, and eyes states broad goals, but it omits the specific chest, iliac, and arm-position measures in the best plan. [Barash 9e (2023).pdf, 51. Anesthesia for Orthopedic Surgery, PDF p. 4357, passage ID 250868]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and contains the broader positioning principles in A, C, and D.
+
+## S01-Q116
+
+During extremity surgery, how do increasing tourniquet pressure and duration affect tissue injury?
+
+A. Muscle beneath a tourniquet can develop histologic changes after two hours at 200 mm Hg.
+
+B. Tourniquet release after prolonged ischemia can produce interstitial and intracellular edema and capillary occlusion.
+
+C. Tourniquet ischemia causes microvascular permeability and muscle damage that increase with tourniquet duration and pressure.
+
+D. Post-tourniquet syndrome includes edema, stiffness, pallor, weakness without paralysis, and subjective numbness.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Increasing tourniquet pressure and duration intensify ischemic microvascular and muscle injury. Cote states that permeability and muscle damage increase with both variables, directly supporting C. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188634]
+
+**A — true but irrelevant:** Histologic muscle changes may occur after two hours at 200 mm Hg, but that single threshold does not express the general pressure-and-duration relationship asked for. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188634]
+
+**B — true but irrelevant:** Edema and capillary occlusion can follow release after prolonged ischemia, but these are release consequences rather than the dose-dependent injury relationship. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188634]
+
+**C — correct:** C directly states the stored Cote principle: tourniquet ischemia causes microvascular permeability and muscle damage that increase with duration and pressure. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188634]
+
+**D — true but irrelevant:** Post-tourniquet syndrome includes edema, stiffness, pallor, weakness, and numbness, but that clinical syndrome does not explain the pressure-duration injury relationship. [Cote 7e (2024).pdf, 30 Orthopedic and spine surgery, PDF p. 1292, passage ID 188634]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and distinguishes injury mechanism, release effects, thresholds, and syndrome.
+
+## S01-Q117
+
+Which sequence and priority define the trauma primary survey?
+
+A. Circulation assessment includes vital signs, capillary refill, fluid response, blood tests, FAST, and pelvic imaging.
+
+B. The primary survey should be repeated frequently when the trauma patient’s status changes.
+
+C. Airway assessment includes vocal response, auscultation, chin lift, bag-valve-mask oxygen, and intubation.
+
+D. The trauma primary survey assesses airway, breathing, circulation, neurologic disability, and exposure, with airway and cervical-spine protection prioritized.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The trauma primary survey is an ordered ABCDE assessment with airway and cervical-spine protection prioritized. Miller states that sequence and priority, directly supporting D. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2392, printed p. 2003, passage ID 291848]
+
+**A — true but irrelevant:** The circulation assessment may include vital signs, refill, response, tests, FAST, and pelvic imaging, but this is a component rather than the complete prioritized survey. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2392, printed p. 2003, passage ID 291848]
+
+**B — true but irrelevant:** Repeating the survey when status changes is appropriate, but it does not identify the ABCDE sequence and airway priority requested. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2392, printed p. 2003, passage ID 291848]
+
+**C — incomplete:** Airway assessment includes several listed actions, but this option omits breathing, circulation, disability, exposure, and the complete prioritized survey. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2392, printed p. 2003, passage ID 291848]
+
+**D — correct:** D directly gives Miller’s primary-survey sequence and priority: airway, breathing, circulation, neurologic disability, and exposure, with airway and cervical-spine protection first. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2392, printed p. 2003, passage ID 291848]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes components and repeat-assessment details.
+
+## S01-Q118
+
+A patient with traumatic hemorrhage is hypotensive with reduced preload. Which hemodynamic profile best describes the resulting shock?
+
+A. Hypovolemic shock from hemorrhage is associated with low cardiac output and increased peripheral resistance.
+
+B. Distributive shock results from reduced systemic vascular resistance and is often associated with increased cardiac output.
+
+C. Cardiogenic shock is characterized by low cardiac output and increased systemic vascular resistance.
+
+D. Obstructive shock results from obstruction to forward flow such as tension pneumothorax, tamponade, or pulmonary embolism.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Hemorrhage reduces preload and cardiac output, with compensatory peripheral vasoconstriction. Barash identifies low output with increased peripheral resistance as the hypovolemic profile, directly supporting A. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**A — correct:** A directly matches Barash’s hypovolemic-shock profile: hemorrhage produces low cardiac output with increased peripheral resistance. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**B — wrong condition:** Reduced resistance with often increased output describes distributive shock, but the stem gives hemorrhage and reduced preload. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**C — wrong condition:** Low output with increased resistance can describe cardiogenic shock, but the stem’s hemorrhage identifies hypovolemia rather than pump failure. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**D — wrong condition:** Obstruction from tamponade, tension pneumothorax, or embolism produces obstructive shock, but it does not match hemorrhagic preload loss. [Barash 9e (2023).pdf, 57. Critical Care Medicine, PDF p. 4825, passage ID 251734]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes distributive, cardiogenic, and obstructive profiles.
+
+## S01-Q124
+
+Why do infants and young children desaturate readily during apnoea?
+
+A. The infant diaphragm has fewer type-I fibers, predisposing to respiratory fatigue.
+
+B. Their alveolar-ventilation-to-FRC ratio is higher and oxygen consumption is increased.
+
+C. Increased rib-cage compliance and reduced lung compliance predispose basal segments to atelectasis.
+
+D. The child alveolar-ventilation-to-FRC ratio is approximately 5:1 versus 1.5:1 in adults.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Infants desaturate quickly during apnea because their oxygen use is high relative to a small functional residual-capacity reservoir. Barash identifies a higher alveolar-ventilation-to-FRC ratio and increased oxygen consumption, directly supporting B. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3702, passage ID 249641]
+
+**A — true but irrelevant:** Fewer type-I diaphragm fibers predispose infants to fatigue, but that respiratory-muscle fact does not provide the high ventilation-to-FRC and oxygen-use explanation. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3702, passage ID 249641]
+
+**B — correct:** B directly states the stored Barash explanation: infants have a higher alveolar-ventilation-to-FRC ratio and increased oxygen consumption. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3702, passage ID 249641]
+
+**C — true but irrelevant:** Chest and lung compliance differences predispose to atelectasis, but they do not state the principal oxygen-reserve and consumption relationship asked for. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3702, passage ID 249641]
+
+**D — true but irrelevant:** The approximate ratio is a quantitative detail, but it does not include the increased oxygen consumption that completes the stated explanation. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3702, passage ID 249641]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and supplies the related diaphragm, compliance, and ratio details.
+
+## S01-Q125
+
+Why do preterm neonates lose heat readily during anaesthesia?
+
+A. Preterm infants have minimal muscle mass for shivering and rely on nonshivering thermogenesis via brown fat.
+
+B. Radiation accounts for approximately 39% and convection for 34% of preterm neonatal heat loss.
+
+C. Evaporation and conduction/convection losses are increased by thin skin, minimal subcutaneous fat, and a large surface-area-to-mass ratio.
+
+D. Neonatal heat loss occurs by convection, conduction, radiation, and evaporation.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Preterm infants lose heat rapidly because thin skin, little subcutaneous insulation, and a high surface-area-to-mass ratio amplify evaporative and conductive or convective loss. Cote directly supports C. [Cote 7e (2024).pdf, 1 Growth and development, PDF p. 44, passage ID 182639]
+
+**A — true but irrelevant:** Limited shivering and reliance on brown-fat thermogenesis describe heat production, but they do not identify why passive heat loss is increased. [Cote 7e (2024).pdf, 1 Growth and development, PDF p. 44, passage ID 182639]
+
+**B — true but irrelevant:** Radiation and convection percentages quantify two routes, but they do not provide the structural explanation for the increased losses. [Cote 7e (2024).pdf, 1 Growth and development, PDF p. 44, passage ID 182639]
+
+**C — correct:** C directly gives Cote’s explanation: thin skin, minimal subcutaneous fat, and a large surface-area-to-mass ratio increase evaporation and conduction or convection. [Cote 7e (2024).pdf, 1 Growth and development, PDF p. 44, passage ID 182639]
+
+**D — incomplete:** Convection, conduction, radiation, and evaporation are the routes of heat loss, but listing routes does not explain why preterm infants lose heat so readily. [Cote 7e (2024).pdf, 1 Growth and development, PDF p. 44, passage ID 182639]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and distinguishes heat-loss routes from infant structural susceptibility.
+
+## S01-Q126
+
+Why do neonates and infants have a relatively large volume of distribution for water-soluble medications?
+
+A. Total body-water content is highest in preterm infants and decreases during the first six months.
+
+B. Infant body composition changes because fat and muscle content increase with age.
+
+C. Pharmacokinetic and pharmacodynamic changes are most pronounced in neonates.
+
+D. High water content in neonates and infants provides a large volume of distribution for water-soluble medications.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Water-soluble drugs distribute through the larger body-water compartment of neonates and infants. Miller states that high water content provides a large volume of distribution, directly supporting D. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2714, printed p. 2271, passage ID 293434]
+
+**A — true but irrelevant:** Preterm infants have the highest total body-water content and it decreases over early infancy, but that time-course fact does not itself state the medication-distribution mechanism. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2714, printed p. 2271, passage ID 293434]
+
+**B — true but irrelevant:** Fat and muscle increase with age, but those composition changes do not directly explain the larger distribution volume for water-soluble medications. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2714, printed p. 2271, passage ID 293434]
+
+**C — true but irrelevant:** Pharmacokinetic and pharmacodynamic changes are pronounced in neonates, but that broad statement does not identify the water-based distribution mechanism. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2714, printed p. 2271, passage ID 293434]
+
+**D — correct:** D directly applies Miller’s mechanism: high neonatal and infant water content creates a large volume of distribution for water-soluble drugs. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2714, printed p. 2271, passage ID 293434]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and supplies the related developmental composition facts.
+
+## S01-Q127
+
+How does minimum alveolar concentration change from the preterm period through infancy and childhood?
+
+A. MAC is lowest in preterm neonates, rises after birth, and peaks between 1 and 6 months; infants have higher MAC than older children and adults.
+
+B. MAC relationships to MAC-awake, intubation, LMA insertion, extubation, and MAC-BAR are similar in children and adults.
+
+C. MAC increases by approximately 30% from birth.
+
+D. Children have a higher BIS for a specific fraction of MAC than adults.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** MAC follows a developmental curve rather than simply rising from birth: it is lowest in preterm neonates, rises after birth, and peaks at one to six months. Miller supports A as the complete trajectory. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2716, printed p. 2273, passage ID 293441]
+
+**A — correct:** A directly states Miller’s developmental MAC pattern: lowest in preterm neonates, increasing after birth, peaking at one to six months, and higher in infants than older children and adults. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2716, printed p. 2273, passage ID 293441]
+
+**B — true but irrelevant:** Relationships among MAC-awake, intubation, LMA insertion, extubation, and MAC-BAR may be similar, but that does not give the developmental MAC trajectory asked for. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2716, printed p. 2273, passage ID 293441]
+
+**C — wrong timing or magnitude:** MAC does not simply increase by 30% from birth; the stored passage describes a rise and later peak after a lower preterm value. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2716, printed p. 2273, passage ID 293441]
+
+**D — true but irrelevant:** Children’s BIS can differ at a given MAC fraction, but that monitor relationship does not describe how MAC changes with age. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2716, printed p. 2273, passage ID 293441]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes developmental MAC from monitor and MAC-component comparisons.
+
+## S01-Q128
+
+Which anatomic feature makes the infant subglottic airway particularly susceptible to obstruction?
+
+A. In adults, the narrowest aspect of the upper airway is at the vocal cords.
+
+B. The infant larynx is funnel-shaped because of narrow, undeveloped cricoid cartilage, while the neonatal subglottic airway narrows at the cricoid ring.
+
+C. Cuffed small-volume, high-resistance tubes can provide an adequate airway in neonates and young infants.
+
+D. Airway narrowing is susceptible to trauma from intubation or an overly large endotracheal tube.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The infant subglottic airway is narrow and funnel-shaped because the cricoid cartilage is small and undeveloped. Barash identifies this anatomy and the cricoid-ring narrowing, directly supporting B. [Barash 9e (2023).pdf, 42. Neonatal Anesthesia, PDF p. 3590, passage ID 249430]
+
+**A — wrong condition:** The vocal cords are the narrowest adult airway region, but the stem asks about the infant subglottic anatomy. [Barash 9e (2023).pdf, 42. Neonatal Anesthesia, PDF p. 3590, passage ID 249430]
+
+**B — correct:** B directly states Barash’s infant anatomy: a narrow, undeveloped cricoid creates a funnel-shaped larynx, with neonatal narrowing at the cricoid ring. [Barash 9e (2023).pdf, 42. Neonatal Anesthesia, PDF p. 3590, passage ID 249430]
+
+**C — true but irrelevant:** Cuffed small-volume tubes may provide an adequate airway, but tube selection does not explain the infant subglottic susceptibility to obstruction. [Barash 9e (2023).pdf, 42. Neonatal Anesthesia, PDF p. 3590, passage ID 249430]
+
+**D — true but irrelevant:** Intubation trauma or an oversized tube can worsen narrowing, but this is a consequence or risk rather than the defining anatomic feature. [Barash 9e (2023).pdf, 42. Neonatal Anesthesia, PDF p. 3590, passage ID 249430]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes adult anatomy, tube choice, and trauma risks.
+
+## S01-Q129
+
+Why can infants and children develop rapid hypoxemia during general anesthesia and airway obstruction?
+
+A. General anaesthesia can inhibit hypoxic and hypercapnic ventilatory drive and alter hypoxic pulmonary vasoconstriction.
+
+B. Hypoxaemia may result from hypoventilation, upper-airway obstruction, bronchospasm, aspiration, edema, pneumothorax, atelectasis, shunting, or embolism.
+
+C. Children desaturate rapidly because general anaesthesia reduces FRC and hypoxic drive, while shivering can increase oxygen consumption two- to fivefold.
+
+D. Desaturation may develop after suctioning before extubation without alveolar recruitment using 100% oxygen.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Children have little oxygen reserve and high oxygen demand, so anesthesia-related FRC and drive reductions combine with shivering-related consumption to cause rapid hypoxemia. Cote’s passage supports C as the complete explanation. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1942, passage ID 191560]
+
+**A — true but irrelevant:** Anesthesia can inhibit hypoxic and hypercapnic drive and alter hypoxic pulmonary vasoconstriction, but this does not include the reduced FRC and increased shivering demand in the stem. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1942, passage ID 191560]
+
+**B — true but irrelevant:** Hypoventilation, obstruction, bronchospasm, aspiration, edema, pneumothorax, atelectasis, shunt, and embolism are causes of hypoxemia, but this list does not give the pediatric reserve-and-demand mechanism. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1942, passage ID 191560]
+
+**C — correct:** C directly combines the stored pediatric explanation: anesthesia reduces FRC and hypoxic drive while shivering can increase oxygen consumption two- to fivefold. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1942, passage ID 191560]
+
+**D — true but irrelevant:** Desaturation can follow suctioning without recruitment, but that is a particular peri-extubation event rather than the general pediatric mechanism asked for. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1942, passage ID 191560]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and supplies the separate mechanisms and events in A, B, and D.
+
+## S01-Q130
+
+Which age-based formula estimates the internal diameter of an uncuffed pediatric endotracheal tube?
+
+A. The trend in pediatric practice is toward cuffed tubes despite successful use of uncuffed tubes.
+
+B. Inappropriately large tubes can cause serious lifelong laryngeal and subglottic damage.
+
+C. Tube size should be confirmed by a slight air leak at 20 to 30 cmH2O positive pressure.
+
+D. Cole’s formula estimates uncuffed endotracheal-tube internal diameter as age divided by four plus four.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The requested formula estimates the internal diameter of an uncuffed pediatric tube from age. Miller identifies Cole’s formula as age divided by four plus four, directly supporting D. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2909, printed p. 2442, passage ID 294392]
+
+**A — true but irrelevant:** Practice has moved toward cuffed tubes despite successful uncuffed use, but that trend does not provide the uncuffed-tube size formula. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2909, printed p. 2442, passage ID 294392]
+
+**B — true but irrelevant:** An oversized tube can cause serious laryngeal and subglottic damage, but this risk does not state how internal diameter is estimated. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2909, printed p. 2442, passage ID 294392]
+
+**C — true but irrelevant:** A slight leak at 20 to 30 cmH2O helps confirm tube fit, but it is a bedside sizing check rather than the age-based formula requested. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2909, printed p. 2442, passage ID 294392]
+
+**D — correct:** D directly gives Miller’s Cole formula for uncuffed tubes: internal diameter equals age divided by four plus four. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2909, printed p. 2442, passage ID 294392]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes formula, tube-risk, and leak-test information.
+
+## S01-Q131
+
+Immediately after delivery, a neonate remains hypoxemic with persistently elevated pulmonary vascular resistance. Which normal cardiovascular transition has failed to occur?
+
+A. Pulmonary vascular resistance decreases, pulmonary blood flow increases, and left-atrial pressure rises.
+
+B. Higher left-atrial pressure diminishes shunting across the foramen ovale.
+
+C. Umbilical-cord clamping or room-air exposure increases systemic vascular resistance.
+
+D. Increased oxygen and systemic vascular resistance constrict the ductus arteriosus.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Persistent high pulmonary vascular resistance after birth means the normal fall in pulmonary resistance and rise in pulmonary flow has failed. Chestnut identifies that transition, directly supporting A. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**A — correct:** A directly states the failed normal transition: pulmonary vascular resistance should decrease, pulmonary flow should increase, and left-atrial pressure should rise. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**B — true but irrelevant:** Higher left-atrial pressure diminishes foramen-ovale shunting, but this downstream consequence does not identify the failed pulmonary-resistance transition. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**C — true but irrelevant:** Cord clamping or room-air exposure increases systemic resistance, but that systemic change does not state the pulmonary transition that failed. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**D — true but irrelevant:** Oxygen and increased systemic resistance constrict the ductus arteriosus, but that ductal change is not the primary failed response described. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports A and distinguishes the pulmonary, septal, systemic, and ductal transitions.
+
+## S01-Q132
+
+Why are premature infants at increased postoperative risk of hypoxia, hypercapnia, and apnea after anaesthesia?
+
+A. Central apnea results from decreased respiratory-center output and can be precipitated by hypoxia, hypothermia, or airway stimulation.
+
+B. Anaesthetic effects combined with immature respiratory control and respiratory muscles increase these risks.
+
+C. Apneic episodes are common in micropremies and decrease with advancing postconceptional age.
+
+D. During obstructive apnea, pharyngeal incoordination obstructs the hypopharynx and larynx.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Premature infants are vulnerable after anesthesia because drug effects add to immature respiratory control and weak respiratory muscles. Cote identifies that combined vulnerability, directly supporting B. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1529, passage ID 189650]
+
+**A — true but irrelevant:** Central apnea can follow immature respiratory-center output and be triggered by hypoxia, hypothermia, or stimulation, but that is one mechanism rather than the complete postoperative risk explanation. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1529, passage ID 189650]
+
+**B — correct:** B directly combines the stored Cote contributors: anesthetic effects, immature respiratory control, and immature respiratory muscles increase hypoxia, hypercapnia, and apnea risk. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1529, passage ID 189650]
+
+**C — true but irrelevant:** Apnea is common in micropremies and decreases with advancing postconceptional age, but that trajectory does not give the combined anesthesia and immature-system mechanism. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1529, passage ID 189650]
+
+**D — true but irrelevant:** Pharyngeal incoordination can obstruct the hypopharynx and larynx during obstructive apnea, but it does not explain the full postoperative vulnerability. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1529, passage ID 189650]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and provides the central, obstructive, and age-related apnea facts in A, C, and D.
+
+## S01-Q142
+
+A patient reports inability to climb two flights of stairs before elective surgery. What perioperative-risk interpretation is supported?
+
+A. A patient who can climb two to three flights of stairs without symptoms likely has adequate cardiac reserve.
+
+B. Dyspnea after angina suggests acute left-ventricular dysfunction caused by myocardial ischemia.
+
+C. Inability to perform at least 4 METs is associated with approximately twice the risk of perioperative cardiovascular complications.
+
+D. Climbing two or more flights of stairs or walking uphill represents at least 4 METs.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Inability to climb two flights suggests functional capacity below the 4-MET threshold. Stoelting states that inability to perform at least 4 METs is associated with approximately twice the perioperative cardiovascular risk, directly supporting C. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 110, printed p. 99, passage ID 232728]
+
+**A — true but irrelevant:** Climbing two to three flights without symptoms suggests adequate reserve, but the patient’s inability to do so makes the adverse-risk threshold in C more relevant. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 110, printed p. 99, passage ID 232728]
+
+**B — true but irrelevant:** Dyspnea after angina may suggest ischemic ventricular dysfunction, but it does not quantify the functional-capacity risk asked for. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 110, printed p. 99, passage ID 232728]
+
+**C — correct:** C directly states Stoelting’s risk interpretation: inability to perform at least 4 METs is associated with approximately twice the risk of perioperative cardiovascular complications. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 110, printed p. 99, passage ID 232728]
+
+**D — true but irrelevant:** Two flights or uphill walking may represent at least 4 METs, but that performance benchmark does not state the risk associated with inability to reach it. [Stoelting Coexisting 8e (2021).pdf, 5 Ischemic heart disease, PDF p. 110, printed p. 99, passage ID 232728]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and supplies the functional-capacity comparisons.
+
+## S01-Q143
+
+A patient asks whether the ASA physical-status classification includes the risk inherent to the planned operation. Which statement is correct?
+
+A. ASA-PS was originally developed to facilitate collection and comparison of anesthesia statistics.
+
+B. Adding E to an ASA category indicates emergency surgery.
+
+C. ASA-PS 3 denotes severe systemic disease.
+
+D. ASA-PS describes preoperative medical status and does not consider risks inherent to the planned surgical procedure.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** ASA physical status describes the patient’s preoperative medical condition, not the inherent risk of the planned procedure. Miller states that distinction directly, supporting D. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1023, printed p. 861, passage ID 285282]
+
+**A — true but irrelevant:** ASA-PS was developed to facilitate anesthesia-statistics collection and comparison, but that historical purpose does not answer what the classification describes. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1023, printed p. 861, passage ID 285282]
+
+**B — true but irrelevant:** The E suffix indicates emergency surgery, but it does not mean procedure-specific surgical risk is incorporated into ASA physical status. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1023, printed p. 861, passage ID 285282]
+
+**C — true but irrelevant:** ASA-PS 3 denotes severe systemic disease, but the question asks whether the planned operation’s inherent risk is included. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1023, printed p. 861, passage ID 285282]
+
+**D — correct:** D directly states Miller’s scope rule: ASA-PS describes preoperative medical status and does not consider risks inherent to the planned surgical procedure. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1023, printed p. 861, passage ID 285282]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and supplies the historical, suffix, and class details.
+
+## S01-Q144
+
+Which set of principles is included in OSA perioperative practice parameters?
+
+A. Treat patients with OSA as at increased perioperative risk, use screening tools for suspected OSA, and support appropriate perioperative PAP use.
+
+B. Patients with OSA may be at risk for oxygen desaturation and difficult mask ventilation or intubation.
+
+C. Sedative or opioid exposure can cause upper-airway compromise and respiratory depression during monitored anaesthesia care.
+
+D. An OSA protocol should account for patient, procedure, facility, and postdischarge factors.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** OSA practice parameters combine increased perioperative risk recognition, screening for suspected disease, and appropriate PAP support. Stoelting identifies that complete strategy, directly supporting A. [Stoelting Coexisting 8e (2021).pdf, 1 Sleep-related breathing disorder, PDF p. 26, printed p. 15, passage ID 232364]
+
+**A — correct:** A directly combines the stored OSA parameters: recognize increased perioperative risk, use screening tools, and support appropriate perioperative PAP use. [Stoelting Coexisting 8e (2021).pdf, 1 Sleep-related breathing disorder, PDF p. 26, printed p. 15, passage ID 232364]
+
+**B — true but irrelevant:** OSA can increase desaturation and difficult mask ventilation or intubation risk, but this option omits the complete practice-parameter strategy requested. [Stoelting Coexisting 8e (2021).pdf, 1 Sleep-related breathing disorder, PDF p. 26, printed p. 15, passage ID 232364]
+
+**C — true but irrelevant:** Sedatives and opioids can worsen airway compromise and respiratory depression, but this warning is only one component and not the complete parameter set. [Stoelting Coexisting 8e (2021).pdf, 1 Sleep-related breathing disorder, PDF p. 26, printed p. 15, passage ID 232364]
+
+**D — true but irrelevant:** A protocol should account for patient, procedure, facility, and discharge factors, but that planning framework does not include the full screening and PAP principles in A. [Stoelting Coexisting 8e (2021).pdf, 1 Sleep-related breathing disorder, PDF p. 26, printed p. 15, passage ID 232364]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes OSA risks, medication cautions, and protocol factors.
+
+## S01-Q145
+
+An older patient is being assessed before major surgery. Which description best captures frailty and its perioperative relevance?
+
+A. Frailty assessments can inform perioperative planning and discharge discussions.
+
+B. Frailty is a global syndrome of decreased physiologic function and reserve that increases vulnerability to stressors and is associated with poor postoperative outcomes.
+
+C. Frailty is associated with increased mortality across all levels of operative stress, including minor procedures.
+
+D. Frailty is associated with increased postoperative complications, morbidity, hospital stay, and discharge to a care facility.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Frailty is not merely a risk score; it is a global reduction in physiologic function and reserve that increases vulnerability to stress and worsens postoperative outcomes. Miller supports B as the complete description. [Miller 10e (2024).pdf, 61. Geriatric Anesthesia, PDF p. 2374, printed p. 1990, passage ID 291762]
+
+**A — true but irrelevant:** Frailty assessment can inform planning and discharge discussions, but this application statement does not define the syndrome or its physiologic vulnerability. [Miller 10e (2024).pdf, 61. Geriatric Anesthesia, PDF p. 2374, printed p. 1990, passage ID 291762]
+
+**B — correct:** B directly states Miller’s definition and relevance: global decreased function and reserve increase stress vulnerability and are associated with poor postoperative outcomes. [Miller 10e (2024).pdf, 61. Geriatric Anesthesia, PDF p. 2374, printed p. 1990, passage ID 291762]
+
+**C — true but irrelevant:** Frailty is associated with mortality across operative-stress levels, but this outcome observation does not provide the syndrome’s defining physiologic description. [Miller 10e (2024).pdf, 61. Geriatric Anesthesia, PDF p. 2374, printed p. 1990, passage ID 291762]
+
+**D — true but irrelevant:** Frailty is associated with complications, morbidity, longer stay, and institutional discharge, but these consequences do not define frailty as completely as B. [Miller 10e (2024).pdf, 61. Geriatric Anesthesia, PDF p. 2374, printed p. 1990, passage ID 291762]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and supplies its planning and outcome implications.
+
+## S01-Q146
+
+Over approximately what period does HbA1c reflect glucose control?
+
+A. Perioperative diabetes therapy aims to prevent adverse consequences of both hypoglycemia and hyperglycemia.
+
+B. HbA1c values below 6.0% to 7.0% are associated with fewer microvascular complications.
+
+C. Glycosylated hemoglobin reflects glucose control over the previous two to three months.
+
+D. Hyperglycemia can impair vasodilation and induce a chronic proinflammatory, prothrombotic, and proatherogenic state.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** HbA1c reflects average glycemic control over the preceding two to three months. Stoelting states that time window, directly supporting C. [Stoelting P&P 6e (2022).pdf, 38. Drugs that Alter Glucose Regulation, PDF p. 2322, passage ID 315545]
+
+**A — true but irrelevant:** Perioperative diabetes therapy must avoid both hypo- and hyperglycemia, but that treatment goal does not state the HbA1c time window. [Stoelting P&P 6e (2022).pdf, 38. Drugs that Alter Glucose Regulation, PDF p. 2322, passage ID 315545]
+
+**B — true but irrelevant:** Lower HbA1c values are associated with fewer microvascular complications, but that association does not specify what interval HbA1c reflects. [Stoelting P&P 6e (2022).pdf, 38. Drugs that Alter Glucose Regulation, PDF p. 2322, passage ID 315545]
+
+**C — correct:** C directly gives Stoelting’s time window: glycosylated hemoglobin reflects glucose control over the previous two to three months. [Stoelting P&P 6e (2022).pdf, 38. Drugs that Alter Glucose Regulation, PDF p. 2322, passage ID 315545]
+
+**D — true but irrelevant:** Hyperglycemia can impair vasodilation and promote inflammatory, thrombotic, and atherogenic states, but those consequences do not answer the HbA1c interval question. [Stoelting P&P 6e (2022).pdf, 38. Drugs that Alter Glucose Regulation, PDF p. 2322, passage ID 315545]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and supplies the related glycemic-control and complication facts.
+
+## S01-Q147
+
+Which paired consequences of diabetic autonomic neuropathy specifically combine intraoperative hemodynamic instability with aspiration risk?
+
+A. Autonomic neuropathy predisposes diabetic patients to intraoperative hypothermia.
+
+B. The prayer sign is inability to approximate the palmar surfaces of the interphalangeal joints and may predict difficult laryngoscopy.
+
+C. Diabetic autonomic neuropathy may produce an exaggerated pressor response to tracheal intubation.
+
+D. Diabetic autonomic neuropathy increases intraoperative hypotension requiring vasopressor support and may cause delayed gastric emptying with aspiration risk.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for both hemodynamic instability and aspiration risk from diabetic autonomic neuropathy. Barash links intraoperative hypotension requiring vasopressors with delayed gastric emptying and aspiration, directly supporting D. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 4043, passage ID 250279]
+
+**A — true but irrelevant:** Autonomic neuropathy can predispose to intraoperative hypothermia, but that does not combine the two consequences requested. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 4043, passage ID 250279]
+
+**B — true but irrelevant:** The prayer sign can predict difficult laryngoscopy, but it is a musculoskeletal marker and does not supply the hypotension-plus-aspiration combination. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 4043, passage ID 250279]
+
+**C — true but irrelevant:** An exaggerated pressor response to intubation may occur, but it does not state the hypotension and delayed gastric-emptying consequences asked for. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 4043, passage ID 250279]
+
+**D — correct:** D directly combines Barash’s two consequences: autonomic neuropathy can cause vasopressor-requiring intraoperative hypotension and delayed gastric emptying with aspiration risk. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 4043, passage ID 250279]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and distinguishes hypothermia, airway, and pressor-response findings.
+
+## S01-Q148
+
+When delayed emergence raises concern for diabetic ketoacidosis, which evaluation is included in the differential assessment?
+
+A. The delayed-emergence differential includes diabetic ketoacidosis, and evaluation includes blood glucose, urinary glucose, ketones, arterial blood gas, and anion gap.
+
+B. Severe hypercapnia can occur with carbon dioxide levels around 200 to 245 mm Hg.
+
+C. Hypothermia is evaluated by measuring temperature and introducing warming modalities as indicated.
+
+D. Hepatic, renal, and endocrine disease or sepsis may also cause delayed emergence.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** When delayed emergence raises concern for diabetic ketoacidosis, the evaluation must assess glucose, urinary glucose and ketones, arterial blood gas, and anion gap. Barash lists that workup, directly supporting A. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3770, passage ID 249771]
+
+**A — correct:** A directly gives Barash’s DKA evaluation: blood glucose, urinary glucose, ketones, arterial blood gas, and anion gap. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3770, passage ID 249771]
+
+**B — true but irrelevant:** Severe hypercapnia can contribute to delayed emergence, but that carbon-dioxide range does not evaluate the DKA concern specified. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3770, passage ID 249771]
+
+**C — true but irrelevant:** Temperature measurement and warming address hypothermia, but they do not provide the metabolic evaluation for suspected DKA. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3770, passage ID 249771]
+
+**D — true but irrelevant:** Hepatic, renal, endocrine disease, and sepsis are alternative delayed-emergence causes, but they do not state the DKA-specific assessment requested. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3770, passage ID 249771]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and supplies the alternative delayed-emergence evaluations.
+
+## S01-Q149
+
+Across what mean arterial pressure range is renal blood-flow autoregulation effective?
+
+A. Anesthetic-induced reductions in renal blood flow are usually clinically insignificant and reversible.
+
+B. Renal blood-flow autoregulation is effective across a mean arterial pressure range of 50 to 150 mm Hg.
+
+C. Renal medullary blood flow is approximately 2% of total renal blood flow.
+
+D. Autoregulation of urine flow does not occur, although urine output is linearly related to MAP above 50 mm Hg.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Renal blood-flow autoregulation is maintained across a mean arterial pressure range of 50 to 150 mm Hg. Barash gives that range, directly supporting B. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4225, passage ID 250624]
+
+**A — true but irrelevant:** Anesthetic reductions in renal flow are usually reversible and clinically insignificant, but that observation does not provide the autoregulatory MAP range. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4225, passage ID 250624]
+
+**B — correct:** B directly states Barash’s renal autoregulatory range: mean arterial pressure from 50 through 150 mm Hg. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4225, passage ID 250624]
+
+**C — true but irrelevant:** Renal medullary flow is approximately 2% of total renal flow, but that distribution value does not answer the autoregulation-range question. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4225, passage ID 250624]
+
+**D — true but irrelevant:** Urine flow is not itself autoregulated and relates to MAP above 50 mm Hg, but that urine-output statement is not the renal-blood-flow range asked for. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4225, passage ID 250624]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes renal-flow, medullary-flow, and urine-output relationships.
+
+## S01-Q150
+
+How does nephrotic-syndrome hypoalbuminemia affect dosing of highly protein-bound medications?
+
+A. Generalized edema in nephrotic syndrome reflects increased total-body sodium content.
+
+B. Abrupt natriuresis can cause hypovolemia and acute kidney injury.
+
+C. Hypoalbuminemia in nephrotic syndrome decreases drug-binding sites and increases unbound drug concentration, complicating drug dosing.
+
+D. Abrupt hemoconcentration increases thromboembolic risk.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Nephrotic hypoalbuminemia reduces available protein-binding sites, increasing the unbound fraction of highly protein-bound drugs and complicating dosing. Stoelting states this mechanism, directly supporting C. [Stoelting Coexisting 8e (2021).pdf, 21 Renal disease, PDF p. 444, passage ID 234126]
+
+**A — true but irrelevant:** Generalized edema reflects increased total-body sodium, but that fluid-balance finding does not explain altered binding of highly protein-bound medications. [Stoelting Coexisting 8e (2021).pdf, 21 Renal disease, PDF p. 444, passage ID 234126]
+
+**B — true but irrelevant:** Abrupt natriuresis can cause hypovolemia and kidney injury, but those consequences do not identify the hypoalbuminemia dosing mechanism. [Stoelting Coexisting 8e (2021).pdf, 21 Renal disease, PDF p. 444, passage ID 234126]
+
+**C — correct:** C directly states Stoelting’s pharmacologic consequence: fewer albumin-binding sites increase unbound drug concentration and complicate dosing. [Stoelting Coexisting 8e (2021).pdf, 21 Renal disease, PDF p. 444, passage ID 234126]
+
+**D — true but irrelevant:** Abrupt hemoconcentration can increase thromboembolic risk, but that vascular consequence does not answer how hypoalbuminemia changes drug binding. [Stoelting Coexisting 8e (2021).pdf, 21 Renal disease, PDF p. 444, passage ID 234126]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and distinguishes edema, volume, thrombosis, and drug-binding effects.
+
+## S01-Q151
+
+Which chronic-renal-failure profile combines loss of erythropoietin production with impaired potassium and acid handling?
+
+A. Renal osteodystrophy from increased parathyroid hormone and decreased active vitamin D.
+
+B. Renal-failure metabolic acidosis can exacerbate hyperkalaemia.
+
+C. Growth retardation can reflect malnutrition, anaemia, renal bone disease, and chronic metabolic acidosis.
+
+D. Anaemia from decreased erythropoietin production, with possible hyperkalaemia and metabolic acidosis.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Chronic renal failure reduces erythropoietin production and impairs potassium and acid excretion. Cote combines anemia from low erythropoietin with possible hyperkalemia and metabolic acidosis, directly supporting D. [Cote 7e (2024).pdf, 29 Organ transplantation, PDF p. 1231, passage ID 188352]
+
+**A — true but irrelevant:** Renal osteodystrophy reflects parathyroid and vitamin-D changes, but it does not combine erythropoietin loss with potassium and acid-handling impairment. [Cote 7e (2024).pdf, 29 Organ transplantation, PDF p. 1231, passage ID 188352]
+
+**B — true but irrelevant:** Renal-failure acidosis can worsen hyperkalemia, but this option omits the erythropoietin-related anemia required by the lead-in. [Cote 7e (2024).pdf, 29 Organ transplantation, PDF p. 1231, passage ID 188352]
+
+**C — true but irrelevant:** Growth retardation may reflect malnutrition, anemia, bone disease, and acidosis, but it does not state the requested erythropoietin, potassium, and acid profile. [Cote 7e (2024).pdf, 29 Organ transplantation, PDF p. 1231, passage ID 188352]
+
+**D — correct:** D directly combines Cote’s chronic-renal-failure findings: decreased erythropoietin causes anemia, while impaired excretion may produce hyperkalemia and metabolic acidosis. [Cote 7e (2024).pdf, 29 Organ transplantation, PDF p. 1231, passage ID 188352]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and supplies the bone, acidosis, growth, and electrolyte-related alternatives.
+
+## S01-Q152
+
+Which variables are used in the Child-Pugh score to help predict surgical risk in cirrhosis?
+
+A. Bilirubin, albumin, INR, encephalopathy, and ascites.
+
+B. Hyperbilirubinaemia, malnutrition, reduced hepatic synthesis, coagulopathy, portal hypertension, and encephalopathy are cirrhosis complications.
+
+C. MELD uses INR, bilirubin, and creatinine in a linear regression model.
+
+D. Child-Pugh classes A, B, and C carry progressively higher reported surgical mortality.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Child-Pugh scoring uses five clinical and laboratory variables: bilirubin, albumin, INR, encephalopathy, and ascites. Stoelting lists those variables, directly supporting A. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 82, passage ID 232600]
+
+**A — correct:** A directly lists the stored Child-Pugh variables: bilirubin, albumin, INR, encephalopathy, and ascites. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 82, passage ID 232600]
+
+**B — true but irrelevant:** Hyperbilirubinemia, malnutrition, impaired synthesis, coagulopathy, portal hypertension, and encephalopathy are cirrhosis complications, but they are not the requested score-variable set. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 82, passage ID 232600]
+
+**C — true but irrelevant:** MELD uses INR, bilirubin, and creatinine, but that is a different prognostic model from the Child-Pugh score asked for. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 82, passage ID 232600]
+
+**D — true but irrelevant:** Child-Pugh classes have progressively higher reported surgical mortality, but this outcome statement does not identify the variables used to calculate the score. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 82, passage ID 232600]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes complications, MELD, and mortality-class information.
+
+## S01-Q153
+
+A patient with cirrhosis develops portal hypertension. Which group of clinical manifestations is most directly associated?
+
+A. End-stage liver disease can produce high cardiac output with decreased systemic vascular resistance.
+
+B. Splenomegaly, esophageal varices, ascites, oedema, and pleural effusions.
+
+C. Hepatorenal syndrome is renal insufficiency associated with liver disease without primary renal disease.
+
+D. Impaired synthesis of clotting proteins and impaired clearance of toxins and drugs.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Portal hypertension produces collateral congestion and fluid accumulation, including splenomegaly, esophageal varices, ascites, edema, and pleural effusions. Miller supports B as the complete manifestation group. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1011, printed p. 849, passage ID 285222]
+
+**A — true but irrelevant:** End-stage liver disease can produce high output and low resistance, but that hemodynamic profile does not list the manifestations directly associated with portal hypertension. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1011, printed p. 849, passage ID 285222]
+
+**B — correct:** B directly gives Miller’s portal-hypertension manifestation group: splenomegaly, esophageal varices, ascites, edema, and pleural effusions. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1011, printed p. 849, passage ID 285222]
+
+**C — true but irrelevant:** Hepatorenal syndrome is renal insufficiency without primary renal disease, but it is a complication rather than the requested portal-hypertension manifestation group. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1011, printed p. 849, passage ID 285222]
+
+**D — true but irrelevant:** Impaired clotting-protein synthesis and toxin or drug clearance are liver failures, but they do not identify the direct portal-hypertension manifestations requested. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1011, printed p. 849, passage ID 285222]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes portal manifestations from other cirrhosis complications.
+
+## S01-Q154
+
+Which statement identifies both afferent sources of liver blood flow and contrasts their pressure-resistance systems?
+
+A. Portal venous flow is a low-resistance, low-pressure system terminating in hepatic sinusoids.
+
+B. Hepatic-artery flow is a high-resistance, high-pressure system influenced by cardiac output and autonomic activity.
+
+C. The liver receives dual afferent supply from the hepatic artery and portal vein, governed by different pressure and resistance systems.
+
+D. Normal portal venous pressure is approximately 7 to 10 mm Hg.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The liver has dual afferent inflow from the hepatic artery and portal vein, and those systems differ in pressure and resistance. Stoelting states that contrast, directly supporting C. [Stoelting P&P 6e (2022).pdf, 32. Gastrointestinal Physiology, PDF p. 2075, passage ID 315178]
+
+**A — true but irrelevant:** Portal flow is low pressure and ultimately reaches sinusoids, but this option describes only one inflow source and omits the contrasting hepatic artery. [Stoelting P&P 6e (2022).pdf, 32. Gastrointestinal Physiology, PDF p. 2075, passage ID 315178]
+
+**B — true but irrelevant:** Hepatic-artery flow is high pressure and resistance and is influenced by cardiac output and autonomic activity, but this option omits portal inflow and the dual-supply contrast. [Stoelting P&P 6e (2022).pdf, 32. Gastrointestinal Physiology, PDF p. 2075, passage ID 315178]
+
+**C — correct:** C directly combines Stoelting’s requested facts: hepatic artery and portal vein provide dual afferent supply through different pressure-resistance systems. [Stoelting P&P 6e (2022).pdf, 32. Gastrointestinal Physiology, PDF p. 2075, passage ID 315178]
+
+**D — true but irrelevant:** Portal venous pressure is approximately 7 to 10 mm Hg, but that single pressure value does not identify the liver’s dual inflow systems. [Stoelting P&P 6e (2022).pdf, 32. Gastrointestinal Physiology, PDF p. 2075, passage ID 315178]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and distinguishes each inflow system and pressure value.
+
+## S01-Q155
+
+During massive transfusion, which mechanism best explains dilutional bleeding risk?
+
+A. Bleeding from hypothermia, severe metabolic acidosis, poor tissue perfusion, and tissue-factor release.
+
+B. Consumptive bleeding from fibrinolysis or disseminated intravascular coagulation.
+
+C. In an adult trauma study, clinical bleeding began after about 15 units or 1.5 blood volumes.
+
+D. Dilutional thrombocytopenia and clotting-factor deficiency, with bleeding depending on starting platelets and blood volume replaced.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Dilutional bleeding during massive transfusion reflects dilution of platelets and clotting factors, with severity depending on starting platelet count and replaced blood volume. Cote directly supports D. [Cote 7e (2024).pdf, 10 Strategies for blood product management, reducing transfusions, and massive blood transfusion, PDF p. 480, passage ID 184786]
+
+**A — true but irrelevant:** Hypothermia, acidosis, poor perfusion, and tissue-factor release can contribute to bleeding, but they do not describe dilutional loss of platelets and factors. [Cote 7e (2024).pdf, 10 Strategies for blood product management, reducing transfusions, and massive blood transfusion, PDF p. 480, passage ID 184786]
+
+**B — true but irrelevant:** Fibrinolysis and disseminated intravascular coagulation can cause consumptive bleeding, but they are not the dilutional mechanism asked for. [Cote 7e (2024).pdf, 10 Strategies for blood product management, reducing transfusions, and massive blood transfusion, PDF p. 480, passage ID 184786]
+
+**C — true but irrelevant:** Bleeding may begin after about 15 units or 1.5 blood volumes in an adult trauma study, but that threshold does not explain why dilutional bleeding occurs. [Cote 7e (2024).pdf, 10 Strategies for blood product management, reducing transfusions, and massive blood transfusion, PDF p. 480, passage ID 184786]
+
+**D — correct:** D directly states Cote’s mechanism: platelet and clotting-factor dilution causes bleeding, with risk depending on initial platelets and the blood volume replaced. [Cote 7e (2024).pdf, 10 Strategies for blood product management, reducing transfusions, and massive blood transfusion, PDF p. 480, passage ID 184786]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and distinguishes dilutional, consumptive, and threshold descriptions.
+
+## S01-Q156
+
+What happens to Hb SS erythrocytes when they become deoxygenated?
+
+A. Deoxygenation of Hb SS erythrocytes causes intracellular hemoglobin polymerization, loss of deformability, sickling, and hemolysis.
+
+B. Hemoglobin S results from substitution of valine for normal glutamine at beta-chain codon 6.
+
+C. Sickle-cell crisis may be hemolytic, aplastic, or vaso-occlusive.
+
+D. Sickle-cell disease causes chronic severe hemolytic anemia because abnormal erythrocytes have a shorter lifespan.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** When deoxygenated, Hb SS polymerizes intracellularly, making erythrocytes rigid and sickled and promoting hemolysis. Miller identifies that sequence, directly supporting A. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2937, printed p. 2470, passage ID 294543]
+
+**A — correct:** A directly states Miller’s deoxygenation sequence: intracellular Hb polymerization causes loss of deformability, sickling, and hemolysis. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2937, printed p. 2470, passage ID 294543]
+
+**B — true but irrelevant:** The beta-chain valine substitution defines hemoglobin S, but it does not describe what deoxygenation does to the erythrocyte. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2937, printed p. 2470, passage ID 294543]
+
+**C — true but irrelevant:** Sickle crises may be hemolytic, aplastic, or vaso-occlusive, but those clinical categories do not give the cellular deoxygenation mechanism asked for. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2937, printed p. 2470, passage ID 294543]
+
+**D — true but irrelevant:** Chronic hemolytic anemia reflects shortened erythrocyte lifespan, but it is a disease consequence rather than the immediate deoxygenation sequence. [Miller 10e (2024).pdf, 75. Pediatric and Neonatal Critical Care, PDF p. 2937, printed p. 2470, passage ID 294543]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes molecular, crisis, and chronic-disease descriptions.
+
+## S01-Q157
+
+Which pathophysiologic combination best characterizes disseminated intravascular coagulation?
+
+A. DIC-related microvascular thrombotic activity can result in multiorgan dysfunction.
+
+B. DIC causes excessive intravascular thrombin generation and widespread microvascular thrombosis with consumption of coagulation factors and platelets, producing diffuse bleeding.
+
+C. Typical DIC laboratory findings include low platelets, prolonged PT/aPTT/TT, and elevated soluble fibrin and fibrin-degradation products.
+
+D. Underlying triggers of DIC include trauma, amniotic-fluid embolus, malignancy, sepsis, and incompatible transfusion.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** DIC combines excessive thrombin generation and widespread microvascular thrombosis with consumption of factors and platelets, producing diffuse bleeding. Miller states that complete pathophysiology, directly supporting B. [Miller 10e (2024).pdf, 46. Patient Blood Management: Coagulation, PDF p. 1722, printed p. 1438, passage ID 288585]
+
+**A — true but irrelevant:** Microvascular thrombosis can cause multiorgan dysfunction, but this consequence does not include the consumptive bleeding mechanism requested. [Miller 10e (2024).pdf, 46. Patient Blood Management: Coagulation, PDF p. 1722, printed p. 1438, passage ID 288585]
+
+**B — correct:** B directly combines Miller’s DIC mechanism: excess thrombin, diffuse microvascular thrombosis, factor and platelet consumption, and resulting bleeding. [Miller 10e (2024).pdf, 46. Patient Blood Management: Coagulation, PDF p. 1722, printed p. 1438, passage ID 288585]
+
+**C — true but irrelevant:** Low platelets, prolonged clotting times, and elevated fibrin products are typical laboratory findings, but they describe diagnosis rather than the pathophysiologic combination. [Miller 10e (2024).pdf, 46. Patient Blood Management: Coagulation, PDF p. 1722, printed p. 1438, passage ID 288585]
+
+**D — true but irrelevant:** Trauma, embolus, malignancy, sepsis, and incompatible transfusion can trigger DIC, but trigger lists do not describe its thrombin-consumption mechanism. [Miller 10e (2024).pdf, 46. Patient Blood Management: Coagulation, PDF p. 1722, printed p. 1438, passage ID 288585]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and supplies the laboratory, complication, and trigger distinctions.
+
+## S01-Q174
+
+After stopping a variable-duration continuous infusion that reached steady state, which pharmacokinetic measure describes the time for concentration to fall by half?
+
+A. Pharmacokinetic parameters relate opioid dose to blood concentration.
+
+B. Pharmacodynamic parameters relate blood concentration to opioid effect.
+
+C. Context-sensitive half-time.
+
+D. After a one-hour infusion, fentanyl context-sensitive half-time is nearly six times that of alfentanil or sufentanil.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The time for drug concentration to fall by half after a variable-duration infusion is the context-sensitive half-time. Miller distinguishes that pharmacokinetic measure from pharmacodynamic effect and supports C. [Miller 10e (2024).pdf, 22. Opioids, PDF p. 705, printed p. 588, passage ID 283756]
+
+**A — true but irrelevant:** Pharmacokinetic parameters relate dose to blood concentration, but the specific infusion-duration half-time measure is context-sensitive half-time. [Miller 10e (2024).pdf, 22. Opioids, PDF p. 705, printed p. 588, passage ID 283756]
+
+**B — true but irrelevant:** Pharmacodynamic parameters relate concentration to effect, but the stem asks for concentration decline over time rather than clinical effect. [Miller 10e (2024).pdf, 22. Opioids, PDF p. 705, printed p. 588, passage ID 283756]
+
+**C — correct:** C directly names the stored measure: context-sensitive half-time describes the concentration fall by half after an infusion whose duration affects recovery. [Miller 10e (2024).pdf, 22. Opioids, PDF p. 705, printed p. 588, passage ID 283756]
+
+**D — true but irrelevant:** The fentanyl-versus-alfentanil or sufentanil comparison illustrates context sensitivity, but it does not define the measure asked for. [Miller 10e (2024).pdf, 22. Opioids, PDF p. 705, printed p. 588, passage ID 283756]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes pharmacokinetic, pharmacodynamic, and comparative examples.
+
+## S01-Q175
+
+Which statement distinguishes drug potency from efficacy?
+
+A. Potency is often expressed as the ED50, the dose producing a given effect in 50% of subjects.
+
+B. The dose-response slope between 20% and 80% of maximum reflects the rate of effect increase as dose rises.
+
+C. Pharmacokinetic differences can contribute to between-patient variability in dose-response.
+
+D. Potency is the dose required for a specified effect, whereas efficacy is the maximum effect the drug can achieve.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Potency describes the dose required to produce a specified effect, whereas efficacy is the maximum effect the drug can achieve. Barash states this distinction, directly supporting D. [Barash 9e (2023).pdf, 11. Basic Principles of Clinical Pharmacology, PDF p. 769, passage ID 244547]
+
+**A — true but irrelevant:** ED50 is a common expression of potency, but it does not define efficacy as the maximum achievable effect. [Barash 9e (2023).pdf, 11. Basic Principles of Clinical Pharmacology, PDF p. 769, passage ID 244547]
+
+**B — true but irrelevant:** The dose-response slope describes how effect changes with dose, but it does not provide the potency-versus-efficacy distinction requested. [Barash 9e (2023).pdf, 11. Basic Principles of Clinical Pharmacology, PDF p. 769, passage ID 244547]
+
+**C — true but irrelevant:** Pharmacokinetic differences can contribute to dose-response variability, but that source of variability does not define potency or efficacy. [Barash 9e (2023).pdf, 11. Basic Principles of Clinical Pharmacology, PDF p. 769, passage ID 244547]
+
+**D — correct:** D directly states Barash’s distinction: potency is the dose needed for a specified effect, while efficacy is the greatest effect the drug can produce. [Barash 9e (2023).pdf, 11. Basic Principles of Clinical Pharmacology, PDF p. 769, passage ID 244547]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and supplies the related ED50, slope, and variability concepts.
+
+## S01-Q176
+
+On a semilogarithmic concentration-time graph, what does the pharmacokinetic half-life represent?
+
+A. The interval between convenient plasma concentrations that decrease by half.
+
+B. Propofol context-sensitive half-time is greater in children than adults.
+
+C. Context-sensitive half-time describes the percentage concentration decrease required for recovery from a drug effect.
+
+D. First-order exponential kinetics permit half-life determination from concentration-time points on a semilogarithmic graph.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** On a semilogarithmic concentration-time graph, pharmacokinetic half-life is the interval over which plasma concentration decreases by half. Cote identifies that interval, directly supporting A. [Cote 7e (2024).pdf, 5 Pharmacology of Drugs Used in Children, PDF p. 176, passage ID 183300]
+
+**A — correct:** A directly states the stored half-life definition: the interval between plasma concentrations that decrease by one-half. [Cote 7e (2024).pdf, 5 Pharmacology of Drugs Used in Children, PDF p. 176, passage ID 183300]
+
+**B — true but irrelevant:** Propofol context-sensitive half-time may be greater in children, but that drug-specific comparison does not define pharmacokinetic half-life. [Cote 7e (2024).pdf, 5 Pharmacology of Drugs Used in Children, PDF p. 176, passage ID 183300]
+
+**C — wrong condition:** Context-sensitive half-time describes concentration decline after an infusion with duration considered, but it is not the semilogarithmic half-life definition asked for. [Cote 7e (2024).pdf, 5 Pharmacology of Drugs Used in Children, PDF p. 176, passage ID 183300]
+
+**D — true but irrelevant:** First-order exponential kinetics permit graph-based half-life determination, but this method statement does not itself state the half-life interval. [Cote 7e (2024).pdf, 5 Pharmacology of Drugs Used in Children, PDF p. 176, passage ID 183300]
+
+**Evidence sufficiency:** The stored Cote passage directly supports A and distinguishes half-life, context-sensitive half-time, and graphing method.
+
+## S01-Q177
+
+Which definition describes minimum alveolar concentration (MAC)?
+
+A. A dose of 1.2 to 1.3 times MAC often prevents movement during surgical stimulus.
+
+B. The alveolar concentration at one atmosphere that prevents movement to surgical stimulus in 50% of patients.
+
+C. MAC is analogous to the ED50 for intravenous drugs and compares anesthetic potency.
+
+D. A lower MAC indicates a more potent inhaled anesthetic.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Minimum alveolar concentration is a population potency measure: the alveolar concentration at one atmosphere preventing movement to surgical stimulus in 50% of patients. Barash supports B. [Barash 9e (2023).pdf, 18. Inhaled Anesthetics, PDF p. 1406, passage ID 245656]
+
+**A — true but irrelevant:** A concentration of 1.2 to 1.3 MAC may prevent movement in more patients, but it is a clinical multiple of MAC rather than the definition. [Barash 9e (2023).pdf, 18. Inhaled Anesthetics, PDF p. 1406, passage ID 245656]
+
+**B — correct:** B directly states Barash’s MAC definition: the one-atmosphere alveolar concentration preventing movement to surgical stimulus in half of patients. [Barash 9e (2023).pdf, 18. Inhaled Anesthetics, PDF p. 1406, passage ID 245656]
+
+**C — true but irrelevant:** MAC is analogous to an intravenous ED50 and compares potency, but that analogy does not state the inhaled-anesthetic concentration definition. [Barash 9e (2023).pdf, 18. Inhaled Anesthetics, PDF p. 1406, passage ID 245656]
+
+**D — true but irrelevant:** A lower MAC indicates greater potency, but this potency interpretation does not provide the defining response and conditions. [Barash 9e (2023).pdf, 18. Inhaled Anesthetics, PDF p. 1406, passage ID 245656]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and supplies the potency and MAC-multiple interpretations.
+
+## S01-Q178
+
+Which molecular-level explanation accounts for the rapid induction produced by an inhaled anaesthetic with low blood solubility?
+
+A. The overpressure technique can speed induction by increasing inspired concentration above maintenance requirements.
+
+B. The rate of alveolar partial-pressure rise is directly proportional to blood solubility
+
+C. Minimal anaesthetic dissolves before equilibration, so alveolar and blood partial pressures rise rapidly.
+
+D. High blood solubility slows alveolar and blood partial-pressure increase.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Low blood solubility permits little anesthetic to dissolve before equilibration, allowing alveolar and blood partial pressures to rise rapidly. Stoelting states this molecular explanation, directly supporting C. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 398, passage ID 312693]
+
+**A — true but irrelevant:** Overpressure can speed induction by increasing inspired concentration, but that technique does not explain the low-solubility molecular mechanism. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 398, passage ID 312693]
+
+**B — false:** The rise in alveolar partial pressure is not directly proportional to blood solubility; greater solubility slows equilibration and pressure rise. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 398, passage ID 312693]
+
+**C — correct:** C directly states Stoelting’s explanation: minimal dissolution before equilibration lets alveolar and blood partial pressures rise rapidly. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 398, passage ID 312693]
+
+**D — true but irrelevant:** High blood solubility does slow partial-pressure increase, but that contrasting property does not explain rapid induction with low solubility. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 398, passage ID 312693]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and distinguishes overpressure and high-solubility effects.
+
+## S01-Q179
+
+Because nitrous oxide enters an air-filled cavity faster than nitrogen leaves, which general physical consequence should be anticipated?
+
+A. Nitrous oxide has a blood-gas partition coefficient of 0.46, about 34 times that of nitrogen.
+
+B. Rapid nitrous-oxide resorption after discontinuation can create negative middle-ear pressure and impaired hearing
+
+C. Nitrous oxide can expand a pneumothorax to double or triple its size in 10 or 30 minutes at 75% concentration.
+
+D. Nitrous oxide enters the cavity faster than nitrogen leaves, increasing cavity volume or pressure.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Nitrous oxide diffuses into an air-filled cavity faster than nitrogen leaves, so gas volume or pressure increases. Stoelting states that physical consequence, directly supporting D. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 401, passage ID 312699]
+
+**A — true but irrelevant:** The blood-gas partition coefficient compares nitrous oxide and nitrogen, but it does not state the cavity-volume or pressure consequence requested. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 401, passage ID 312699]
+
+**B — true but irrelevant:** Rapid resorption after discontinuation can create negative middle-ear pressure and hearing impairment, but that is a later discontinuation effect rather than the initial expansion. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 402, passage ID 312700]
+
+**C — true but irrelevant:** Nitrous oxide can enlarge a pneumothorax at high concentration, but this example is narrower than the general cavity-volume or pressure principle asked for. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1318, passage ID 188777]
+
+**D — correct:** D directly states Stoelting’s physical rule: faster nitrous-oxide entry than nitrogen exit increases the cavity’s volume or pressure. [Stoelting P&P 6e (2022).pdf, 4. Inhaled Anesthetics, PDF p. 401, passage ID 312699]
+
+**Evidence sufficiency:** The stored Stoelting and Cote passages directly support D and distinguish coefficient, discontinuation, and pneumothorax examples.
+
+## S01-Q180
+
+During induction of a patient with severe cardiac disease, which high-dose propofol effect can threaten cardiac output?
+
+A. Significant depression of myocardial contractility.
+
+B. Neuraxial sympathetic blockade can cause significant hypotension in severely impaired preload.
+
+C. Aortic-stenosis management includes normal sinus rhythm and avoidance of bradycardia or tachycardia.
+
+D. Phenylephrine increases systemic vascular resistance without epinephrine or dobutamine chronotropy.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** High-dose propofol can significantly depress myocardial contractility, threatening cardiac output in severe cardiac disease. Stoelting identifies that direct effect, supporting A. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232813]
+
+**A — correct:** A directly states the stored Stoelting danger: significant propofol-related depression of myocardial contractility can threaten cardiac output. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232813]
+
+**B — true but irrelevant:** Neuraxial sympathetic blockade can cause hypotension in impaired preload, but this is a different anesthetic mechanism from high-dose propofol depression. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232813]
+
+**C — true but irrelevant:** Aortic-stenosis management includes sinus rhythm and avoiding extreme rates, but those hemodynamic goals do not identify propofol’s contractility effect. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232813]
+
+**D — true but irrelevant:** Phenylephrine raises systemic vascular resistance without the chronotropy of epinephrine or dobutamine, but this vasopressor comparison does not explain propofol’s threat to output. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232813]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes propofol, neuraxial, valve, and vasopressor effects.
+
+## S01-Q181
+
+Which description best defines ketamine dissociative sedation?
+
+A. Capnography can detect hypoventilation and apnea earlier than pulse oximetry or clinical assessment alone in children undergoing procedural sedation.
+
+B. A trance-like state with profound analgesia and amnesia, preserved airway reflexes and spontaneous respiration, and cardiovascular stability.
+
+C. Ketamine is commonly administered to evoke dissociative sedation in the emergency department.
+
+D. Dissociative sedation facilitates painful procedures and immobilization in uncooperative patients.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Dissociative sedation is a trance-like state combining profound analgesia and amnesia with preserved airway reflexes and spontaneous respiration. Cote’s definition also notes cardiovascular stability, directly supporting B. [Cote 7e (2024).pdf, 44 Sedation for diagnostic and therapeutic procedures outside the operating room, PDF p. 1901, passage ID 191381]
+
+**A — true but irrelevant:** Capnography detects hypoventilation and apnea early in pediatric sedation, but this monitoring role does not define dissociative sedation. [Cote 7e (2024).pdf, 44 Sedation for diagnostic and therapeutic procedures outside the operating room, PDF p. 1901, passage ID 191381]
+
+**B — correct:** B directly states Cote’s defining state: profound analgesia and amnesia with preserved reflexes, spontaneous breathing, and cardiovascular stability. [Cote 7e (2024).pdf, 44 Sedation for diagnostic and therapeutic procedures outside the operating room, PDF p. 1901, passage ID 191381]
+
+**C — true but irrelevant:** Ketamine is commonly used to evoke dissociative sedation, but naming the drug and setting does not define the physiologic state. [Cote 7e (2024).pdf, 44 Sedation for diagnostic and therapeutic procedures outside the operating room, PDF p. 1901, passage ID 191381]
+
+**D — true but irrelevant:** Dissociative sedation facilitates painful procedures and immobilization, but that clinical use does not provide the complete defining features. [Cote 7e (2024).pdf, 44 Sedation for diagnostic and therapeutic procedures outside the operating room, PDF p. 1901, passage ID 191381]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and distinguishes monitoring, drug, and procedural-use statements.
+
+## S01-Q182
+
+Compared with clonidine, which pharmacologic profile describes dexmedetomidine?
+
+A. Alpha-2 agonists are used for sedation, premedication, analgesia, and prevention of emergence delirium.
+
+B. Alpha-2 agonists cause dose-dependent reductions in heart rate and blood pressure.
+
+C. Greater alpha-2 selectivity, less hypotension and bradycardia, and minimal respiratory-depressive effects.
+
+D. Clonidine may be superior to midazolam for sedation, postoperative agitation, and postoperative pain.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Compared with clonidine, dexmedetomidine has greater alpha-2 selectivity, with less hypotension and bradycardia and minimal respiratory depression. Miller directly supports C. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2717, printed p. 2274, passage ID 293447]
+
+**A — true but irrelevant:** Alpha-2 agonists have uses in sedation, premedication, analgesia, and emergence-delirium prevention, but those uses do not distinguish dexmedetomidine from clonidine. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2717, printed p. 2274, passage ID 293447]
+
+**B — true but irrelevant:** Alpha-2 agonists can reduce heart rate and blood pressure dose-dependently, but this class effect does not provide the comparative profile requested. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2717, printed p. 2274, passage ID 293447]
+
+**C — correct:** C directly states Miller’s comparative profile: greater alpha-2 selectivity with less hypotension and bradycardia and minimal respiratory depression. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2717, printed p. 2274, passage ID 293447]
+
+**D — true but irrelevant:** Clonidine may outperform midazolam in some sedation and pain outcomes, but that comparison does not describe dexmedetomidine relative to clonidine. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2717, printed p. 2274, passage ID 293447]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes class effects and clonidine comparisons.
+
+## S01-Q183
+
+Which statement correctly describes naloxone’s receptor activity and clinical selectivity?
+
+A. Naloxone and naltrexone are pure mu-opioid antagonists with no agonist activity.
+
+B. Naloxone can reverse neonatal opioid-induced ventilatory depression after maternal opioid administration.
+
+C. Pure opioid antagonists displace opioid agonists from mu receptors without activating them.
+
+D. It antagonizes all three opioid receptors and is selectively used to treat opioid-induced ventilatory depression.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Naloxone is a nonselective antagonist at all three opioid receptors, yet it is used clinically to reverse opioid-induced ventilatory depression. Stoelting’s passage directly supports D. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**A — true but irrelevant:** Naloxone and naltrexone are pure mu-opioid antagonists without agonist activity, but this true receptor fact does not supply naloxone’s all-three-receptor activity and selective treatment of ventilatory depression. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**B — true but irrelevant:** Naloxone can reverse neonatal opioid ventilatory depression, but that clinical example does not state its receptor activity and selectivity. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**C — true but irrelevant:** Pure antagonists displace agonists without activating receptors, but that general mechanism does not identify naloxone’s three-receptor activity and clinical use. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**D — correct:** D directly states Stoelting’s combined characterization: naloxone antagonizes all three opioid receptors and is selectively used for opioid-induced ventilatory depression. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and supplies the pure-antagonist and neonatal examples.
+
+## S01-Q184
+
+During opioid overdose, breathing becomes irregular and then gasping. Which progression describes the expected ventilatory deterioration?
+
+A. Cyclic breathing, gasping, and apnea followed by severe hypoxia and bradycardia.
+
+B. Respiratory centers and depressive opioid inputs determine ventilatory drive after opioid administration.
+
+C. Opioid respiratory depression can progress to cardiopulmonary arrest.
+
+D. High arterial carbon dioxide at central respiratory centers can restore rhythmic respiratory activity.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Progressive opioid ventilatory depression proceeds from cyclic breathing to gasping and apnea, followed by severe hypoxia and bradycardia. Barash identifies this sequence, directly supporting A. [Barash 9e (2023).pdf, 20. Opioids, PDF p. 1566, passage ID 245931]
+
+**A — correct:** A directly states Barash’s expected progression: cyclic breathing, gasping, apnea, then severe hypoxia and bradycardia. [Barash 9e (2023).pdf, 20. Opioids, PDF p. 1566, passage ID 245931]
+
+**B — true but irrelevant:** Respiratory centers and depressive opioid inputs determine drive, but that mechanism does not provide the clinical deterioration sequence asked for. [Barash 9e (2023).pdf, 20. Opioids, PDF p. 1566, passage ID 245931]
+
+**C — true but irrelevant:** Opioid respiratory depression can progress to cardiopulmonary arrest, but this endpoint alone does not identify the preceding ventilatory sequence. [Barash 9e (2023).pdf, 20. Opioids, PDF p. 1566, passage ID 245931]
+
+**D — true but irrelevant:** High carbon dioxide can stimulate respiratory centers, but it does not reverse the opioid-related progression described in the lead-in. [Barash 9e (2023).pdf, 20. Opioids, PDF p. 1566, passage ID 245931]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes drive mechanisms and arrest endpoint.
+
+## S01-Q195
+
+Which mechanism best explains hypotension after spinal anesthesia?
+
+A. Spinal sympathetic blockade reduces systemic vascular resistance by less than 15% because arteriolar smooth muscle retains intrinsic tone.
+
+B. Spinal-anesthesia venular dilation increases vascular capacitance, reduces venous return, and decreases cardiac output and systemic blood pressure.
+
+C. Spinal hypotension is especially hazardous in hypovolemic patients.
+
+D. Blockade of T1–T4 cardiac accelerator fibers can slow heart rate.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Spinal sympathetic blockade dilates venous capacitance vessels, reducing venous return, cardiac output, and systemic blood pressure. Stoelting directly supports B. [Stoelting P&P 6e (2022).pdf, 10. Local Anesthetics, PDF p. 968, passage ID 313498]
+
+**A — true but irrelevant:** The stored passage states that total spinal sympathetic blockade can reduce SVR by less than 15% because arteriolar smooth muscle retains intrinsic tone, but this mechanistic detail does not explain the venular-dilation pathway keyed by B. [Stoelting P&P 6e (2022).pdf, 10. Local Anesthetics, PDF p. 968, passage ID 313498]
+
+**B — correct:** B directly states Stoelting’s mechanism: venular dilation increases capacitance, reduces venous return, and lowers cardiac output and systemic blood pressure. [Stoelting P&P 6e (2022).pdf, 10. Local Anesthetics, PDF p. 968, passage ID 313498]
+
+**C — true but irrelevant:** Spinal hypotension is especially hazardous with hypovolemia, but that risk qualifier does not explain the vascular mechanism causing the pressure fall. [Stoelting P&P 6e (2022).pdf, 10. Local Anesthetics, PDF p. 968, passage ID 313498]
+
+**D — true but irrelevant:** Blocking cardiac accelerator fibers can slow heart rate, but that cardiac component does not provide the principal venous-capacitance mechanism. [Stoelting P&P 6e (2022).pdf, 10. Local Anesthetics, PDF p. 968, passage ID 313498]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports B and supplies the vascular, volume, and cardiac-component distinctions.
+
+## S01-Q196
+
+Which complication represents high or total spinal anesthesia after neuraxial analgesia?
+
+A. Neuraxial analgesia complications include unintentional dural puncture and respiratory depression.
+
+B. Intravascular injection of local anesthetic is listed as a neuraxial-analgesia complication.
+
+C. High neuroblockade and total spinal anesthesia are identified as complications of neuraxial analgesia.
+
+D. Extensive and prolonged motor blockade are listed complications of neuraxial analgesia.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** High neuroblockade and total spinal anesthesia are recognized complications of neuraxial analgesia. Chestnut identifies both terms directly, supporting C. [Chestnut 6e (2019).pdf, 23 Epidural and Spinal Analgesia: Anesthesia for Labor and Vaginal Delivery, PDF p. 498, passage ID 272348]
+
+**A — true but irrelevant:** Unintentional dural puncture and respiratory depression are neuraxial complications, but the question specifically asks for high or total spinal anesthesia. [Chestnut 6e (2019).pdf, 23 Epidural and Spinal Analgesia: Anesthesia for Labor and Vaginal Delivery, PDF p. 498, passage ID 272348]
+
+**B — true but irrelevant:** Intravascular local-anesthetic injection is a listed complication, but it does not identify the high-neuroblockade or total-spinal complication. [Chestnut 6e (2019).pdf, 23 Epidural and Spinal Analgesia: Anesthesia for Labor and Vaginal Delivery, PDF p. 498, passage ID 272348]
+
+**C — correct:** C directly states the stored Chestnut complication pair: high neuroblockade and total spinal anesthesia after neuraxial analgesia. [Chestnut 6e (2019).pdf, 23 Epidural and Spinal Analgesia: Anesthesia for Labor and Vaginal Delivery, PDF p. 498, passage ID 272348]
+
+**D — true but irrelevant:** Extensive and prolonged motor block can complicate neuraxial analgesia, but it does not specifically identify high or total spinal anesthesia. [Chestnut 6e (2019).pdf, 23 Epidural and Spinal Analgesia: Anesthesia for Labor and Vaginal Delivery, PDF p. 498, passage ID 272348]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and supplies the other neuraxial complication categories.
+
+## S01-Q197
+
+Which description best identifies postdural puncture headache?
+
+A. Most postoperative epidural abscesses are due to Staphylococcus aureus and require at least six weeks of IV antibiotics.
+
+B. Epidural abscesses without neurologic dysfunction may be managed with antibiotics and close observation.
+
+C. Removing an implant is the most conservative approach for superficial infections.
+
+D. Postdural puncture headache is classically a severe postural headache caused by CSF leak around the catheter or after multiple dural punctures.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Postdural puncture headache is classically severe and postural because cerebrospinal fluid leaks around the catheter or after multiple dural punctures. Bonica directly supports D. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 100: Intrathecal Drug Delivery in the Management of Pain, PDF p. 4996, printed p. 4996, passage ID 262484]
+
+**A — true but irrelevant:** Staphylococcus aureus commonly causes postoperative epidural abscess and prolonged antibiotics may be required, but this is not a postdural puncture headache description. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 100: Intrathecal Drug Delivery in the Management of Pain, PDF p. 4996, printed p. 4996, passage ID 262484]
+
+**B — true but irrelevant:** Antibiotics and observation may manage selected abscesses without neurologic dysfunction, but that infectious condition is different from postdural puncture headache. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 100: Intrathecal Drug Delivery in the Management of Pain, PDF p. 4996, printed p. 4996, passage ID 262484]
+
+**C — wrong condition:** Removing an implant is not the conservative approach for superficial infection in the stored comparison, and neither issue explains a CSF-leak headache. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 100: Intrathecal Drug Delivery in the Management of Pain, PDF p. 4996, printed p. 4996, passage ID 262484]
+
+**D — correct:** D directly identifies Bonica’s classic syndrome: severe postural headache from CSF leak around the catheter or after multiple dural punctures. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 100: Intrathecal Drug Delivery in the Management of Pain, PDF p. 4996, printed p. 4996, passage ID 262484]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports D and distinguishes abscess and implant-infection alternatives.
+
+## S01-Q198
+
+After neuraxial anesthesia, a patient develops progressive radicular pain, prolonged block, and bladder dysfunction. Which complication requires urgent recognition and evacuation?
+
+A. Epidural hematoma can compress the spinal cord and cause permanent neurologic deficit unless recognized and evacuated promptly.
+
+B. Radicular back pain, prolonged blockade, and bladder or bowel dysfunction suggest a vertebral-canal space-occupying lesion.
+
+C. Risk factors include traumatic needle or catheter insertion, coagulopathy, elderly age, and female sex.
+
+D. Epidural hematoma is more common after epidural than subarachnoid block.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Progressive radicular pain, prolonged block, and bladder dysfunction after neuraxial anesthesia suggest an epidural hematoma compressing the neuraxis. Miller emphasizes prompt recognition and evacuation to prevent permanent deficit, directly supporting A. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1551, printed p. 1295, passage ID 287779]
+
+**A — correct:** A directly states Miller’s urgent complication: an epidural hematoma can compress the spinal cord and cause permanent neurologic deficit unless promptly evacuated. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1551, printed p. 1295, passage ID 287779]
+
+**B — true but irrelevant:** Radicular pain, prolonged blockade, and bladder or bowel dysfunction are warning signs, but this option stops at suspicion and does not identify the urgent evacuation diagnosis. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1551, printed p. 1295, passage ID 287779]
+
+**C — true but irrelevant:** Traumatic insertion, coagulopathy, age, and sex are risk factors, but they do not state the complication requiring urgent evacuation. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1551, printed p. 1295, passage ID 287779]
+
+**D — true but irrelevant:** Epidural hematoma is more common after epidural than subarachnoid block, but that frequency comparison does not provide the urgent clinical diagnosis and response. [Miller 10e (2024).pdf, 41. Spinal, Epidural, and Caudal Anesthesia, PDF p. 1551, printed p. 1295, passage ID 287779]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and supplies the warning signs, risk factors, and incidence comparisons.
+
+## S01-Q199
+
+In an ultrasound-guided thoracic peripheral nerve-block technique, which visualization benefit is described?
+
+A. The needle is directed until it just pierces the superior costotransverse ligament in the illustrated block.
+
+B. Ultrasound guidance for peripheral blocks improves visualization of pleura and needle navigation past adjacent transverse processes.
+
+C. In the described thoracic technique, spinous processes are identified and marked 2.5 cm lateral to their superior borders.
+
+D. A parasagittal probe approach may improve dye spread compared with a transverse horizontal approach.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The thoracic ultrasound technique improves visualization of pleura and needle navigation past adjacent transverse processes. Miller’s peripheral-block passage directly supports B. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1585, printed p. 1319, passage ID 287946]
+
+**A — true but irrelevant:** Piercing the superior costotransverse ligament describes a needle endpoint in the illustrated block, but it does not state the ultrasound visualization benefit asked for. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1585, printed p. 1319, passage ID 287946]
+
+**B — correct:** B directly states Miller’s visualization benefit: ultrasound shows the pleura and guides needle navigation beyond adjacent transverse processes. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1585, printed p. 1319, passage ID 287946]
+
+**C — true but irrelevant:** Marking spinous processes and a lateral distance describes a landmark approach, but it is not the ultrasound visualization benefit requested. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1585, printed p. 1319, passage ID 287946]
+
+**D — true but irrelevant:** A parasagittal approach may improve dye spread, but that approach comparison does not state visualization of pleura and needle navigation. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1585, printed p. 1319, passage ID 287946]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes technique endpoints, landmarks, and approach comparisons.
+
+## S01-Q200
+
+What is the main advantage of a continuous peripheral nerve block after a single-injection block wears off?
+
+A. A large review reported complications or adverse events in 12.1% of peripheral blocks.
+
+B. Most reported adverse events were catheter malfunction or block failure, with superficial infection and vascular puncture less common.
+
+C. Continuous peripheral nerve blocks extend postoperative analgesia duration with a good safety profile.
+
+D. The fascia iliaca block can anesthetize multiple nerves with one injection.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Once a single-injection block wears off, a continuous peripheral catheter can extend postoperative analgesia while maintaining a good safety profile. Cote directly supports C. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1745, passage ID 190595]
+
+**A — true but irrelevant:** A 12.1% adverse-event rate is a review statistic, but it does not state the principal analgesic advantage of continuous blockade. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1745, passage ID 190595]
+
+**B — true but irrelevant:** Catheter malfunction, block failure, infection, and vascular puncture are adverse-event categories, but they do not identify the main benefit after single-injection duration ends. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1745, passage ID 190595]
+
+**C — correct:** C directly states Cote’s main advantage: continuous peripheral nerve blocks extend postoperative analgesia duration with a good safety profile. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1745, passage ID 190595]
+
+**D — true but irrelevant:** A fascia iliaca block can anesthetize multiple nerves with one injection, but that single-injection feature does not provide continuous extension after the block wears off. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1745, passage ID 190595]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and distinguishes adverse-event statistics and single-injection block capabilities.
+
+## S01-Q201
+
+Why does a supraclavicular brachial-plexus block carry pneumothorax risk?
+
+A. Ultrasound clearly delineates the brachial plexus and cervical pleura in the supraclavicular fossa.
+
+B. Before ultrasound, fear of pleural puncture and pneumothorax made pediatric supraclavicular block uncommon.
+
+C. Experienced operators should perform the technique because of close pleura-plexus proximity.
+
+D. Supraclavicular brachial-plexus block carries pneumothorax risk because the cervical pleura lies close to the plexus.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The supraclavicular plexus lies close to the cervical pleura, so needle placement can injure pleura and cause pneumothorax. Cote identifies that anatomic relationship directly, supporting D. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1734, passage ID 190556]
+
+**A — true but irrelevant:** Ultrasound can delineate the plexus and pleura, but visualization capability does not itself explain why the block carries pneumothorax risk. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1734, passage ID 190556]
+
+**B — true but irrelevant:** Fear of pleural puncture made the block uncommon before ultrasound, but that historical observation does not state the anatomic cause of risk. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1734, passage ID 190556]
+
+**C — true but irrelevant:** Experienced operators may improve safety because the pleura is close, but operator experience is not the anatomic explanation requested. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1734, passage ID 190556]
+
+**D — correct:** D directly states Cote’s mechanism: the cervical pleura lies near the brachial plexus, creating pneumothorax risk during supraclavicular block. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1734, passage ID 190556]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and distinguishes ultrasound, historical, and operator-safety observations.
+
+## S01-Q202
+
+What is the proximal-to-distal organization of the brachial plexus?
+
+A. The brachial plexus progresses from roots to trunks, divisions, cords, and terminal peripheral nerves.
+
+B. Infraclavicular cords surround the subclavian or axillary artery.
+
+C. In the supraclavicular region, trunks and divisions are typically lateral and superior to the subclavian artery.
+
+D. Axillary terminal nerves surround the axillary artery.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The brachial plexus is organized proximally to distally as roots, trunks, divisions, cords, and terminal peripheral nerves. Miller states that sequence directly, supporting A. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1579, printed p. 1313, passage ID 287926]
+
+**A — correct:** A directly gives Miller’s proximal-to-distal organization: roots, trunks, divisions, cords, then terminal peripheral nerves. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1579, printed p. 1313, passage ID 287926]
+
+**B — true but irrelevant:** Infraclavicular cords surround the subclavian or axillary artery, but that regional relationship does not give the complete organizational sequence. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1579, printed p. 1313, passage ID 287926]
+
+**C — true but irrelevant:** Trunks and divisions may lie lateral and superior to the subclavian artery, but this spatial relation does not answer the proximal-to-distal organization. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1579, printed p. 1313, passage ID 287926]
+
+**D — true but irrelevant:** Terminal nerves can surround the axillary artery, but that distal relation does not state the full plexus sequence requested. [Miller 10e (2024).pdf, 42. Peripheral Nerve Blocks and Ultrasound Guidance for Regional Anesthesia, PDF p. 1579, printed p. 1313, passage ID 287926]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes the regional arterial relationships.
+
+## S01-Q203
+
+Which injection practice improves safety when the full local-anesthetic dose is divided among multiple injections?
+
+A. The test dose should be repeated before subsequent catheter bolus injections.
+
+B. Slow incremental injection of the entire local-anesthetic dose as multiple test doses is recommended to increase regional-block safety.
+
+C. Blood aspiration, positive test doses, and LAST are most common with caudal blocks.
+
+D. Ultrasound visualization of drug deposition may make test dosing less critical but remains fallible.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** When the dose is divided, slow incremental injection as multiple test doses improves safety by allowing detection of intravascular placement before the entire dose is delivered. Cote supports B. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1677, passage ID 190343]
+
+**A — true but irrelevant:** Repeating a test dose before catheter boluses may be prudent, but this does not state the incremental-injection strategy for dividing the full local-anesthetic dose. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1677, passage ID 190343]
+
+**B — correct:** B directly states Cote’s safety practice: inject the total local-anesthetic dose slowly and incrementally as multiple test doses. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1677, passage ID 190343]
+
+**C — true but irrelevant:** Aspiration, positive test doses, and LAST may be common concerns with caudal blocks, but this frequency or complication statement does not specify the injection practice. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1677, passage ID 190343]
+
+**D — true but irrelevant:** Ultrasound deposition visualization may reduce reliance on test dosing, but it remains fallible and does not replace the incremental-injection safety practice asked for. [Cote 7e (2024).pdf, 40 Regional anesthesia, PDF p. 1677, passage ID 190343]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and distinguishes test-dose, complication, and ultrasound considerations.
+
+## S01-Q213
+
+Which relationship determines arterial PaCO2?
+
+A. Hypoventilation causes hypoxemia because inadequate CO2 elimination reduces alveolar space for oxygen.
+
+B. A 50% shunt can increase ventilatory demands by about 10%.
+
+C. The equilibrium between CO2 production and removal through alveolar ventilation.
+
+D. Hypoventilation is alveolar ventilation insufficient to maintain PaCO2 below 45 mm Hg.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Arterial PaCO2 is determined by the balance between carbon-dioxide production and removal through alveolar ventilation. Miller states that relationship, directly supporting C. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 326, printed p. 261, passage ID 282015]
+
+**A — true but irrelevant:** Hypoventilation can cause hypoxemia, but this consequence does not state the production-removal equilibrium determining PaCO2. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 326, printed p. 261, passage ID 282015]
+
+**B — true but irrelevant:** A large shunt can increase ventilatory demand, but that quantitative example does not define the PaCO2 relationship. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282007]
+
+**C — correct:** C directly states Miller’s relationship: PaCO2 reflects equilibrium between CO2 production and removal through alveolar ventilation. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 326, printed p. 261, passage ID 282015]
+
+**D — true but irrelevant:** Hypoventilation can be defined by failure to maintain PaCO2 below 45 mm Hg, but that threshold does not state the general production-removal relationship. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282007]
+
+**Evidence sufficiency:** The stored Miller passages directly support C and distinguish hypoventilation, shunt, and threshold examples.
+
+## S01-Q214
+
+A patient develops hypercapnia, acidosis, and hyperthermia. What change occurs in the oxyhaemoglobin dissociation curve?
+
+A. For PaO2 above 75 mm Hg, saturation reaches a plateau and no longer reflects PaO2 changes.
+
+B. On the steep curve section, saturation reflects hypoxemia and changing arterial oxygenation.
+
+C. Pulse oximeters estimate hemoglobin saturation noninvasively and continuously.
+
+D. It shifts right and oxygen affinity decreases.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Hypercapnia, acidosis, and hyperthermia decrease hemoglobin’s oxygen affinity, shifting the oxyhemoglobin dissociation curve rightward. Barash supports D. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2098, passage ID 246843]
+
+**A — true but irrelevant:** The upper plateau means saturation changes little with PaO2 above 75 mm Hg, but that curve-region property does not identify the acidotic shift. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2098, passage ID 246843]
+
+**B — true but irrelevant:** The steep section reflects hypoxemia and changing arterial oxygenation, but it does not state how the listed conditions shift affinity. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2098, passage ID 246843]
+
+**C — true but irrelevant:** Pulse oximetry estimates saturation continuously and noninvasively, but its measurement role does not identify the dissociation-curve shift. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2098, passage ID 246843]
+
+**D — correct:** D directly states the stored Barash consequence: the curve shifts right and hemoglobin oxygen affinity decreases. [Barash 9e (2023).pdf, 26. Commonly Used Monitoring Techniques, PDF p. 2098, passage ID 246843]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and distinguishes plateau, steep-section, and monitoring facts.
+
+## S01-Q215
+
+Which gas-exchange abnormality is the most common cause of hypoxemia and can also cause hypercapnia?
+
+A. Ventilation-perfusion mismatch.
+
+B. High V/Q causes hypercapnia because limited blood flow reduces CO2 elimination.
+
+C. Perfusion increases more than ventilation down the lung, with mean V/Q near 1.
+
+D. Low V/Q impairs oxygenation because ventilation cannot fully oxygenate blood.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Ventilation-perfusion mismatch is the most common gas-exchange cause of hypoxemia and can also produce hypercapnia. Miller identifies V/Q mismatch as the relevant abnormality, supporting A. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282008]
+
+**A — correct:** A directly identifies Miller’s most common abnormality: ventilation-perfusion mismatch can impair oxygenation and, when significant, CO2 elimination. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282008]
+
+**B — true but irrelevant:** High V/Q with limited blood flow is a narrower stored statement about CO2 elimination, but it does not identify the general ventilation-perfusion mismatch that is the most common cause asked for. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282008]
+
+**C — true but irrelevant:** Perfusion generally increases toward dependent lung regions and mean V/Q is near one, but that normal distribution does not identify the common cause of hypoxemia. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282008]
+
+**D — true but irrelevant:** Low V/Q impairs oxygenation when ventilation cannot fully oxygenate blood, but this is one component of mismatch rather than the complete abnormality asked for. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282008]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes high-V/Q, low-V/Q, and normal-distribution statements.
+
+## S01-Q216
+
+Which complete equation expresses cerebral oxygen extraction in terms of arterial and jugular venous saturation, hemoglobin, CMRO2, and cerebral blood flow?
+
+A. Loss of cerebrovascular autoregulation is associated with poor outcome.
+
+B. (SaO2 minus SjvO2) multiplied by hemoglobin and 1.34 equals CMRO2 divided by CBF
+
+C. NIRS-derived variables can assess cerebral autoregulation.
+
+D. The cerebral oxygen extraction equation includes hemoglobin and arterial and jugular venous saturation.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Cerebral oxygen extraction is expressed as the arterial-to-jugular venous saturation difference multiplied by hemoglobin and 1.34, equaling CMRO2 divided by CBF. Miller supports B. [Miller 10e (2024).pdf, 80. Neurocritical Care, PDF p. 3076, printed p. 2577, passage ID 295255]
+
+**A — true but irrelevant:** Loss of cerebrovascular autoregulation is associated with poor outcome, but it does not provide the cerebral oxygen-extraction equation. [Miller 10e (2024).pdf, 80. Neurocritical Care, PDF p. 3076, printed p. 2577, passage ID 295255]
+
+**B — correct:** B directly gives Miller’s equation: (SaO2 minus SjvO2) times hemoglobin times 1.34 equals CMRO2 divided by CBF. [Miller 10e (2024).pdf, 80. Neurocritical Care, PDF p. 3076, printed p. 2577, passage ID 295255]
+
+**C — true but irrelevant:** NIRS-derived variables can assess autoregulation, but that monitoring application does not state the extraction equation. [Miller 10e (2024).pdf, 80. Neurocritical Care, PDF p. 3076, printed p. 2577, passage ID 295255]
+
+**D — incomplete:** The equation includes hemoglobin and arterial and jugular venous saturation, but this option omits the 1.34 factor and CMRO2-to-CBF relationship. [Miller 10e (2024).pdf, 80. Neurocritical Care, PDF p. 3076, printed p. 2577, passage ID 295255]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and supplies the related autoregulation and NIRS observations.
+
+## S01-Q217
+
+How is airway driving pressure calculated during mechanical ventilation?
+
+A. Driving pressure is partitioned between chest wall and lungs.
+
+B. True transpulmonary pressure better measures lung-injury risk than airway pressure alone.
+
+C. Driving pressure equals plateau airway pressure minus PEEP.
+
+D. Higher PEEP can improve respiratory elastance and compliance but increase peak airway pressure.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Airway driving pressure is the pressure above PEEP needed to deliver a breath. Miller defines it as plateau airway pressure minus PEEP, directly supporting C. [Miller 10e (2024).pdf, 67. Anesthesia for Robotic Surgery, PDF p. 2542, printed p. 2133, passage ID 292554]
+
+**A — true but irrelevant:** Driving pressure can be partitioned between chest wall and lung components, but that decomposition does not give the airway-pressure calculation. [Miller 10e (2024).pdf, 67. Anesthesia for Robotic Surgery, PDF p. 2542, printed p. 2133, passage ID 292554]
+
+**B — true but irrelevant:** Transpulmonary pressure may better measure lung-injury risk than airway pressure alone, but it is not the driving-pressure formula requested. [Miller 10e (2024).pdf, 67. Anesthesia for Robotic Surgery, PDF p. 2542, printed p. 2133, passage ID 292554]
+
+**C — correct:** C directly states Miller’s formula: driving pressure equals plateau airway pressure minus PEEP. [Miller 10e (2024).pdf, 67. Anesthesia for Robotic Surgery, PDF p. 2542, printed p. 2133, passage ID 292554]
+
+**D — true but irrelevant:** Higher PEEP can improve compliance while increasing peak airway pressure, but those effects do not define driving pressure. [Miller 10e (2024).pdf, 67. Anesthesia for Robotic Surgery, PDF p. 2542, printed p. 2133, passage ID 292554]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes pressure partitioning, transpulmonary pressure, and PEEP effects.
+
+## S01-Q218
+
+Why does airway resistance contribute substantially to the work of breathing in infants and children?
+
+A. Increased airway resistance or decreased lung compliance requires greater transpulmonary pressure for a given tidal volume.
+
+B. Increased work of breathing may lead to respiratory failure.
+
+C. Neonatal nasal passages account for 25% of total airflow resistance versus 60% in adults.
+
+D. In infants and children, small-airway resistance accounts for most work of breathing.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** In infants and children, small-airway resistance accounts for most of the work required to breathe. Cote states that relationship, directly supporting D. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 564, passage ID 185148]
+
+**A — true but irrelevant:** Greater resistance or lower compliance requires greater transpulmonary pressure, but this general mechanics statement does not identify the pediatric source of work. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 564, passage ID 185148]
+
+**B — true but irrelevant:** Increased work can lead to respiratory failure, but that consequence does not specify why small-airway resistance dominates in children. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 564, passage ID 185148]
+
+**C — true but irrelevant:** Neonatal nasal passages account for a stated fraction of resistance, but that comparison does not identify the overall small-airway contribution asked for. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 564, passage ID 185148]
+
+**D — correct:** D directly states Cote’s pediatric principle: small-airway resistance accounts for most work of breathing in infants and children. [Cote 7e (2024).pdf, 12 The pediatric airway, PDF p. 564, passage ID 185148]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and distinguishes mechanics, consequences, and nasal-resistance details.
+
+## S01-Q219
+
+How is the mechanical work of breathing expressed?
+
+A. Work of breathing equals pressure or force multiplied by inspiratory tidal volume.
+
+B. Volatile anesthetics generally decrease work of breathing in adults and children.
+
+C. Work of breathing is derived from transpulmonary pressure-volume curves.
+
+D. Elastic work overcomes lung recoil and resistive work overcomes airway-flow resistance.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Mechanical work of breathing is the pressure or force required multiplied by inspiratory tidal volume. Miller states that expression, directly supporting A. [Miller 10e (2024).pdf, 19. Pulmonary Pharmacology of Inhaled Anesthetics, PDF p. 525, printed p. 430, passage ID 282917]
+
+**A — correct:** A directly states Miller’s expression: work of breathing equals pressure or force multiplied by inspiratory tidal volume. [Miller 10e (2024).pdf, 19. Pulmonary Pharmacology of Inhaled Anesthetics, PDF p. 525, printed p. 430, passage ID 282917]
+
+**B — true but irrelevant:** Volatile anesthetics generally decrease work of breathing, but that drug effect does not define how mechanical work is expressed. [Miller 10e (2024).pdf, 19. Pulmonary Pharmacology of Inhaled Anesthetics, PDF p. 525, printed p. 430, passage ID 282917]
+
+**C — true but irrelevant:** Transpulmonary pressure-volume curves can derive work, but the graphing method does not provide the pressure-times-volume expression requested. [Miller 10e (2024).pdf, 19. Pulmonary Pharmacology of Inhaled Anesthetics, PDF p. 525, printed p. 430, passage ID 282917]
+
+**D — true but irrelevant:** Elastic and resistive work describe components that overcome recoil and flow resistance, but they do not state the requested general expression. [Miller 10e (2024).pdf, 19. Pulmonary Pharmacology of Inhaled Anesthetics, PDF p. 525, printed p. 430, passage ID 282917]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and supplies the component and graph interpretations.
+
+## S01-Q220
+
+A patient with COPD has persistent expiratory flow limitation during mechanical ventilation. What consequence can develop after multiple breaths?
+
+A. Higher airflow rates are associated with greater resistance.
+
+B. COPD forced expiration can cause expiratory flow limitation and dynamic hyperinflation after multiple breaths.
+
+C. Pursed-lip breathing increases expiratory resistance and slows expiration in COPD.
+
+D. As lung volume falls, airway resistance increases, especially below FRC.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Persistent expiratory flow limitation in COPD prevents complete emptying, producing dynamic hyperinflation after multiple breaths. Miller identifies that sequence, directly supporting B. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 319, printed p. 254, passage ID 281988]
+
+**A — true but irrelevant:** Higher airflow rates increase resistance, but that relationship does not identify the repeated-breath consequence of expiratory flow limitation. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 319, printed p. 254, passage ID 281988]
+
+**B — correct:** B directly states Miller’s consequence: COPD forced expiration causes flow limitation and dynamic hyperinflation after multiple breaths. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 319, printed p. 254, passage ID 281988]
+
+**C — true but irrelevant:** Pursed-lip breathing increases expiratory resistance and slows expiration, but it does not state the mechanical consequence of repeated ventilator breaths. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 319, printed p. 254, passage ID 281988]
+
+**D — true but irrelevant:** Resistance rises as lung volume falls, especially below FRC, but this relation does not identify the dynamic-hyperinflation outcome asked for. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 319, printed p. 254, passage ID 281988]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes resistance, breathing technique, and lung-volume relationships.
+
+## S01-Q221
+
+Which combination defines asthma?
+
+A. Airway inflammation can independently produce airway obstruction.
+
+B. Asthma is a characteristic respiratory disease in the cited clinical chapter.
+
+C. Asthma is defined by reversible airway obstruction, airway inflammation, and airway hyperresponsiveness.
+
+D. Asthma airway obstruction produces wheezing, cough, and dyspnea.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Asthma is the combination of reversible airway obstruction, airway inflammation, and airway hyperresponsiveness. Chestnut states this defining triad, making C correct. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1297, passage ID 276021]
+
+**A — incomplete:** Airway inflammation can produce obstruction, but inflammation alone omits reversibility and hyperresponsiveness. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1297, passage ID 276021]
+
+**B — true but irrelevant:** Asthma is a respiratory disease, but this broad classification does not define its three characteristic components. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1297, passage ID 276021]
+
+**C — correct:** C directly gives Chestnut’s definition: reversible obstruction, airway inflammation, and airway hyperresponsiveness. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1297, passage ID 276021]
+
+**D — true but irrelevant:** Wheezing, cough, and dyspnea are manifestations of obstruction, but they do not state the defining pathophysiologic triad. [Chestnut 6e (2019).pdf, 52 Respiratory Disease, PDF p. 1297, passage ID 276021]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and distinguishes definition from manifestations.
+
+## S01-Q231
+
+What should an off-site anesthesia cart contain to support airway and rescue care?
+
+A. Airway equipment includes tracheal tubes, supraglottic devices, laryngoscopes, and oral/nasal airways.
+
+B. Off-site supplies should be restocked and carts secured with operating-room scrutiny.
+
+C. Off-site anesthesia scheduling is complex and time-consuming.
+
+D. Off-site anesthesia carts should contain drugs, IV equipment, fluids, age-appropriate airway equipment, masks, and suction.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** An off-site anesthesia cart must support routine and rescue care, so it needs drugs, IV equipment, fluids, age-appropriate airway equipment, masks, and suction. Cote supports D. [Cote 7e (2024).pdf, 43 Anesthesia outside the operating room, PDF p. 1865, passage ID 191204]
+
+**A — incomplete:** Airway equipment is necessary, but this option omits drugs, IV supplies, fluids, and suction required for a complete cart. [Cote 7e (2024).pdf, 43 Anesthesia outside the operating room, PDF p. 1865, passage ID 191204]
+
+**B — true but irrelevant:** Restocking and securing carts are important, but they do not specify the supplies the cart must contain. [Cote 7e (2024).pdf, 43 Anesthesia outside the operating room, PDF p. 1865, passage ID 191204]
+
+**C — true but irrelevant:** Off-site scheduling is complex, but scheduling does not answer what airway and rescue supplies must be available. [Cote 7e (2024).pdf, 43 Anesthesia outside the operating room, PDF p. 1865, passage ID 191204]
+
+**D — correct:** D directly gives Cote’s complete cart requirement: drugs, IV equipment, fluids, age-appropriate airway equipment, masks, and suction. [Cote 7e (2024).pdf, 43 Anesthesia outside the operating room, PDF p. 1865, passage ID 191204]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and distinguishes cart contents from process and scheduling.
+
+## S01-Q232
+
+What formal requirement governs discharge after ambulatory anesthesia?
+
+A. Ambulatory discharge requires physician-written criteria and responsibility.
+
+B. Instructions should ideally be repeated to the patient’s escort.
+
+C. Discharge instructions should be written because early recovery impairs information retention.
+
+D. Instructions should include warning signs and actions for procedure-specific complications.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Formal ambulatory discharge requires physician-written criteria and physician responsibility. Miller states that requirement, directly supporting A. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2593, printed p. 2178, passage ID 292796]
+
+**A — correct:** A directly states Miller’s discharge requirement: written criteria and physician responsibility. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2593, printed p. 2178, passage ID 292796]
+
+**B — true but irrelevant:** Repeating instructions to the escort is useful, but it does not state the formal written discharge requirement. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2593, printed p. 2178, passage ID 292796]
+
+**C — true but irrelevant:** Written instructions address early-recovery retention, but they are not the formal physician-written discharge criterion asked for. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2593, printed p. 2178, passage ID 292796]
+
+**D — true but irrelevant:** Warning signs and actions belong in instructions, but they do not establish physician-written discharge criteria. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2593, printed p. 2178, passage ID 292796]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes discharge authority from instruction content.
+
+## S01-Q233
+
+Which definition describes moderate procedural sedation?
+
+A. Deep sedation requires repeated or painful stimulation for a purposeful response.
+
+B. Moderate sedation produces a purposeful response to verbal or tactile stimulation with an unaffected airway and adequate spontaneous ventilation.
+
+C. General anesthesia renders the patient unrousable even by painful stimulus.
+
+D. Cardiovascular function is usually maintained during moderate sedation.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Moderate sedation produces a purposeful response to verbal or tactile stimulation while preserving airway and spontaneous ventilation. Cote supports B. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 53: Burn Pain, PDF p. 2842, printed p. 2842, passage ID 258095]
+
+**A — wrong condition:** Repeated or painful stimulation describes deep sedation, but moderate sedation responds to verbal or tactile stimulation. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 53: Burn Pain, PDF p. 2842, printed p. 2842, passage ID 258095]
+
+**B — correct:** B directly states the stored definition: purposeful response with an unaffected airway and adequate spontaneous ventilation. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 53: Burn Pain, PDF p. 2842, printed p. 2842, passage ID 258095]
+
+**C — wrong condition:** General anesthesia is unrousable even to painful stimulus, but that is deeper than moderate sedation. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 53: Burn Pain, PDF p. 2842, printed p. 2842, passage ID 258095]
+
+**D — true but irrelevant:** Cardiovascular function is usually maintained, but that single feature does not provide the complete definition. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 53: Burn Pain, PDF p. 2842, printed p. 2842, passage ID 258095]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports B and distinguishes depth and cardiovascular features.
+
+## S01-Q234
+
+What airway concern is associated with airway endoscopy?
+
+A. Airway endoscopy requires aspiration-risk assessment and review of imaging.
+
+B. Position planning for airway endoscopy includes supine positioning with neck extension.
+
+C. Airway endoscopy patients may have adverse respiratory events and challenging airways.
+
+D. Endoscopy planning includes distinguishing diagnostic from therapeutic procedures.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Airway endoscopy carries risk of adverse respiratory events and challenging airways. Cote identifies that specific concern, directly supporting C. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1365, passage ID 188950]
+
+**A — true but irrelevant:** Aspiration assessment and imaging review are planning steps, but they do not state the endoscopy-associated airway concern. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1365, passage ID 188950]
+
+**B — true but irrelevant:** Supine positioning with neck extension may be used, but position does not identify the respiratory and airway risk. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1365, passage ID 188950]
+
+**C — correct:** C directly states Cote’s concern: endoscopy patients may have adverse respiratory events and challenging airways. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1365, passage ID 188950]
+
+**D — true but irrelevant:** Diagnostic versus therapeutic classification guides planning, but it does not identify the airway concern asked for. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1365, passage ID 188950]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and distinguishes planning and positioning details.
+
+## S01-Q235
+
+Which airway concern is associated with a peritonsillar or parapharyngeal abscess?
+
+A. Awake fiberoptic intubation is usual when an abscess compromises the airway.
+
+B. After surgery the throat pack should be removed and the oropharynx suctioned.
+
+C. An orogastric tube can empty the stomach before extubation.
+
+D. Peritonsillar or parapharyngeal abscess can cause trismus, pharyngeal edema, and a compromised airway.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Peritonsillar or parapharyngeal abscess can cause trismus, pharyngeal edema, and a compromised airway. Miller supports D. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2522, printed p. 2117, passage ID 292458]
+
+**A — true but irrelevant:** Awake fiberoptic intubation may manage compromise, but it does not state the characteristic abscess findings. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2522, printed p. 2117, passage ID 292458]
+
+**B — true but irrelevant:** Throat-pack removal and suctioning are safety steps, but they do not identify the preoperative abscess airway risk. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2522, printed p. 2117, passage ID 292458]
+
+**C — true but irrelevant:** An orogastric tube can empty the stomach, but that aspiration step does not describe abscess-related airway compromise. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2522, printed p. 2117, passage ID 292458]
+
+**D — correct:** D directly states Miller’s findings: abscess can cause trismus, pharyngeal edema, and a compromised airway. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2522, printed p. 2117, passage ID 292458]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes airway findings from management steps.
+
+## S01-Q236
+
+Why must anesthesiologists and surgeons coordinate closely during many ENT operations?
+
+A. Many ENT surgical procedures require that the anesthesia provider share the airway with the surgeon.
+
+B. Tracheal, glottic, or subglottic surgery may require sharing the airway with special equipment such as surgical lasers.
+
+C. ENT patients may have severely distorted airway anatomy, sometimes causing airway obstruction.
+
+D. Intraoral ENT procedures may use instruments that unintentionally obstruct the airway or occlude an endotracheal tube.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Many ENT operations require the surgeon and anesthesia provider to share the airway, making close coordination essential. Miller supports A. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2509, printed p. 2104, passage ID 292409]
+
+**A — correct:** A directly states Miller’s central coordination issue: the anesthesia provider shares the airway with the surgeon. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2509, printed p. 2104, passage ID 292409]
+
+**B — true but irrelevant:** Tracheal, glottic, or subglottic surgery may require shared airway and lasers, but this is a narrower example than the general principle. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2509, printed p. 2104, passage ID 292409]
+
+**C — true but irrelevant:** Distorted anatomy can obstruct the airway, but it does not state why the teams must coordinate closely. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2509, printed p. 2104, passage ID 292409]
+
+**D — true but irrelevant:** Intraoral instruments may obstruct the airway or tube, but this equipment hazard is an example rather than the general reason. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2509, printed p. 2104, passage ID 292409]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and supplies shared-airway examples.
+
+## S01-Q237
+
+What can trigger the oculocardiac reflex during ophthalmic surgery?
+
+A. Stretch receptors for the oculocardiac reflex are located in the extraocular muscles.
+
+B. The oculocardiac reflex is provoked by pressure on the globe or traction on surrounding structures and can produce bradycardia through increased parasympathetic tone.
+
+C. The incidence of the oculocardiac reflex during ophthalmic surgery ranges from 30% to 90%.
+
+D. An antimuscarinic drug such as glycopyrrolate or atropine reduces the incidence of bradycardia during eye surgery.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Globe pressure or traction on surrounding structures provokes the oculocardiac reflex, increasing parasympathetic tone and causing bradycardia. Miller supports B. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 360, printed p. 291, passage ID 282158]
+
+**A — true but irrelevant:** Receptors lie in extraocular muscles, but the question asks for the provoking stimulus and cardiac response. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 360, printed p. 291, passage ID 282158]
+
+**B — correct:** B directly states Miller’s trigger and response: globe pressure or traction increases parasympathetic tone and may cause bradycardia. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 360, printed p. 291, passage ID 282158]
+
+**C — true but irrelevant:** The 30% to 90% incidence range is epidemiologic context, but it does not describe the trigger and response. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 360, printed p. 291, passage ID 282158]
+
+**D — true but irrelevant:** Antimuscarinics reduce bradycardia incidence, but prevention does not identify what provokes the reflex. [Miller 10e (2024).pdf, 13. Cardiac Physiology, PDF p. 360, printed p. 291, passage ID 282158]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes receptor location, incidence, and prevention.
+
+## S01-Q238
+
+Which intraocular-pressure effect is specifically caused by changing ventilation rather than by temperature or airway-device manipulation?
+
+A. Direct laryngoscopy and intubation can raise intraocular pressure severalfold.
+
+B. Hypothermia lowers intraocular pressure.
+
+C. Hyperventilation decreases intraocular pressure, whereas hypoventilation elevates intraocular pressure.
+
+D. Inserting a supraglottic airway may have minimal effect on intraocular pressure, depending on anesthetic depth.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Hyperventilation decreases intraocular pressure while hypoventilation elevates it. Barash identifies this ventilation-specific effect, directly supporting C. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4145, passage ID 250472]
+
+**A — true but irrelevant:** Laryngoscopy and intubation can raise intraocular pressure, but that airway-manipulation effect is not the ventilation-specific change. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4145, passage ID 250472]
+
+**B — true but irrelevant:** Hypothermia lowers intraocular pressure, but temperature is not the ventilation variable asked about. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4145, passage ID 250472]
+
+**C — correct:** C directly states Barash’s ventilation effect: hyperventilation decreases intraocular pressure, whereas hypoventilation elevates it. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4145, passage ID 250472]
+
+**D — true but irrelevant:** A supraglottic airway may have minimal pressure effect depending on depth, but device manipulation is not the ventilation mechanism requested. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4145, passage ID 250472]
+
+**Evidence sufficiency:** The stored Barash passage directly supports C and distinguishes ventilation, temperature, and airway-device effects.
+
+## S01-Q239
+
+At typical pneumoperitoneum pressures, which combined change in systemic vascular resistance and cardiac index may occur?
+
+A. Initiating insufflation supine and maintaining intra-abdominal pressure at 12 to 15 mm Hg can minimize reduction in preload.
+
+B. Extremely high intra-abdominal pressure, especially with hypovolemia, can severely reduce venous return and cardiac filling.
+
+C. Trendelenburg positioning increases preload, ejection fraction, and cardiac index in patients with cardiovascular risk.
+
+D. Pneumoperitoneum can increase systemic vascular resistance and cause minor reductions in cardiac index that are soon reversed.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** At typical pneumoperitoneum pressures, systemic vascular resistance rises while cardiac index decreases slightly and soon recovers. Barash supports D. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3807, passage ID 249843]
+
+**A — true but irrelevant:** Supine insufflation at 12 to 15 mm Hg may minimize preload reduction, but it does not state the typical resistance and cardiac-index changes. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3807, passage ID 249843]
+
+**B — true but irrelevant:** Very high pressure with hypovolemia can severely reduce venous return, but that extreme scenario differs from typical-pressure effects. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3807, passage ID 249843]
+
+**C — true but irrelevant:** Trendelenburg can increase preload and cardiac index, but this position effect does not give the typical pneumoperitoneum pattern. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3807, passage ID 249843]
+
+**D — correct:** D directly states Barash’s typical-pressure response: increased systemic vascular resistance with a minor, soon-reversed cardiac-index reduction. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3807, passage ID 249843]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and distinguishes pressure, volume, position, and recovery effects.
+
+## S01-Q240
+
+Which respiratory-mechanics combination specifically describes peak airway pressure, functional residual capacity, and compliance during CO2 pneumoperitoneum in Trendelenburg?
+
+A. In the Trendelenburg position, CO2 pneumoperitoneum increases peak airway pressure and decreases functional residual capacity and compliance.
+
+B. CO2 pneumoperitoneum in the Trendelenburg position increases ventilation-perfusion mismatch and can cause hypercarbia and respiratory acidosis.
+
+C. CO2 pneumoperitoneum in the Trendelenburg position increases intracranial and intraocular pressure.
+
+D. CO2 pneumoperitoneum in the Trendelenburg position increases systemic vascular resistance and mean arterial pressure.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Trendelenburg with carbon-dioxide pneumoperitoneum increases peak airway pressure while decreasing FRC and compliance. Barash supports A. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4291, passage ID 250736]
+
+**A — correct:** A directly states the stored mechanics: peak airway pressure rises while functional residual capacity and compliance fall. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4291, passage ID 250736]
+
+**B — true but irrelevant:** V/Q mismatch, hypercarbia, and acidosis can occur, but this option does not state the requested pressure, FRC, and compliance combination. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4291, passage ID 250736]
+
+**C — true but irrelevant:** Intracranial and intraocular pressures can rise, but those effects do not answer the respiratory-mechanics question. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4291, passage ID 250736]
+
+**D — true but irrelevant:** Systemic resistance and mean arterial pressure can increase, but cardiovascular effects do not state the requested respiratory pattern. [Barash 9e (2023).pdf, 50. The Renal System and Anesthesia for Urologic Surgery, PDF p. 4291, passage ID 250736]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes respiratory, intracranial, and cardiovascular effects.
+
+## S01-Q241
+
+Which intraoperative hemodynamic target can reduce blood loss during open hepatic resection?
+
+A. Acute normovolemic hemodilution and intraoperative cell salvage can reduce transfusion of allogeneic units in patients at increased hemorrhage risk.
+
+B. Intraoperative maintenance of low central venous pressure is a strategy to reduce blood loss during open hepatic resection.
+
+C. The Pringle maneuver occludes the hepatic artery and portal vein by clamping the hepatoduodenal ligament.
+
+D. Intermittent hepatic vascular clamping with 15- to 20-minute intervals can mitigate ischemia and reperfusion injury.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** During open hepatic resection, low central venous pressure reduces hepatic venous congestion and can reduce operative blood loss. Miller identifies this intraoperative target, supporting B. [Miller 10e (2024).pdf, 14. Gastrointestinal and Hepatic Physiology, Pathophysiology, and Anesthetic Considerations, PDF p. 392, printed p. 321, passage ID 282305]
+
+**A — true but irrelevant:** Acute normovolemic hemodilution and cell salvage can reduce allogeneic transfusion, but they are conservation strategies rather than the hemodynamic target asked for. [Miller 10e (2024).pdf, 14. Gastrointestinal and Hepatic Physiology, Pathophysiology, and Anesthetic Considerations, PDF p. 392, printed p. 321, passage ID 282305]
+
+**B — correct:** B directly states Miller’s blood-loss strategy: maintain low central venous pressure during open hepatic resection. [Miller 10e (2024).pdf, 14. Gastrointestinal and Hepatic Physiology, Pathophysiology, and Anesthetic Considerations, PDF p. 392, printed p. 321, passage ID 282305]
+
+**C — true but irrelevant:** The Pringle maneuver clamps the hepatoduodenal ligament and occludes hepatic inflow, but it is not the requested hemodynamic target. [Miller 10e (2024).pdf, 14. Gastrointestinal and Hepatic Physiology, Pathophysiology, and Anesthetic Considerations, PDF p. 392, printed p. 321, passage ID 282305]
+
+**D — true but irrelevant:** Intermittent vascular clamping can mitigate ischemia-reperfusion injury, but it does not describe the pressure target that reduces blood loss. [Miller 10e (2024).pdf, 14. Gastrointestinal and Hepatic Physiology, Pathophysiology, and Anesthetic Considerations, PDF p. 392, printed p. 321, passage ID 282305]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes conservation, inflow-occlusion, and ischemia-reperfusion strategies.
+
+## S01-Q242
+
+Which definition best describes transurethral resection syndrome?
+
+A. TURP syndrome may complicate 10% to 15% of procedures and can begin from 15 minutes to 24 hours after resection starts.
+
+B. Risk factors for TURP syndrome include increased intravesical pressure, prolonged resection, hypotonic irrigants, and open venous sinuses.
+
+C. TURP syndrome is symptomatic hyponatremia and excessive intravascular volume from intravenous absorption of hypotonic nonconductive irrigation fluid.
+
+D. Using isotonic saline irrigant with bipolar diathermy helps prevent TURP syndrome.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Transurethral resection syndrome is the combination of symptomatic hyponatremia and excess intravascular volume from absorption of hypotonic nonconductive irrigation fluid. Miller supports C. [Miller 10e (2024).pdf, 43. Perioperative Fluid and Electrolyte Therapy, PDF p. 1622, printed p. 1353, passage ID 288105]
+
+**A — true but irrelevant:** The incidence and timing range describe epidemiology, but they do not define the fluid-absorption syndrome. [Miller 10e (2024).pdf, 43. Perioperative Fluid and Electrolyte Therapy, PDF p. 1622, printed p. 1353, passage ID 288105]
+
+**B — true but irrelevant:** Increased pressure, prolonged resection, hypotonic irrigant, and open sinuses are risk factors, but they are not the syndrome’s defining manifestations and mechanism. [Miller 10e (2024).pdf, 43. Perioperative Fluid and Electrolyte Therapy, PDF p. 1622, printed p. 1353, passage ID 288105]
+
+**C — correct:** C directly states Miller’s definition: symptomatic hyponatremia and volume excess from intravenous absorption of hypotonic nonconductive irrigation fluid. [Miller 10e (2024).pdf, 43. Perioperative Fluid and Electrolyte Therapy, PDF p. 1622, printed p. 1353, passage ID 288105]
+
+**D — true but irrelevant:** Isotonic saline with bipolar diathermy helps prevent the syndrome, but prevention does not define the syndrome itself. [Miller 10e (2024).pdf, 43. Perioperative Fluid and Electrolyte Therapy, PDF p. 1622, printed p. 1353, passage ID 288105]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes incidence, risks, definition, and prevention.
+
+## S01-Q243
+
+Which preoperative preparation combines adrenergic receptor blockade with correction of intravascular volume in pheochromocytoma?
+
+A. Phenoxybenzamine may be started at 10 mg orally twice daily and titrated upward to 40 to 50 mg twice daily.
+
+B. Pheochromocytoma carries risk of severe hypertension during induction or tumor manipulation and severe hypotension after excision.
+
+C. Beta-adrenergic blockade should be preceded by effective alpha-adrenergic blockade to prevent paradoxical hypertension.
+
+D. Preoperative preparation for pheochromocytoma includes alpha-adrenergic receptor blockade and intravascular volume repletion.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Pheochromocytoma preparation requires alpha-adrenergic blockade followed by correction of intravascular depletion. Chestnut identifies that combined preparation, directly supporting D. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**A — true but irrelevant:** Phenoxybenzamine can be started and titrated to the stated doses, but the dosing example does not include volume repletion. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**B — true but irrelevant:** Severe hypertension during manipulation and hypotension after excision are important risks, but they do not state the preoperative preparation. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**C — true but irrelevant:** Alpha blockade must precede beta blockade to avoid paradoxical hypertension, but that sequencing does not include the required volume correction. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**D — correct:** D directly states Chestnut’s preparation: alpha-adrenergic receptor blockade together with intravascular volume repletion. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and supplies dose, risk, and alpha-before-beta details.
+
+## S01-Q244
+
+Which phases describe the surgical course of liver transplantation?
+
+A. Liver transplantation has dissection, anhepatic, reperfusion, and posttransplantation phases with distinct surgical and anesthetic considerations.
+
+B. The anhepatic phase can produce lactic acidosis, hypocalcemia from citrate intoxication, hyperkalemia, hypothermia, and hypoglycemia.
+
+C. Complete inferior vena cava occlusion during the anhepatic phase can acutely decrease venous return by as much as 50% and cause severe hypotension.
+
+D. Portal-vein reperfusion often results in hemodynamic instability, commonly with hypotension from a further drop in systemic vascular resistance.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Liver transplantation proceeds through dissection, anhepatic, reperfusion, and posttransplantation phases, each with distinct anesthetic concerns. Miller supports A. [Miller 10e (2024).pdf, 56. Anesthesia for Abdominal Organ Transplantation, PDF p. 2206, printed p. 1856, passage ID 290907]
+
+**A — correct:** A directly lists Miller’s four surgical phases: dissection, anhepatic, reperfusion, and posttransplantation. [Miller 10e (2024).pdf, 56. Anesthesia for Abdominal Organ Transplantation, PDF p. 2206, printed p. 1856, passage ID 290907]
+
+**B — true but irrelevant:** Lactic acidosis, hypocalcemia, hyperkalemia, hypothermia, and hypoglycemia can occur in the anhepatic phase, but this is a phase-specific complication list rather than the phase sequence. [Stoelting Coexisting 8e (2021).pdf, 16 Diseases of the liver and biliary tract, PDF p. 356, printed p. 345, passage ID 233768]
+
+**C — true but irrelevant:** Inferior vena cava occlusion can reduce venous return and cause hypotension, but it describes one anhepatic-phase hazard rather than the complete course. [Miller 10e (2024).pdf, 56. Anesthesia for Abdominal Organ Transplantation, PDF p. 2209, printed p. 1859, passage ID 290921]
+
+**D — true but irrelevant:** Portal reperfusion may cause hypotension from reduced resistance, but it is a reperfusion event and not the requested phase sequence. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4439, passage ID 251023]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A; associated textbook passages provide phase-specific examples for B–D.
+
+## S01-Q245
+
+What major risks are associated with immunosuppression in transplant recipients?
+
+A. Donor-derived and hospital-acquired infections predominate during the first posttransplant month.
+
+B. Transplant recipients are at risk for immunosuppression-related sequelae including infection, malignancy, and cardiovascular disease.
+
+C. Antibiotic, antiviral, antifungal, and immunosuppression regimens should be disrupted as little as possible perioperatively.
+
+D. Signs of infection may be masked in transplant patients by immunosuppression, so signs of sepsis or systemic inflammatory response should be managed aggressively.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Immunosuppression exposes transplant recipients to infection, malignancy, and cardiovascular disease. Miller identifies these sequelae as the major risk group, supporting B. [Miller 10e (2024).pdf, 56. Anesthesia for Abdominal Organ Transplantation, PDF p. 2183, printed p. 56, passage ID 290796]
+
+**A — true but irrelevant:** Donor-derived and hospital-acquired infections may predominate early, but this is an infection timing detail rather than the complete immunosuppression risk profile. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4479, passage ID 251097]
+
+**B — correct:** B directly states Miller’s complete profile: immunosuppression-related infection, malignancy, and cardiovascular disease. [Miller 10e (2024).pdf, 56. Anesthesia for Abdominal Organ Transplantation, PDF p. 2183, printed p. 56, passage ID 290796]
+
+**C — true but irrelevant:** Continuing antimicrobial and immunosuppression regimens minimizes interruption, but that management principle does not enumerate the major sequelae. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4479, passage ID 251097]
+
+**D — true but irrelevant:** Masked infection signs require aggressive attention, but this clinical caution does not give the complete immunosuppression risk profile. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4479, passage ID 251097]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and the Barash passage supplies early infection and management cautions.
+
+# Paper 2
+
+## S01-Q006
+
+After a video laryngoscope provides a good glottic view, the endotracheal tube still will not pass. Which device limitation best explains this problem?
+
+A. An improved Cormack-Lehane view guarantees uncomplicated tube passage
+
+B. A rescue-role device should be abandoned once the glottis is visible
+
+C. The tube may remain difficult to pass despite a good glottic view.
+
+D. Adequate mouth opening eliminates tube-delivery difficulty
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A good glottic view does not guarantee that the tube will pass. The frozen passage directly lists difficulty passing the endotracheal tube despite a good glottic view, exactly matching the stem’s device limitation. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 774, printed p. 707, passage ID 273668]
+
+**A — true but irrelevant:** Video laryngoscopy can improve the Cormack-Lehane view, but improved visualization does not guarantee tube passage in this stem. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 774, printed p. 707, passage ID 273668]
+
+**B — true but irrelevant:** The device can serve as a rescue technique, but its rescue role does not explain why tube delivery remains difficult after the glottis is seen. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 774, printed p. 707, passage ID 273668]
+
+**C — correct:** The cited airway table directly identifies difficulty passing the tube despite a good glottic view, making this the matching limitation. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 774, printed p. 707, passage ID 273668]
+
+**D — false:** Adequate mouth opening is required for video-laryngoscope use, but it does not eliminate tube-delivery difficulty after a good view. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 774, printed p. 707, passage ID 273668]
+
+**Evidence sufficiency:** The frozen Chestnut table directly supports C and gives the stem-relative distinctions for A, B, and D.
+
+## S01-Q007
+
+After failed tracheal intubation, oxygen saturation is falling and face-mask ventilation is inadequate. Which immediate rescue action best restores oxygenation?
+
+A. Pause for a repeat Mallampati and mandibular-protrusion assessment
+
+B. Place an airway-exchange catheter in the midtrachea before restoring oxygenation
+
+C. Continue cautious intubation attempts without introducing a rescue oxygenation device
+
+D. Insert a supraglottic airway such as a laryngeal mask airway
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After failed intubation with falling oxygenation and inadequate mask ventilation, the immediate priority is rescue oxygenation. Chestnut identifies a supraglottic airway such as a laryngeal mask as the rescue device of choice in this situation, so D is correct. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 784, printed p. 717, passage ID 273713]
+
+**A — wrong timing or magnitude:** Repeating airway assessment may be useful before a planned attempt, but it does not restore oxygenation during the falling-saturation rescue situation in the stem. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 784, printed p. 717, passage ID 273713]
+
+**B — wrong timing or magnitude:** An airway-exchange catheter may be positioned in the midtrachea, but placing it before restoring oxygenation is not the immediate rescue action requested. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 784, printed p. 717, passage ID 273713]
+
+**C — wrong timing or magnitude:** Further cautious intubation planning is appropriate in difficult airways, but continuing attempts without a rescue oxygenation device does not address the falling saturation in this stem. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 784, printed p. 717, passage ID 273713]
+
+**D — correct:** D directly applies Chestnut’s rescue principle: insert a supraglottic airway such as a laryngeal mask when oxygenation is failing after unanticipated difficult intubation. [Chestnut 6e (2019).pdf, 29 The Difficult Airway, PDF p. 784, printed p. 717, passage ID 273713]
+
+**Evidence sufficiency:** The frozen Miller passage directly entails D and distinguishes random error from systematic biases.
+
+## S01-Q008
+
+According to the Difficult Airway Society (DAS) 2025 guidelines, after failed intubation an elective case can be deferred and a second-generation supraglottic airway provides effective ventilation. What is the default next step?
+
+A. Discontinue anaesthesia and wake the patient up.
+
+B. Continue the procedure using the supraglottic airway device.
+
+C. Intubate through the supraglottic airway device with a bronchoscope.
+
+D. Intubate blindly through the supraglottic airway device.
+
+**Answer: A**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored keyed claim depends on the DAS 2025 guideline. The accompanying textbook excerpt does not establish the adult default decision after effective oxygenation through a second-generation supraglottic airway, so a textbook-only rationale cannot be completed without new retrieval.
+
+**A — evidence limited:** The stored non-textbook guideline supports waking the patient, but that authority is excluded and the stored textbook excerpt does not establish this default.
+
+**B — evidence limited:** The stored textbook evidence does not establish when continuing with the supraglottic airway is the correct adult default in this stem.
+
+**C — evidence limited:** The stored textbook evidence does not establish the conditional role of bronchoscope intubation through the supraglottic device for this stem.
+
+**D — evidence limited:** The stored textbook evidence does not establish the guideline’s prohibition on blind intubation through the device.
+
+**Evidence sufficiency:** Guideline records were excluded under the textbook-exclusive contract; retrieve a textbook-only passage. The exam content remains frozen.
+
+**Editorial QA observations:**
+
+- Non-textbook guideline evidence was intentionally excluded from citation arrays.
+
+## S01-Q009
+
+A patient with a potentially difficult airway has airway oedema after prolonged surgery and is ready for emergence. Which plan is essential before extubation?
+
+A. Extubate when awake to recover pharyngeal tone and airway reflexes.
+
+B. Formulate the extubation plan in advance and include a plan for reintubation.
+
+C. Use deep extubation to avoid coughing and haemodynamic effects.
+
+D. Avoid extubation during a light stage-II plane of anaesthesia.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** With airway oedema and difficult-airway risk before emergence, the essential planning principle is to formulate extubation in advance and include a reintubation plan. Miller states this directly. [Miller 10e (2024).pdf, 40. Airway Management in the Adult, PDF p. 1512, printed p. 1263, passage ID 287594]
+
+**A — true but irrelevant:** Awake extubation can help recover pharyngeal tone and reflexes, but the question asks for the essential plan before extubation, which includes reintubation preparation. [Miller 10e (2024).pdf, 40. Airway Management in the Adult, PDF p. 1512, printed p. 1263, passage ID 287594]
+
+**B — correct:** The cited Miller passage directly requires a preemptive extubation plan that includes a plan for reintubation. [Miller 10e (2024).pdf, 40. Airway Management in the Adult, PDF p. 1512, printed p. 1263, passage ID 287594]
+
+**C — wrong condition:** Deep extubation may avoid coughing but carries upper-airway obstruction and hypoventilation risks, which are especially discordant with this oedematous difficult-airway setting. [Miller 10e (2024).pdf, 40. Airway Management in the Adult, PDF p. 1512, printed p. 1263, passage ID 287594]
+
+**D — true but irrelevant:** Avoiding light stage-II extubation is supported, but it is one technique precaution and not the required advance reintubation plan. [Miller 10e (2024).pdf, 40. Airway Management in the Adult, PDF p. 1512, printed p. 1263, passage ID 287594]
+
+**Evidence sufficiency:** The frozen Miller passage directly supports the plan and all three related but less complete alternatives.
+
+## S01-Q010
+
+An adult in the PACU received fentanyl intraoperatively. Immediately after tracheal extubation, the patient develops snoring, paradoxical chest-abdominal movement, and falling oxygen saturation. What is the most appropriate initial action?
+
+A. Administer titrated naloxone for possible opioid sedation.
+
+B. Reintubate the trachea to secure the airway.
+
+C. Apply jaw thrust together with face-mask CPAP.
+
+D. Insert an oral airway to relieve obstruction.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The patient has postextubation signs of upper-airway obstruction with falling oxygen saturation. Miller directs immediate noninvasive airway opening before reintubation and identifies jaw thrust with face-mask CPAP as often sufficient when pharyngeal tone is reduced. [Miller 10e (2024).pdf, 76. The Postanesthesia Care Unit, PDF p. 2968, printed p. 2489, passage ID 294726]
+
+**A — less direct:** Naloxone may reverse opioid ventilatory depression, but the cited sequence prioritizes opening this visibly obstructed airway and ensuring ventilation before treating a cause. [Miller 10e (2024).pdf, 76. The Postanesthesia Care Unit, PDF p. 2969, printed p. 2490, passage ID 294728]
+
+**B — less direct:** Reintubation remains available if noninvasive measures fail, but Miller directs airway-opening measures first and none has yet been attempted in the stem. [Miller 10e (2024).pdf, 76. The Postanesthesia Care Unit, PDF p. 2968, printed p. 2489, passage ID 294726]
+
+**C — correct:** The cited passage directly states that jaw thrust with CPAP is often enough to open an upper airway obstructed by decreased pharyngeal muscle tone. [Miller 10e (2024).pdf, 76. The Postanesthesia Care Unit, PDF p. 2968, printed p. 2489, passage ID 294726]
+
+**D — less direct:** An oral airway can be inserted if CPAP is ineffective, so placing it before the cited initial jaw-thrust/CPAP maneuver is premature. [Miller 10e (2024).pdf, 76. The Postanesthesia Care Unit, PDF p. 2968, printed p. 2489, passage ID 294726]
+
+**Evidence sufficiency:** Miller p.2968 directly supports C and the sequence relative to A, B, and D; unrelated stored Stoelting evidence was not used.
+
+**Editorial QA observations:**
+
+- The stored correct-answer claim incorrectly named Miller while also citing an irrelevant Stoelting page; the rationale uses the direct Miller passages only.
+
+## S01-Q021
+
+A patient with severe aortic stenosis is undergoing general anesthesia. Which of the following best describes the appropriate hemodynamic management strategy for this specific lesion?
+
+A. Control heart rate while avoiding hypovolemia and hypervolemia to assure adequate perfusion pressure
+
+B. Increase afterload, decrease contractility, and treat hypotension aggressively with α-adrenergic agonists
+
+C. Maintain heart rate at the low end of normal, avoiding and treating tachycardia
+
+D. Maintain sinus rhythm, a normal heart rate, and adequate preload, afterload, and contractility
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** For severe aortic stenosis, the stem-specific goal is preserving forward flow through a fixed obstructive lesion. Stoelting identifies sinus rhythm, a normal heart rate, and adequate preload, afterload, and contractility as the combined hemodynamic targets, making D the best match. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232812]
+
+**A — wrong condition:** Heart-rate control and avoidance of hypovolemia or hypervolemia are described for coronary artery disease, but that passage does not provide the complete aortic-stenosis targets asked for here. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3282, passage ID 248879]
+
+**B — wrong condition:** Increasing afterload and decreasing contractility with alpha-adrenergic treatment describes the cited hypertrophic-cardiomyopathy strategy, not the severe-aortic-stenosis strategy in this stem. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3303, passage ID 248912]
+
+**C — wrong condition:** Avoiding tachycardia and keeping the rate at the low end of normal is the stored mitral-stenosis guidance, whereas this question asks for aortic-stenosis management. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3296, passage ID 248901]
+
+**D — correct:** This is the only option whose combined targets directly match the stored aortic-stenosis passage: preserve sinus rhythm and a normal rate while maintaining preload, afterload, and contractility. [Stoelting Coexisting 8e (2021).pdf, 6 Valvular heart disease, PDF p. 131, passage ID 232812]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D; the other stored textbook passages identify strategies for different lesions.
+
+## S01-Q022
+
+In severe mitral stenosis, which combined perioperative plan best preserves forward flow and avoids physiologic deterioration?
+
+A. Avoid tachyarrhythmias, hypervolemia, and further increases in right-ventricular afterload.
+
+B. Postpone surgery until a new atrial-fibrillation rate is controlled.
+
+C. Avoid myocardial depressants and vasodilators while maintaining preload and afterload.
+
+D. Maintain SVR and preload while treating hypoxemia, hypercarbia, and acidosis.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** In severe mitral stenosis, the stem asks for the combined plan that protects forward flow. Barash specifically identifies avoidance of tachyarrhythmias, hypervolemia, and further increases in right-ventricular afterload, which makes A the lesion-specific answer. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3296, passage ID 248901]
+
+**A — correct:** A directly reproduces the stored mitral-stenosis priorities: avoid tachyarrhythmias, avoid hypervolemia, and avoid further increases in right-ventricular afterload. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3296, passage ID 248901]
+
+**B — wrong condition:** Postponing surgery until a new atrial-fibrillation rate is controlled or sinus rhythm is achieved is the stored pre-induction management statement, but it is a different circumstance from the severe mitral-stenosis plan in this stem. [Stoelting Coexisting 8e (2021).pdf, 8 Abnormalities of cardiac conduction and cardiac rhythm, PDF p. 181, passage ID 233034]
+
+**C — wrong condition:** Avoiding myocardial depressants and vasodilators is again the stored high-risk aortic-stenosis guidance, so it does not identify the requested mitral-stenosis priorities. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1063, printed p. 997, passage ID 274981]
+
+**D — wrong condition:** Maintaining SVR and preload while preventing hypoxemia, hypercarbia, and acidosis is the stored pulmonary-hypertension strategy, not the specific mitral-stenosis combination. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1063, printed p. 997, passage ID 274981]
+
+**Evidence sufficiency:** The Barash passage directly supports A and the Chestnut passage distinguishes the alternative lesion-specific plans.
+
+## S01-Q023
+
+According to Thrombosis Canada: Warfarin Perioperative Management, which risk-stratified bridging plan is correct when warfarin is interrupted for elective surgery?
+
+A. Continue warfarin as the preferred agent for rheumatic mitral stenosis.
+
+B. Bridge high-risk patients, do not bridge low-risk patients, and individualize intermediate-risk patients.
+
+C. Substitute a DOAC for warfarin in valvular atrial fibrillation.
+
+D. Add aspirin routinely to warfarin perioperatively.
+
+**Answer: B**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored support for this warfarin-bridging question is from Thrombosis Canada HTML rather than an indexed anesthesia textbook. Under the textbook-exclusive contract, the risk-stratified bridging answer cannot be asserted as a textbook-sourced rationale.
+
+**A — evidence limited:** The attached non-textbook evidence cannot establish this option as the preferred perioperative plan under the textbook-only contract; no textbook citation is asserted.
+
+**B — evidence limited:** The keyed bridging distinction is present only in the attached non-textbook evidence, so its correctness cannot be established from the permitted textbook corpus here.
+
+**C — evidence limited:** The stored evidence does not provide a permitted textbook basis for substituting a DOAC in this valvular atrial-fibrillation scenario; textbook retrieval is required.
+
+**D — evidence limited:** The stored evidence does not provide a permitted textbook basis for routine perioperative aspirin addition, so this option cannot be excluded with a textbook citation.
+
+**Evidence sufficiency:** The attached records are non-textbook Thrombosis Canada sources. Retrieve textbook support; the exam content remains frozen.
+
+**Editorial QA observations:**
+
+- All attached evidence was excluded because textbooks are the exclusive source of truth.
+
+## S01-Q024
+
+During intraoperative use of monopolar electrocautery, a magnet is applied over a patient's permanent pacemaker (the patient has no ICD). Which of the following best describes the expected device response?
+
+A. The magnet disables antitachycardia function but does not convert the device to asynchronous pacing
+
+B. The magnet inhibits tachyarrhythmia detection and prevents shock delivery, without changing the pacing mode
+
+C. In a majority of pacemakers, magnet application induces an asynchronous mode
+
+D. Asynchronous pacing will not occur unless the device is separately reprogrammed
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem specifies a permanent pacemaker rather than an ICD. Miller states that magnet application induces an asynchronous mode in a majority of pacemakers, so C matches the device and the expected response. [Miller 10e (2024).pdf, 34. Implantable Cardiac Pulse Generators: Pacemakers and Cardioverter-Defibrillators, PDF p. 1312, printed p. 1092, passage ID 286638]
+
+**A — wrong condition:** This describes magnet behavior for an ICD, including antitachycardia inhibition, but the stem explicitly says the patient has no ICD and asks about a pacemaker. [Miller 10e (2024).pdf, 34. Implantable Cardiac Pulse Generators: Pacemakers and Cardioverter-Defibrillators, PDF p. 1312, printed p. 1092, passage ID 286638]
+
+**B — wrong condition:** Inhibition of tachyarrhythmia detection without changing pacing mode is an ICD-specific description, so it does not answer the pacemaker question posed. [Miller 10e (2024).pdf, 34. Implantable Cardiac Pulse Generators: Pacemakers and Cardioverter-Defibrillators, PDF p. 1312, printed p. 1092, passage ID 286638]
+
+**C — correct:** For the permanent pacemaker named in the stem, the stored Miller passage directly states that magnet application induces asynchronous pacing in a majority of devices. [Miller 10e (2024).pdf, 34. Implantable Cardiac Pulse Generators: Pacemakers and Cardioverter-Defibrillators, PDF p. 1312, printed p. 1092, passage ID 286638]
+
+**D — wrong condition:** The stored statement concerns an ICD requiring separate reprogramming for asynchronous pacing, whereas the stem specifies a pacemaker whose magnet response is being tested. [Lange 7e (2022).pdf, 21 Anesthesia for Patients with Cardiovascular Disease, PDF p. 751, passage ID 277450]
+
+**Evidence sufficiency:** The Miller pacemaker passage directly supports C; the other citations describe ICD-specific responses or conditions.
+
+## S01-Q025
+
+A patient develops new-onset atrial fibrillation intraoperatively. Which of the following best describes how the choice between rate control and rhythm control should be determined?
+
+A. Surgery should be postponed until the ventricular rate is controlled or sinus rhythm is achieved before deciding on further management
+
+B. Esmolol should be used because it is equally effective for rate control and for increasing conversion to sinus rhythm
+
+C. Rate control is always the immediate treatment goal regardless of the patient's hemodynamic status
+
+D. Hemodynamically stable patients may be managed medically with rate or rhythm control, while hemodynamically unstable patients should be electrically cardioverted
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The key discriminator is hemodynamic stability. Slinger states that stable patients may receive medical rate or rhythm control, whereas unstable patients should undergo electrical cardioversion; D is the only option that preserves that distinction. [Slinger Thoracics 2e (2019).pdf, 53: Anesthetic Management of Post-thoracotomy Complications, PDF p. 863, passage ID 231536]
+
+**A — wrong condition:** Postponing surgery for atrial fibrillation before induction is a separate preoperative circumstance; it does not provide the stability-based intraoperative management distinction in this stem. [Stoelting Coexisting 8e (2021).pdf, 8 Abnormalities of cardiac conduction and cardiac rhythm, PDF p. 181, passage ID 233034]
+
+**B — less direct:** Esmolol may control ventricular rate and increase conversion in postoperative atrial fibrillation, but that treatment detail does not determine whether a stable or unstable patient needs medical therapy or cardioversion. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3269, passage ID 248850]
+
+**C — wrong timing or magnitude:** Rate control is described as an immediate goal in one postoperative context, but the stem requires distinguishing stable patients from unstable patients who need electrical cardioversion. [Miller 10e (2024).pdf, 76. The Postanesthesia Care Unit, PDF p. 2977, printed p. 2498, passage ID 294766]
+
+**D — correct:** D directly applies the stored stability-based rule: medical rate or rhythm control is appropriate when hemodynamics are stable, while instability calls for electrical cardioversion. [Slinger Thoracics 2e (2019).pdf, 53: Anesthetic Management of Post-thoracotomy Complications, PDF p. 863, passage ID 231536]
+
+**Evidence sufficiency:** The Slinger passage directly supports D; the other passages address different contexts or narrower treatment details.
+
+## S01-Q026
+
+Which ACT threshold is described as the target used by most adult cardiac surgical centers during cardiopulmonary bypass?
+
+A. An ACT longer than 400 seconds.
+
+B. An ACT of 480 seconds as a pediatric pre-bypass target.
+
+C. An ACT longer than 350 seconds as an alternative adequacy threshold.
+
+D. An ACT below 300 seconds as a pediatric antithrombin-deficiency signal.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the target used by most adult cardiac surgical centers during bypass, not a pediatric value or a lower adequacy threshold. Stoelting identifies an ACT longer than 400 seconds as that majority-center target. [Stoelting P&P 6e (2022).pdf, 30. Anticoagulants, PDF p. 2012, passage ID 315079]
+
+**A — correct:** The stored passage directly identifies an ACT longer than 400 seconds as the target used by most cardiac surgical centers, matching the adult lead-in. [Stoelting P&P 6e (2022).pdf, 30. Anticoagulants, PDF p. 2012, passage ID 315079]
+
+**B — wrong condition:** An ACT of 480 seconds is identified as a pediatric pre-bypass target, so it does not answer the question about most adult centers. [Cote 7e (2024).pdf, 17 Cardiopulmonary bypass and management, PDF p. 845, passage ID 186435]
+
+**C — true but irrelevant:** An ACT longer than 350 seconds may be considered adequate, but the passage distinguishes that threshold from the longer-than-400-second target used by most centers. [Stoelting P&P 6e (2022).pdf, 30. Anticoagulants, PDF p. 2012, passage ID 315079]
+
+**D — wrong condition:** An ACT below 300 seconds is presented as a pediatric anticoagulation problem that can suggest antithrombin III deficiency, not as the adult bypass target. [Cote 7e (2024).pdf, 17 Cardiopulmonary bypass and management, PDF p. 841, passage ID 186411]
+
+**Evidence sufficiency:** The stored Stoelting P&P passage directly supports A and distinguishes the alternative adult adequacy threshold and pediatric values.
+
+## S01-Q027
+
+After bypass, ventricular dysfunction follows suboptimal cardioplegia and cooling. Which mechanism is the most likely ischemic cause?
+
+A. Coronary embolism from air, thrombus, or calcium.
+
+B. Inadequate myocardial protection.
+
+C. Intraoperative infarction.
+
+D. Technical difficulties such as kinked or clotted grafts.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem links dysfunction to suboptimal cardioplegia and cooling, which identifies inadequate myocardial protection as the mechanism. Barash lists that mechanism among ischemic causes after bypass, making B the most specific match. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3358, passage ID 249004]
+
+**A — true but irrelevant:** Coronary embolism from air, thrombus, or calcium is a recognized ischemic cause after bypass, but the stem specifically points to inadequate cardioplegia and cooling rather than embolism. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3358, passage ID 249004]
+
+**B — correct:** Inadequate myocardial protection directly accounts for dysfunction following suboptimal cardioplegia and cooling, matching the stem’s causal clue and the stored Barash list. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3358, passage ID 249004]
+
+**C — true but irrelevant:** Intraoperative infarction is also a recognized ischemic etiology, but the provided suboptimal-protection history makes it less specifically responsive than inadequate myocardial protection. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3358, passage ID 249004]
+
+**D — true but irrelevant:** Kinked or clotted grafts are recognized technical causes of ventricular dysfunction after bypass, but they do not match the stem’s cardioplegia-and-cooling mechanism. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3358, passage ID 249004]
+
+**Evidence sufficiency:** The single stored Barash passage lists B and the alternative ischemic causes, allowing the stem-specific distinction.
+
+## S01-Q028
+
+The anesthesia team is working through the checklist prior to separation from cardiopulmonary bypass. The perfusionist reports that the patient's nasopharyngeal temperature is 34°C. Which checklist action should specifically be completed in response to this finding before proceeding with separation?
+
+A. Recheck de-airing via lead II and TEE
+
+B. Turn off the vaporizers
+
+C. Confirm normothermia (approximately 37°C nasopharyngeal, 35.5°C bladder, 35°C rectal) before separation
+
+D. Assess vascular resistance, since CPB flow is proportional to MAP divided by resistance
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The reported nasopharyngeal temperature is 34°C, below the checklist’s stated normothermic value of approximately 37°C before separation from bypass. Therefore the required response is to confirm and achieve normothermia, as stated in C. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3356, passage ID 249001]
+
+**A — true but irrelevant:** Checking de-airing with lead II and TEE is a listed separation checklist item, but it does not address the abnormal nasopharyngeal temperature supplied in the stem. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3356, passage ID 249001]
+
+**B — true but irrelevant:** Turning off vaporizers is also listed in the checklist, but it is unrelated to the specific temperature deficit that must be corrected before separation. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3356, passage ID 249001]
+
+**C — correct:** C directly applies the stored checklist thresholds: a nasopharyngeal temperature of approximately 37°C is the normothermic target before bypass separation, so 34°C requires correction. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3356, passage ID 249001]
+
+**D — true but irrelevant:** Assessing vascular resistance is listed as another checklist task, but it does not respond to the temperature finding that drives this stem-specific question. [Barash 9e (2023).pdf, 39. Anesthesia for Cardiac Surgery, PDF p. 3356, passage ID 249001]
+
+**Evidence sufficiency:** The Barash checklist passage directly supports C and contains the other checklist items as true but not responsive to the temperature finding.
+
+## S01-Q029
+
+During open thoracoabdominal aortic aneurysm repair, which spinal-cord-protection technique augments spinal cord perfusion pressure by raising proximal arterial pressure during aortic cross-clamping?
+
+A. Moderate hypothermia (30°–32°C), including spinal cord cooling
+
+B. Cerebrospinal fluid drainage
+
+C. Reimplantation of critical intercostal arteries when possible
+
+D. Maintenance of proximal hypertension during cross-clamping
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The lead-in asks specifically for the technique that raises proximal arterial pressure and thereby augments spinal-cord perfusion pressure during cross-clamping. Stoelting names maintenance of proximal hypertension for that purpose, making D the direct answer. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 264, passage ID 233370]
+
+**A — true but irrelevant:** Moderate hypothermia with spinal cooling is a listed spinal-cord-protection method, but it reduces metabolism rather than raising proximal arterial pressure as asked here. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 264, passage ID 233370]
+
+**B — true but irrelevant:** Cerebrospinal-fluid drainage is also a listed protection technique, but it does not supply the pressure-raising mechanism specified by the lead-in. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 264, passage ID 233370]
+
+**C — true but irrelevant:** Reimplantation of critical intercostal arteries is another listed protection method, but it does not augment perfusion pressure by raising proximal arterial pressure. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 264, passage ID 233370]
+
+**D — correct:** D uses the exact mechanism requested: maintaining proximal hypertension during aortic cross-clamping raises proximal arterial pressure for spinal-cord protection. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 264, passage ID 233370]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and lists A–C as alternative protection techniques.
+
+## S01-Q030
+
+During carotid endarterectomy, which monitoring modality can determine shunt need, recognize shunt malfunction, and help manage postoperative hyperperfusion?
+
+A. Transcranial Doppler ultrasonography.
+
+B. SEPs as a direct shunt-decision test.
+
+C. Stump pressure as a direct shunt-decision test.
+
+D. Standard scalp EEG as a direct shunt-decision test.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The requested modality must cover all three functions: deciding on shunt placement, recognizing shunt malfunction, and managing postoperative hyperperfusion. Stoelting assigns all three functions to transcranial Doppler ultrasonography, so A is the best match. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 272, passage ID 233408]
+
+**A — correct:** A is the only modality whose stored passage directly covers shunt need, shunt malfunction, and postoperative hyperperfusion management. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 272, passage ID 233408]
+
+**B — less direct:** SEPs can detect changes from decreased regional cerebral blood flow, but the passage warns that their cause may be difficult to determine and does not assign them all three requested functions. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 272, passage ID 233408]
+
+**C — false:** Stump pressure is specifically described as a poor indicator of cerebral-perfusion adequacy, but it does not serve as the direct shunt-decision modality requested. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 272, passage ID 233408]
+
+**D — evidence limited:** EEG may miss subcortical or small cortical infarcts, but the stored passage does not establish that it cannot be used as a direct shunt-decision test; its exclusion here is therefore limited rather than fully false. [Stoelting Coexisting 8e (2021).pdf, 12 Vascular disease, PDF p. 272, passage ID 233408]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and gives the limitations or narrower roles of B–D.
+
+## S01-Q031
+
+Which preoperative strategy can restore intravascular volume and reset cerebral autoregulation before elective carotid endarterectomy?
+
+A. Increase pressure during awake neurologic change after carotid occlusion.
+
+B. Gradually reduce arterial blood pressure over several weeks before surgery.
+
+C. Accept pressure-dependent perfusion after acute stroke.
+
+D. Induce hypertension during carotid clamping.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The requested strategy is preoperative and must both restore intravascular volume and reset cerebral autoregulation. Miller directly attributes both effects to gradually reducing arterial blood pressure over several weeks before surgery, identifying B. [Miller 10e (2024).pdf, 52. Anesthesia for Vascular Surgery, PDF p. 2055, printed p. 1729, passage ID 290142]
+
+**A — wrong condition:** Increasing pressure after neurologic change from carotid occlusion is an intraoperative response to suspected cerebral ischemia, not the preoperative volume-and-autoregulation strategy asked for. [Barash 9e (2023).pdf, 37. Anesthesia for Neurosurgery, PDF p. 3110, passage ID 248559]
+
+**B — correct:** B directly matches Miller’s preoperative strategy: gradual blood-pressure reduction over several weeks restores intravascular volume, resets autoregulation, and improves perioperative management. [Miller 10e (2024).pdf, 52. Anesthesia for Vascular Surgery, PDF p. 2055, printed p. 1729, passage ID 290142]
+
+**C — wrong condition:** Pressure-dependent perfusion after acute stroke describes an impaired-autoregulation period, but it is not a strategy to restore volume and reset autoregulation before elective endarterectomy. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1061, printed p. 886, passage ID 285496]
+
+**D — wrong timing or magnitude:** Induced hypertension during carotid clamping is an intraoperative measure for selected contralateral-occlusion patients, not the gradual preoperative strategy that resets autoregulation. [Miller 10e (2024).pdf, 52. Anesthesia for Vascular Surgery, PDF p. 2057, printed p. 1731, passage ID 290152]
+
+**Evidence sufficiency:** The Miller preoperative passage directly supports B; the remaining textbook passages describe different timing or clinical conditions.
+
+## S01-Q041
+
+According to Cote 7th edition, when no serious-harm or mandatory-disclosure exception is present, what confidentiality right applies to an emancipated minor?
+
+A. If maintaining confidentiality entails minimal harm, clinicians should encourage adolescents to be forthright with parents but respect their decision not to be.
+
+B. If maintaining confidentiality may result in serious harm to the adolescent, clinicians may be ethically justified in notifying the parents.
+
+C. Emancipated and mature minors have a right to complete confidentiality.
+
+D. Clinicians enhance trust by interviewing the adolescent in private and keeping promises about confidentiality.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem removes the serious-harm and mandatory-disclosure exceptions and asks for the emancipated minor’s confidentiality right. Cote states that emancipated and mature minors have a right to complete confidentiality, making C the direct answer. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 126, passage ID 183040]
+
+**A — true but irrelevant:** Encouraging forthright discussion with parents while respecting an adolescent’s decision is recommended when confidentiality entails minimal harm, but it does not state the complete confidentiality right asked for here. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 126, passage ID 183040]
+
+**B — wrong condition:** Notifying parents may be ethically justified when maintaining confidentiality could result in serious harm, but the stem explicitly excludes that exception. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 126, passage ID 183040]
+
+**C — correct:** C directly applies the stated no-exception circumstances: the stored Cote passage grants emancipated and mature minors complete confidentiality. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 126, passage ID 183040]
+
+**D — true but irrelevant:** Private interviewing and keeping confidentiality promises can enhance trust, but those practices do not identify the specific legal-ethical right requested in the lead-in. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 126, passage ID 183040]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and provides the conditions represented by A, B, and D.
+
+## S01-Q042
+
+In a diagnostic study of cervical zygapophysial joint pain using controlled comparative blocks, a concordant (double) block response is obtained. Based on this study, what level of diagnostic confidence does a concordant positive response provide that the result is a true positive?
+
+A. Given a discordant response, a practitioner can be 81% confident that a positive response is a true positive.
+
+B. A discordant response has a lower specificity but a high sensitivity.
+
+C. The prevalence of cervical zygapophysial joint pain is high, around 60%.
+
+D. Given a concordant response, a practitioner can be 88% confident that a positive response is a true positive.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The stem specifies a concordant double-block response and asks for the resulting confidence that a positive result is true. Bonica reports 88% confidence for a concordant response, which directly supports D. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 98: Diagnostic and Therapeutic Nerve Blocks, PDF p. 4899, printed p. 4899, passage ID 262289]
+
+**A — wrong condition:** The 81% figure is attached to the discordant-response scenario in the stored study, whereas this stem specifies a concordant response. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 98: Diagnostic and Therapeutic Nerve Blocks, PDF p. 4899, printed p. 4899, passage ID 262289]
+
+**B — wrong condition:** B describes the discordant-response sensitivity and specificity pattern, but this stem specifies a concordant double-block response and asks for its 88% true-positive confidence. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 98: Diagnostic and Therapeutic Nerve Blocks, PDF p. 4899, printed p. 4899, passage ID 262289]
+
+**C — true but irrelevant:** C gives the study’s approximately 60% prevalence estimate, but prevalence does not answer the confidence after a concordant response. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 98: Diagnostic and Therapeutic Nerve Blocks, PDF p. 4899, printed p. 4899, passage ID 262289]
+
+**D — correct:** D supplies the stored Bonica result for this exact condition: a concordant positive response gives 88% confidence that the result is a true positive. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 98: Diagnostic and Therapeutic Nerve Blocks, PDF p. 4899, printed p. 4899, passage ID 262289]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports D and distinguishes concordant from discordant-response figures.
+
+## S01-Q043
+
+A reviewer critically appraising a randomized controlled trial notes that despite randomization, patients in one treatment arm were more likely to drop out of the study before the outcome could be assessed. Which type of bias does this describe?
+
+A. Attrition bias refers to systematic differences in the withdrawal of patients from each of the two intervention groups.
+
+B. Detection bias refers to systematic differences in the ascertainment and recording of outcomes.
+
+C. Selection bias in a randomized controlled trial refers to systematic differences between the patients receiving each intervention.
+
+D. Performance bias refers to systematic differences in care given to study patients other than the preplanned interventions being evaluated.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The defining feature is systematic difference in withdrawal between randomized intervention groups. Barash defines this as attrition bias, so A identifies the bias created by the unequal dropouts. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 534, passage ID 244127]
+
+**A — correct:** A directly matches the stored definition: attrition bias is a systematic difference in patient withdrawal between the two intervention groups. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 534, passage ID 244127]
+
+**B — wrong condition:** Detection bias concerns systematic differences in outcome ascertainment and recording, but the stem describes unequal withdrawal before assessment. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 534, passage ID 244127]
+
+**C — wrong condition:** Selection bias concerns systematic differences between patients receiving interventions, whereas the stem’s defining event is differential dropout after randomization. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 534, passage ID 244127]
+
+**D — wrong condition:** Performance bias concerns systematic differences in care other than the planned interventions, but it does not describe the unequal withdrawal reported here. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 534, passage ID 244127]
+
+**Evidence sufficiency:** The stored Barash passage directly defines attrition bias and distinguishes the other bias categories.
+
+## S01-Q044
+
+In a randomized trial comparing two local anesthetics for the occurrence of transient neurologic symptoms, an investigator wants to determine how many patients need to receive one drug for one additional case of the outcome to occur, based on the already-calculated risk difference. Which of the following statements correctly describes how this measure is calculated?
+
+A. The odds ratio is calculated as (A/B) divided by (C/D).
+
+B. The number needed to treat is calculated as the reciprocal of the risk difference (NNT = 1/RD).
+
+C. The risk difference is calculated as A/(A + B) minus C/(C + D).
+
+D. The risk ratio is calculated as (A/(A + B)) divided by (C/(C + D)).
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks how many patients must receive one treatment for one additional outcome, using an already-calculated risk difference. Barash defines number needed to treat as the reciprocal of risk difference, so B is the requested calculation. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 523, passage ID 244109]
+
+**A — true but irrelevant:** The odds-ratio formula is a valid association measure, but it does not convert an existing risk difference into the number needed to treat. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 523, passage ID 244109]
+
+**B — correct:** B directly gives the stored relationship: NNT equals 1 divided by the risk difference, using the already-calculated RD in the stem. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 523, passage ID 244109]
+
+**C — true but irrelevant:** The risk-difference formula is a preceding calculation, but the stem says the risk difference is already available and asks for its reciprocal NNT. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 523, passage ID 244109]
+
+**D — true but irrelevant:** The risk-ratio formula compares risks between groups, but it does not answer the number-needed-to-treat calculation requested. [Barash 9e (2023).pdf, 7. Experimental Design and Statistics, PDF p. 523, passage ID 244109]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and provides the related formulas used to exclude A, C, and D.
+
+## S01-Q045
+
+When discussing perioperative risks with a patient and family prior to obtaining consent, which of the following practices is recommended to improve the patient's understanding of numeric risk information?
+
+A. The order in which risks and benefits are presented may affect risk perceptions, with the last topic presented carrying more weight in decision making.
+
+B. Recommendations for risk communication to patients include using language at the eighth-grade level to improve understanding of written and oral communications.
+
+C. Recommendations for risk communication to patients include presenting data using absolute risks and frequencies.
+
+D. Tracking and responding to emotional cues from the family reduces cognitive load and improves information retention.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The lead-in asks for the communication practice that improves comprehension of numeric risk. Cote recommends presenting data using absolute risks and frequencies, which directly supports C. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 124, passage ID 183032]
+
+**A — true but irrelevant:** Order effects can influence risk perception, but that observation does not state the recommended format for presenting numeric risks. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 124, passage ID 183032]
+
+**B — true but irrelevant:** Using accessible language is a communication recommendation, but the question specifically asks how numeric risk data should be presented. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 124, passage ID 183032]
+
+**C — correct:** C directly states the stored Cote recommendation: communicate numeric risks with absolute risks and frequencies to improve understanding. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 124, passage ID 183032]
+
+**D — true but irrelevant:** Responding to emotional cues may support communication, but it is not the stored recommendation about formatting numeric risk information. [Cote 7e (2024).pdf, 3 Ethical issues in pediatric anesthesiology, PDF p. 124, passage ID 183032]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and contains the alternative communication observations.
+
+## S01-Q046
+
+A patient experiences an unexpected perioperative complication. At the first postoperative discussion, the cause is not yet fully established. Which communication approach is most appropriate at this initial meeting?
+
+A. Limit the initial meeting to internal coordination among healthcare team members
+
+B. Defer the discussion until every detail is known, then maintain an open dialogue as information is clarified
+
+C. Offer a preliminary explanation that assigns the most likely responsibility to another team member
+
+D. Explain the known facts, acknowledge that the information may evolve, and offer a simple empathetic apology
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** At the first discussion the cause is not fully known, so communication must state known facts, acknowledge that discovery may evolve, and remain empathetic. Chestnut’s passage supports that complete approach, making D best. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 858, printed p. 791, passage ID 274057]
+
+**A — incomplete:** Team coordination can be necessary after an adverse event, but limiting the first meeting to internal coordination fails to communicate with the patient and family. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 858, printed p. 791, passage ID 274057]
+
+**B — wrong timing or magnitude:** Waiting until every detail is known does not follow the stored advice to disclose factual information known at the time and continue an open dialogue as discovery proceeds. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 858, printed p. 791, passage ID 274057]
+
+**C — wrong condition:** Speculating and assigning responsibility to another team member is not supported by the passage and does not provide the factual, evolving disclosure described in the stem. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 858, printed p. 791, passage ID 274057]
+
+**D — correct:** D combines the appropriate initial approach: disclose what is known, explain that information may evolve, and offer a simple empathetic apology rather than speculate. [Chestnut 6e (2019).pdf, 32 Shared Decision-Making and Communication, PDF p. 858, printed p. 791, passage ID 274057]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and its timing and disclosure boundaries.
+
+## S01-Q047
+
+Which standard precaution should be performed routinely both before and after direct patient care to reduce healthcare-associated transmission?
+
+A. Wash the hands frequently and thoroughly
+
+B. Dispose of used sharps in puncture-proof receptacles after every patient encounter
+
+C. Repeat hepatitis B vaccination and antibody testing after every patient encounter
+
+D. Wear the full range of available personal protective equipment for every patient encounter
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the routine standard precaution performed before and after direct care. Cote identifies frequent, thorough handwashing at both points, so A is the direct answer. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 2010, passage ID 191850]
+
+**A — correct:** A matches the stored standard precaution: wash the hands frequently and thoroughly before and after direct patient care. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 2010, passage ID 191850]
+
+**B — true but irrelevant:** Sharps should be discarded immediately in puncture-proof receptacles, but that precaution occurs after sharps use and is not the before-and-after direct-care action asked for. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 2010, passage ID 191850]
+
+**C — wrong timing or magnitude:** Hepatitis-B vaccination and antibody testing are provider-protection measures, but repeating them after every patient encounter is not the routine precaution described here. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 2010, passage ID 191850]
+
+**D — wrong timing or magnitude:** PPE selection depends on the anticipated exposure, so wearing the full range for every encounter is not the routine universal action asked for. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 2010, passage ID 191850]
+
+**Evidence sufficiency:** The stored Cote passage directly supports A and the associated standard-precaution distinctions.
+
+## S01-Q048
+
+According to Cote 7th edition, which immediate system-level requirement should be available for every occupational blood exposure?
+
+A. Postexposure prophylaxis may be delayed pending expert consultation.
+
+B. Immediate evaluation and follow-up care should be available for every occupational blood exposure.
+
+C. If the source is later determined to be HIV-negative, administered PEP should be discontinued.
+
+D. When PEP is offered, the decision to initiate it can be based on discussion of risks and benefits with the treating clinician.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the immediate system-level requirement after any occupational blood exposure. Cote states that immediate evaluation and follow-up care should be available for every exposure, directly supporting B. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 1999, passage ID 191809]
+
+**A — wrong timing or magnitude:** Postexposure prophylaxis should not be delayed while awaiting expert consultation, so this option conflicts with the immediate-care requirement in the stem. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 1999, passage ID 191809]
+
+**B — correct:** B directly states the system requirement in the stored Cote passage: immediate evaluation and follow-up care must be available for every occupational blood exposure. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 1999, passage ID 191809]
+
+**C — wrong timing or magnitude:** The stored guidance states that PEP may be discontinued when the source is confirmed HIV-negative, but that later decision does not replace immediate evaluation and care. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 1999, passage ID 191809]
+
+**D — incomplete:** Discussion of PEP risks and benefits may inform treatment, but it is not the immediate system-level requirement that evaluation and follow-up be available for every exposure. [Cote 7e (2024).pdf, 47 Infectious disease considerations for the operating room, PDF p. 1999, passage ID 191809]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and distinguishes timing and counseling details in A, C, and D.
+
+## S01-Q049
+
+What is the primary function of an anesthesia-machine scavenging system?
+
+A. To establish the precise concentration at which waste anesthetic gases become unsafe
+
+B. To update the occupational exposure recommendations first issued by NIOSH in 1977
+
+C. To collect and remove waste anesthetic gases from the machine and anesthetizing location
+
+D. To quantify the anesthetic-gas exposure that personnel would receive without scavenging
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks what the scavenging system does, rather than how exposure limits are established or measured. Miller identifies its primary function as collecting and removing waste anesthetic gases from the machine and anesthetizing location, which is C. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 603, printed p. 501, passage ID 283259]
+
+**A — true but irrelevant:** Unsafe exposure concentrations are a separate occupational-health question, but establishing them is not the scavenging system’s primary function. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 603, printed p. 501, passage ID 283259]
+
+**B — true but irrelevant:** NIOSH recommendations provide historical exposure guidance, but updating those recommendations is not what the machine’s scavenging system does. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 603, printed p. 501, passage ID 283259]
+
+**C — correct:** C directly describes the mechanical purpose stated in Miller: collect and remove waste anesthetic gases from the machine and anesthetizing location. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 603, printed p. 501, passage ID 283259]
+
+**D — true but irrelevant:** Estimating personnel exposure without scavenging may be an occupational concern, but it does not state the system’s primary gas-removal function. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 603, printed p. 501, passage ID 283259]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes scavenging from exposure guidance and measurement.
+
+## S01-Q059
+
+Which complete six-organ-system set is assessed by the Sequential Organ Failure Assessment score rather than by qSOFA?
+
+A. Quick SOFA identifies patients at risk using confusion, tachypnea above 22 per minute, and systolic hypotension below 100 mm Hg.
+
+B. A mean arterial pressure below 70 mm Hg is considered abnormal in SOFA but may be normal in mid-pregnancy.
+
+C. In pregnancy, a serum creatinine above 0.8 mg/dL may be abnormal even though SOFA considers kidney injury above 1.2 mg/dL.
+
+D. SOFA assesses neurologic, cardiovascular, respiratory, renal, liver, and hematologic function to quantify physiologic deterioration.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the complete six-organ-system set assessed by SOFA rather than qSOFA. Chestnut lists neurologic, cardiovascular, respiratory, renal, liver, and hematologic function, so D is the complete set. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1357, printed p. 1291, passage ID 276292]
+
+**A — true but irrelevant:** The confusion, tachypnea, and systolic-pressure criteria describe qSOFA risk screening, but they are not the six-organ-system SOFA set requested. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1357, printed p. 1291, passage ID 276292]
+
+**B — true but irrelevant:** The pregnancy comparison highlights a MAP threshold issue, but it does not list the complete SOFA organ systems requested by the lead-in. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1357, printed p. 1291, passage ID 276292]
+
+**C — true but irrelevant:** The pregnancy creatinine comparison concerns renal thresholds, but it is only one component and does not provide the requested six-system set. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1357, printed p. 1291, passage ID 276292]
+
+**D — correct:** D directly gives the stored SOFA domains: neurologic, cardiovascular, respiratory, renal, liver, and hematologic function. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1357, printed p. 1291, passage ID 276292]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and distinguishes SOFA from qSOFA and pregnancy threshold examples.
+
+## S01-Q060
+
+During adult cardiac arrest, what chest-compression rate is recommended for high-quality CPR?
+
+A. High-quality adult CPR uses chest compressions at a rate of 100 to 120 per minute.
+
+B. High-quality CPR requires compressions at least 2 inches or 5 cm deep.
+
+C. Complete chest recoil should be allowed between compressions.
+
+D. Without an advanced airway, the CPR compression-ventilation ratio is 30 to 2.
+
+**Answer: A**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored support for the adult CPR compression-rate question is an AHA 2025 algorithm rather than an indexed anesthesia textbook. Under the textbook-exclusive contract, the keyed rate cannot be asserted as a textbook-sourced rationale.
+
+**A — evidence limited:** The stored non-textbook algorithm contains the keyed compression-rate claim, but no permitted textbook citation is attached to establish it here.
+
+**B — evidence limited:** The stored non-textbook algorithm contains this compression-depth claim, but textbook-only evidence is unavailable in the frozen packet.
+
+**C — evidence limited:** The stored non-textbook algorithm contains the recoil instruction, but it cannot be used as authority under the textbook-exclusive contract.
+
+**D — evidence limited:** The stored non-textbook algorithm contains the compression-ventilation ratio, but textbook retrieval is required before this option can be sourced or excluded.
+
+**Evidence sufficiency:** The attached AHA algorithm is non-textbook. Retrieve textbook support; the exam content remains frozen.
+
+**Editorial QA observations:**
+
+- Non-textbook CPR evidence was excluded from citation arrays.
+
+## S01-Q061
+
+During adult cardiac arrest, the monitor shows ventricular fibrillation. Which statement correctly identifies the rhythm and immediate algorithmic treatment?
+
+A. Provide high-quality CPR by minimizing interruptions and avoiding excessive ventilation.
+
+B. Ventricular fibrillation is a shockable rhythm requiring defibrillation.
+
+C. Administer epinephrine every 3 to 5 minutes during the algorithm.
+
+D. Continue CPR for 2 minutes after a shock before reassessing rhythm.
+
+**Answer: B**
+
+**Rationale status:** evidence_limited
+
+**Why the keyed answer is best:** The stored support for this ventricular-fibrillation algorithm question is an AHA 2025 resuscitation algorithm rather than an indexed anesthesia textbook. Under the textbook-exclusive contract, the keyed shockable-rhythm treatment cannot be asserted as a textbook-sourced rationale.
+
+**A — evidence limited:** The attached non-textbook algorithm contains this CPR instruction, but no permitted textbook citation is available to establish it here.
+
+**B — evidence limited:** The keyed shockable-rhythm and defibrillation claim is present only in the non-textbook algorithm, so it cannot be asserted from the permitted textbook corpus.
+
+**C — evidence limited:** The epinephrine timing claim is supported only by the attached non-textbook algorithm; textbook retrieval is required before it can be sourced here.
+
+**D — evidence limited:** The post-shock CPR instruction is present only in the non-textbook algorithm, so no textbook-only exclusion is asserted.
+
+**Evidence sufficiency:** The attached AHA algorithm is non-textbook. Retrieve textbook support; the exam content remains frozen.
+
+**Editorial QA observations:**
+
+- Non-textbook CPR evidence was excluded from citation arrays.
+
+## S01-Q062
+
+A severely injured patient is cold, acidotic, and bleeding with impaired clot formation. Which combination is the trauma lethal triad?
+
+A. Trauma-related coagulopathy can manifest as abnormal clot formation or fibrinolysis.
+
+B. Hypothermia and acidosis can prevent thrombin generation.
+
+C. Hypothermia, acidosis, and coagulopathy.
+
+D. Use early hemorrhage control, permissive hypotension until control, avoid crystalloids, and give early blood components.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The patient’s cold, acidotic, bleeding state points to the classic trauma lethal triad. Stoelting identifies the three components as hypothermia, acidosis, and coagulopathy, making C the complete answer. [Stoelting P&P 6e (2022).pdf, 31. Physiology and Management of Massive Transfusion, PDF p. 2054, passage ID 315150]
+
+**A — true but irrelevant:** Trauma-related coagulopathy can involve abnormal clot formation or fibrinolysis, but this is only one component and does not name the lethal triad. [Stoelting P&P 6e (2022).pdf, 31. Physiology and Management of Massive Transfusion, PDF p. 2054, passage ID 315150]
+
+**B — true but irrelevant:** Hypothermia and acidosis can impair thrombin generation, but the pair omits coagulopathy and therefore is not the complete triad. [Stoelting P&P 6e (2022).pdf, 31. Physiology and Management of Massive Transfusion, PDF p. 2054, passage ID 315150]
+
+**C — correct:** C directly gives all three stored components of the trauma lethal triad: hypothermia, acidosis, and coagulopathy. [Stoelting P&P 6e (2022).pdf, 31. Physiology and Management of Massive Transfusion, PDF p. 2054, passage ID 315150]
+
+**D — true but irrelevant:** Early hemorrhage control and damage-control resuscitation are related management measures, but this option describes treatment rather than the triad’s components. [Stoelting Coexisting 8e (2021).pdf, 4 Critical illness, PDF p. 73, passage ID 232557]
+
+**Evidence sufficiency:** The stored Stoelting passages directly support C and distinguish component-level mechanisms from resuscitation measures.
+
+## S01-Q063
+
+In a trauma patient undergoing focused assessment with sonography, what is the primary goal of the FAST examination?
+
+A. Use CT when FAST is negative but suspicion for injury remains high.
+
+B. Add an anterior thoracic view to help identify pneumothoraces.
+
+C. Perform subxiphoid, right-flank, left-flank, and suprapubic views.
+
+D. Detect pathologic free fluid in the pericardial, peritoneal, and pleural cavities.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** FAST is an examination for occult traumatic fluid, so the lead-in asks for its primary diagnostic target rather than views or follow-up imaging. Barash identifies pathologic free fluid in pericardial, peritoneal, and pleural cavities, supporting D. [Barash 9e (2023).pdf, 53. Anesthesia for Trauma and Burns, PDF p. 4527, passage ID 251191]
+
+**A — true but irrelevant:** CT may be used when FAST is negative but suspicion remains high, but that is a follow-up strategy and not FAST’s primary goal. [Barash 9e (2023).pdf, 53. Anesthesia for Trauma and Burns, PDF p. 4527, passage ID 251191]
+
+**B — true but irrelevant:** An anterior thoracic view is an extended-FAST addition for pneumothorax, but it does not define the primary FAST target asked for. [Barash 9e (2023).pdf, 53. Anesthesia for Trauma and Burns, PDF p. 4527, passage ID 251191]
+
+**C — true but irrelevant:** The subxiphoid, flank, and suprapubic views describe standard FAST acquisition, but they are the examination’s views rather than its diagnostic goal. [Barash 9e (2023).pdf, 53. Anesthesia for Trauma and Burns, PDF p. 4527, passage ID 251191]
+
+**D — correct:** D directly states the stored Barash purpose of FAST: detect pathologic free fluid in the pericardial, peritoneal, and pleural cavities. [Barash 9e (2023).pdf, 53. Anesthesia for Trauma and Burns, PDF p. 4527, passage ID 251191]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and distinguishes views, extended FAST, and CT follow-up.
+
+## S01-Q064
+
+A patient with severe intracranial hypertension develops hypertension, bradycardia, and irregular respirations. Which finding is present?
+
+A. Cushing triad due to brainstem dysfunction.
+
+B. The Cushing reflex raises systemic blood pressure above intracranial pressure.
+
+C. Irregular respirations are often absent because severe cases are mechanically ventilated.
+
+D. The central nervous system ischemic reflex can produce profound systemic hypertension.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The combination of hypertension, bradycardia, and irregular respirations in severe intracranial hypertension is the Cushing triad. Stoelting attributes the triad to brainstem dysfunction, so A is the direct finding. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1196, passage ID 313814]
+
+**A — correct:** A directly identifies the stored finding: Cushing triad consists of hypertension, bradycardia, and irregular respirations from brainstem dysfunction. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1196, passage ID 313814]
+
+**B — true but irrelevant:** The Cushing reflex can raise systemic blood pressure above intracranial pressure, but that mechanism alone does not identify the triad finding asked for. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1196, passage ID 313814]
+
+**C — wrong condition:** Mechanical ventilation can obscure irregular respirations in some severe cases, but the stem asks which triad is present and includes the classic respiratory component. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1196, passage ID 313814]
+
+**D — true but irrelevant:** The central nervous system ischemic reflex can produce profound hypertension, but it is a different reflex and does not name the triad in the stem. [Stoelting P&P 6e (2022).pdf, 14. Circulatory Physiology, PDF p. 1196, passage ID 313814]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes the related reflex descriptions.
+
+## S01-Q065
+
+A neurocritical-care monitor shows MAP and intracranial pressure. Which relationship calculates cerebral perfusion pressure?
+
+A. CPP is preserved when ICP decreases more than MAP after barbiturate administration.
+
+B. Cerebral perfusion pressure equals mean arterial pressure minus intracranial pressure.
+
+C. Sufentanil-related ICP increases occurred only with a decrease in MAP.
+
+D. Barbiturates reduce cerebral metabolic rate with parallel reductions in cerebral blood flow and ICP.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The monitor provides MAP and intracranial pressure, and cerebral perfusion pressure is the difference between those pressures. Miller states CPP equals MAP minus ICP, directly supporting B. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 631, printed p. 524, passage ID 283403]
+
+**A — true but irrelevant:** The frozen A option describes conditional CPP preservation after barbiturate administration when ICP falls more than MAP; it is not the barbiturate metabolic-rate and CBF reduction statement. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 631, printed p. 524, passage ID 283403]
+
+**B — correct:** B directly states the stored relationship: cerebral perfusion pressure equals mean arterial pressure minus intracranial pressure. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 631, printed p. 524, passage ID 283403]
+
+**C — true but irrelevant:** The sufentanil observation concerns when ICP increased, but it does not provide the general CPP relationship between MAP and ICP. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 756, passage ID 313190]
+
+**D — true but irrelevant:** The frozen D option describes barbiturate reductions in cerebral metabolic rate, CBF, and ICP, but it is not the conditional CPP-preservation statement in A. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 631, printed p. 524, passage ID 283403]
+
+**Evidence sufficiency:** The Miller passage directly supports B and the related barbiturate and sufentanil observations distinguish the distractors.
+
+## S01-Q066
+
+A critically ill patient may require extracorporeal support for predominant respiratory failure, cardiogenic shock, or combined organ failure. Which statement should guide selection of the ECMO configuration?
+
+A. ECMO provides circulatory support and gas exchange for severe potentially reversible respiratory or cardiac failure.
+
+B. ECMO should be viewed as bridging therapy toward recovery or replacement of a failing heart, lung, or both.
+
+C. ECMO configurations such as VV and VA are selected according to whether respiratory failure, cardiogenic shock, or combined organ failure predominates.
+
+D. Peripheral VA cannulation is the most rapid way to initiate urgent ECMO outside cardiac surgery.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The required ECMO configuration depends on the dominant failing organ system. Miller states that VV and VA configurations are selected according to respiratory failure, cardiogenic shock, or combined organ failure, so C is the decisive answer. [Miller 10e (2024).pdf, 81. Extracorporeal Membrane Oxygenation and Cardiac Devices, PDF p. 3103, printed p. 81, passage ID 295399]
+
+**A — true but irrelevant:** ECMO can provide circulatory support and gas exchange for potentially reversible failure, but this broad purpose does not select the configuration requested. [Miller 10e (2024).pdf, 81. Extracorporeal Membrane Oxygenation and Cardiac Devices, PDF p. 3103, printed p. 81, passage ID 295399]
+
+**B — true but irrelevant:** ECMO may bridge recovery or replacement of a failing organ, but that treatment goal does not specify how VV versus VA is selected. [Miller 10e (2024).pdf, 81. Extracorporeal Membrane Oxygenation and Cardiac Devices, PDF p. 3103, printed p. 81, passage ID 295399]
+
+**C — correct:** C directly applies Miller’s configuration rule: select VV or VA according to whether respiratory failure, cardiogenic shock, or combined organ failure predominates. [Miller 10e (2024).pdf, 81. Extracorporeal Membrane Oxygenation and Cardiac Devices, PDF p. 3103, printed p. 81, passage ID 295399]
+
+**D — true but irrelevant:** Peripheral VA cannulation may be rapid in urgent settings, but that procedural point does not establish configuration selection by the dominant organ failure. [Miller 10e (2024).pdf, 81. Extracorporeal Membrane Oxygenation and Cardiac Devices, PDF p. 3103, printed p. 81, passage ID 295399]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes ECMO purpose, bridge, and cannulation details.
+
+## S01-Q067
+
+According to Barash 9th edition, which statement combines permanence of cerebral and brainstem function loss with correction of reversible causes in brain-death determination?
+
+A. Brain-death determination should be made independently of physicians involved in the transplant recipient process.
+
+B. Ancillary tests such as cerebral angiography, transcranial Doppler, or EEG can confirm the examination when clinical criteria are incomplete.
+
+C. Brain-dead donors are unresponsive to sensory stimuli and have no brainstem reflexes.
+
+D. Brain death requires permanent absence of cerebral and brainstem functions after reversible causes of coma are corrected.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for both permanence of cerebral and brainstem loss and exclusion of reversible coma causes. Barash states that brain death requires permanent absence of those functions after reversible causes are corrected, making D complete. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4408, passage ID 250965]
+
+**A — true but irrelevant:** Independence from the transplant-recipient team is a determination safeguard, but it does not define the neurologic and reversible-cause criteria asked for. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4408, passage ID 250965]
+
+**B — true but irrelevant:** Ancillary testing can help when clinical criteria are incomplete, but the option does not state the required permanent loss and correction of reversible causes. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4408, passage ID 250965]
+
+**C — incomplete:** Unresponsiveness and absent brainstem reflexes are findings in a brain-death examination, but this option omits permanence and correction of reversible causes. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4408, passage ID 250965]
+
+**D — correct:** D combines both decisive requirements from Barash: permanent absence of cerebral and brainstem function after reversible causes of coma have been corrected. [Barash 9e (2023).pdf, 52. Transplant Anesthesia, PDF p. 4408, passage ID 250965]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and provides the related examination and process details.
+
+## S01-Q077
+
+Which statement best describes what a processed EEG index such as BIS estimates during anaesthesia?
+
+A. Processed EEG indices estimate the hypnotic component of anaesthesia, with BIS the first licensed and most extensively studied monitor.
+
+B. EEG-derived indices commonly range from 100 when awake to 0 with no detectable brain electrical activity.
+
+C. EEG-derived indices are inversely correlated with hypnotic drug concentrations.
+
+D. Processed EEG devices include SedLine, Entropy, and Narcotrend.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks what a processed EEG index estimates during anesthesia. Miller identifies the hypnotic component as the target and BIS as the first licensed and most extensively studied monitor, so A is complete. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2584, printed p. 2169, passage ID 292752]
+
+**A — correct:** A directly states Miller’s description: processed EEG indices estimate hypnosis, and BIS is the first licensed and most extensively studied monitor. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2584, printed p. 2169, passage ID 292752]
+
+**B — true but irrelevant:** The 100-to-0 range describes a common index scale, but it does not identify the hypnotic component that the question asks the monitor to estimate. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2584, printed p. 2169, passage ID 292752]
+
+**C — true but irrelevant:** Inverse correlation with hypnotic drug concentrations is a related property, but it does not state the physiologic domain estimated by the processed index. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2584, printed p. 2169, passage ID 292752]
+
+**D — true but irrelevant:** SedLine, Entropy, and Narcotrend are examples of processed EEG devices, but naming devices does not explain what their index estimates. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2584, printed p. 2169, passage ID 292752]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and includes the related index properties and device examples.
+
+## S01-Q078
+
+During train-of-four monitoring of nondepolarizing neuromuscular blockade, what causes fade?
+
+A. A train-of-four ratio compares the fourth response amplitude with the first response amplitude.
+
+B. Nondepolarizing neuromuscular blockers produce train-of-four fade because of presynaptic acetylcholine-receptor blockade.
+
+C. These drugs are competitive antagonists at the neuromuscular junction.
+
+D. Train-of-four stimuli are commonly delivered at 2 Hz to assess fade.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Fade during train-of-four stimulation reflects presynaptic acetylcholine-receptor blockade by a nondepolarizing neuromuscular blocker. Barash identifies that mechanism, making B the answer. [Barash 9e (2023).pdf, 21. Neuromuscular Blocking Drugs, PDF p. 1614, passage ID 246016]
+
+**A — true but irrelevant:** The fourth-to-first response ratio is how fade is quantified, but it does not explain the presynaptic mechanism causing fade. [Barash 9e (2023).pdf, 21. Neuromuscular Blocking Drugs, PDF p. 1614, passage ID 246016]
+
+**B — correct:** B directly states the stored Barash mechanism: nondepolarizing blockers produce fade through presynaptic acetylcholine-receptor blockade. [Barash 9e (2023).pdf, 21. Neuromuscular Blocking Drugs, PDF p. 1614, passage ID 246016]
+
+**C — true but irrelevant:** Competitive antagonism at the neuromuscular junction describes these drugs, but it does not specify the presynaptic mechanism of train-of-four fade. [Barash 9e (2023).pdf, 21. Neuromuscular Blocking Drugs, PDF p. 1614, passage ID 246016]
+
+**D — true but irrelevant:** Two-hertz stimulation is the usual train-of-four delivery rate, but the stimulus frequency does not explain why fade occurs. [Barash 9e (2023).pdf, 21. Neuromuscular Blocking Drugs, PDF p. 1614, passage ID 246016]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes measurement, drug class, and stimulus details.
+
+## S01-Q079
+
+Why must a circle breathing system remove carbon dioxide from exhaled gas?
+
+A. Typical anaesthesia-machine gas flows are less than minute ventilation.
+
+B. Carbon-dioxide absorption is unnecessary when machine gas flows are below minute ventilation.
+
+C. Circle breathing systems require carbon-dioxide removal from exhaled gas to prevent rebreathing and hypercapnia.
+
+D. High fresh-gas inflow can dilute most carbon dioxide in a circle system but is inefficient.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A circle system recycles exhaled gas, so carbon dioxide must be removed to prevent its rebreathing and accumulation. Miller states this requirement, directly supporting C. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 589, printed p. 487, passage ID 283209]
+
+**A — true but irrelevant:** Typical machine flows may be below minute ventilation, but that flow relationship does not state why carbon dioxide must be removed. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 589, printed p. 487, passage ID 283209]
+
+**B — false:** Carbon-dioxide absorption is not unnecessary at low machine flows; the need for removal is precisely why rebreathing systems require absorption. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 589, printed p. 487, passage ID 283209]
+
+**C — correct:** C directly states the stored purpose: circle systems remove carbon dioxide from exhaled gas to prevent rebreathing and hypercapnia. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 589, printed p. 487, passage ID 283209]
+
+**D — true but irrelevant:** High fresh-gas flow can dilute carbon dioxide but is inefficient, whereas the circle system’s required solution is removal from exhaled gas. [Miller 10e (2024).pdf, 20. Inhaled Anesthetic Delivery Systems, PDF p. 589, printed p. 487, passage ID 283209]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and contrasts absorption with flow-based dilution.
+
+## S01-Q080
+
+During spontaneous ventilation with a Mapleson circuit, which configuration is most efficient and what fresh-gas flow is required to prevent rebreathing?
+
+A. Mapleson A is least efficient during controlled ventilation and may require fresh-gas flow as high as 20 L/min.
+
+B. The Bain circuit is the most popular US iteration of the Mapleson D, E, F group.
+
+C. Mapleson D, E, and F require fresh-gas flow of approximately 2.5 times minute ventilation.
+
+D. During spontaneous ventilation, Mapleson A is most efficient and requires fresh-gas flow of about one times minute ventilation to prevent rebreathing.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** For spontaneous ventilation, the Mapleson A arrangement is the most efficient and requires fresh-gas flow of about one times minute ventilation to prevent rebreathing. Barash states both parts, so D is complete. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 2010, passage ID 246694]
+
+**A — true but irrelevant:** Mapleson A is least efficient during controlled ventilation and may require high flows, but the stem specifies spontaneous ventilation. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 2010, passage ID 246694]
+
+**B — true but irrelevant:** The Bain circuit is a popular Mapleson D, E, or F-group iteration, but that identification does not answer efficiency and flow during spontaneous ventilation. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 2010, passage ID 246694]
+
+**C — wrong condition:** A flow of about 2.5 times minute ventilation applies to Mapleson D, E, and F arrangements, but the stem asks about Mapleson A during spontaneous ventilation. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 2010, passage ID 246694]
+
+**D — correct:** D directly matches Barash’s spontaneous-ventilation rule: Mapleson A is most efficient and needs fresh-gas flow of about one times minute ventilation. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 2010, passage ID 246694]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and distinguishes controlled-ventilation, circuit-family, and flow alternatives.
+
+## S01-Q081
+
+During pressure-controlled ventilation, which variables does the clinician set directly?
+
+A. Inspiratory pressure, PEEP, inspiratory-to-expiratory ratio, and respiratory rate.
+
+B. An initially fast flow that decreases as target pressure is achieved.
+
+C. Pressure-controlled, volume-controlled, and volume-guaranteed ventilation modes.
+
+D. Chest rise, breath sounds, ETCO2, and blood gases monitor adequacy of ventilation.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** In pressure-controlled ventilation, the clinician directly sets the pressure target and timing variables rather than a tidal volume. Cote identifies inspiratory pressure, PEEP, inspiratory-to-expiratory ratio, and respiratory rate as the set variables, so A is correct. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2061, passage ID 192095]
+
+**A — correct:** A directly lists the pressure-control settings identified by Cote: inspiratory pressure, PEEP, inspiratory-to-expiratory ratio, and respiratory rate. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2061, passage ID 192095]
+
+**B — true but irrelevant:** A decelerating flow pattern occurs as target pressure is reached, but it is a consequence of the mode rather than the variables the clinician sets directly. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2061, passage ID 192095]
+
+**C — true but irrelevant:** Pressure-controlled, volume-controlled, and volume-guaranteed ventilation are mode categories, but they are not the directly set variables requested. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2061, passage ID 192095]
+
+**D — true but irrelevant:** Chest rise, breath sounds, ETCO2, and blood gases assess adequacy, but they are monitoring findings rather than pressure-control settings. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2061, passage ID 192095]
+
+**Evidence sufficiency:** The stored Cote passage directly supports A and distinguishes settings, mode categories, and adequacy monitoring.
+
+## S01-Q082
+
+Which contemporary vaporizer safety feature prevents simultaneous administration of more than one inhaled volatile anaesthetic?
+
+A. Securing the vaporizer to the workstation manifold with antispill protection.
+
+B. An interlock system.
+
+C. A filler port located at the maximum safe liquid level.
+
+D. Agent-specific keyed filling devices.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The safety feature must prevent two volatile agents from being delivered simultaneously. Barash identifies the vaporizer interlock system as performing that function, directly supporting B. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 1979, passage ID 246641]
+
+**A — true but irrelevant:** Manifold securing and antispill protection reduce installation or filling hazards, but they do not prevent simultaneous administration of volatile agents. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 1979, passage ID 246641]
+
+**B — correct:** B directly names Barash’s interlock system, the contemporary vaporizer safety feature that prevents more than one volatile anesthetic from being administered at once. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 1979, passage ID 246641]
+
+**C — true but irrelevant:** A maximum-level filler port helps control filling, but it is not the interlock mechanism that prevents simultaneous vaporizer use. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 1979, passage ID 246641]
+
+**D — true but irrelevant:** Agent-specific keyed fillers prevent filling with the wrong agent, but they do not prevent two vaporizers from being turned on together. [Barash 9e (2023).pdf, 25. The Anesthesia Workstation and Delivery Systems for Inhaled Anesthetics, PDF p. 1979, passage ID 246641]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes interlock, antispill, filling-level, and keyed-filler safety features.
+
+## S01-Q083
+
+A surgical drape ignites near an electrosurgical unit while oxygen is being administered. Which three elements constitute the operating-room fire triangle?
+
+A. Air, oxygen, and nitrous oxide as oxidizers.
+
+B. Electrosurgery and lasers as ignition sources.
+
+C. An oxidizer, fuel, and ignition source.
+
+D. Drapes, gauze, hair, nasal cannulas, masks, and airway devices as fuels.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** An operating-room fire requires an oxidizer, a fuel, and an ignition source. Barash identifies those three elements as the fire triangle, so C is the complete answer. [Barash 9e (2023).pdf, 5. Electrical Safety and Fires in the Operating Room, PDF p. 381, passage ID 243832]
+
+**A — incomplete:** Air, oxygen, and nitrous oxide are oxidizers, but this option omits the fuel and ignition-source elements required for the triangle. [Barash 9e (2023).pdf, 5. Electrical Safety and Fires in the Operating Room, PDF p. 381, passage ID 243832]
+
+**B — incomplete:** Electrosurgery and lasers are ignition sources, but this option does not include the oxidizer and fuel needed to complete the fire triangle. [Barash 9e (2023).pdf, 5. Electrical Safety and Fires in the Operating Room, PDF p. 381, passage ID 243832]
+
+**C — correct:** C directly states all three Barash elements: an oxidizer, a fuel, and an ignition source. [Barash 9e (2023).pdf, 5. Electrical Safety and Fires in the Operating Room, PDF p. 381, passage ID 243832]
+
+**D — incomplete:** Drapes, gauze, hair, cannulas, masks, and airway devices can serve as fuels, but this option names only one fire-triangle element. [Barash 9e (2023).pdf, 5. Electrical Safety and Fires in the Operating Room, PDF p. 381, passage ID 243832]
+
+**Evidence sufficiency:** The stored Barash passage directly supports C and identifies the examples represented by A, B, and D.
+
+## S01-Q084
+
+Echocardiography shows a large pericardial effusion with right-atrial systolic and right-ventricular diastolic collapse. Which diagnosis is supported?
+
+A. Treat systolic anterior motion by avoiding inotropes, increasing preload and afterload, and decreasing heart rate.
+
+B. Left-atrial systolic collapse, often observed later than right-sided collapse.
+
+C. Systolic anterior motion of the mitral valve causing LVOT turbulence and mitral regurgitation.
+
+D. Cardiac tamponade.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A large effusion with right-atrial systolic and right-ventricular diastolic collapse indicates chamber compression by fluid. The Miller echocardiography passage identifies this as cardiac tamponade, so D is correct. [Miller 10e (2024).pdf, 33. Perioperative Echocardiography and Point-of-Care Ultrasound (POCUS), PDF p. 1274, printed p. 1064.e1, passage ID 286470]
+
+**A — wrong condition:** Avoiding inotropes and increasing preload and afterload is a management strategy for systolic anterior motion, but the imaging findings here indicate an effusion with tamponade. [Miller 10e (2024).pdf, 33. Perioperative Echocardiography and Point-of-Care Ultrasound (POCUS), PDF p. 1274, printed p. 1064.e1, passage ID 286470]
+
+**B — wrong condition:** Left-atrial systolic collapse is a possible later sign in some settings, but it does not identify the right-sided collapse pattern and effusion in this stem. [Miller 10e (2024).pdf, 33. Perioperative Echocardiography and Point-of-Care Ultrasound (POCUS), PDF p. 1274, printed p. 1064.e1, passage ID 286470]
+
+**C — wrong condition:** Systolic anterior motion produces LVOT turbulence and mitral regurgitation, but it is a different echocardiographic condition from right-sided chamber collapse with effusion. [Miller 10e (2024).pdf, 33. Perioperative Echocardiography and Point-of-Care Ultrasound (POCUS), PDF p. 1274, printed p. 1064.e1, passage ID 286470]
+
+**D — correct:** D directly names the diagnosis supported by the stored Miller findings: cardiac tamponade from a large pericardial effusion with right-sided chamber collapse. [Miller 10e (2024).pdf, 33. Perioperative Echocardiography and Point-of-Care Ultrasound (POCUS), PDF p. 1274, printed p. 1064.e1, passage ID 286470]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes tamponade from systolic-anterior-motion findings.
+
+## S01-Q085
+
+A patient with suspected cardiogenic pulmonary oedema undergoes lung ultrasound. Which pattern is most characteristic?
+
+A. Predominantly increased B-lines from interstitial oedema with pleural effusions.
+
+B. Relatively normal lung ultrasound in COPD exacerbation.
+
+C. Increased B-lines, consolidation, and decreased lung sliding in pneumonia or ARDS.
+
+D. Confluent B-lines indicating diffuse alveolar haemorrhage
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Cardiogenic pulmonary edema produces interstitial fluid on lung ultrasound, most characteristically increased B-lines with pleural effusions. Miller supports A as the best pattern for the stated presentation. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3059, printed p. 2566, passage ID 295173]
+
+**A — correct:** A directly matches the stored Miller pattern for cardiogenic edema: predominantly increased B-lines from interstitial edema together with pleural effusions. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3059, printed p. 2566, passage ID 295173]
+
+**B — wrong condition:** Relatively normal ultrasound is described for COPD exacerbation, but the stem asks about suspected cardiogenic pulmonary edema. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3059, printed p. 2566, passage ID 295173]
+
+**C — wrong condition:** B-lines with consolidation and decreased sliding are associated with pneumonia or ARDS, but that combined pattern is not the characteristic cardiogenic-edema pattern requested. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3059, printed p. 2566, passage ID 295173]
+
+**D — wrong condition:** Confluent B-lines may be described with diffuse alveolar hemorrhage, but that is a different clinical process from suspected cardiogenic pulmonary edema. [Miller 10e (2024).pdf, 79. Critical Care Anesthesiology, PDF p. 3059, printed p. 2566, passage ID 295173]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes COPD, pneumonia/ARDS, and hemorrhage patterns.
+
+## S01-Q091
+
+A patient is positioned sitting for neurosurgery. Which statement best captures the cerebral-ischemia concern that should guide anaesthetic planning?
+
+A. Recognize pneumocephalus, quadriplegia, spinal-cord infarction, cerebral ischemia, and peripheral-nerve injuries as sitting-position risks.
+
+B. Sitting positions can reduce cerebral perfusion through reduced cardiac output, hypotension, head-height effects, vertebral-artery compromise, or air emboli.
+
+C. Account for demonstrated positional effects on cerebral oxygen saturation.
+
+D. Recognize that neck hyperextension, hyperflexion, or excessive rotation can impair arterial perfusion and injure the cord.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The cerebral-ischemia concern in the sitting position is reduced cerebral perfusion from several hemodynamic, height, vascular, and embolic mechanisms. Miller’s passage combines those mechanisms, making B the best answer. [Miller 10e (2024).pdf, 30. Patient Positioning and Associated Risks, PDF p. 1126, printed p. 944, passage ID 285776]
+
+**A — true but irrelevant:** Pneumocephalus, cord injury, cerebral ischemia, and nerve injury are recognized sitting-position risks, but this list does not specifically capture the cerebral-perfusion mechanisms asked for. [Miller 10e (2024).pdf, 30. Patient Positioning and Associated Risks, PDF p. 1126, printed p. 944, passage ID 285776]
+
+**B — correct:** B directly identifies Miller’s cerebral-perfusion concerns: reduced output, hypotension, head-height effects, vertebral-artery compromise, and air emboli. [Miller 10e (2024).pdf, 30. Patient Positioning and Associated Risks, PDF p. 1126, printed p. 944, passage ID 285776]
+
+**C — incomplete:** Positional effects on cerebral oxygen saturation should be considered, but this option omits the mechanisms that explain reduced cerebral perfusion. [Miller 10e (2024).pdf, 30. Patient Positioning and Associated Risks, PDF p. 1126, printed p. 944, passage ID 285776]
+
+**D — true but irrelevant:** Abnormal neck position can impair arterial perfusion and injure the cord, but this is narrower than the complete cerebral-ischemia concern requested. [Miller 10e (2024).pdf, 30. Patient Positioning and Associated Risks, PDF p. 1126, printed p. 944, passage ID 285776]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and supplies the related positional risks and monitoring observation.
+
+## S01-Q092
+
+A patient sustains spinal-cord trauma. Which statement correctly distinguishes the primary injury from the secondary response?
+
+A. Mitigate secondary CNS injury with prompt diagnosis and early goal-directed therapy.
+
+B. Recognize that secondary injury accounts for much of trauma-related death and disability.
+
+C. The primary injury is mechanically disruptive, whereas the secondary response is the body reaction that plays an important role in the injury.
+
+D. Use the ABCDE approach as paramount to successful CNS-trauma resuscitation.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The primary spinal-cord injury is the immediate mechanical disruption; the secondary injury is the subsequent body response that contributes importantly to damage. Miller states this distinction, directly supporting C. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2414, printed p. 2025, passage ID 291954]
+
+**A — true but irrelevant:** Prompt diagnosis and early goal-directed therapy can mitigate secondary injury, but the stem asks for the conceptual distinction between primary and secondary injury. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2414, printed p. 2025, passage ID 291954]
+
+**B — true but irrelevant:** Secondary injury contributes substantially to death and disability, but that consequence does not define how primary and secondary injury differ. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2414, printed p. 2025, passage ID 291954]
+
+**C — correct:** C directly states Miller’s distinction: primary injury is mechanically disruptive, whereas secondary injury is the body reaction that plays an important role in the lesion. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2414, printed p. 2025, passage ID 291954]
+
+**D — true but irrelevant:** ABCDE resuscitation is paramount for CNS-trauma care, but it is a management approach rather than the primary-versus-secondary injury distinction. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2414, printed p. 2025, passage ID 291954]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes injury definitions from management and outcome statements.
+
+## S01-Q093
+
+After a high spinal injury, a patient develops hypotension and bradycardia from loss of sympathetic cardiac and vascular tone. Which physiology best explains the shock?
+
+A. Recognize that significant cervical-cord injury can occur without visible skeletal injury.
+
+B. Account for biochemical, vascular, and electrolyte changes worsening spinal-cord lesions for up to 3 days.
+
+C. Define spinal shock as loss of reflexes, distinct from neurogenic shock.
+
+D. Neurogenic shock from inappropriate vasodilation, loss of cardiac inotropy, and bradycardia due to denervation of cardiac accelerator fibres.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Hypotension and bradycardia after high spinal injury from loss of sympathetic tone indicate neurogenic shock. Miller describes vasodilation, reduced inotropy, and denervation of cardiac accelerator fibers, directly supporting D. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2418, printed p. 2029, passage ID 291972]
+
+**A — true but irrelevant:** A cervical-cord injury can occur without visible skeletal injury, but that diagnostic caution does not explain the hypotension-bradycardia physiology. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2418, printed p. 2029, passage ID 291972]
+
+**B — true but irrelevant:** Biochemical, vascular, and electrolyte changes may worsen lesions for days, but that secondary-injury time course does not identify the shock mechanism. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2418, printed p. 2029, passage ID 291972]
+
+**C — wrong condition:** Spinal shock is loss of reflexes and is distinct from neurogenic shock, so it does not explain this patient’s loss of sympathetic vascular and cardiac tone. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2418, printed p. 2029, passage ID 291972]
+
+**D — correct:** D directly explains the observed physiology: neurogenic shock causes vasodilation, loss of cardiac inotropy, and bradycardia from denervated cardiac accelerator fibers. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2418, printed p. 2029, passage ID 291972]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes neurogenic shock from spinal shock and secondary injury.
+
+## S01-Q094
+
+During a long prone procedure, the head is supported on a padded foam headrest. Which additional action is required to reduce the risk of pressure-related retinal ischemia?
+
+A. Perform frequent eye checks while using the padded headrest.
+
+B. Recognize that dependent head positioning may elevate venous pressure.
+
+C. Use Mayfield tongs as an alternative to a padded or foam headrest.
+
+D. Recognize impaired venous drainage or elevated intraocular pressure as contributors to retinal ischemia.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A padded headrest reduces some pressure, but retinal ischemia risk still requires frequent eye checks during a long prone procedure. Barash supports A as the additional protective action. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4203, passage ID 250579]
+
+**A — correct:** A directly supplies the additional precaution in the stored Barash guidance: perform frequent eye checks even when a padded headrest is used. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4203, passage ID 250579]
+
+**B — true but irrelevant:** Dependent head positioning may raise venous pressure, but recognizing that risk does not state the required eye-monitoring action. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4203, passage ID 250579]
+
+**C — true but irrelevant:** Mayfield tongs can be an alternative to a padded headrest, but the stem asks for the additional action required with the headrest already in use. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4203, passage ID 250579]
+
+**D — true but irrelevant:** Impaired venous drainage and elevated intraocular pressure contribute to retinal ischemia, but identifying contributors is not the requested preventive action. [Barash 9e (2023).pdf, 49. Anesthesia for Ophthalmologic Surgery, PDF p. 4203, passage ID 250579]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes the risk mechanisms and head-support alternatives.
+
+## S01-Q095
+
+A forehead cerebral NIRS probe is being used during anaesthesia. What tissue does its regional saturation primarily represent?
+
+A. Recognize that prolonged cerebral ischemia at very low rSO2 can be associated with tissue infarction.
+
+B. Focal frontal-cortex tissue oxygenation, which may not represent other brain regions.
+
+C. Interpret cerebral rSO2 in the context of PaCO2 during steady-state ventilation.
+
+D. Recognize that commercial NIRS devices measure tissue saturation approximately 0.5 to 3 cm below the probes.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A forehead NIRS probe samples regional oxygenation in focal frontal-cortex tissue, which may not represent other brain regions. Cote’s monitoring passage directly supports B. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2073, passage ID 192141]
+
+**A — true but irrelevant:** Very low regional saturation can be associated with infarction, but that is an outcome-risk observation rather than the tissue represented by the forehead probe. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2073, passage ID 192141]
+
+**B — correct:** B directly states the stored Cote interpretation: the forehead probe primarily represents focal frontal-cortex tissue oxygenation and may not represent other regions. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2073, passage ID 192141]
+
+**C — true but irrelevant:** PaCO2 context can help interpret cerebral saturation during steady-state ventilation, but it does not identify the probe’s sampled tissue. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2073, passage ID 192141]
+
+**D — true but irrelevant:** Commercial devices sample tissue roughly 0.5 to 3 cm below the probe, but depth does not specify the frontal-cortex regional representation asked for. [Cote 7e (2024).pdf, 49 Pediatric equipment and monitoring, PDF p. 2073, passage ID 192141]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and includes the NIRS depth, PaCO2, and outcome context.
+
+## S01-Q105
+
+During active obstetric haemorrhage, which haemostatic change warrants early monitoring because it correlates with haemorrhage severity?
+
+A. Fibrinogen concentrate may not improve haemostasis unless fibrinogen is below 200 mg/dL.
+
+B. Attempt to maintain fibrinogen above 150 to 200 mg/dL during active haemorrhage.
+
+C. Fibrinogen falls rapidly, and its decrease correlates better than other haemostatic measures with haemorrhage severity, warranting early monitoring for hypofibrinogenaemia.
+
+D. Use cryoprecipitate as the potentially most efficient method to replace fibrinogen.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** During active obstetric hemorrhage, the clinically important early change is rapidly falling fibrinogen. Chestnut states that its decrease correlates better than other hemostatic measures with hemorrhage severity, making C the complete answer. [Chestnut 6e (2019).pdf, 37 Antepartum and Postpartum Hemorrhage, PDF p. 990, printed p. 924, passage ID 274657]
+
+**A — true but irrelevant:** Fibrinogen concentrate may be less useful above a threshold, but that treatment observation does not identify the early severity-correlated laboratory change. [Chestnut 6e (2019).pdf, 37 Antepartum and Postpartum Hemorrhage, PDF p. 990, printed p. 924, passage ID 274657]
+
+**B — true but irrelevant:** Maintaining fibrinogen above 150 to 200 mg/dL is a management target, but the question asks which change correlates with hemorrhage severity. [Chestnut 6e (2019).pdf, 37 Antepartum and Postpartum Hemorrhage, PDF p. 990, printed p. 924, passage ID 274657]
+
+**C — correct:** C directly states Chestnut’s key observation: fibrinogen falls rapidly and its decline best tracks hemorrhage severity, warranting early monitoring for hypofibrinogenemia. [Chestnut 6e (2019).pdf, 37 Antepartum and Postpartum Hemorrhage, PDF p. 990, printed p. 924, passage ID 274657]
+
+**D — true but irrelevant:** Cryoprecipitate can efficiently replace fibrinogen, but replacement choice does not state the early monitoring change requested. [Chestnut 6e (2019).pdf, 37 Antepartum and Postpartum Hemorrhage, PDF p. 990, printed p. 924, passage ID 274657]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and distinguishes monitoring, targets, and replacement options.
+
+## S01-Q106
+
+Before anticipated major obstetric blood loss, which blood-conservation approach permits later reinfusion of whole blood containing functional coagulation factors and platelets?
+
+A. Cell salvage does not remove all fetal red cells and maternal isoimmunization may occur.
+
+B. Rapid volume replacement is more important for tissue perfusion and oxygenation than the type of fluid administered.
+
+C. Cell salvage has a very low risk of amniotic-fluid contamination when a leukocyte-depletion filter is used.
+
+D. Normovolemic hemodilution allows infusion of whole blood replete with functional coagulation factors and platelets.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for a conservation method that collects whole blood for later reinfusion with functional coagulation factors and platelets. Chestnut identifies normovolemic hemodilution for that purpose, so D is correct. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 619, printed p. 610, passage ID 272941]
+
+**A — true but irrelevant:** Cell salvage may leave fetal red cells and permit isoimmunization, but that risk statement does not identify the whole-blood reinfusion method asked for. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 619, printed p. 610, passage ID 272941]
+
+**B — true but irrelevant:** Rapid volume replacement supports perfusion and oxygenation, but it does not identify which blood-conservation technique preserves coagulation factors and platelets. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 619, printed p. 610, passage ID 272941]
+
+**C — true but irrelevant:** A leukocyte-depletion filter can reduce contamination risk during cell salvage, but this does not describe reinfusion of autologous whole blood with factors and platelets. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 619, printed p. 610, passage ID 272941]
+
+**D — correct:** D directly states the stored Chestnut benefit: normovolemic hemodilution permits later infusion of whole blood containing functional coagulation factors and platelets. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 619, printed p. 610, passage ID 272941]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and distinguishes cell salvage, fluid replacement, and filter details.
+
+## S01-Q107
+
+Which definition best describes preeclampsia?
+
+A. Preeclampsia is new-onset hypertension after 20 weeks accompanied by proteinuria or other end-organ dysfunction.
+
+B. Eclampsia is preeclampsia complicated by seizure activity.
+
+C. Severe preeclampsia features include severe blood pressure elevation, thrombocytopenia, renal insufficiency, pulmonary edema, or neurologic abnormalities.
+
+D. Gestational hypertension is hypertension after 20 weeks without proteinuria in a previously normotensive patient.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Preeclampsia is a new hypertensive disorder after 20 weeks with proteinuria or another end-organ manifestation. Miller gives that definition, directly supporting A. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2268, printed p. 1908, passage ID 291218]
+
+**A — correct:** A directly states Miller’s definition: new-onset hypertension after 20 weeks accompanied by proteinuria or other end-organ dysfunction. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2268, printed p. 1908, passage ID 291218]
+
+**B — true but irrelevant:** Seizure activity complicates preeclampsia to produce eclampsia, but that is a complication definition rather than the requested preeclampsia definition. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2268, printed p. 1908, passage ID 291218]
+
+**C — true but irrelevant:** Severe features include marked pressure elevation, thrombocytopenia, renal or pulmonary disease, and neurologic abnormalities, but the stem asks for the general definition. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2268, printed p. 1908, passage ID 291218]
+
+**D — true but irrelevant:** Gestational hypertension is hypertension after 20 weeks without proteinuria in a previously normotensive patient, but it does not include the preeclampsia end-organ criterion. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2268, printed p. 1908, passage ID 291218]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes eclampsia, severe features, and gestational hypertension.
+
+## S01-Q108
+
+Which pathophysiologic process best explains the endothelial dysfunction and multiorgan manifestations of preeclampsia?
+
+A. Preeclampsia is defined by hypertension with proteinuria or other end-organ involvement.
+
+B. Placental ischemia, endothelial dysfunction, intravascular inflammation, and antiangiogenic imbalance contribute to preeclampsia pathophysiology.
+
+C. HELLP syndrome is characterized by hemolysis, elevated liver enzymes, and low platelet count.
+
+D. Focal cerebral hypoperfusion can occur from intense vasoconstriction despite global cerebral blood flow not being diminished.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the pathophysiologic process behind endothelial dysfunction and multiorgan disease. Barash identifies placental ischemia, endothelial dysfunction, intravascular inflammation, and antiangiogenic imbalance, directly supporting B. [Barash 9e (2023).pdf, 41. Obstetric Anesthesia, PDF p. 3508, passage ID 249283]
+
+**A — true but irrelevant:** The definition identifies hypertension with proteinuria or end-organ involvement, but it does not explain the underlying endothelial and placental processes. [Barash 9e (2023).pdf, 41. Obstetric Anesthesia, PDF p. 3508, passage ID 249283]
+
+**B — correct:** B directly lists Barash’s pathophysiology: placental ischemia, endothelial dysfunction, intravascular inflammation, and antiangiogenic imbalance. [Barash 9e (2023).pdf, 41. Obstetric Anesthesia, PDF p. 3508, passage ID 249283]
+
+**C — true but irrelevant:** HELLP describes hemolysis, elevated liver enzymes, and low platelets, but it is a clinical syndrome rather than the upstream pathophysiologic process asked for. [Barash 9e (2023).pdf, 41. Obstetric Anesthesia, PDF p. 3508, passage ID 249283]
+
+**D — true but irrelevant:** Intense vasoconstriction can cause focal cerebral hypoperfusion, but that cerebral manifestation does not give the complete multiorgan pathophysiology. [Barash 9e (2023).pdf, 41. Obstetric Anesthesia, PDF p. 3508, passage ID 249283]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes definition, syndrome, and cerebral-manifestation statements.
+
+## S01-Q109
+
+Which combination of pregnancy and labour changes explains increased pulmonary-aspiration risk?
+
+A. All patients in labor are considered to have a full stomach and increased pulmonary-aspiration risk.
+
+B. Gastric emptying decreases with labor, pain, anxiety, or opioid administration.
+
+C. Pregnancy lowers lower-esophageal-sphincter competence, labor delays gastric emptying, and increased gastric contents raise aspiration risk.
+
+D. Pregnancy-related hormonal changes reduce lower-esophageal-sphincter tone.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Pregnancy reduces lower-esophageal-sphincter competence, labor delays gastric emptying, and larger gastric contents increase aspiration risk. Miller’s combined description directly supports C. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2248, printed p. 1888, passage ID 291123]
+
+**A — true but irrelevant:** Patients in labor may be treated as having increased aspiration risk, but that broad precaution does not explain the pregnancy and labor mechanisms requested. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2248, printed p. 1888, passage ID 291123]
+
+**B — incomplete:** Gastric emptying can decrease with labor, pain, anxiety, or opioids, but this option omits reduced sphincter competence and increased gastric contents. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2248, printed p. 1888, passage ID 291123]
+
+**C — correct:** C directly combines the stored mechanisms: lower sphincter competence in pregnancy, delayed emptying in labor, and increased contents that raise aspiration risk. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2248, printed p. 1888, passage ID 291123]
+
+**D — incomplete:** Hormonal reduction of lower-esophageal-sphincter tone contributes to risk, but it does not include the labor-related emptying and gastric-content components requested. [Miller 10e (2024).pdf, 58. Anesthesia for Obstetrics, PDF p. 2248, printed p. 1888, passage ID 291123]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and supplies the component mechanisms represented in A, B, and D.
+
+## S01-Q110
+
+Which two pregnancy-specific mechanisms, excluding vascular injury, explain the increased venous-thromboembolism risk?
+
+A. Placental separation traumatizes the endometrium and accelerates the coagulation cascade.
+
+B. Pregnancy is associated with enhanced platelet turnover, coagulation, and fibrinolysis.
+
+C. All three components of Virchow’s triad, including vascular injury
+
+D. Pregnancy increases thromboembolism risk through venous stasis from venocaval compression and a hypercoagulable state.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Excluding vascular injury, the two requested components of Virchow’s triad are venous stasis and hypercoagulability. Chestnut attributes pregnancy’s increased thromboembolism risk to venocaval-compression stasis and a hypercoagulable state, so D is correct. [Chestnut 6e (2019).pdf, 38 Embolic Disorders, PDF p. 1004, printed p. 938, passage ID 274715]
+
+**A — true but irrelevant:** Placental separation can activate coagulation, but that mechanism does not provide the two pregnancy-specific components requested while excluding vascular injury. [Chestnut 6e (2019).pdf, 38 Embolic Disorders, PDF p. 1004, printed p. 938, passage ID 274715]
+
+**B — incomplete:** Pregnancy alters platelets, coagulation, and fibrinolysis, but this option does not identify the requested stasis and hypercoagulability combination. [Chestnut 6e (2019).pdf, 38 Embolic Disorders, PDF p. 1004, printed p. 938, passage ID 274715]
+
+**C — wrong condition:** Virchow’s triad includes vascular injury, but the stem explicitly asks for the two mechanisms excluding that component. [Chestnut 6e (2019).pdf, 38 Embolic Disorders, PDF p. 1004, printed p. 938, passage ID 274715]
+
+**D — correct:** D directly supplies the two requested mechanisms from Chestnut: venous stasis from venocaval compression and pregnancy-associated hypercoagulability. [Chestnut 6e (2019).pdf, 38 Embolic Disorders, PDF p. 1004, printed p. 938, passage ID 274715]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and distinguishes the other Virchow-triad components and pregnancy changes.
+
+## S01-Q111
+
+During maternal cardiac arrest, which manoeuvre best addresses the gravid uterus’s effect on chest-compression output?
+
+A. Use manual left uterine displacement to support venous return and cardiac output.
+
+B. Use whole-body left tilt to improve compression effectiveness.
+
+C. If circulation does not return within four minutes, perform hysterotomy or cesarean delivery for delivery within five minutes.
+
+D. Obtain intravenous access above the diaphragm.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** During maternal arrest, the gravid uterus can impair venous return and reduce compression output when it remains midline. Chestnut supports manual left uterine displacement as the immediate maneuver, making A correct. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1088, printed p. 1022, passage ID 275085]
+
+**A — correct:** A directly addresses the gravid uterus during compressions: manual left uterine displacement supports venous return and cardiac output. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1088, printed p. 1022, passage ID 275085]
+
+**B — wrong timing or magnitude:** Whole-body left tilt may improve uterine displacement, but it can compromise compression mechanics and is not the preferred maneuver stated for arrest output. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1088, printed p. 1022, passage ID 275085]
+
+**C — wrong timing or magnitude:** Perimortem delivery is considered when circulation has not returned after several minutes, but it is not the initial maneuver for improving compression output. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1088, printed p. 1022, passage ID 275085]
+
+**D — true but irrelevant:** Intravenous access above the diaphragm is useful in arrest, but it does not directly relieve the gravid uterus’s mechanical effect on compression output. [Chestnut 6e (2019).pdf, 41 Cardiovascular Disease, PDF p. 1088, printed p. 1022, passage ID 275085]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports A and distinguishes displacement, tilt, delivery, and access measures.
+
+## S01-Q112
+
+Which complete three-feature combination in late pregnancy accounts for both rapid oxyhaemoglobin desaturation and more difficult tracheal intubation?
+
+A. Reduced functional residual capacity causing more rapid desaturation during apnea
+
+B. Reduced functional residual capacity, increased oxygen consumption, and possible airway oedema.
+
+C. Pregnancy increases tidal volume by 35% to 45%.
+
+D. Pregnancy-related airway oedema may be present.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the complete late-pregnancy combination explaining both rapid apnea desaturation and difficult intubation. Chestnut identifies reduced functional residual capacity, increased oxygen consumption, and possible airway edema, directly supporting B. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**A — incomplete:** Reduced functional residual capacity accelerates desaturation, but it does not explain the increased oxygen consumption and airway edema that complete the requested combination. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**B — correct:** B directly combines all three stored contributors: lower functional residual capacity, higher oxygen consumption, and possible airway edema. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**C — true but irrelevant:** Tidal volume increases in pregnancy, but that isolated change does not explain both reduced apnea reserve and the more difficult airway. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**D — incomplete:** Airway edema can make intubation difficult, but it does not account for the rapid desaturation component without the respiratory-reserve changes. [Chestnut 6e (2019).pdf, 54 Trauma and Critical Care, PDF p. 1343, printed p. 1277, passage ID 276221]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports B and provides the component respiratory and airway changes.
+
+## S01-Q113
+
+At birth, lung expansion and increased alveolar oxygen tension occur. Which cardiovascular transition follows?
+
+A. Umbilical-cord clamping or room-air exposure increases systemic vascular resistance.
+
+B. Increased oxygen and systemic vascular resistance constrict the ductus arteriosus.
+
+C. Pulmonary vascular resistance falls, pulmonary blood flow rises, and left-atrial pressure increases.
+
+D. Increased left-atrial pressure diminishes flow across the foramen ovale.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Lung aeration lowers pulmonary vascular resistance, increasing pulmonary flow and left-atrial filling. Chestnut identifies that transition, so C gives the correct cardiovascular consequence after birth. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**A — true but irrelevant:** Cord clamping and room-air exposure increase systemic vascular resistance, but that is not the pulmonary-flow and left-atrial-pressure transition asked for. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**B — true but irrelevant:** Oxygen and increased systemic resistance constrict the ductus arteriosus, but that change does not state the primary pulmonary-circulation response. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**C — correct:** C directly states the stored transition: pulmonary vascular resistance falls, pulmonary blood flow rises, and left-atrial pressure increases. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**D — true but irrelevant:** Higher left-atrial pressure reduces foramen-ovale flow, but it is a downstream consequence rather than the complete transition requested. [Chestnut 6e (2019).pdf, 9 Neonatal Assessment and Resuscitation, PDF p. 184, printed p. 173, passage ID 270886]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and distinguishes systemic, ductal, and atrial-septal changes.
+
+## S01-Q119
+
+According to Miller 10th edition, which damage-control-resuscitation principle combines hemostatic resuscitation with controlled hypotension before hemorrhage control?
+
+A. The least blood loss in an animal arterial-injury study occurred in hypotensive animals.
+
+B. The initial goal is hemorrhage control, physiologic stabilization, and correction of coagulopathy before definitive surgery.
+
+C. Higher blood pressure achieved with crystalloids has historically been observed to be harmful during hemorrhage.
+
+D. Damage-control resuscitation combines empiric hemostatic resuscitation with permissive hypotension while ongoing hemorrhage is controlled.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the combined damage-control principle before hemorrhage control. Miller describes empiric hemostatic resuscitation with permissive hypotension while bleeding continues, directly supporting D. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2406, printed p. 2017, passage ID 291916]
+
+**A — true but irrelevant:** An animal study found less blood loss with hypotension, but that result alone does not state the combined clinical resuscitation principle asked for. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2406, printed p. 2017, passage ID 291916]
+
+**B — true but irrelevant:** Hemorrhage control, stabilization, and correction of coagulopathy are goals, but this option omits the hemostatic-resuscitation and permissive-hypotension combination. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2406, printed p. 2017, passage ID 291916]
+
+**C — true but irrelevant:** Historical crystalloid-associated harm supports cautious fluid strategy, but it does not state the complete damage-control principle in the lead-in. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2406, printed p. 2017, passage ID 291916]
+
+**D — correct:** D directly combines Miller’s elements: empiric hemostatic resuscitation and permissive hypotension while ongoing hemorrhage is controlled. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2406, printed p. 2017, passage ID 291916]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes component goals and historical observations.
+
+## S01-Q120
+
+Why can standard pulse oximetry be misleading after smoke inhalation with carbon-monoxide poisoning?
+
+A. Standard pulse oximeters overestimate true oxygen saturation in carbon-monoxide poisoning because they interpret carboxyhaemoglobin as oxyhaemoglobin.
+
+B. Direct measurement of carboxyhaemoglobin is important to guide treatment after smoke inhalation.
+
+C. The half-life of carboxyhaemoglobin is about five hours on room air and less than 90 minutes with 100% oxygen.
+
+D. An eight-wavelength pulse oximeter can distinguish carboxyhaemoglobin and methaemoglobin from oxyhaemoglobin.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Carbon monoxide creates carboxyhaemoglobin that standard two-wavelength pulse oximetry reads as oxyhaemoglobin. Cote states that this causes overestimation of true saturation, directly supporting A. [Cote 7e (2024).pdf, 34 Burn injuries, PDF p. 1491, passage ID 189486]
+
+**A — correct:** A directly states the stored Cote limitation: standard pulse oximeters overestimate saturation because carboxyhaemoglobin is interpreted as oxyhaemoglobin. [Cote 7e (2024).pdf, 34 Burn injuries, PDF p. 1491, passage ID 189486]
+
+**B — true but irrelevant:** Measuring carboxyhaemoglobin directly helps guide treatment, but that measurement recommendation does not explain why standard pulse oximetry misleads. [Cote 7e (2024).pdf, 34 Burn injuries, PDF p. 1491, passage ID 189486]
+
+**C — true but irrelevant:** Carboxyhaemoglobin half-life changes with oxygen therapy, but that treatment-time course does not describe the pulse-oximetry measurement error. [Cote 7e (2024).pdf, 34 Burn injuries, PDF p. 1491, passage ID 189486]
+
+**D — true but irrelevant:** An eight-wavelength device can distinguish dyshemoglobins, but it is an alternative technology and does not explain standard two-wavelength overestimation. [Cote 7e (2024).pdf, 34 Burn injuries, PDF p. 1491, passage ID 189486]
+
+**Evidence sufficiency:** The stored Cote passage directly supports A and distinguishes direct measurement, treatment timing, and multiwavelength alternatives.
+
+## S01-Q121
+
+Before airway endoscopy in a patient with suspected inhalation injury, which bedside cluster is characteristic?
+
+A. Stridor, dyspnea, increased respiratory effort, and cyanosis appear only after critical airway narrowing.
+
+B. Facial burns, singed nasal hair, hoarseness, stridor, carbonaceous sputum, and oropharyngeal swelling.
+
+C. Chest radiographs lack sensitivity for early inhalation lung damage but provide a baseline for later changes.
+
+D. On airway endoscopy, soot, mucosal oedema, hyperaemia, and pooled secretions.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The bedside cluster suggesting inhalation injury combines facial and upper-airway findings with carbonaceous secretions. Miller identifies facial burns, singed nasal hair, hoarseness, stridor, carbonaceous sputum, and oropharyngeal swelling, supporting B. [Miller 10e (2024).pdf, 83. Burn Management, PDF p. 3169, printed p. 2657, passage ID 295685]
+
+**A — true but irrelevant:** Stridor, dyspnea, increased effort, and cyanosis can signal critical narrowing, but this later severity cluster does not give the characteristic early bedside signs requested. [Miller 10e (2024).pdf, 83. Burn Management, PDF p. 3169, printed p. 2657, passage ID 295685]
+
+**B — correct:** B directly lists Miller’s characteristic inhalation-injury cluster: facial burns, singed nasal hair, hoarseness, stridor, carbonaceous sputum, and oropharyngeal swelling. [Miller 10e (2024).pdf, 83. Burn Management, PDF p. 3169, printed p. 2657, passage ID 295685]
+
+**C — true but irrelevant:** An early chest radiograph may lack sensitivity but provide a baseline, yet that imaging limitation does not describe the bedside airway cluster. [Miller 10e (2024).pdf, 83. Burn Management, PDF p. 3169, printed p. 2657, passage ID 295685]
+
+**D — true but irrelevant:** Soot, edema, hyperemia, and pooled secretions are endoscopic findings, but the question asks for the pre-endoscopy bedside pattern. [Miller 10e (2024).pdf, 83. Burn Management, PDF p. 3169, printed p. 2657, passage ID 295685]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes severity, imaging, and endoscopic findings.
+
+## S01-Q122
+
+After inadvertent intravascular local-anaesthetic injection, which statement captures the full range of the two principal organ-system manifestations of LAST?
+
+A. CNS manifestations include metallic taste, circumoral numbness, diplopia, tinnitus, and dizziness.
+
+B. Local-anesthetic toxicity is essentially additive when local anaesthetic is injected at multiple sites.
+
+C. It can cause CNS excitation or depression and cardiovascular conduction or rhythm abnormalities.
+
+D. Cardiovascular manifestations include hypertension, hypotension, conduction block, bradycardia, ventricular arrhythmias, and asystole.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the full range across the two principal organ systems affected by local-anesthetic systemic toxicity. Bonica describes both CNS excitation or depression and cardiovascular conduction or rhythm abnormalities, directly supporting C. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**A — true but irrelevant:** Metallic taste, circumoral numbness, diplopia, tinnitus, and dizziness are CNS manifestations, but this option omits the cardiovascular range requested. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**B — true but irrelevant:** Toxicity can be additive when local anesthetic is injected at multiple sites, but that exposure principle does not describe the two organ-system manifestations. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**C — correct:** C directly captures Bonica’s full range: CNS excitation or depression together with cardiovascular conduction or rhythm abnormalities. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**D — true but irrelevant:** The listed cardiovascular signs are valid manifestations, but this option covers only the cardiovascular system and omits CNS excitation or depression. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports C and supplies the CNS and cardiovascular examples in A and D.
+
+## S01-Q123
+
+A patient becomes hypotensive immediately after neuraxial anaesthesia. Which mechanism most directly explains the hypotension?
+
+A. Hypotension is less common with epidural anaesthesia than with spinal anaesthesia because neuroblockade develops more slowly.
+
+B. Severe maternal hypotension can cause altered consciousness, pulmonary aspiration, apnea, and cardiac arrest.
+
+C. Cardiac output commonly increases after spinal anaesthesia even with phenylephrine and fluid administration.
+
+D. Sympathetic blockade with a marked reduction in systemic vascular resistance.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Immediate hypotension after neuraxial anesthesia is most directly caused by sympathetic blockade and loss of vascular tone. Chestnut identifies a marked reduction in systemic vascular resistance, supporting D. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 608, printed p. 599, passage ID 272887]
+
+**A — true but irrelevant:** Slower neuroblockade makes epidural hypotension less common than spinal hypotension, but that comparison does not identify the direct mechanism in this patient. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 608, printed p. 599, passage ID 272887]
+
+**B — true but irrelevant:** Severe maternal hypotension can produce major complications, but those consequences do not explain the initial neuraxial blood-pressure decrease. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 608, printed p. 599, passage ID 272887]
+
+**C — true but irrelevant:** Cardiac output may increase in some spinal-anesthesia circumstances, but that observation does not account for the sympathetic vascular blockade causing hypotension. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 608, printed p. 599, passage ID 272887]
+
+**D — correct:** D directly states the stored mechanism: neuraxial sympathetic blockade produces a marked reduction in systemic vascular resistance and consequent hypotension. [Chestnut 6e (2019).pdf, 26 Anesthesia for Cesarean Delivery, PDF p. 608, printed p. 599, passage ID 272887]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports D and distinguishes timing, consequences, and cardiac-output observations.
+
+## S01-Q133
+
+An infant with a longstanding left-to-right cardiac shunt has increased pulmonary blood flow. Which statement best characterizes oxygen saturation in this physiology?
+
+A. Left-to-right shunts do not typically lower oxygen saturation unless longstanding pulmonary edema develops.
+
+B. Use medications and manoeuvres that avoid decreases in pulmonary artery resistance when pulmonary blood flow is increased.
+
+C. High supplemental oxygen or hyperventilation can lower pulmonary artery resistance and increase left-to-right flow.
+
+D. Interventions that increase systemic vascular resistance can promote greater left-to-right flow.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A longstanding left-to-right shunt increases pulmonary flow but does not ordinarily lower systemic oxygen saturation unless pulmonary edema develops. Stoelting states that relationship, directly supporting A. [Stoelting Coexisting 8e (2021).pdf, 9 Systemic and pulmonary arterial hypertension, PDF p. 162, passage ID 232945]
+
+**A — correct:** A directly states the stored Stoelting saturation principle: a left-to-right shunt does not typically reduce saturation unless longstanding pulmonary edema develops. [Stoelting Coexisting 8e (2021).pdf, 9 Systemic and pulmonary arterial hypertension, PDF p. 162, passage ID 232945]
+
+**B — true but irrelevant:** Avoiding decreases in pulmonary artery resistance can limit increased left-to-right flow, but this management advice does not characterize oxygen saturation. [Stoelting Coexisting 8e (2021).pdf, 9 Systemic and pulmonary arterial hypertension, PDF p. 162, passage ID 232945]
+
+**C — true but irrelevant:** Oxygen or hyperventilation can lower pulmonary resistance and increase shunt flow, but that flow effect does not directly answer the saturation characterization. [Stoelting Coexisting 8e (2021).pdf, 9 Systemic and pulmonary arterial hypertension, PDF p. 162, passage ID 232945]
+
+**D — true but irrelevant:** Increasing systemic vascular resistance can promote left-to-right flow, but it does not state the usual oxygen-saturation consequence of the shunt. [Stoelting Coexisting 8e (2021).pdf, 9 Systemic and pulmonary arterial hypertension, PDF p. 162, passage ID 232945]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes saturation from shunt-flow management effects.
+
+## S01-Q134
+
+A child with Down syndrome requires airway planning. Which associated findings are relevant?
+
+A. Restricted cervical mobility, temporomandibular ankylosis, and atlantoaxial instability.
+
+B. Macroglossia, microcephaly, and cervical-spine abnormalities.
+
+C. Congenital cervical-vertebral fusion with reduced cervical range of motion.
+
+D. Micrognathia, relative macroglossia, glossoptosis, and cleft palate.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The relevant Down-syndrome airway concerns are macroglossia, microcephaly, and cervical-spine abnormalities. Barash lists that cluster, directly supporting B. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2305, passage ID 247160]
+
+**A — wrong condition:** Restricted mobility, temporomandibular ankylosis, and atlantoaxial instability are not the stored Down-syndrome cluster in this passage, so A does not match the requested association. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2305, passage ID 247160]
+
+**B — correct:** B directly states Barash’s associated findings for Down syndrome: macroglossia, microcephaly, and cervical-spine abnormalities. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2305, passage ID 247160]
+
+**C — true but irrelevant:** Congenital cervical-vertebral fusion and reduced motion describe another difficult-airway association, but they do not give the Down-syndrome cluster specified. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2305, passage ID 247160]
+
+**D — true but irrelevant:** Micrognathia, macroglossia, glossoptosis, and cleft palate describe a different craniofacial pattern, but not the associated Down-syndrome findings asked for. [Barash 9e (2023).pdf, 28. Airway Management, PDF p. 2305, passage ID 247160]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes the alternative airway-anatomy associations.
+
+## S01-Q135
+
+An infant has persistent projectile vomiting and dehydration before pyloric surgery. Which diagnosis and metabolic pattern are most consistent?
+
+A. Prolonged vomiting can produce paradoxical aciduria in hypovolaemic infants.
+
+B. Ultrasound has approximately 98% sensitivity and 99% specificity for diagnosis in the cited review.
+
+C. Infantile hypertrophic pyloric stenosis with hypokalemic, hypochloremic metabolic alkalosis.
+
+D. Muscular hypertrophy and hyperplasia causing functional gastric-outlet obstruction.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Persistent projectile vomiting and dehydration before pyloric surgery indicate infantile hypertrophic pyloric stenosis with the classic hypokalemic, hypochloremic metabolic alkalosis. Cote supports C. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1548, passage ID 189743]
+
+**A — true but irrelevant:** Paradoxical aciduria can occur in hypovolemic infants after prolonged vomiting, but it is a renal response and not the diagnosis-plus-metabolic pattern requested. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1548, passage ID 189743]
+
+**B — true but irrelevant:** Ultrasound sensitivity and specificity support diagnostic testing, but they do not identify the disease and metabolic abnormality asked for. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1548, passage ID 189743]
+
+**C — correct:** C directly gives the stored diagnosis and pattern: infantile hypertrophic pyloric stenosis with hypokalemic, hypochloremic metabolic alkalosis. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1548, passage ID 189743]
+
+**D — true but irrelevant:** Muscular hypertrophy and hyperplasia cause functional gastric-outlet obstruction, but this describes pathology without the characteristic electrolyte pattern requested. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1548, passage ID 189743]
+
+**Evidence sufficiency:** The stored Cote passage directly supports C and distinguishes the diagnosis, testing, renal, and pathologic details.
+
+## S01-Q136
+
+After pediatric adenotonsillectomy, which statement specifically quantifies the increased respiratory-event risk associated with OSA and identifies a particularly vulnerable age group?
+
+A. Major postoperative respiratory events include laryngospasm, bronchospasm, apnea, obstruction, and oxygen dependence.
+
+B. The overall frequency of immediate postoperative complications after adenotonsillectomy is 19%.
+
+C. Opioids should be carefully titrated in small incremental doses in children with moderate-to-severe OSA.
+
+D. Major adverse respiratory events after pediatric adenotonsillectomy may be as much as five times more common in children with OSA, and children younger than three are particularly prone to obstructed breathing.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The question asks for the quantified OSA-associated respiratory risk and vulnerable age group after adenotonsillectomy. Cote reports events may be five times more common with OSA and particularly threatens children younger than three, directly supporting D. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1354, passage ID 188911]
+
+**A — true but irrelevant:** Laryngospasm, bronchospasm, apnea, obstruction, and oxygen dependence are examples of major events, but the option omits the requested OSA risk multiplier and age group. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1354, passage ID 188911]
+
+**B — true but irrelevant:** An overall complication frequency of 19% is a broad rate, but it does not identify the OSA-specific increase or vulnerable age group. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1354, passage ID 188911]
+
+**C — true but irrelevant:** Careful incremental opioid titration is prudent in moderate-to-severe OSA, but it is a dosing recommendation rather than the quantified risk asked for. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1354, passage ID 188911]
+
+**D — correct:** D directly states Cote’s quantified association: major adverse respiratory events may be five times more common with OSA, especially in children younger than three. [Cote 7e (2024).pdf, 31 Otorhinolaryngologic Procedures, PDF p. 1354, passage ID 188911]
+
+**Evidence sufficiency:** The stored Cote passage directly supports D and distinguishes event types, overall frequency, and opioid management.
+
+## S01-Q137
+
+What hourly maintenance fluid rate does the pediatric 4-2-1 rule assign to each weight segment?
+
+A. The pediatric 4-2-1 maintenance rule gives 4 mL/kg/h for the first 10 kg, 2 mL/kg/h for 10 to 20 kg, and 1 mL/kg/h for each kilogram above 20 kg.
+
+B. Perioperative fluid goals include maintenance, replacement of preoperative deficits, and compensation for ongoing losses.
+
+C. Age-specific changes in metabolism, extracellular fluid, and fluid turnover prevent direct extrapolation of adult guidelines.
+
+D. The 4-2-1 formula is weight-based.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The pediatric maintenance rule assigns decreasing hourly rates to successive weight segments. Miller specifies 4 mL/kg/h for the first 10 kg, 2 for 10–20 kg, and 1 above 20 kg, directly supporting A. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2730, printed p. 2287, passage ID 293504]
+
+**A — correct:** A directly states Miller’s 4-2-1 rule: 4 mL/kg/h for the first 10 kg, 2 mL/kg/h for 10–20 kg, and 1 mL/kg/h above 20 kg. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2730, printed p. 2287, passage ID 293504]
+
+**B — true but irrelevant:** Maintenance, deficit, and ongoing-loss replacement are fluid goals, but they do not provide the segment-specific hourly rates asked for. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2730, printed p. 2287, passage ID 293504]
+
+**C — true but irrelevant:** Age-specific physiology limits direct extrapolation from adult guidelines, but that caution does not state the pediatric maintenance formula. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2730, printed p. 2287, passage ID 293504]
+
+**D — incomplete:** The formula is weight-based, but this option omits the three hourly rates and weight segments required by the lead-in. [Miller 10e (2024).pdf, 72. Pediatric Anesthesia, PDF p. 2730, printed p. 2287, passage ID 293504]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes the formula from broader pediatric fluid principles.
+
+## S01-Q138
+
+Why are premature infants vulnerable to fasting hypoglycemia?
+
+A. Neonatal glucose concentrations can fall rapidly to 30 mg/dL during the first one to two hours after birth.
+
+B. Premature infants are prone to hypoglycemia because of immature glucoregulation, reduced glycogen stores, increased energy demands, and limited adipose stores.
+
+C. In full-term neonates, hypoglycemia is defined as glucose below 40 mg/dL during the first 24 hours.
+
+D. Hypoglycemia may manifest as apnea, cyanosis, seizures, tremors, lethargy, poor feeding, or temperature instability.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Premature infants have limited glucose reserves and immature regulation while energy demands remain high. Cote identifies immature glucoregulation, reduced glycogen and adipose stores, and increased energy demand, directly supporting B. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1535, passage ID 189683]
+
+**A — true but irrelevant:** Glucose can fall rapidly soon after birth, but that early concentration example does not explain why premature infants are especially vulnerable during fasting. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1535, passage ID 189683]
+
+**B — correct:** B directly combines Cote’s mechanism: immature glucoregulation, reduced glycogen and adipose stores, and increased energy demands predispose premature infants to hypoglycemia. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1535, passage ID 189683]
+
+**C — true but irrelevant:** A full-term neonatal glucose threshold is a diagnostic reference, but it does not explain the premature infant’s fasting susceptibility. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1535, passage ID 189683]
+
+**D — true but irrelevant:** Apnea, cyanosis, seizures, tremors, lethargy, poor feeding, and temperature instability are manifestations, but they do not identify the underlying fasting-risk mechanism. [Cote 7e (2024).pdf, 35 The extremely premature infant (micropremie) and common neonatal emergencies, PDF p. 1535, passage ID 189683]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and distinguishes risk mechanism, thresholds, and manifestations.
+
+## S01-Q139
+
+Why does a caudal epidural approach require particular caution in young children?
+
+A. Sacral-hiatus identification becomes harder after six to eight years of age, increasing caudal-anesthesia failure.
+
+B. Sacral vertebrae are unfused and sacral intervertebral spaces persist in childhood.
+
+C. Pediatric caudal epidural approaches require caution because the lower spinal-cord end increases direct trauma risk and the lower dural-sac projection increases accidental dural penetration risk.
+
+D. The infant Tuffier line crosses at L5 or lower rather than L4 to L5.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Young children have a relatively low spinal-cord termination and a relatively low dural-sac projection, increasing the consequences of caudal needle advancement. Miller identifies both direct-trauma and dural-penetration risks, supporting C. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2821, printed p. 2362, passage ID 293983]
+
+**A — wrong timing or magnitude:** Sacral-hiatus identification becomes harder after six to eight years, but that age-related technical issue does not explain the young-child spinal-cord and dural-sac caution. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2821, printed p. 2362, passage ID 293983]
+
+**B — true but irrelevant:** Unfused sacral vertebrae and persistent spaces are pediatric anatomy facts, but they do not state the particular direct-trauma and dural-penetration risks asked for. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2821, printed p. 2362, passage ID 293983]
+
+**C — correct:** C directly states Miller’s caution: a lower spinal-cord end increases direct-trauma risk and a lower dural-sac projection increases accidental dural penetration risk. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2821, printed p. 2362, passage ID 293983]
+
+**D — true but irrelevant:** The infant Tuffier line can lie at L5 or below, but that landmark observation does not combine the two risks that make caudal advancement hazardous. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2821, printed p. 2362, passage ID 293983]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes landmark and sacral-anatomy observations.
+
+## S01-Q140
+
+Which ultrasound-guidance benefit specifically combines direct visualization of the target and injectate spread with reductions in local-anaesthetic dose and needle punctures?
+
+A. Ultrasound guidance has gradually replaced landmark and nerve-stimulation localization approaches.
+
+B. Ultrasound guidance can shorten block onset and prolong the duration of sensory block.
+
+C. Understanding anatomic relationships among nerves, surrounding bone, and blood vessels improves block certainty and ease.
+
+D. Ultrasound-guided pediatric regional techniques visualize target nerves, spaces, and injected-local-anesthetic spread while reducing dose and punctures.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The requested ultrasound benefit must combine visualization of nerves, spaces, and injectate spread with lower local-anesthetic dose and fewer punctures. Miller states that complete combination, directly supporting D. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2813, printed p. 74, passage ID 293948]
+
+**A — true but irrelevant:** Ultrasound has increasingly replaced landmark and nerve-stimulation approaches, but that adoption trend does not state the specific visualization and dose benefits requested. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2813, printed p. 74, passage ID 293948]
+
+**B — true but irrelevant:** Ultrasound can shorten onset and prolong sensory duration, but those time effects do not provide the complete visualization, dose, and puncture combination. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2813, printed p. 74, passage ID 293948]
+
+**C — true but irrelevant:** Understanding nerve, bone, and vessel relationships improves certainty and ease, but it does not explicitly include injectate visualization, dose reduction, and fewer punctures. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2813, printed p. 74, passage ID 293948]
+
+**D — correct:** D directly combines Miller’s stated benefits: visualize target nerves and spaces and local-anesthetic spread while reducing dose and needle punctures. [Miller 10e (2024).pdf, 74. Regional Anesthesia in Children, PDF p. 2813, printed p. 74, passage ID 293948]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes adoption, timing, and anatomic-relationship benefits.
+
+## S01-Q141
+
+During induction, a child develops complete upper-airway obstruction from reflex vocal-cord closure. Which statement correctly characterizes this event?
+
+A. Laryngospasm is reflex closure of the true and false vocal cords, causing complete upper-airway obstruction that can lead to desaturation and bradycardia.
+
+B. Incomplete laryngospasm permits some airflow but causes significant effort and inspiratory stridor.
+
+C. Clinical signs include stridor, suprasternal and supraclavicular retractions, and paradoxical rocking chest movements.
+
+D. Laryngospasm occurs in 0.4% to 10% of children during induction and emergence.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Complete reflex vocal-cord closure during induction is laryngospasm. Barash defines it as closure of the true and false cords causing complete upper-airway obstruction with possible desaturation and bradycardia, directly supporting A. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3755, passage ID 249741]
+
+**A — correct:** A directly states Barash’s characterization: laryngospasm closes true and false vocal cords, completely obstructs the upper airway, and can cause desaturation and bradycardia. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3755, passage ID 249741]
+
+**B — wrong condition:** Incomplete laryngospasm permits some airflow and may cause stridor, but the stem specifies complete obstruction from reflex closure. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3755, passage ID 249741]
+
+**C — true but irrelevant:** Stridor, retractions, and paradoxical chest movement are clinical signs, but this option does not characterize the complete laryngospasm event as requested. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3755, passage ID 249741]
+
+**D — true but irrelevant:** The 0.4% to 10% incidence range is epidemiologic context, but it does not define the complete-obstruction event in the stem. [Barash 9e (2023).pdf, 43. Pediatric Anesthesia, PDF p. 3755, passage ID 249741]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes incomplete spasm, signs, and incidence.
+
+## S01-Q158
+
+In an elderly patient with obesity receiving a benzodiazepine, which statement best explains why effects may be prolonged?
+
+A. Delayed return of benzodiazepines from adipose tissue can prolong elimination half-life in obesity.
+
+B. In elderly patients, benzodiazepine sensitivity may be greater despite modest pharmacokinetic changes; obesity can increase volume of distribution and prolong half-life.
+
+C. Benzodiazepine pharmacokinetics are influenced by age, gender, race, enzyme induction, and hepatic or renal disease.
+
+D. Obesity increases benzodiazepine volume of distribution as drug diffuses into adipose tissue.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** In an elderly patient, benzodiazepine sensitivity can increase despite modest pharmacokinetic change, while obesity increases distribution volume and prolongs half-life. Miller combines those factors, directly supporting B. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 635, printed p. 528, passage ID 283424]
+
+**A — true but irrelevant:** Delayed return from adipose tissue can prolong elimination in obesity, but it does not include the increased elderly sensitivity described in the combined stem. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 635, printed p. 528, passage ID 283424]
+
+**B — correct:** B directly combines Miller’s explanation: aging can increase benzodiazepine sensitivity, while obesity increases distribution volume and prolongs half-life. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 635, printed p. 528, passage ID 283424]
+
+**C — true but irrelevant:** Age, gender, race, enzyme induction, and organ disease can influence pharmacokinetics, but this broad list does not identify the paired elderly-obesity mechanism. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 635, printed p. 528, passage ID 283424]
+
+**D — true but irrelevant:** Obesity can increase benzodiazepine distribution into adipose tissue, but this option omits the increased elderly sensitivity that best explains the combined scenario. [Miller 10e (2024).pdf, 21. Intravenous Anesthetics, PDF p. 635, printed p. 528, passage ID 283424]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes isolated obesity, broad pharmacokinetic factors, and the combined scenario.
+
+## S01-Q159
+
+Which statement best describes geriatric physiologic vulnerability in the perioperative period?
+
+A. Guidance for older surgical patients is available from anesthesia, surgery, and geriatric organizations.
+
+B. Older patients differ physiologically from younger adult counterparts.
+
+C. Pulmonary, cardiac, and central-nervous-system complications occur more often in elderly patients through interaction between comorbid disease and decreased physiologic reserve.
+
+D. Aging has a far-reaching impact on medical practice.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The perioperative vulnerability of older patients arises from decreased physiologic reserve interacting with comorbid disease, increasing pulmonary, cardiac, and CNS complications. Barash supports C as the most specific description. [Barash 9e (2023).pdf, 34. Anesthesia for the Older Patient, PDF p. 2707, passage ID 247890]
+
+**A — true but irrelevant:** Guidance exists from anesthesia, surgical, and geriatric organizations, but its availability does not describe the physiologic vulnerability asked for. [Barash 9e (2023).pdf, 34. Anesthesia for the Older Patient, PDF p. 2707, passage ID 247890]
+
+**B — true but irrelevant:** Older patients differ physiologically from younger adults, but this broad statement does not specify the reserve-comorbidity interaction and complications. [Barash 9e (2023).pdf, 34. Anesthesia for the Older Patient, PDF p. 2707, passage ID 247890]
+
+**C — correct:** C directly states Barash’s perioperative explanation: decreased reserve interacting with comorbid disease increases pulmonary, cardiac, and CNS complications. [Barash 9e (2023).pdf, 34. Anesthesia for the Older Patient, PDF p. 2707, passage ID 247890]
+
+**D — true but irrelevant:** Aging has broad effects on medical practice, but that general observation does not identify the specific perioperative complication mechanism. [Barash 9e (2023).pdf, 34. Anesthesia for the Older Patient, PDF p. 2707, passage ID 247890]
+
+**Evidence sufficiency:** The stored Barash passage directly supports C and distinguishes broad aging statements from the reserve-comorbidity mechanism.
+
+## S01-Q160
+
+Why does obesity increase oxygen-desaturation risk during prolonged apnea after induction?
+
+A. PEEP can improve FRC and arterial oxygenation but may reduce venous return and cardiac output.
+
+B. Obesity can produce restrictive ventilation from weight on the thoracic cage, chest wall, and abdomen.
+
+C. Reduced FRC and increased oxygen consumption from excess adipose metabolism decrease oxygen reserve.
+
+D. Obesity reduces FRC and oxygen reserve, impairing tolerance of prolonged apnea and increasing oxygen desaturation after induction even with adequate preoxygenation.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Obesity reduces functional residual capacity and oxygen reserve, so prolonged apnea after induction produces earlier desaturation even after preoxygenation. Stoelting identifies that complete mechanism, directly supporting D. [Stoelting Coexisting 8e (2021).pdf, 19 Nutritional diseases: Obesity and malnutrition, PDF p. 389, passage ID 233897]
+
+**A — true but irrelevant:** PEEP can improve FRC and oxygenation but reduce venous return and output, yet this does not explain obesity’s apnea-related oxygen-reserve loss. [Stoelting Coexisting 8e (2021).pdf, 19 Nutritional diseases: Obesity and malnutrition, PDF p. 389, passage ID 233897]
+
+**B — true but irrelevant:** Weight on the thorax, chest wall, and abdomen can create restrictive ventilation, but that mechanical description does not state the complete desaturation mechanism. [Stoelting Coexisting 8e (2021).pdf, 19 Nutritional diseases: Obesity and malnutrition, PDF p. 389, passage ID 233897]
+
+**C — incomplete:** Reduced FRC and increased oxygen consumption decrease reserve, but this option omits the prolonged-apnea and post-induction desaturation consequence in the stem. [Stoelting Coexisting 8e (2021).pdf, 19 Nutritional diseases: Obesity and malnutrition, PDF p. 389, passage ID 233897]
+
+**D — correct:** D directly combines Stoelting’s mechanism and consequence: obesity lowers FRC and oxygen reserve, impairing prolonged-apnea tolerance and increasing desaturation after induction. [Stoelting Coexisting 8e (2021).pdf, 19 Nutritional diseases: Obesity and malnutrition, PDF p. 389, passage ID 233897]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and distinguishes PEEP, restriction, and reserve mechanisms.
+
+## S01-Q161
+
+A patient has recurrent upper-airway collapse during sleep despite ongoing respiratory effort. Which statement best characterizes obstructive sleep apnea?
+
+A. Recurrent upper-airway collapse reduces or stops airflow and causes intermittent hypercapnia and hypoxemia.
+
+B. OSA is the most common type of sleep-disordered breathing.
+
+C. OSA risk factors include age, male sex, obesity, smoking, pregnancy, heart failure, renal disease, and craniofacial abnormality.
+
+D. OSA symptoms include nonrestorative sleep, snoring, and hypertension.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Obstructive sleep apnea is defined by recurrent upper-airway collapse despite ongoing effort, reducing or stopping airflow. Miller links this obstruction to intermittent hypercapnia and hypoxemia, directly supporting A. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1003, printed p. 841, passage ID 285185]
+
+**A — correct:** A directly states Miller’s defining mechanism and consequence: recurrent upper-airway collapse reduces or stops airflow and causes intermittent hypercapnia and hypoxemia. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1003, printed p. 841, passage ID 285185]
+
+**B — true but irrelevant:** OSA is the most common sleep-disordered-breathing type, but prevalence does not characterize the obstructive event described in the question. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1003, printed p. 841, passage ID 285185]
+
+**C — true but irrelevant:** Age, sex, obesity, smoking, pregnancy, heart failure, renal disease, and craniofacial abnormality are risk factors, but they do not define the collapse and gas-exchange mechanism. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1003, printed p. 841, passage ID 285185]
+
+**D — true but irrelevant:** Nonrestorative sleep, snoring, and hypertension are symptoms or associations, but they do not directly characterize recurrent airflow obstruction. [Miller 10e (2024).pdf, 28. Preoperative Evaluation, PDF p. 1003, printed p. 841, passage ID 285185]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes definition, risk factors, and symptoms.
+
+## S01-Q162
+
+A patient with myasthenia gravis requires anaesthesia. Which neuromuscular-junction feature predicts marked sensitivity to nondepolarizing blockers?
+
+A. Myasthenic patients are resistant to succinylcholine.
+
+B. Reduced acetylcholine receptors at the motor endplate.
+
+C. Ideally, neuromuscular relaxation is avoided during myasthenia-gravis thymectomy.
+
+D. Neuromuscular blockers may cause prolonged postoperative partial paralysis in myasthenic patients.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Marked sensitivity to nondepolarizing blockers in myasthenia gravis follows loss of postsynaptic acetylcholine receptors at the motor endplate. Miller identifies that receptor reduction, directly supporting B. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1869, printed p. 1567, passage ID 289278]
+
+**A — true but irrelevant:** Myasthenic patients may be resistant to succinylcholine, but that depolarizing-drug response does not explain sensitivity to nondepolarizing blockers. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1869, printed p. 1567, passage ID 289278]
+
+**B — correct:** B directly gives the stored neuromuscular-junction feature: myasthenia reduces acetylcholine receptors at the motor endplate. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1869, printed p. 1567, passage ID 289278]
+
+**C — true but irrelevant:** Avoiding relaxation during thymectomy may be an anesthetic goal, but it is a management choice and not the receptor feature causing sensitivity. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1869, printed p. 1567, passage ID 289278]
+
+**D — true but irrelevant:** Prolonged postoperative partial paralysis can occur, but it is a consequence and does not identify the underlying reduced-receptor feature. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1869, printed p. 1567, passage ID 289278]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and supplies the related drug-response, management, and outcome statements.
+
+## S01-Q163
+
+Which description best identifies the inherited disorder underlying malignant hyperthermia susceptibility?
+
+A. Ryanodine receptors release calcium from terminal sarcoplasmic reticulum during excitation-contraction coupling.
+
+B. An MH crisis produces hypercapnia, acidosis, muscle rigidity, arrhythmias, and hyperthermia.
+
+C. An inherited skeletal-muscle disorder of intracellular calcium regulation triggered by succinylcholine or volatile halogenated anaesthetics.
+
+D. The precise mechanism by which volatile agents and depolarizing relaxants trigger MH remains unknown.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Malignant-hyperthermia susceptibility is an inherited skeletal-muscle calcium-regulation disorder triggered by succinylcholine or volatile halogenated anesthetics. Chestnut states this defining description, directly supporting C. [Chestnut 6e (2019).pdf, 46 Malignant Hyperthermia, PDF p. 1192, passage ID 275549]
+
+**A — true but irrelevant:** Ryanodine receptors release calcium during excitation-contraction coupling, but that normal receptor function does not describe the inherited susceptibility syndrome. [Chestnut 6e (2019).pdf, 46 Malignant Hyperthermia, PDF p. 1192, passage ID 275549]
+
+**B — true but irrelevant:** Hypercapnia, acidosis, rigidity, arrhythmias, and hyperthermia are crisis manifestations, but they do not define the inherited underlying disorder. [Chestnut 6e (2019).pdf, 46 Malignant Hyperthermia, PDF p. 1192, passage ID 275549]
+
+**C — correct:** C directly states Chestnut’s definition: an inherited skeletal-muscle intracellular-calcium disorder triggered by succinylcholine or volatile halogenated anesthetics. [Chestnut 6e (2019).pdf, 46 Malignant Hyperthermia, PDF p. 1192, passage ID 275549]
+
+**D — true but irrelevant:** The precise trigger mechanism may remain uncertain, but that uncertainty does not replace the stored inherited-disorder characterization. [Chestnut 6e (2019).pdf, 46 Malignant Hyperthermia, PDF p. 1192, passage ID 275549]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports C and distinguishes normal receptor function, crisis manifestations, and mechanistic uncertainty.
+
+## S01-Q164
+
+A patient with Duchenne muscular dystrophy is being prepared for surgery. Which perioperative risk profile is characteristic?
+
+A. Pharyngeal and respiratory weakness and GI hypomotility increase aspiration risk during induction and emergence.
+
+B. Delayed pulmonary insufficiency can occur up to 36 hours after surgery despite apparent skeletal-strength recovery.
+
+C. Volatile anesthetics can trigger rhabdomyolysis even without succinylcholine.
+
+D. Skeletal-muscle weakness, reduced cardiopulmonary reserve, aspiration risk, volatile-associated rhabdomyolysis, and delayed pulmonary insufficiency.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Duchenne muscular dystrophy combines skeletal weakness and reduced cardiopulmonary reserve with aspiration risk, volatile-associated rhabdomyolysis, and delayed pulmonary insufficiency. Stoelting’s profile supports D as the complete answer. [Stoelting Coexisting 8e (2021).pdf, 24 Skin and collagen disorders, PDF p. 516, printed p. 505, passage ID 234431]
+
+**A — true but irrelevant:** Pharyngeal and respiratory weakness with GI hypomotility can increase aspiration risk, but this option omits the broader characteristic risk profile. [Stoelting Coexisting 8e (2021).pdf, 24 Skin and collagen disorders, PDF p. 516, printed p. 505, passage ID 234431]
+
+**B — true but irrelevant:** Delayed pulmonary insufficiency may occur after surgery, but this single complication does not capture the complete Duchenne perioperative profile. [Stoelting Coexisting 8e (2021).pdf, 24 Skin and collagen disorders, PDF p. 516, printed p. 505, passage ID 234431]
+
+**C — true but irrelevant:** Volatile anesthetics can trigger rhabdomyolysis even without succinylcholine, but that isolated hazard omits weakness, reserve, aspiration, and delayed pulmonary risk. [Stoelting Coexisting 8e (2021).pdf, 24 Skin and collagen disorders, PDF p. 516, printed p. 505, passage ID 234431]
+
+**D — correct:** D directly combines the stored Stoelting risks: skeletal weakness, reduced cardiopulmonary reserve, aspiration, volatile-associated rhabdomyolysis, and delayed pulmonary insufficiency. [Stoelting Coexisting 8e (2021).pdf, 24 Skin and collagen disorders, PDF p. 516, printed p. 505, passage ID 234431]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and supplies each component risk in A–C.
+
+## S01-Q165
+
+A patient develops vasodilation, bronchospasm, and hypotension during an anaphylactic reaction. Which upstream cellular event initiates the mediator cascade responsible for these manifestations?
+
+A. Vasoactive mediators released by mast-cell and basophil degranulation.
+
+B. Hypovolemia from extravasation of intravascular fluid is a likely cause of hypotension in anaphylaxis.
+
+C. Anaphylaxis usually begins within 5 to 10 minutes, but symptoms recur after an hour in 10% to 20% of cases.
+
+D. Histamine increases capillary permeability, peripheral vasodilation, bronchoconstriction, and urticaria.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The upstream event in anaphylaxis is mast-cell and basophil degranulation with release of vasoactive mediators. Stoelting identifies that initiating cellular event, directly supporting A. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 586, printed p. 575, passage ID 234734]
+
+**A — correct:** A directly identifies Stoelting’s initiating event: mast-cell and basophil degranulation releases the vasoactive mediators responsible for the reaction. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 586, printed p. 575, passage ID 234734]
+
+**B — true but irrelevant:** Fluid extravasation can contribute to hypotension, but it is a downstream consequence rather than the mediator-releasing cellular event. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 586, printed p. 575, passage ID 234734]
+
+**C — true but irrelevant:** Anaphylaxis often begins within minutes and may recur later, but timing does not identify the upstream degranulation event. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 586, printed p. 575, passage ID 234734]
+
+**D — true but irrelevant:** Histamine causes permeability, vasodilation, bronchoconstriction, and urticaria, but those effects occur after mediator release and do not identify its cellular initiator. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 586, printed p. 575, passage ID 234734]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes the initiating event, downstream mediator effects, and timing.
+
+## S01-Q166
+
+A patient with prior spina bifida surgery reports wheezing after latex exposure. Which statement best explains the relevant hypersensitivity risk?
+
+A. Use cautious skin testing to confirm latex hypersensitivity because it has caused anaphylaxis.
+
+B. Sensitized patients develop IgE antibodies to latex, and sensitivity most often manifests as contact dermatitis or bronchospasm from inhaled latex allergens.
+
+C. Ask about itching, conjunctivitis, rhinitis, rash, or wheezing after latex exposure.
+
+D. Recognize increased latex-allergy incidence in spina-bifida patients and operating-room personnel.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The relevant latex hypersensitivity mechanism is IgE sensitization, commonly manifesting as contact dermatitis or bronchospasm from inhaled allergens. Stoelting states this pattern, directly supporting B. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 590, printed p. 579, passage ID 234755]
+
+**A — true but irrelevant:** Skin testing can confirm latex hypersensitivity and latex can cause anaphylaxis, but this does not describe the usual sensitization manifestations asked for. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 590, printed p. 579, passage ID 234755]
+
+**B — correct:** B directly states Stoelting’s mechanism and common presentation: IgE antibodies to latex with contact dermatitis or inhaled-allergen bronchospasm. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 590, printed p. 579, passage ID 234755]
+
+**C — true but irrelevant:** Itching, conjunctivitis, rhinitis, rash, and wheezing are useful historical symptoms, but they do not explain IgE sensitization and its typical manifestations. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 590, printed p. 579, passage ID 234755]
+
+**D — true but irrelevant:** Spina-bifida patients and operating-room personnel have increased incidence, but an epidemiologic association does not state the hypersensitivity mechanism. [Stoelting Coexisting 8e (2021).pdf, 26 Diseases related to immune system dysfunction, PDF p. 590, printed p. 579, passage ID 234755]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports B and distinguishes confirmation, symptoms, and risk-population information.
+
+## S01-Q167
+
+During monitored anaesthesia care, an opioid and benzodiazepine are combined. Which pharmacologic effect requires particular caution?
+
+A. Approximately 25% of each drug’s median effective dose combined induces hypnosis in 50% of patients.
+
+B. Opioid potentiation of coadministered sedatives is pronounced within doses used for monitored anaesthesia care.
+
+C. Marked synergism for hypnosis can produce life-threatening respiratory and cardiac depression.
+
+D. The dose-response curve can be steep, so modest increments can substantially increase sedation depth.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Combining an opioid and benzodiazepine can produce marked hypnotic synergism, with life-threatening respiratory and cardiac depression during monitored anesthesia care. Barash directly supports C. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**A — true but irrelevant:** The median-effective-dose relationship describes combined hypnosis, but it does not capture the marked synergism and life-threatening depression requiring caution. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**B — true but irrelevant:** Opioid potentiation within monitored-care doses is pronounced, but this partial statement does not identify the full respiratory and cardiac danger. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**C — correct:** C directly states Barash’s caution: opioid-benzodiazepine hypnosis is markedly synergistic and can produce life-threatening respiratory and cardiac depression. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**D — true but irrelevant:** A steep dose-response curve means small increments can deepen sedation, but it does not state the specific synergistic mechanism and organ-system danger. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**Evidence sufficiency:** The stored Barash passage directly supports C and supplies the related dose-response and potentiation observations.
+
+## S01-Q168
+
+A patient stopped long-term corticosteroids several months ago and now faces major surgical stress. Which statement best describes adrenal recovery risk?
+
+A. Adrenal suppression is more common than overt adrenal insufficiency.
+
+B. Prednisone below 5 mg/day does not cause clinically significant HPA suppression or require supplementation.
+
+C. Short steroid courses may require several days for adrenal recovery.
+
+D. Long-term steroid use can cause adrenal insufficiency during stress, and adrenal recovery may take 6 to 12 months after discontinuation.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After long-term corticosteroid exposure, adrenal insufficiency can emerge under surgical stress and recovery of the HPA axis may take 6 to 12 months after stopping therapy. Stoelting supports D. [Stoelting Coexisting 8e (2021).pdf, 22 Endocrine disease, PDF p. 469, passage ID 234226]
+
+**A — true but irrelevant:** Adrenal suppression may be more common than overt insufficiency, but the question asks about stress risk and recovery after long-term therapy. [Stoelting Coexisting 8e (2021).pdf, 22 Endocrine disease, PDF p. 469, passage ID 234226]
+
+**B — wrong condition:** Low-dose prednisone may not significantly suppress the HPA axis, but that statement does not apply to this patient’s prior long-term exposure. [Stoelting Coexisting 8e (2021).pdf, 22 Endocrine disease, PDF p. 469, passage ID 234226]
+
+**C — true but irrelevant:** Short steroid courses may require several days for recovery, but they do not describe the prolonged recovery window after long-term treatment. [Stoelting Coexisting 8e (2021).pdf, 22 Endocrine disease, PDF p. 469, passage ID 234226]
+
+**D — correct:** D directly states Stoelting’s long-term-steroid risk: stress can reveal adrenal insufficiency and recovery may take 6 to 12 months after discontinuation. [Stoelting Coexisting 8e (2021).pdf, 22 Endocrine disease, PDF p. 469, passage ID 234226]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and distinguishes suppression frequency, dose, course length, and recovery.
+
+## S01-Q169
+
+Which combination represents established adult risk factors for postoperative nausea and vomiting?
+
+A. Female sex, prior PONV or motion sickness, nonsmoking, younger age, volatile agents, and postoperative opioids.
+
+B. General rather than regional anaesthesia is an adult PONV risk factor.
+
+C. A complete medication and allergy history is part of preoperative assessment.
+
+D. Longer anaesthesia and laparoscopic or gynecologic procedures increase PONV risk.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The established adult PONV risk profile combines female sex, prior PONV or motion sickness, nonsmoking, younger age, volatile anesthetics, and postoperative opioids. Barash lists that set, directly supporting A. [Barash 9e (2023).pdf, 23. Preoperative Patient Assessment and Management, PDF p. 1748, passage ID 246249]
+
+**A — correct:** A directly gives Barash’s adult PONV risk factors: female sex, prior PONV or motion sickness, nonsmoking, younger age, volatile agents, and postoperative opioids. [Barash 9e (2023).pdf, 23. Preoperative Patient Assessment and Management, PDF p. 1748, passage ID 246249]
+
+**B — true but irrelevant:** General rather than regional anesthesia can affect PONV, but it is not the complete established adult risk-factor set in the lead-in. [Barash 9e (2023).pdf, 23. Preoperative Patient Assessment and Management, PDF p. 1748, passage ID 246249]
+
+**C — true but irrelevant:** Medication and allergy history is part of preoperative assessment, but it does not identify adult PONV risk factors. [Barash 9e (2023).pdf, 23. Preoperative Patient Assessment and Management, PDF p. 1748, passage ID 246249]
+
+**D — true but irrelevant:** Longer anesthesia and laparoscopic or gynecologic procedures can increase PONV risk, but this option does not give the patient-related and anesthetic factors requested together. [Barash 9e (2023).pdf, 23. Preoperative Patient Assessment and Management, PDF p. 1748, passage ID 246249]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and supplies related PONV and preoperative-assessment factors.
+
+## S01-Q170
+
+A child emerging from anaesthesia changes cognition and fails to interact appropriately with caregivers. Which condition is described?
+
+A. Emergence agitation and delirium can be difficult to distinguish from each other and pain.
+
+B. Emergence delirium, a disturbance in attention and awareness.
+
+C. Analgesics may blur the distinction by providing both sedation and analgesia.
+
+D. Emergence agitation is extreme arousal with verbal aggression, excessive motor activity, or maladaptive behaviours.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A child with impaired attention and awareness while emerging is experiencing emergence delirium. Cote identifies that cognitive disturbance, making B the best description. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1938, passage ID 191541]
+
+**A — true but irrelevant:** Agitation and delirium can be difficult to distinguish from one another and pain, but the stem’s attention-and-awareness deficit points specifically to delirium. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1938, passage ID 191541]
+
+**B — correct:** B directly states the stored Cote characterization: emergence delirium is a disturbance in attention and awareness. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1938, passage ID 191541]
+
+**C — true but irrelevant:** Analgesics can blur distinctions by combining sedation and analgesia, but that confounder does not name the condition in this child. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1938, passage ID 191541]
+
+**D — true but irrelevant:** Extreme arousal and maladaptive activity describe emergence agitation, but the stem highlights cognitive inattention and altered awareness instead. [Cote 7e (2024).pdf, 45 The post anesthesia care unit and beyond, PDF p. 1938, passage ID 191541]
+
+**Evidence sufficiency:** The stored Cote passage directly supports B and distinguishes delirium, agitation, and analgesic confounding.
+
+## S01-Q171
+
+A patient develops acute hypotonic hyponatremia with neurologic deterioration. Which mechanism best explains the raised intracranial pressure?
+
+A. Initial compensation shifts brain extracellular fluid into cerebrospinal fluid.
+
+B. Later compensation lowers intracellular osmolality by moving potassium and organic solutes out of brain cells.
+
+C. Water moves into cells, causing cerebral edema and raised intracranial pressure.
+
+D. TURP syndrome includes volume overload, hyponatremia, hypoosmolality, and neurologic signs.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Acute hypotonic hyponatremia lowers extracellular osmolality, drawing water into brain cells and causing cerebral edema with raised intracranial pressure. Stoelting directly supports C. [Stoelting Coexisting 8e (2021).pdf, 20 Fluid, electrolyte, and acid-base disorders, PDF p. 424, printed p. 413, passage ID 234042]
+
+**A — true but irrelevant:** Initial compensation can shift extracellular fluid into CSF, but this early response does not explain the later cellular edema and pressure rise. [Stoelting Coexisting 8e (2021).pdf, 20 Fluid, electrolyte, and acid-base disorders, PDF p. 424, printed p. 413, passage ID 234042]
+
+**B — true but irrelevant:** Later brain cells can lower intracellular osmolality by losing potassium and organic solutes, but that is compensation rather than the edema mechanism asked for. [Stoelting Coexisting 8e (2021).pdf, 20 Fluid, electrolyte, and acid-base disorders, PDF p. 424, printed p. 413, passage ID 234042]
+
+**C — correct:** C directly states the stored mechanism: water enters brain cells, producing cerebral edema and increased intracranial pressure. [Stoelting Coexisting 8e (2021).pdf, 20 Fluid, electrolyte, and acid-base disorders, PDF p. 424, printed p. 413, passage ID 234042]
+
+**D — true but irrelevant:** TURP syndrome includes volume overload, hyponatremia, hypoosmolality, and neurologic signs, but that clinical context does not explain the cellular pressure mechanism. [Stoelting Coexisting 8e (2021).pdf, 20 Fluid, electrolyte, and acid-base disorders, PDF p. 424, printed p. 413, passage ID 234042]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and distinguishes compensatory fluid shifts and TURP syndrome context.
+
+## S01-Q172
+
+A critically ill patient has PaO2 below 60 mm Hg despite supplemental oxygen. Which statement best defines the respiratory-failure interpretation?
+
+A. Persistent respiratory failure may decrease FRC and lung compliance and increase pulmonary vascular resistance.
+
+B. PaCO2 above 50 mm Hg without compensation for metabolic alkalosis supports acute respiratory failure.
+
+C. Chronic respiratory failure can maintain normal pH despite increased PaCO2 through renal bicarbonate reabsorption.
+
+D. Acute respiratory failure is PaO2 below 60 mm Hg despite oxygen supplementation without a right-to-left shunt; PaCO2 varies with alveolar ventilation and metabolic CO2 production.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Acute respiratory failure is defined by PaO2 below 60 mm Hg despite supplemental oxygen in the absence of a right-to-left shunt, with PaCO2 determined by ventilation and metabolic production. Stoelting supports D. [Stoelting Coexisting 8e (2021).pdf, 3 Restrictive respiratory diseases and lung transplantation, PDF p. 52, printed p. 41, passage ID 232466]
+
+**A — true but irrelevant:** Respiratory failure can reduce FRC and compliance and increase pulmonary resistance, but those consequences do not state the defining oxygenation criterion. [Stoelting Coexisting 8e (2021).pdf, 3 Restrictive respiratory diseases and lung transplantation, PDF p. 52, printed p. 41, passage ID 232466]
+
+**B — true but irrelevant:** An uncompensated PaCO2 above 50 mm Hg may support acute ventilatory failure, but it does not provide the hypoxemic definition and qualifications asked for. [Stoelting Coexisting 8e (2021).pdf, 3 Restrictive respiratory diseases and lung transplantation, PDF p. 52, printed p. 41, passage ID 232466]
+
+**C — true but irrelevant:** Renal bicarbonate retention can normalize pH in chronic hypercapnia, but that chronic compensation does not define this acute hypoxemic presentation. [Stoelting Coexisting 8e (2021).pdf, 3 Restrictive respiratory diseases and lung transplantation, PDF p. 52, printed p. 41, passage ID 232466]
+
+**D — correct:** D directly combines the stored Stoelting definition and physiology: severe hypoxemia despite oxygen without shunt, with PaCO2 varying by alveolar ventilation and metabolic CO2 production. [Stoelting Coexisting 8e (2021).pdf, 3 Restrictive respiratory diseases and lung transplantation, PDF p. 52, printed p. 41, passage ID 232466]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and distinguishes acute, chronic, and consequence-based respiratory-failure descriptions.
+
+## S01-Q173
+
+Which principle best describes multimodal perioperative analgesia?
+
+A. Combining drugs with different mechanisms and receptors produces synergistic analgesia and reduces opioid use.
+
+B. Multimodal strategies can reduce hormonal and metabolic stress and shorten time to extubation.
+
+C. Local infiltration, peripheral blocks, and neuraxial analgesia are local-anaesthetic techniques in multimodal strategies.
+
+D. Enhanced-recovery multimodal pathways facilitate rehabilitation and decrease hospital length of stay.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Multimodal analgesia combines agents acting through different mechanisms and receptors, producing synergistic analgesia while reducing opioid requirements. Miller identifies that central principle, directly supporting A. [Miller 10e (2024).pdf, 77. Acute Postoperative Pain, PDF p. 2999, printed p. 2515, passage ID 294880]
+
+**A — correct:** A directly states Miller’s multimodal principle: different mechanisms and receptors produce synergistic analgesia and reduce opioid use. [Miller 10e (2024).pdf, 77. Acute Postoperative Pain, PDF p. 2999, printed p. 2515, passage ID 294880]
+
+**B — true but irrelevant:** Reducing stress and shortening extubation time are possible benefits, but they do not state the pharmacologic principle defining multimodal analgesia. [Miller 10e (2024).pdf, 77. Acute Postoperative Pain, PDF p. 2999, printed p. 2515, passage ID 294880]
+
+**C — true but irrelevant:** Local infiltration, peripheral blocks, and neuraxial techniques are multimodal components, but listing techniques does not explain the different-mechanism synergy. [Miller 10e (2024).pdf, 77. Acute Postoperative Pain, PDF p. 2999, printed p. 2515, passage ID 294880]
+
+**D — true but irrelevant:** Enhanced-recovery pathways can facilitate rehabilitation and reduce length of stay, but that outcome does not define multimodal analgesia’s mechanism. [Miller 10e (2024).pdf, 77. Acute Postoperative Pain, PDF p. 2999, printed p. 2515, passage ID 294880]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and distinguishes mechanisms, techniques, and enhanced-recovery outcomes.
+
+## S01-Q185
+
+After rapid intravenous administration of a large opioid dose, manual ventilation becomes difficult. Which clinical phenomenon is occurring?
+
+A. Treat opioid rigidity with neuromuscular blockade or naloxone.
+
+B. Generalized skeletal-muscle rigidity severe enough to impair manual ventilation.
+
+C. Resistance to ventilation is primarily due to laryngeal-muscle contraction.
+
+D. Difficult ventilation after moderate sufentanil doses has been reported in 84% to 100% of patients.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After a rapid large opioid dose, generalized skeletal-muscle rigidity can make manual ventilation severely difficult. Stoelting identifies that phenomenon, directly supporting B. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 727, passage ID 313143]
+
+**A — true but irrelevant:** Neuromuscular blockade or naloxone may treat opioid rigidity, but the question asks what phenomenon is occurring during difficult ventilation. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 727, passage ID 313143]
+
+**B — correct:** B directly identifies Stoelting’s phenomenon: generalized skeletal-muscle rigidity severe enough to impair manual ventilation. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 727, passage ID 313143]
+
+**C — wrong condition:** Laryngeal-muscle contraction may contribute, but the stored description identifies generalized skeletal-muscle rigidity rather than an exclusively laryngeal cause. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 727, passage ID 313143]
+
+**D — true but irrelevant:** Difficult ventilation has been reported at high rates with sufentanil, but that frequency does not identify the rigidity phenomenon itself. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 727, passage ID 313143]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports B and distinguishes treatment, mechanism, and frequency statements.
+
+## S01-Q186
+
+How does neostigmine reverse residual nondepolarizing neuromuscular blockade?
+
+A. Neostigmine has a ceiling effect once acetylcholinesterase inhibition is complete.
+
+B. Acetylcholinesterase rapidly hydrolyzes released acetylcholine at the neuromuscular junction.
+
+C. Neostigmine increases acetylcholine at the neuromuscular junction, allowing it to compete with residual nondepolarizing blocker at nicotinic receptors.
+
+D. Acetylcholinesterase inhibitors accelerate recovery from nondepolarizing neuromuscular blockade.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Neostigmine increases acetylcholine at the neuromuscular junction, allowing it to compete with residual nondepolarizing blocker at nicotinic receptors. Stoelting states this reversal mechanism, directly supporting C. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1052, passage ID 313613]
+
+**A — true but irrelevant:** Neostigmine has a ceiling effect after acetylcholinesterase inhibition is complete, but that pharmacologic limit does not explain receptor competition. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1052, passage ID 313613]
+
+**B — true but irrelevant:** Acetylcholinesterase rapidly hydrolyzes acetylcholine, but this normal enzyme action would oppose rather than explain neostigmine’s reversal effect. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1052, passage ID 313613]
+
+**C — correct:** C directly states the stored Stoelting mechanism: more acetylcholine competes with residual blocker at nicotinic receptors after acetylcholinesterase inhibition. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1052, passage ID 313613]
+
+**D — true but irrelevant:** Acetylcholinesterase inhibitors accelerate recovery, but that general effect does not provide the synaptic competition mechanism requested. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1052, passage ID 313613]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and supplies the enzyme and ceiling-effect distinctions.
+
+## S01-Q187
+
+Which statement best describes reversal of neuromuscular blockade by sugammadex?
+
+A. Sugammadex has no effect on acetylcholinesterase or other receptor systems.
+
+B. Approximately 75% of sugammadex is eliminated through urine.
+
+C. In substantial renal impairment, sugammadex and rocuronium clearances decrease substantially and elimination half-lives increase.
+
+D. Sugammadex reverses neuromuscular block by encapsulating relaxant molecules and is independent of block depth.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Sugammadex reverses blockade by encapsulating relaxant molecules, and its effect is independent of block depth. Stoelting directly supports D. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1057, passage ID 313620]
+
+**A — true but irrelevant:** Sugammadex does not act through acetylcholinesterase or other receptor systems, but that negative mechanism does not state how it reverses blockade. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1057, passage ID 313620]
+
+**B — true but irrelevant:** About 75% of sugammadex is eliminated in urine, but that disposition fact does not describe the reversal mechanism or depth independence. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1057, passage ID 313620]
+
+**C — true but irrelevant:** Renal impairment reduces sugammadex and rocuronium clearance and prolongs half-lives, but that pharmacokinetic issue does not identify the reversal mechanism. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1057, passage ID 313620]
+
+**D — correct:** D directly states Stoelting’s mechanism and clinical property: encapsulate relaxant molecules, with reversal independent of block depth. [Stoelting P&P 6e (2022).pdf, 12. Neuromuscular-Blocking Drugs and Reversal Agents, PDF p. 1057, passage ID 313620]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and supplies the renal-elimination and mechanism distinctions.
+
+## S01-Q188
+
+Which sequence of toxicity best characterizes local-anesthetic systemic toxicity after inadvertent intravascular injection?
+
+A. LAST usually follows inadvertent intravascular regional-anesthetic injection and may produce CNS and cardiovascular toxicity.
+
+B. LAST may manifest as CNS excitation, CNS depression, or nonspecific CNS signs.
+
+C. Intravenous local-anesthetic administration produces the highest systemic absorption, while subcutaneous administration produces the lowest.
+
+D. Local-anesthetic toxicity is additive when injected at multiple sites.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Inadvertent intravascular regional-anesthetic injection can produce toxicity in both the central nervous and cardiovascular systems. Bonica identifies that overall pattern, directly supporting A. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**A — correct:** A directly states Bonica’s overall LAST characterization: inadvertent intravascular injection followed by CNS and cardiovascular toxicity. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**B — true but irrelevant:** CNS excitation, depression, and nonspecific signs are LAST manifestations, but this option omits the cardiovascular component and injection context requested. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**C — true but irrelevant:** Intravenous administration gives the highest systemic absorption and subcutaneous the lowest, but that route comparison does not describe the two-organ toxicity sequence. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**D — true but irrelevant:** Toxicity can be additive after injections at multiple sites, but this exposure principle does not provide the full CNS-and-cardiovascular characterization. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4280, printed p. 4280, passage ID 260979]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports A and supplies the CNS, cardiovascular, route, and additive-exposure distinctions.
+
+## S01-Q189
+
+Which statement correctly relates local-anesthetic lipid solubility and pKa to nerve-block potency and onset?
+
+A. Protein binding influences duration because affinity prolongs receptor binding.
+
+B. Local-anesthetic potency increases with lipid solubility, while onset is influenced by pKa, dose, and concentration.
+
+C. When pKa approaches physiologic pH, more nonionized base is present and onset shortens.
+
+D. Local anesthetics cross lipid membranes to bind the intracellular sodium-channel portion.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Local-anesthetic potency increases with lipid solubility, while onset depends on pKa, dose, and concentration. Bonica states those relationships, directly supporting B. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4273, printed p. 4273, passage ID 260966]
+
+**A — true but irrelevant:** Protein binding influences duration by prolonging receptor association, but it does not describe the lipid-solubility and pKa relationships asked for. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4273, printed p. 4273, passage ID 260966]
+
+**B — correct:** B directly states Bonica’s paired relationships: lipid solubility increases potency, while pKa, dose, and concentration influence onset. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4273, printed p. 4273, passage ID 260966]
+
+**C — true but irrelevant:** A pKa near physiologic pH increases the nonionized fraction and can shorten onset, but that is only the onset component and omits potency’s lipid-solubility relationship. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4273, printed p. 4273, passage ID 260966]
+
+**D — true but irrelevant:** Local anesthetics cross lipid membranes and bind intracellular sodium-channel sites, but that binding location does not state how lipid solubility and pKa determine potency and onset. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 82: Local Anesthetics, PDF p. 4273, printed p. 4273, passage ID 260966]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports B and supplies the related binding, ionization, and membrane facts.
+
+## S01-Q190
+
+Which receptor effect best characterizes phenylephrine?
+
+A. Phenylephrine constricts venous capacitance vessels and increases LV preload and afterload.
+
+B. Phenylephrine causes dose-related increases in arterial pressure.
+
+C. Phenylephrine almost exclusively stimulates alpha-1 receptors, increasing venous and arterial vasomotor tone with little beta-receptor effect.
+
+D. Baroreceptor-mediated decreases in heart rate can occur with phenylephrine.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Phenylephrine acts almost exclusively at alpha-1 receptors, increasing venous and arterial vasomotor tone with little beta effect. Barash identifies that receptor profile, directly supporting C. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 970, passage ID 244890]
+
+**A — true but irrelevant:** Venous constriction can increase preload and afterload, but this consequence does not identify phenylephrine’s predominantly alpha-1 receptor profile. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 970, passage ID 244890]
+
+**B — true but irrelevant:** Phenylephrine causes dose-related arterial-pressure increases, but that effect does not state its receptor selectivity. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 970, passage ID 244890]
+
+**C — correct:** C directly states Barash’s receptor effect: near-exclusive alpha-1 stimulation raises venous and arterial vasomotor tone with little beta activity. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 970, passage ID 244890]
+
+**D — true but irrelevant:** Baroreceptor-mediated bradycardia can occur with phenylephrine, but that reflex response does not characterize the direct receptor effect asked for. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 970, passage ID 244890]
+
+**Evidence sufficiency:** The stored Barash passage directly supports C and distinguishes direct receptor action from pressure and reflex consequences.
+
+## S01-Q191
+
+Which effect explains atropine-induced treatment of vagal sinus bradycardia?
+
+A. Very low atropine doses below 0.1 mg may paradoxically decrease heart rate through presynaptic M1 blockade.
+
+B. Atropine requires extreme caution when tachycardia is harmful.
+
+C. Atropine is a treatment of choice for symptomatic bradyarrhythmias.
+
+D. Atropine increases heart rate during sinus bradycardia caused by vagal stimulation or inhibition of cardiac sympathetic traffic.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Vagal stimulation or loss of sympathetic traffic slows sinus rate, and atropine increases heart rate in that setting. Barash states this therapeutic effect, directly supporting D. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 947, passage ID 244852]
+
+**A — true but irrelevant:** Very low atropine doses can paradoxically reduce heart rate, but this unusual dose effect does not explain standard treatment of vagal bradycardia. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 947, passage ID 244852]
+
+**B — true but irrelevant:** Caution is needed when tachycardia is harmful, but that safety qualification does not identify why atropine raises rate in vagal bradycardia. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 947, passage ID 244852]
+
+**C — true but irrelevant:** Atropine is a treatment of choice for symptomatic bradyarrhythmias, but this broad indication does not state the specific vagal mechanism in the stem. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 947, passage ID 244852]
+
+**D — correct:** D directly states Barash’s mechanism: atropine increases sinus rate when bradycardia is caused by vagal stimulation or inhibited cardiac sympathetic traffic. [Barash 9e (2023).pdf, 13. Autonomic and Cardiovascular Pharmacology, PDF p. 947, passage ID 244852]
+
+**Evidence sufficiency:** The stored Barash passage directly supports D and supplies the dose, safety, and indication distinctions.
+
+## S01-Q192
+
+Why are older adults vulnerable to cumulative effects of perioperative drugs?
+
+A. Age-related changes can increase elderly patients’ vulnerability to cumulative drug effects.
+
+B. Pharmacokinetic and pharmacodynamic effects are influenced by enzyme induction.
+
+C. Chronic alcohol use above 200 g/day induces microsomal drug-metabolizing enzymes.
+
+D. Genetic receptor-sensitivity differences can alter drug responses.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Age-related pharmacokinetic and pharmacodynamic changes make older adults more vulnerable to cumulative perioperative drug effects. Stoelting states that general vulnerability directly, supporting A. [Stoelting P&P 6e (2022).pdf, 2. Basic Principles of Pharmacology, PDF p. 229, passage ID 312448]
+
+**A — correct:** A directly states the stored Stoelting principle: age-related changes increase elderly patients’ vulnerability to cumulative drug effects. [Stoelting P&P 6e (2022).pdf, 2. Basic Principles of Pharmacology, PDF p. 229, passage ID 312448]
+
+**B — true but irrelevant:** Enzyme induction can influence pharmacokinetics, but it does not specifically explain age-related vulnerability to cumulative effects. [Stoelting P&P 6e (2022).pdf, 2. Basic Principles of Pharmacology, PDF p. 229, passage ID 312448]
+
+**C — true but irrelevant:** Heavy chronic alcohol use can induce microsomal enzymes, but that exposure-specific effect does not explain the age-related vulnerability asked for. [Stoelting P&P 6e (2022).pdf, 2. Basic Principles of Pharmacology, PDF p. 229, passage ID 312448]
+
+**D — true but irrelevant:** Genetic receptor-sensitivity differences can alter responses, but they do not identify the age-related cumulative-drug vulnerability in the stem. [Stoelting P&P 6e (2022).pdf, 2. Basic Principles of Pharmacology, PDF p. 229, passage ID 312448]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and distinguishes age, induction, alcohol, and genetic-response factors.
+
+## S01-Q193
+
+What pharmacologic interaction explains the dangerous sedation produced by combined opioids and benzodiazepines?
+
+A. Opioid potentiation of sedatives is pronounced at doses used during monitored anesthesia care.
+
+B. Opioid-benzodiazepine combinations act synergistically for hypnosis and extend that synergy to life-threatening respiratory and cardiac depression.
+
+C. If opioid and sedative effects were simply additive, the combination would induce hypnosis in only about 25% of patients.
+
+D. Modest opioid or sedative increments can substantially increase sedation depth when the dose-response curve is steep.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Opioids and benzodiazepines interact synergistically for hypnosis, and the synergy extends to life-threatening respiratory and cardiac depression. Barash directly supports B. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**A — true but irrelevant:** Opioid potentiation at monitored-care doses is pronounced, but this partial observation does not state the full hypnotic and cardiorespiratory synergy. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**B — correct:** B directly states Barash’s interaction: opioid-benzodiazepine hypnosis is synergistic, with the same synergy producing life-threatening respiratory and cardiac depression. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**C — wrong timing or magnitude:** A merely additive effect would not describe the marked synergism in the stored passage, so the proposed 25% figure does not capture the interaction. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**D — true but irrelevant:** A steep dose-response curve can make small increments deepen sedation, but this does not identify the opioid-benzodiazepine synergistic interaction. [Barash 9e (2023).pdf, 30. Monitored Anesthesia Care, PDF p. 2515, passage ID 247519]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and supplies the potentiation, additivity, and dose-response distinctions.
+
+## S01-Q194
+
+Which opioid antagonist selectively treats opioid-induced ventilatory depression?
+
+A. Naloxone and naltrexone are pure mu-opioid antagonists without agonist activity.
+
+B. Naloxone can facilitate treatment of deliberate opioid overdose.
+
+C. Naloxone is a nonselective opioid-receptor antagonist that selectively treats opioid-induced ventilatory depression, including postoperative and neonatal cases.
+
+D. Pure antagonists displace agonists from mu receptors without activating them.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Naloxone is a nonselective opioid-receptor antagonist used selectively to reverse opioid-induced ventilatory depression, including postoperative and neonatal cases. Stoelting directly supports C. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**A — true but irrelevant:** Naloxone and naltrexone are pure mu-opioid antagonists without agonist activity, but this true fact does not supply naloxone’s nonselective receptor profile and selective ventilatory-depression use. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**B — true but irrelevant:** Naloxone can facilitate deliberate-overdose treatment, but that application does not state the selective clinical use for ventilatory depression. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**C — correct:** C directly combines Stoelting’s receptor and clinical description: nonselective antagonism with selective use for opioid-induced ventilatory depression in postoperative and neonatal patients. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**D — true but irrelevant:** Pure antagonists displace agonists without receptor activation, but this general mechanism does not identify naloxone’s nonselective clinical profile. [Stoelting P&P 6e (2022).pdf, 7. Opioid Agonists and Antagonists, PDF p. 782, passage ID 313234]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports C and supplies the antagonist-mechanism and overdose distinctions.
+
+## S01-Q204
+
+How are ester and aminoamide local anesthetics primarily metabolized?
+
+A. Clearance of chloroprocaine is especially rapid among ester agents.
+
+B. The primary extraction of local anesthetics takes place in the liver, with rapid additional extraction by lung tissue.
+
+C. Amide metabolites are excreted through the kidney, while less than 5% of unchanged drug is excreted in urine.
+
+D. Ester local anesthetics undergo plasma pseudocholinesterase hydrolysis, whereas aminoamide agents undergo primary hepatic enzymatic degradation.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Ester local anesthetics are hydrolyzed by plasma pseudocholinesterase, while aminoamide agents undergo primary hepatic enzymatic degradation. Miller states that metabolic distinction, supporting D. [Miller 10e (2024).pdf, 25. Local Anesthetics, PDF p. 913, printed p. 760, passage ID 284749]
+
+**A — true but irrelevant:** Chloroprocaine is cleared rapidly among ester agents, but this agent-specific speed does not explain the primary ester-versus-amide metabolic pathways. [Miller 10e (2024).pdf, 25. Local Anesthetics, PDF p. 913, printed p. 760, passage ID 284749]
+
+**B — true but irrelevant:** The liver is the primary extraction site with additional pulmonary extraction, but that distribution observation does not give the ester and aminoamide metabolism contrast. [Miller 10e (2024).pdf, 25. Local Anesthetics, PDF p. 913, printed p. 760, passage ID 284749]
+
+**C — true but irrelevant:** Renal excretion of metabolites and limited unchanged urinary excretion are relevant disposition facts, but they do not identify the primary metabolic pathways. [Miller 10e (2024).pdf, 25. Local Anesthetics, PDF p. 913, printed p. 760, passage ID 284749]
+
+**D — correct:** D directly states Miller’s distinction: plasma pseudocholinesterase hydrolyzes esters, whereas hepatic enzymes primarily degrade aminoamides. [Miller 10e (2024).pdf, 25. Local Anesthetics, PDF p. 913, printed p. 760, passage ID 284749]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and supplies clearance, extraction, and excretion distinctions.
+
+## S01-Q205
+
+Which patients have the greatest neuraxial-hematoma risk?
+
+A. Neuraxial hematoma risk is greatest in patients undergoing orthopedic procedures or taking drugs that interfere with coagulation.
+
+B. Neuraxial hematoma can compress the spinal cord and reduce its perfusion, causing ischemia or infarction.
+
+C. Hematoma is more common after epidural than subarachnoid block.
+
+D. Reported hematoma frequency ranges from 1 in 3,600 to 1 in 260,000 blocks.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Neuraxial hematoma risk is greatest in orthopedic procedures and in patients taking drugs that interfere with coagulation. Barash identifies those risk groups, directly supporting A. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**A — correct:** A directly states Barash’s highest-risk groups: orthopedic-procedure patients and patients receiving coagulation-interfering drugs. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**B — true but irrelevant:** A hematoma can compress the cord, reduce perfusion, and cause ischemia or infarction, but that consequence does not identify who is at greatest risk. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**C — true but irrelevant:** Hematoma is reported more often after epidural than subarachnoid block, but that technique comparison does not specify the highest-risk patient groups. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**D — true but irrelevant:** Reported frequencies range widely, but incidence estimates do not identify the orthopedic and coagulation-related risk profile asked for. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes consequences, block type, and frequency.
+
+## S01-Q206
+
+Which patient profile carries the greatest established risk of neuraxial hematoma?
+
+A. A nonorthopedic patient managed according to antithrombotic-drug recommendations
+
+B. An orthopedic surgical patient taking a drug that interferes with coagulation
+
+C. A nonorthopedic surgical patient with normal coagulation
+
+D. A patient receiving a subarachnoid block with normal coagulation
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** The highest established risk combines orthopedic surgery with a medication that interferes with coagulation. Barash identifies both factors, making B the best patient profile. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**A — less direct:** Following antithrombotic recommendations reduces risk, but a nonorthopedic patient without the added orthopedic risk is less directly represented than B. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**B — correct:** B directly combines Barash’s two highest-risk features: orthopedic surgery and a coagulation-interfering drug. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**C — less direct:** Normal coagulation removes the medication-related risk factor, but a nonorthopedic patient is less directly aligned with the highest-risk profile. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**D — less direct:** A normal-coagulation subarachnoid block lacks the orthopedic and drug-related risk factors, so it is not the highest-risk profile described. [Barash 9e (2023).pdf, 35. Neuraxial Anesthesia, PDF p. 2868, passage ID 248133]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and allows comparison of the risk-factor combinations.
+
+## S01-Q207
+
+Which sequence describes how pain perception is generated from sensory information?
+
+A. Suffering is an emotional response triggered by nociception or fear.
+
+B. Pain behavior includes activities people perform while suffering.
+
+C. Transduction, transmission, and modulation.
+
+D. Nociception is stimulation of nerves conveying possible tissue damage.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Pain perception is generated through sequential transduction, transmission, and modulation of sensory information. Bonica identifies that sequence, directly supporting C. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 7: Psychological Aspects of Pain, PDF p. 447, printed p. 447, passage ID 253175]
+
+**A — true but irrelevant:** Suffering is an emotional response to nociception or fear, but that emotional concept does not give the sensory-processing sequence. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 7: Psychological Aspects of Pain, PDF p. 447, printed p. 447, passage ID 253175]
+
+**B — true but irrelevant:** Pain behavior includes activities during suffering, but behavior is an expression and not the transduction-transmission-modulation sequence. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 7: Psychological Aspects of Pain, PDF p. 447, printed p. 447, passage ID 253175]
+
+**C — correct:** C directly states Bonica’s sequence for generating pain perception: transduction, transmission, and modulation. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 7: Psychological Aspects of Pain, PDF p. 447, printed p. 447, passage ID 253175]
+
+**D — true but irrelevant:** Nociception is stimulation of nerves conveying possible tissue damage, but it is one input and not the full perceptual sequence. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 7: Psychological Aspects of Pain, PDF p. 447, printed p. 447, passage ID 253175]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports C and distinguishes suffering, behavior, and nociception.
+
+## S01-Q208
+
+Which strategy explicitly combines nonopioid agents with regional techniques to produce multimodal analgesia?
+
+A. Use NSAIDs and acetaminophen as nonopioid analgesics.
+
+B. Use local-anesthetic catheters to prolong regional analgesia postoperatively.
+
+C. Use regional blockade to remove the need for additional systemic analgesia early after surgery.
+
+D. Combine nonopioid agents and regional techniques as multimodal analgesia.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Multimodal analgesia explicitly combines nonopioid agents with regional techniques to use complementary analgesic mechanisms. Bonica supports D as the complete strategy. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 32: Treatment of Pain in Patients with Addiction, PDF p. 1554, printed p. 1554, passage ID 255464]
+
+**A — incomplete:** NSAIDs and acetaminophen are nonopioid components, but this option omits the regional techniques required by the combined strategy. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 32: Treatment of Pain in Patients with Addiction, PDF p. 1554, printed p. 1554, passage ID 255464]
+
+**B — true but irrelevant:** Local-anesthetic catheters prolong regional analgesia, but that technique alone does not state the combined nonopioid-regional strategy. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 32: Treatment of Pain in Patients with Addiction, PDF p. 1554, printed p. 1554, passage ID 255464]
+
+**C — incomplete:** Regional blockade may reduce early systemic analgesic need, but it does not explicitly combine nonopioid agents with regional techniques. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 32: Treatment of Pain in Patients with Addiction, PDF p. 1554, printed p. 1554, passage ID 255464]
+
+**D — correct:** D directly states Bonica’s multimodal approach: combine nonopioid agents and regional techniques for analgesia. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 32: Treatment of Pain in Patients with Addiction, PDF p. 1554, printed p. 1554, passage ID 255464]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports D and supplies the nonopioid, catheter, and regional components.
+
+## S01-Q209
+
+A patient develops pain from normally nonpainful stimuli with pain spreading beyond the original injury. Which mechanism best explains this pattern?
+
+A. Increased dorsal-horn responsiveness generating increased or referred pain through central sensitization.
+
+B. Central sensitization can occur segmentally or multisegmentally at the spinal level.
+
+C. Central sensitization can lower the peripheral nociceptor activation threshold.
+
+D. Clinical features include spontaneous pain, allodynia, hyperalgesia, and widespread pain.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Pain from normally nonpainful stimuli and spread beyond the original injury reflect increased dorsal-horn responsiveness from central sensitization. Bonica identifies this mechanism, directly supporting A. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 35: Myofascial Pain Syndrome, PDF p. 1692, printed p. 1692, passage ID 255753]
+
+**A — correct:** A directly states Bonica’s central-sensitization mechanism: increased dorsal-horn responsiveness generates increased or referred pain beyond the original injury. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 35: Myofascial Pain Syndrome, PDF p. 1692, printed p. 1692, passage ID 255753]
+
+**B — true but irrelevant:** Central sensitization can occur segmentally or multisegmentally, but that distribution description does not state the increased-responsiveness mechanism. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 35: Myofascial Pain Syndrome, PDF p. 1692, printed p. 1692, passage ID 255753]
+
+**C — true but irrelevant:** Central sensitization can lower peripheral nociceptor thresholds, but that threshold effect does not identify the dorsal-horn response explaining spread and allodynia. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 35: Myofascial Pain Syndrome, PDF p. 1692, printed p. 1692, passage ID 255753]
+
+**D — true but irrelevant:** Spontaneous pain, allodynia, hyperalgesia, and widespread pain are clinical features, but they do not state the underlying dorsal-horn mechanism. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 35: Myofascial Pain Syndrome, PDF p. 1692, printed p. 1692, passage ID 255753]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports A and provides the distribution, threshold, and feature distinctions.
+
+## S01-Q210
+
+Which definition identifies neuropathic pain?
+
+A. Motor-system disorders should not be confused with neuropathic pain.
+
+B. Pain caused by a lesion or disease of the somatosensory nervous system.
+
+C. Nociceptive pain is related to ongoing tissue injury.
+
+D. Neuropathic tumor pain may involve nerve-root or plexus involvement.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Neuropathic pain is defined by its cause in the somatosensory nervous system. Bonica states that it is pain caused by a lesion or disease of that system, directly supporting B. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 42: Assessment and Diagnosis of the Cancer Patient with Pain, PDF p. 2021, printed p. 2021, passage ID 256411]
+
+**A — true but irrelevant:** Motor-system disorders should not be confused with neuropathic pain, but that caution does not provide the requested definition. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 42: Assessment and Diagnosis of the Cancer Patient with Pain, PDF p. 2021, printed p. 2021, passage ID 256411]
+
+**B — correct:** B directly states Bonica’s definition: pain caused by a lesion or disease of the somatosensory nervous system. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 42: Assessment and Diagnosis of the Cancer Patient with Pain, PDF p. 2021, printed p. 2021, passage ID 256411]
+
+**C — true but irrelevant:** Nociceptive pain is related to ongoing tissue injury, but that is a different pain category from the somatosensory-lesion definition requested. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 42: Assessment and Diagnosis of the Cancer Patient with Pain, PDF p. 2021, printed p. 2021, passage ID 256411]
+
+**D — true but irrelevant:** Tumor-related nerve-root or plexus involvement may produce neuropathic pain, but that example does not state the general definition. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 42: Assessment and Diagnosis of the Cancer Patient with Pain, PDF p. 2021, printed p. 2021, passage ID 256411]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports B and distinguishes motor, nociceptive, and tumor-related examples.
+
+## S01-Q211
+
+A patient receiving long-term opioids develops unexpectedly increased pain rather than analgesia. Which phenomenon is described?
+
+A. Spinal substances can reverse antinociceptive tolerance or opioid-induced hyperalgesia.
+
+B. Chronic opioids affect descending pain modulatory systems.
+
+C. Opioid-induced hyperalgesia, which differs from antinociceptive tolerance.
+
+D. Rapid opioid reversal can produce neuroexcitatory effects.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Unexpectedly increased pain during long-term opioid exposure is opioid-induced hyperalgesia, a phenomenon distinct from antinociceptive tolerance. Bonica directly supports C. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 5: Modulation of Spinal Nociceptive Processing, PDF p. 369, printed p. 369, passage ID 253012]
+
+**A — true but irrelevant:** Spinal substances can reverse tolerance or opioid-induced hyperalgesia, but that treatment observation does not identify the phenomenon described. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 5: Modulation of Spinal Nociceptive Processing, PDF p. 369, printed p. 369, passage ID 253012]
+
+**B — true but irrelevant:** Chronic opioids affect descending pain-modulatory systems, but this mechanism does not name the specific increased-pain phenomenon. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 5: Modulation of Spinal Nociceptive Processing, PDF p. 369, printed p. 369, passage ID 253012]
+
+**C — correct:** C directly identifies Bonica’s phenomenon: opioid-induced hyperalgesia, which differs from antinociceptive tolerance. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 5: Modulation of Spinal Nociceptive Processing, PDF p. 369, printed p. 369, passage ID 253012]
+
+**D — true but irrelevant:** Rapid opioid reversal can produce neuroexcitatory effects, but that withdrawal-related phenomenon is not the increased pain during ongoing opioid exposure described. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 5: Modulation of Spinal Nociceptive Processing, PDF p. 369, printed p. 369, passage ID 253012]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports C and distinguishes treatment, modulation, and reversal effects.
+
+## S01-Q212
+
+Which ethical principle should guide palliative analgesia when the intent is to relieve severe suffering?
+
+A. Use preemptive medications for pain, dyspnea, anxiety, delirium, and other distressing symptoms.
+
+B. Discuss the dying process with family and continue support.
+
+C. Use an individualized treatment plan for end-of-life care.
+
+D. Mitigate suffering with a primary intent of comfort rather than hastening death.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Palliative analgesia is ethically guided by intent: relieve severe suffering for comfort rather than hasten death. Bonica states that principle directly, supporting D. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 114: Pain Management in the Intensive Care Unit, PDF p. 5447, printed p. 5447, passage ID 263417]
+
+**A — true but irrelevant:** Preemptive medications can address pain, dyspnea, anxiety, or delirium, but this treatment list does not state the ethical intent principle. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 114: Pain Management in the Intensive Care Unit, PDF p. 5447, printed p. 5447, passage ID 263417]
+
+**B — true but irrelevant:** Discussing dying and continuing family support are important, but they do not state how analgesic intent should be framed. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 114: Pain Management in the Intensive Care Unit, PDF p. 5447, printed p. 5447, passage ID 263417]
+
+**C — true but irrelevant:** An individualized end-of-life plan is appropriate, but that planning principle does not identify the comfort-versus-hastening intent distinction. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 114: Pain Management in the Intensive Care Unit, PDF p. 5447, printed p. 5447, passage ID 263417]
+
+**D — correct:** D directly states Bonica’s ethical principle: treat severe suffering with a primary intent of comfort rather than an intent to hasten death. [Bonica’s Management of Pain 5e (2019).pdf, CHAPTER 114: Pain Management in the Intensive Care Unit, PDF p. 5447, printed p. 5447, passage ID 263417]
+
+**Evidence sufficiency:** The stored Bonica passage directly supports D and distinguishes medication, communication, and planning practices.
+
+## S01-Q222
+
+During one-lung ventilation, how should pulmonary vascular resistance be distributed to optimize oxygenation?
+
+A. During OLV, the goal is to maximize PVR in the nonventilated lung and minimize PVR in the ventilated lung.
+
+B. The ventilated lung should be maintained near FRC while the nonventilated lung collapses.
+
+C. Lateral OLV produces better PaO2 than supine OLV through gravity-dependent blood-flow distribution.
+
+D. Pulmonary vascular resistance is lowest at FRC and rises as lung volume moves above or below FRC.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** During one-lung ventilation, oxygenation improves when blood flow is diverted from the nonventilated lung. Stoelting states that PVR should be maximized in the nonventilated lung and minimized in the ventilated lung, supporting A. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1802, passage ID 314752]
+
+**A — correct:** A directly states Stoelting’s OLV goal: maximize PVR in the nonventilated lung and minimize it in the ventilated lung. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1802, passage ID 314752]
+
+**B — true but irrelevant:** Maintaining the ventilated lung near FRC and allowing collapse of the other is useful, but it does not state the PVR distribution requested. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1802, passage ID 314752]
+
+**C — true but irrelevant:** Lateral positioning may improve PaO2 through gravity, but that positional comparison does not give the PVR strategy. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1802, passage ID 314752]
+
+**D — true but irrelevant:** PVR is lowest near FRC and rises outside it, but this general relationship does not state how PVR should be distributed during OLV. [Stoelting P&P 6e (2022).pdf, 24. Gas Exchange, PDF p. 1802, passage ID 314752]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports A and provides the FRC and position distinctions.
+
+## S01-Q223
+
+Which pharmacologic intervention can improve oxygenation during one-lung ventilation by potentiating hypoxic pulmonary vasoconstriction?
+
+A. Compressing the nondependent lung increases PaO2 by shifting blood flow to the dependent ventilated lung.
+
+B. Almitrine potentiates hypoxic pulmonary vasoconstriction and decreases perfusion to nonventilated shunt areas.
+
+C. Inhaled nitric oxide alone has little effect on oxygenation.
+
+D. Almitrine can improve oxygenation without changing pulmonary artery pressure or cardiac output.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Almitrine improves one-lung oxygenation by potentiating hypoxic pulmonary vasoconstriction and reducing perfusion to nonventilated shunt areas. Miller directly supports B. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 332, printed p. 267, passage ID 282041]
+
+**A — true but irrelevant:** Compressing the nondependent lung can shift flow, but that maneuver is not the pharmacologic intervention asked for. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 332, printed p. 267, passage ID 282041]
+
+**B — correct:** B directly states Miller’s mechanism: almitrine potentiates hypoxic pulmonary vasoconstriction and decreases nonventilated-lung perfusion. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 332, printed p. 267, passage ID 282041]
+
+**C — true but irrelevant:** Inhaled nitric oxide alone may have little oxygenation effect, but this does not identify almitrine’s shunt-reducing action. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 332, printed p. 267, passage ID 282041]
+
+**D — true but irrelevant:** Almitrine may improve oxygenation without changing pressure or output, but this outcome statement omits the requested mechanism. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 332, printed p. 267, passage ID 282041]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes mechanical and nitric-oxide alternatives.
+
+## S01-Q224
+
+How should double-lumen tube position be confirmed after placement and surgical repositioning?
+
+A. Malposition of double-lumen tubes can cause desaturation during OLV.
+
+B. Thermodilution cardiac output may be unreliable with transient unilateral perfusion differences during OLV.
+
+C. Double-lumen tubes should be placed and reconfirmed with fiberoptic bronchoscopy after surgical positioning.
+
+D. Auscultation may fail to detect significant double-lumen-tube malposition.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Double-lumen tube position can change after surgical manipulation, so it should be placed and reconfirmed with fiberoptic bronchoscopy after positioning. Miller supports C. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1822, printed p. 1520, passage ID 289076]
+
+**A — true but irrelevant:** Malposition can cause desaturation during OLV, but this consequence does not state the confirmation method. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1822, printed p. 1520, passage ID 289076]
+
+**B — true but irrelevant:** Thermodilution may be unreliable with transient unilateral perfusion differences, but this does not address tube-position confirmation. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1822, printed p. 1520, passage ID 289076]
+
+**C — correct:** C directly states Miller’s recommendation: confirm double-lumen placement and reconfirm it bronchoscopically after surgical positioning. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1822, printed p. 1520, passage ID 289076]
+
+**D — true but irrelevant:** Auscultation may miss malposition, but this limitation does not provide the recommended fiberoptic confirmation sequence. [Miller 10e (2024).pdf, 49. Anesthesia for Thoracic Surgery, PDF p. 1822, printed p. 1520, passage ID 289076]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes complications, limitations, and cardiac-output observations.
+
+## S01-Q225
+
+What benefit does thoracic epidural analgesia provide after a large thoracotomy?
+
+A. Erector-spinae and transversus-thoracic plane blocks reduced pain scores and fentanyl use after median sternotomy.
+
+B. Large thoracotomies or bilateral clamshell incisions merit consideration of thoracic epidural analgesia.
+
+C. Ultrasound serratus and pectoral blocks can be longer lasting and more effective than intercostal blocks in the cited pediatric cardiac-surgery comparison.
+
+D. Thoracic epidural analgesia reduces respiratory depression and pulmonary-mechanics abnormalities from systemic opioids after large thoracotomy.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After a large thoracotomy, systemic opioids can cause respiratory depression and pulmonary-mechanics abnormalities. Miller identifies thoracic epidural analgesia as reducing those effects, supporting D. [Miller 10e (2024).pdf, 73. Anesthesia for Pediatric Cardiac Surgery, PDF p. 2784, printed p. 2334, passage ID 293783]
+
+**A — true but irrelevant:** Erector-spinae and transversus-thoracic blocks can reduce pain and fentanyl use after sternotomy, but this is not the large-thoracotomy benefit asked for. [Miller 10e (2024).pdf, 73. Anesthesia for Pediatric Cardiac Surgery, PDF p. 2784, printed p. 2334, passage ID 293783]
+
+**B — true but irrelevant:** Large or bilateral thoracotomy incisions merit epidural consideration, but this indication does not state its physiologic benefit. [Miller 10e (2024).pdf, 73. Anesthesia for Pediatric Cardiac Surgery, PDF p. 2784, printed p. 2334, passage ID 293783]
+
+**C — true but irrelevant:** Ultrasound plane blocks may outperform intercostal blocks in a pediatric comparison, but that result does not describe thoracic epidural benefit after thoracotomy. [Miller 10e (2024).pdf, 73. Anesthesia for Pediatric Cardiac Surgery, PDF p. 2784, printed p. 2334, passage ID 293783]
+
+**D — correct:** D directly states Miller’s benefit: thoracic epidural analgesia reduces opioid-related respiratory depression and pulmonary-mechanics abnormalities after large thoracotomy. [Miller 10e (2024).pdf, 73. Anesthesia for Pediatric Cardiac Surgery, PDF p. 2784, printed p. 2334, passage ID 293783]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes indications and alternative regional blocks.
+
+## S01-Q226
+
+After intrathoracic surgery, which major complication should be anticipated during perioperative assessment?
+
+A. Hemorrhage and pneumothorax are major concerns after intrathoracic surgery.
+
+B. Bleeding and intraoperative complications may be higher with VATS.
+
+C. Postoperative atrial fibrillation can be treated with short-acting beta1-selective drugs.
+
+D. VATS generally causes less pain than thoracotomy.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Hemorrhage and pneumothorax are major complications to anticipate after intrathoracic surgery. Barash identifies both, directly supporting A. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3269, passage ID 248851]
+
+**A — correct:** A directly states Barash’s major postoperative concerns: hemorrhage and pneumothorax after intrathoracic surgery. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3269, passage ID 248851]
+
+**B — true but irrelevant:** VATS may have greater bleeding or intraoperative complications in some settings, but that does not identify the major complications requested. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3269, passage ID 248851]
+
+**C — true but irrelevant:** Postoperative atrial fibrillation may respond to short-acting beta1 drugs, but this treatment detail is not the requested complication pair. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3269, passage ID 248851]
+
+**D — true but irrelevant:** VATS generally causes less pain than thoracotomy, but pain comparison does not identify the major complication concern. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3269, passage ID 248851]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes VATS, arrhythmia, and pain comparisons.
+
+## S01-Q227
+
+Why can pain after thoracotomy produce postoperative atelectasis?
+
+A. Atelectasis is reported in up to 100% after thoracotomy for pulmonary resection.
+
+B. Atelectasis after thoracotomy can result from pain splinting and a rapid, shallow breathing pattern.
+
+C. Atelectasis occurs more commonly in basal than middle or upper lung regions.
+
+D. Atelectasis is among the most significant causes of postoperative morbidity.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Thoracotomy pain limits deep inspiration and produces rapid shallow breathing, promoting postoperative atelectasis. Barash directly supports B. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3266, passage ID 248845]
+
+**A — true but irrelevant:** Atelectasis may occur in up to 100% after pulmonary resection, but the frequency does not explain the pain-related mechanism. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3266, passage ID 248845]
+
+**B — correct:** B directly states Barash’s mechanism: pain splinting and rapid shallow breathing after thoracotomy cause atelectasis. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3266, passage ID 248845]
+
+**C — true but irrelevant:** Atelectasis is more common in basal regions, but that distribution does not explain how thoracotomy pain causes it. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3266, passage ID 248845]
+
+**D — true but irrelevant:** Atelectasis is a major postoperative morbidity cause, but its importance does not state the pain-splinting mechanism. [Barash 9e (2023).pdf, 38. Anesthesia for Thoracic Surgery, PDF p. 3266, passage ID 248845]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and distinguishes frequency, distribution, and outcome statements.
+
+## S01-Q228
+
+Which mechanisms can cause perioperative hypoxemia?
+
+A. A right-to-left shunt causes hypoxemia.
+
+B. Ventilation, diffusion, perfusion, and gas transport affect oxygenation and CO2 elimination.
+
+C. Mechanisms of hypoxemia include right-to-left shunt, V/Q mismatch, diffusion impairment, hypoventilation, and low inspired oxygen.
+
+D. Alveolar hypoventilation is a mechanism of hypercapnia.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Perioperative hypoxemia has several gas-exchange mechanisms, including shunt, V/Q mismatch, diffusion impairment, hypoventilation, and low inspired oxygen. Miller supports C. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282004]
+
+**A — true but irrelevant:** A right-to-left shunt causes hypoxemia, but it is only one mechanism and not the complete list requested. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282004]
+
+**B — true but irrelevant:** Ventilation, diffusion, perfusion, and gas transport affect oxygenation, but this broad framework does not list the specific hypoxemia mechanisms. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282004]
+
+**C — correct:** C directly lists Miller’s mechanisms: right-to-left shunt, V/Q mismatch, diffusion impairment, hypoventilation, and low inspired oxygen. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282004]
+
+**D — true but irrelevant:** Alveolar hypoventilation can cause hypercapnia, but the option addresses a consequence rather than the complete hypoxemia list. [Miller 10e (2024).pdf, 12. Respiratory Physiology and Pathophysiology, PDF p. 323, printed p. 258, passage ID 282004]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes broad gas transport and single-mechanism statements.
+
+## S01-Q229
+
+What postoperative pulmonary process can impair function in obstructive lung disease?
+
+A. High inspired oxygen can be delivered with volatile maintenance.
+
+B. Volatile anesthetics reduce airway hyperreactivity.
+
+C. Volatile anesthetics decrease airway resistance by reducing bronchial smooth-muscle tone.
+
+D. Bronchial infection and retained secretions can impair pulmonary function in obstructive lung disease.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Bronchial infection and retained secretions can impair pulmonary function in obstructive lung disease. Stoelting identifies this postoperative process, directly supporting D. [Stoelting Coexisting 8e (2021).pdf, 2 Anesthetic considerations for obstructive lung disease, PDF p. 46, printed p. 35, passage ID 232442]
+
+**A — true but irrelevant:** High inspired oxygen can be delivered with volatile maintenance, but that delivery fact does not identify the postoperative pulmonary process. [Stoelting Coexisting 8e (2021).pdf, 2 Anesthetic considerations for obstructive lung disease, PDF p. 46, printed p. 35, passage ID 232442]
+
+**B — true but irrelevant:** Volatile agents may reduce airway hyperreactivity, but this medication effect does not explain impaired function from infection or secretions. [Stoelting Coexisting 8e (2021).pdf, 2 Anesthetic considerations for obstructive lung disease, PDF p. 46, printed p. 35, passage ID 232442]
+
+**C — true but irrelevant:** Volatile reduction of bronchial tone can decrease resistance, but it is not the postoperative obstructive-lung process asked for. [Stoelting Coexisting 8e (2021).pdf, 2 Anesthetic considerations for obstructive lung disease, PDF p. 46, printed p. 35, passage ID 232442]
+
+**D — correct:** D directly states Stoelting’s process: bronchial infection and retained secretions impair pulmonary function in obstructive disease. [Stoelting Coexisting 8e (2021).pdf, 2 Anesthetic considerations for obstructive lung disease, PDF p. 46, printed p. 35, passage ID 232442]
+
+**Evidence sufficiency:** The stored Stoelting passage directly supports D and distinguishes anesthetic effects from postoperative disease processes.
+
+## S01-Q230
+
+A child aspirates a dental appliance. How should the airway foreign body be managed?
+
+A. Aspirated airway foreign bodies should be removed in the operating room and treated as emergencies.
+
+B. Recently fed children require full-stomach precautions and rapid-sequence induction.
+
+C. Sevoflurane inhalation induction may be used if a child has not eaten recently.
+
+D. No sedation should be given before foreign-body removal.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** An aspirated dental appliance is an airway foreign-body emergency that should be removed in the operating room. Barash directly supports A. [Barash 9e (2023).pdf, 48. Anesthesia for Otolaryngologic Surgery, PDF p. 4110, passage ID 250405]
+
+**A — correct:** A directly states Barash’s management: remove an aspirated airway foreign body in the operating room as an emergency. [Barash 9e (2023).pdf, 48. Anesthesia for Otolaryngologic Surgery, PDF p. 4110, passage ID 250405]
+
+**B — true but irrelevant:** A recently fed child requires full-stomach precautions and rapid-sequence induction, but that does not provide foreign-body removal management. [Barash 9e (2023).pdf, 48. Anesthesia for Otolaryngologic Surgery, PDF p. 4110, passage ID 250405]
+
+**C — true but irrelevant:** Sevoflurane induction may be used when fasting is adequate, but it does not address an aspirated appliance emergency. [Barash 9e (2023).pdf, 48. Anesthesia for Otolaryngologic Surgery, PDF p. 4110, passage ID 250405]
+
+**D — true but irrelevant:** Avoiding sedation before foreign-body removal is a true same-scenario precaution, but it does not supply the complete plan to remove this airway emergency in the operating room. [Barash 9e (2023).pdf, 48. Anesthesia for Otolaryngologic Surgery, PDF p. 4110, passage ID 250405]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes the related pneumoperitoneum effects.
+
+## S01-Q246
+
+What complication of organ transplantation can be mitigated, although not eliminated, by management strategies?
+
+A. Goal-directed donor management can improve the number of organs transplanted per donor.
+
+B. Ischemia–reperfusion injury in organ transplantation is unavoidable; however, management strategies can lessen the likelihood of postoperative graft failure.
+
+C. Brain-death donors have physiologic alterations that must be actively managed to ensure that the organs are suitable for transplantation.
+
+D. DCD donors have an obligatory period of hypotension of varying duration before cardiac arrest, resulting in perfusion compromise to donated organs.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Ischemia-reperfusion injury is unavoidable in transplantation, but management can reduce postoperative graft failure. Miller directly supports B. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**A — true but irrelevant:** Goal-directed donor management can increase organs transplanted per donor, but that procurement outcome does not identify the injury being mitigated. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**B — correct:** B directly states Miller’s principle: ischemia-reperfusion injury cannot be avoided, although management can lessen postoperative graft-failure risk. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**C — true but irrelevant:** Brain-death donors have physiologic changes requiring active management, but that donor-management fact does not identify the transplantation complication. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**D — true but irrelevant:** DCD donors experience hypotension before arrest and organ perfusion compromise, but this donor pathway detail is not the complication mitigated after transplantation. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and supplies the donor-management and procurement alternatives.
+
+## S01-Q247
+
+Which airway findings should be assessed in an obese patient before bariatric surgery?
+
+A. PEEP during preoxygenation and intraoperatively can decrease the alveolar-to-arterial oxygen gradient in obese patients.
+
+B. Obese patients have decreased vital capacity, inspiratory capacity, expiratory reserve volume, and functional residual capacity.
+
+C. Obese patients should be examined for small mouth opening, large protuberant teeth, limited neck mobility, and retrognathia as potential difficult-intubation signs.
+
+D. Video laryngoscopy in bariatric surgery provides a better glottic view and decreases time required to intubate the trachea.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Difficult intubation in obesity is suggested by small mouth opening, protuberant teeth, limited neck mobility, and retrognathia. Miller identifies this airway cluster, supporting C. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290552]
+
+**A — true but irrelevant:** PEEP can improve oxygenation and reduce the alveolar-to-arterial gradient, but it is a ventilation strategy rather than an airway-assessment finding. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2137, printed p. 1797, passage ID 290558]
+
+**B — true but irrelevant:** Obesity decreases several lung volumes, but this respiratory physiology does not identify the difficult-intubation signs asked for. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290552]
+
+**C — correct:** C directly states Miller’s airway-assessment cluster: small mouth opening, large protuberant teeth, limited neck mobility, and retrognathia. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290552]
+
+**D — true but irrelevant:** Video laryngoscopy may improve view and shorten intubation time, but it is an airway device benefit rather than a preoperative finding. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290552]
+
+**Evidence sufficiency:** The stored Miller passages directly support C and distinguish pulmonary physiology, PEEP, and device-performance observations.
+
+## S01-Q248
+
+Which combined peri-induction positive-pressure strategy helps prevent atelectasis and desaturation in an obese patient?
+
+A. A backup position with PEEP during preoxygenation and intraoperatively can improve oxygenation and preserve lung volume in obese patients.
+
+B. Use of 25-degree head-up rather than supine positioning without positive airway pressure increases time to desaturation in obese patients.
+
+C. Using 7.5 cm H2O CPAP during 3 minutes of supine preoxygenation does not change time to SpO2 90% desaturation in obese patients.
+
+D. Efforts to prevent atelectasis and desaturation in obese patients include CPAP during preoxygenation, mask PEEP, and mechanical ventilation after induction.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Preventing obesity-related atelectasis and desaturation requires positive pressure across the peri-induction sequence: CPAP during preoxygenation, mask PEEP, and ventilation after induction. Miller supports D. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**A — true but irrelevant:** PEEP can improve oxygenation and preserve lung volume, but this option does not provide the complete peri-induction positive-pressure sequence. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2137, printed p. 1797, passage ID 290557]
+
+**B — true but irrelevant:** Head-up positioning with CPAP improves time to desaturation, but it is only one component and does not state the complete pressure strategy. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**C — true but irrelevant:** Supine CPAP may not change desaturation time in one comparison, but that finding does not state the broader prevention strategy requested. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**D — correct:** D directly combines Miller’s prevention strategy: CPAP during preoxygenation, mask PEEP, and mechanical ventilation after induction. [Miller 10e (2024).pdf, 54. Anesthesia for Bariatric Surgery, PDF p. 2136, printed p. 1796, passage ID 290554]
+
+**Evidence sufficiency:** The stored Miller passages directly support D and distinguish individual positioning and CPAP comparisons.
+
+## S01-Q249
+
+During laparoscopic or robotic surgery, what cardiovascular effect can severe absorbed CO2 hypercarbia and acidosis produce?
+
+A. Severe hypercarbia and acidosis from absorbed carbon dioxide can lead to reduced inotropy, dysrhythmias, and arterial vasodilation.
+
+B. Renal blood flow, glomerular filtration, and urine output are reduced during pneumoperitoneum.
+
+C. High intra-abdominal pressures combined with hypovolemia can severely impair venous return and cardiac filling.
+
+D. Migration of the endotracheal tube into a bronchus is a risk during laparoscopic surgery from diaphragm displacement and Trendelenburg positioning.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Severe absorbed carbon dioxide hypercarbia and acidosis during laparoscopic or robotic surgery can depress inotropy, provoke dysrhythmias, and dilate arteries. Barash supports A. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3796, passage ID 249824]
+
+**A — correct:** A directly states Barash’s severe-hypercarbia consequence: reduced inotropy, dysrhythmias, and arterial vasodilation. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3796, passage ID 249824]
+
+**B — true but irrelevant:** Pneumoperitoneum reduces renal blood flow, filtration, and urine output, but that renal effect does not address severe CO2 hypercarbia and acidosis. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3796, passage ID 249824]
+
+**C — true but irrelevant:** High pressure with hypovolemia can impair venous return and filling, but that mechanical scenario is not the absorbed-CO2 cardiovascular effect asked for. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3796, passage ID 249824]
+
+**D — true but irrelevant:** Diaphragm displacement and Trendelenburg can migrate the tube into a bronchus, but that airway-positioning risk is not the severe hypercarbia consequence. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3796, passage ID 249824]
+
+**Evidence sufficiency:** The stored Barash passage directly supports A and distinguishes renal, preload, and airway-positioning effects.
+
+## S01-Q250
+
+Which acute postoperative neurologic complication has been associated with prolonged steep Trendelenburg positioning and pneumoperitoneum?
+
+A. Steep Trendelenburg positioning with pneumoperitoneum can produce close to a 50% reduction in lung compliance.
+
+B. Prolonged steep Trendelenburg positioning with pneumoperitoneum has been associated with acute postoperative cerebral edema.
+
+C. In a healthy patient during robotic prostatectomy, steep Trendelenburg increases ventricular filling pressure while cardiac performance markers remain unchanged.
+
+D. Intraocular pressure increases during robotic prostatectomy in steep Trendelenburg positioning.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Prolonged steep Trendelenburg with pneumoperitoneum has been associated with acute postoperative cerebral edema. Barash identifies this neurologic complication, directly supporting B. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3813, passage ID 249853]
+
+**A — true but irrelevant:** Steep Trendelenburg and pneumoperitoneum can reduce lung compliance by nearly 50%, but this respiratory effect is not the acute neurologic complication asked for. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3808, passage ID 249845]
+
+**B — correct:** B directly states Barash’s reported association: prolonged steep Trendelenburg with pneumoperitoneum can produce acute postoperative cerebral edema. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3813, passage ID 249853]
+
+**C — true but irrelevant:** Ventricular filling pressure can increase while cardiac markers remain unchanged, but that hemodynamic observation does not identify the neurologic complication. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3808, passage ID 249845]
+
+**D — true but irrelevant:** Intraocular pressure increases in this position, but that ophthalmic effect is not the acute postoperative cerebral complication asked for. [Barash 9e (2023).pdf, 44. Anesthesia for Laparoscopic and Robotic Surgeries, PDF p. 3813, passage ID 249853]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and supplies the pulmonary, cardiac, and ocular alternatives.
+
+## S01-Q251
+
+What degree of uterine relaxation is required for open fetal surgery?
+
+A. A volatile anesthetic may require a concentration greater than 2 MAC to provide maternal and fetal anesthesia and uterine relaxation.
+
+B. Combining 1 to 1.5 MAC volatile anesthetic with intravenous remifentanil or propofol can decrease fetal cardiac dysfunction and abnormal umbilical artery flow.
+
+C. Open fetal surgery requires profound uterine relaxation.
+
+D. Open fetal procedures present greater risk to the birthing parent and require preparation for maternal and fetal blood loss and resuscitation.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Open fetal surgery requires profound uterine relaxation to permit the operation while maintaining maternal and fetal support. Miller states that requirement, supporting C. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2311, printed p. 1943, passage ID 291435]
+
+**A — wrong timing or magnitude:** More than 2 MAC would be excessive and is not the stored requirement for maternal-fetal anesthesia and uterine relaxation. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2311, printed p. 1943, passage ID 291435]
+
+**B — true but irrelevant:** Combining volatile anesthetic with remifentanil or propofol may reduce fetal dysfunction, but this does not state the required degree of uterine relaxation. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2311, printed p. 1943, passage ID 291435]
+
+**C — correct:** C directly states Miller’s requirement: open fetal surgery requires profound uterine relaxation. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2311, printed p. 1943, passage ID 291435]
+
+**D — true but irrelevant:** Open fetal procedures pose greater maternal and fetal blood-loss risk, but that preparation concern does not specify uterine relaxation. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2311, printed p. 1943, passage ID 291435]
+
+**Evidence sufficiency:** The stored Miller passage directly supports C and distinguishes anesthetic-dose, fetal-effect, and blood-loss considerations.
+
+## S01-Q252
+
+What does the EXIT procedure permit while fetal airway interventions are performed?
+
+A. After delivery of the neonate, anesthetic management becomes like management of a cesarean delivery under general anesthesia.
+
+B. The most common indication for EXIT is an EXIT-to-airway procedure for congenital upper-airway obstruction.
+
+C. The primary goals of EXIT are prolonged uterine relaxation, delayed placental separation, and sustained placental–fetal perfusion.
+
+D. The EXIT procedure allows the fetus to remain supported by the placental unit with adequate oxygenation and perfusion while airway and resuscitation interventions are performed in a controlled manner.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** EXIT maintains placental support while the fetal airway is secured and resuscitation proceeds in a controlled setting. Miller directly supports D. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2313, printed p. 1945, passage ID 291449]
+
+**A — true but irrelevant:** After delivery, management resembles general cesarean anesthesia, but the question asks what EXIT permits before delivery is complete. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2314, printed p. 1946, passage ID 291451]
+
+**B — true but irrelevant:** Congenital upper-airway obstruction is a common EXIT indication, but an indication does not state the placental-support capability. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2313, printed p. 1945, passage ID 291449]
+
+**C — true but irrelevant:** Prolonged relaxation, delayed separation, and sustained perfusion are EXIT goals, but the question asks what fetal airway intervention can occur under that support. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2313, printed p. 1945, passage ID 291449]
+
+**D — correct:** D directly states Miller’s EXIT function: the fetus remains oxygenated and perfused by the placenta while airway and resuscitation interventions are performed. [Miller 10e (2024).pdf, 59. Anesthesia for Fetal Surgery and Other Fetal Therapies, PDF p. 2313, printed p. 1945, passage ID 291449]
+
+**Evidence sufficiency:** The stored Miller passages directly support D and distinguish postdelivery, indication, and goal statements.
+
+## S01-Q253
+
+A patient with pheochromocytoma remains intravascularly volume depleted after starting alpha blockade. Which preparation elements must be completed before surgery?
+
+A. Pheochromocytoma preparation includes alpha-adrenergic receptor blockade and intravascular volume repletion.
+
+B. Most patients require 7 to 14 days of treatment to meet criteria for adequate preoperative alpha-adrenergic blockade.
+
+C. Beta-adrenergic blockade must be preceded by effective alpha-adrenergic blockade to prevent a paradoxical hypertensive response.
+
+D. Pheochromocytoma carries risk of severe hypertension during induction and tumor manipulation and severe hypotension after tumor excision.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Pheochromocytoma preparation combines alpha blockade with intravascular volume repletion, particularly when depletion persists. Chestnut supports A. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**A — correct:** A directly states Chestnut’s required preparation: alpha-adrenergic blockade and intravascular volume repletion. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**B — true but irrelevant:** Seven to fourteen days may be needed for adequate alpha blockade, but duration alone does not include correction of volume depletion. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**C — true but irrelevant:** Alpha blockade must precede beta blockade to prevent paradoxical hypertension, but that sequence does not state volume repletion. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**D — true but irrelevant:** Severe hypertension during manipulation and hypotension after excision are important risks, but they are not the preparation elements asked for. [Chestnut 6e (2019).pdf, 43 Endocrine Disorders, PDF p. 1140, printed p. 1074, passage ID 275320]
+
+**Evidence sufficiency:** The stored Chestnut passage directly supports A and supplies duration, sequencing, and hemodynamic-risk distinctions.
+
+## S01-Q254
+
+Why can a large substernal goiter cause dangerous airway obstruction after induction?
+
+A. Long-standing goiters require extubation under optimal circumstances for reintubation if tracheomalacia is present.
+
+B. Large substernal goiters can behave as anterior mediastinal masses and cause intrathoracic airway obstruction after induction of general anesthesia.
+
+C. Bilateral recurrent laryngeal nerve injury causes stridor and laryngeal obstruction from unopposed vocal-cord adduction.
+
+D. Neuromuscular blocking drugs must be avoided after intubation when recurrent-laryngeal-nerve neuromonitoring is used.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** A large substernal goiter can behave like an anterior mediastinal mass, causing intrathoracic airway obstruction after induction. Barash supports B. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 3995, passage ID 250196]
+
+**A — true but irrelevant:** Optimal extubation planning is important when tracheomalacia is present, but it does not explain postinduction obstruction from a substernal mass. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1075, printed p. 900, passage ID 285566]
+
+**B — correct:** B directly states Barash’s mechanism: a large substernal goiter can act as an anterior mediastinal mass and obstruct the intrathoracic airway after induction. [Barash 9e (2023).pdf, 47. Endocrine Function, PDF p. 3995, passage ID 250196]
+
+**C — true but irrelevant:** Recurrent-laryngeal-nerve injury can cause stridor and obstruction, but that neural injury is a different mechanism from the substernal mass effect. [Miller 10e (2024).pdf, 29. Anesthetic Implications of Concurrent Diseases, PDF p. 1075, printed p. 900, passage ID 285566]
+
+**D — true but irrelevant:** Neuromuscular blockers may be avoided during nerve monitoring, but that intraoperative constraint does not explain postinduction mass-related airway obstruction. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2523, printed p. 2118, passage ID 292463]
+
+**Evidence sufficiency:** The stored Barash passage directly supports B and the Miller passages provide distinct nerve-monitoring and airway-risk facts.
+
+## S01-Q255
+
+Which anesthetic conditions facilitate perfusion of a free flap during reconstructive surgery?
+
+A. Free flaps involve reanastomosis of vessels from a distant donor site to recipient-site vessels.
+
+B. Pressors such as phenylephrine or norepinephrine are discouraged because they may compromise graft perfusion.
+
+C. Free-flap anesthetic care should facilitate graft-vessel perfusion by keeping the patient warm, euvolemic, and comfortable.
+
+D. Elective free-flap procedures tend to be long-duration operations conducted using general anesthesia.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Free-flap perfusion is supported by maintaining warmth, euvolemia, and comfort, thereby facilitating graft-vessel flow. Miller supports C. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2423, printed p. 2034, passage ID 291993]
+
+**A — true but irrelevant:** Free flaps do involve reanastomosis of distant donor vessels, but that definition does not state the anesthetic conditions supporting perfusion. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2531, printed p. 2126, passage ID 292500]
+
+**B — true but irrelevant:** Pressors may be used cautiously because perfusion concerns exist, but this statement does not give the complete warmth, volume, and comfort strategy. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2532, printed p. 2127, passage ID 292505]
+
+**C — correct:** C directly states Miller’s free-flap anesthetic goals: keep the patient warm, euvolemic, and comfortable to facilitate graft-vessel perfusion. [Miller 10e (2024).pdf, 62. Anesthesia for Trauma, PDF p. 2423, printed p. 2034, passage ID 291993]
+
+**D — true but irrelevant:** Free-flap procedures are often long and use general anesthesia, but duration and anesthetic type do not state perfusion-support conditions. [Miller 10e (2024).pdf, 66. Anesthesia for Otolaryngologic and Head–Neck Surgery, PDF p. 2531, printed p. 2126, passage ID 292500]
+
+**Evidence sufficiency:** The stored Miller passages directly support C and distinguish flap definition, pressor, and procedural-duration facts.
+
+## S01-Q256
+
+Why does the same inspired gas fraction produce a reduced anesthetic effect at high altitude?
+
+A. Lack of adaptation at high altitude can lead to acute mountain sickness, high-altitude pulmonary edema, decompression illness, or acute worsening of comorbid conditions.
+
+B. These high-altitude illnesses can rapidly become fatal if not treated appropriately, including with descent to lower altitudes.
+
+C. Providing critical care or anesthesia in extreme environments is complicated by their extreme remoteness and requires robust, simple health-care protocols.
+
+D. At high altitude, relative concentrations of gases including oxygen remain static, but falling atmospheric pressure decreases the partial pressure of each gas.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** At high altitude the gas fractions remain relatively unchanged, but lower atmospheric pressure lowers each gas’s partial pressure and reduces anesthetic effect. Miller supports D. [Miller 10e (2024).pdf, 70. Clinical Care in Extreme Environments: Physiology at High Altitude and in Space, PDF p. 2641, printed p. 70, passage ID 293064]
+
+**A — true but irrelevant:** High-altitude illness includes mountain sickness, pulmonary edema, decompression illness, and worsening comorbidity, but those disorders do not explain reduced anesthetic partial pressure. [Miller 10e (2024).pdf, 70. Clinical Care in Extreme Environments: Physiology at High Altitude and in Space, PDF p. 2641, printed p. 70, passage ID 293064]
+
+**B — true but irrelevant:** High-altitude illnesses can be fatal and may require descent, but that clinical danger does not state why the same fraction has less effect. [Miller 10e (2024).pdf, 70. Clinical Care in Extreme Environments: Physiology at High Altitude and in Space, PDF p. 2641, printed p. 70, passage ID 293064]
+
+**C — true but irrelevant:** Remoteness complicates critical care and requires robust protocols, but logistics do not explain the partial-pressure change. [Miller 10e (2024).pdf, 70. Clinical Care in Extreme Environments: Physiology at High Altitude and in Space, PDF p. 2641, printed p. 70, passage ID 293064]
+
+**D — correct:** D directly states Miller’s physical explanation: atmospheric pressure falls while relative gas concentrations remain static, lowering every gas’s partial pressure. [Miller 10e (2024).pdf, 70. Clinical Care in Extreme Environments: Physiology at High Altitude and in Space, PDF p. 2641, printed p. 70, passage ID 293064]
+
+**Evidence sufficiency:** The stored Miller passage directly supports D and distinguishes illness, logistics, and gas-law explanations.
+
+## S01-Q257
+
+During a disaster with a fluid shortage, how should limited medications, fluids, and kits be allocated?
+
+A. During a fluid shortage in a disaster, resources should be used only with confirmation of patient need.
+
+B. A field hospital may lack sufficient resources for provision of anesthesia and thus may not be usable for emergency trauma surgery.
+
+C. A pre-made plan to triage patients from overwhelmed hospitals to other trauma centers would be beneficial.
+
+D. In a mass-casualty event, additional vascular access and blood products should be requested before losing the tamponade effect after opening the abdomen or chest.
+
+**Answer: A**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** When fluids and medications are scarce, disaster resources should be allocated after confirming patient need rather than used indiscriminately. Miller supports A. [Miller 10e (2024).pdf, 64. Biologic, Natural, and Human-Induced Disasters: The Role of the Anesthesiologist, PDF p. 2464, printed p. 1200, passage ID 292200]
+
+**A — correct:** A directly states Miller’s resource-allocation principle: use scarce disaster medications, fluids, and kits only after confirming patient need. [Miller 10e (2024).pdf, 64. Biologic, Natural, and Human-Induced Disasters: The Role of the Anesthesiologist, PDF p. 2464, printed p. 1200, passage ID 292200]
+
+**B — true but irrelevant:** A field hospital may lack sufficient anesthesia resources, but that limitation does not state how available resources should be allocated. [Miller 10e (2024).pdf, 64. Biologic, Natural, and Human-Induced Disasters: The Role of the Anesthesiologist, PDF p. 2464, printed p. 1200, passage ID 292200]
+
+**C — true but irrelevant:** Preplanned patient redistribution may help overwhelmed hospitals, but it does not provide the bedside allocation rule asked for. [Miller 10e (2024).pdf, 64. Biologic, Natural, and Human-Induced Disasters: The Role of the Anesthesiologist, PDF p. 2464, printed p. 1200, passage ID 292200]
+
+**D — true but irrelevant:** Requesting access and blood before losing tamponade can be important, but that trauma-specific action does not state the general scarcity-allocation principle. [Miller 10e (2024).pdf, 64. Biologic, Natural, and Human-Induced Disasters: The Role of the Anesthesiologist, PDF p. 2466, printed p. 2067, passage ID 292207]
+
+**Evidence sufficiency:** The stored Miller passage directly supports A and supplies the field-hospital, redistribution, and hemorrhage examples.
+
+## S01-Q258
+
+Which physiologic problem commonly affects donors after declaration of brain death and requires active management during organ procurement?
+
+A. Goal-directed donor management can improve the number of organs transplanted per donor.
+
+B. Donation after brain death donors often have significant physiologic alterations and hemodynamic instability associated with brain death.
+
+C. Ischemia-reperfusion injury in organ transplantation is unavoidable, but management strategies can lessen the likelihood of postoperative graft failure.
+
+D. Donation after circulatory death donors have an obligatory period of hypotension before cardiac arrest, resulting in perfusion compromise to donated organs.
+
+**Answer: B**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** After brain death, donors commonly develop major physiologic alterations and hemodynamic instability requiring active management during procurement. Miller supports B. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**A — true but irrelevant:** Goal-directed donor management can increase organs transplanted per donor, but that outcome does not identify the physiologic problem requiring management. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**B — correct:** B directly states Miller’s donor problem: brain-death donors often have significant physiologic alterations and hemodynamic instability. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**C — true but irrelevant:** Ischemia-reperfusion injury can impair grafts and may be mitigated, but it is a transplantation complication rather than the donor physiologic problem. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**D — true but irrelevant:** DCD donors experience hypotension before arrest and organ perfusion compromise, but that is a different donation pathway from brain-death donation. [Miller 10e (2024).pdf, 57. Anesthesia for Organ Procurement, PDF p. 2229, printed p. 57, passage ID 291032]
+
+**Evidence sufficiency:** The stored Miller passage directly supports B and distinguishes donor-outcome, graft-injury, and DCD facts.
+
+## S01-Q259
+
+What can aspiration of a dental appliance cause?
+
+A. Aspiration of blood secondary to airway surgery generates marked chest-radiograph changes out of proportion to clinical signs.
+
+B. Aspiration of clear oral secretions during induction, mask ventilation, or emergence is common and usually insignificant.
+
+C. Aspiration of food, small objects, pieces of teeth, or dental appliances can cause airway obstruction with distal atelectasis or pneumonia.
+
+D. Massive blood aspiration or aspiration of clots obstructs airways, interferes with oxygenation, and leads to fibrinous changes in air spaces.
+
+**Answer: C**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Aspirated food, teeth, small objects, and dental appliances can obstruct the airway and cause distal atelectasis or pneumonia. Barash supports C. [Barash 9e (2023).pdf, 54. Postanesthesia Recovery, PDF p. 4597, passage ID 251328]
+
+**A — true but irrelevant:** Blood aspiration after airway surgery can produce radiographic changes, but that does not describe dental-appliance aspiration. [Barash 9e (2023).pdf, 54. Postanesthesia Recovery, PDF p. 4597, passage ID 251328]
+
+**B — true but irrelevant:** Clear-secretions aspiration is often insignificant, but food or dental-appliance aspiration can produce the obstructive and distal complications asked for. [Barash 9e (2023).pdf, 54. Postanesthesia Recovery, PDF p. 4597, passage ID 251328]
+
+**C — correct:** C directly states Barash’s consequence: aspirated food, teeth, objects, or dental appliances can obstruct the airway and cause distal atelectasis or pneumonia. [Barash 9e (2023).pdf, 54. Postanesthesia Recovery, PDF p. 4597, passage ID 251328]
+
+**D — true but irrelevant:** Massive blood or clot aspiration can obstruct airways and impair oxygenation, but it is a different aspirate from a dental appliance. [Barash 9e (2023).pdf, 54. Postanesthesia Recovery, PDF p. 4597, passage ID 251328]
+
+**Evidence sufficiency:** The stored Barash passages directly support C and distinguish blood, secretions, objects, and clot aspiration.
+
+## S01-Q260
+
+According to Barash 9th edition, which standard should govern anesthesia and monitoring for an interventional-radiology procedure outside the operating room?
+
+A. Allergic reactions to contrast media are a specific hazard in X-ray and interventional-radiology locations.
+
+B. Remote anesthesia locations may have restricted access, low light levels, radiation exposure, and unexpected movement of X-ray equipment.
+
+C. Nonoperating-room anesthesia equipment must meet the same standards as equipment provided in the operating room, and patients should be transported to an appropriate PACU with anesthesia-trained monitoring.
+
+D. Patients must receive the same standard of care at a nonoperating-room site as in the operating room, with applicable anesthesia guidelines.
+
+**Answer: D**
+
+**Rationale status:** rewritten
+
+**Why the keyed answer is best:** Nonoperating-room anesthesia must meet the same standard of care as operating-room anesthesia, with applicable guidelines governing care and monitoring. Barash supports D. [Barash 9e (2023).pdf, 33. Nonoperating Room Anesthesia, PDF p. 2652, passage ID 247788]
+
+**A — true but irrelevant:** Contrast reactions are a specific interventional-radiology hazard, but they do not state the governing standard of care. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2592, printed p. 2177, passage ID 292793]
+
+**B — true but irrelevant:** Restricted access, low light, radiation, and moving equipment are remote-location hazards, but hazards do not state the applicable care standard. [Miller 10e (2024).pdf, 68. Ambulatory (Outpatient) Anesthesia, PDF p. 2592, printed p. 2177, passage ID 292793]
+
+**C — true but irrelevant:** Matching equipment standards and PACU monitoring are operational requirements, but the lead-in asks for the overarching anesthesia and monitoring standard. [Barash 9e (2023).pdf, 33. Nonoperating Room Anesthesia, PDF p. 2652, passage ID 247788]
+
+**D — correct:** D directly states Barash’s governing principle: provide the same standard of care outside the operating room, following applicable anesthesia guidelines. [Barash 9e (2023).pdf, 33. Nonoperating Room Anesthesia, PDF p. 2652, passage ID 247788]
+
+**Evidence sufficiency:** The stored Barash and Miller passages directly support D and distinguish hazards and operational requirements.
+
