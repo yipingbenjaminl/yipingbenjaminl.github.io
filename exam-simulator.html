@@ -507,6 +507,29 @@
       line-height: 1.6;
     }
 
+    .explanation-item .verdict-tag {
+      display: inline-block;
+      margin-right: 6px;
+      padding: 1px 8px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      background: rgba(148, 163, 184, 0.12);
+      color: var(--muted);
+    }
+
+    .explanation-item.correct .verdict-tag {
+      background: rgba(52, 211, 153, 0.18);
+      color: var(--success);
+    }
+
+    .explanation-item.incorrect .verdict-tag {
+      background: rgba(248, 113, 113, 0.18);
+      color: var(--error);
+    }
+
     .explanation-item .reasoning {
       display: block;
       margin-top: 6px;
@@ -1047,8 +1070,14 @@
             : (question.whyNotBest || {})[letter];
           const reasoningHtml = reasoning ? `<span class="reasoning">${reasoning}</span>` : '';
 
+          const verdictTag = (question.optionVerdicts || {})[letter];
+          const verdictHtml = verdictTag
+            ? `<span class="verdict-tag">${verdictTag.charAt(0).toUpperCase()}${verdictTag.slice(1)}</span>`
+            : '';
+
           item.innerHTML = `
             <strong>${letter}:</strong>
+            ${verdictHtml}
             <span>${explanation}</span>
             ${reasoningHtml}
           `;
