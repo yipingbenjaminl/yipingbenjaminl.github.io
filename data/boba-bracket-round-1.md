@@ -85,7 +85,7 @@ Order ahead about 10 minutes before arriving; aim for all drinks to land within 
 - **Drinks:** 24 (2 per shop), about $195 with GST.
 - **Cups:** about 240 two-ounce cups (3 packs of 100); about 210 small spoons or toothpicks.
 - Letter stickers or masking tape, Sharpies, trays, panel-colour stickers, 21 water cups, plain crackers, napkins, paper towel, garbage bags.
-- Phones with the blind ranking app, plus paper ballots as backup.
+- Phones with the blind ranking app (see the [app spec](boba-bracket-app-spec.html)), plus paper ballots as backup.
 
 ## Before the day
 

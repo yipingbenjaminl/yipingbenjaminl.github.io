@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boba Bracket App Spec - Benjamin Liu</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Spec for the blind ranking app used at the Boba Bracket.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/theme.js"></script>
+  <style>
+    .doc-page { max-width: 960px; margin: 0 auto; padding: 100px 24px 80px; }
+    .back-link { display: inline-block; margin-bottom: 24px; color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+    .back-link:hover { color: var(--accent-hover); }
+    .doc h1 { font-size: 1.9rem; line-height: 1.2; margin-bottom: 6px; }
+    .doc h1 + p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 24px; }
+    .doc h2 { font-size: 1.4rem; margin: 48px 0 12px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .doc h3 { font-size: 1.1rem; margin: 28px 0 10px; }
+    .doc p { margin-bottom: 14px; }
+    .doc ul, .doc ol { margin: 0 0 16px 22px; }
+    .doc li { margin-bottom: 8px; }
+    .doc a { color: var(--accent); }
+    .doc a:hover { color: var(--accent-hover); }
+    .table-wrap { overflow-x: auto; margin: 8px 0 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+    .doc table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+    .doc th, .doc td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+    .doc th { background: var(--bg-alt); font-weight: 600; white-space: nowrap; }
+    .doc tr:last-child td { border-bottom: none; }
+    .doc td:first-child { font-weight: 600; }
+    @media (max-width: 640px) {
+      .doc-page { padding: 88px 16px 64px; }
+      .doc h1 { font-size: 1.5rem; }
+      .doc table { font-size: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="nav-logo">BL</a>
+    <div class="nav-links">
+      <a href="/#about">About</a>
+      <a href="/#tools">Tools</a>
+      <a href="/#resume">Resume</a>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle light and dark theme">☀️</button>
+    </div>
+  </nav>
+
+  <main class="doc-page">
+    <article class="doc">
+<h1>Boba Bracket App Spec</h1>
+<p>Updated November 18, 2026 · Organizers only</p>
+<h2>Overview</h2>
+<p>A phone-first web app that runs a blind bubble tea taste-off for 21 tasters: it assigns panels, hands out cup letters, collects rankings and notes, scores every round automatically, and drives the reveal on a TV.</p>
+<p><strong>The event it runs</strong> (see the <a href="boba-bracket-round-1.html">Round 1 plan</a> for the shop list and logistics):</p>
+<ul>
+<li>12 shops in 4 hidden groups of 3.</li>
+<li>21 tasters in 4 panels (Red 5, Blue 5, Green 5, Yellow 6).</li>
+<li>Round 1 and Round 2 each run two groups at once at two tables; every group is judged by two neighbouring panels (10–11 votes).</li>
+<li>The 4 group winners go to a final where all 21 rank them.</li>
+<li>Every taster ranks cups by "Which would you order again?" and can add notes.</li>
+</ul>
+<p><strong>Goals</strong></p>
+<ul>
+<li>Nobody, including helpers who also taste, can link a cup letter to a shop until the reveal.</li>
+<li>Zero manual tallying: rankings turn into winners the moment a round closes.</li>
+<li>Works on any phone with a QR scan, no install or account.</li>
+<li>Keeps every ranking and note for a post-event look at the data.</li>
+</ul>
+<p><strong>Non-goals</strong></p>
+<ul>
+<li>Ordering or paying for drinks, driver routing, or ticketing.</li>
+<li>Multi-event history or user accounts beyond a name per event.</li>
+<li>Native mobile apps.</li>
+</ul>
+<h2>Users and roles</h2>
+<p>Every helper is also a taster, so each role sees exactly one slice of the secret and never the whole mapping.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Who</th>
+<th>Sees</th>
+<th>Never sees</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Host</td>
+<td>Benjamin (one device)</td>
+<td>Setup, round status, vote counts, results after close</td>
+<td>Nothing hidden; the host should not taste, or should set up and then hand host controls to the reveal screen</td>
+</tr>
+<tr>
+<td>Bagger</td>
+<td>1 taster</td>
+<td>Shop → secret number (1–12), pour counts per number</td>
+<td>Cup letters</td>
+</tr>
+<tr>
+<td>Labeller</td>
+<td>2 tasters, one per table</td>
+<td>Secret number → cup letter for the current round at their table</td>
+<td>Shop names</td>
+</tr>
+<tr>
+<td>Taster</td>
+<td>All 21</td>
+<td>Their panel colour, their current round's letters and placemat order, their own submitted ranking</td>
+<td>Shops, groups, other tasters' votes, results</td>
+</tr>
+<tr>
+<td>Reveal screen</td>
+<td>TV or laptop</td>
+<td>Results only when the host triggers each reveal step</td>
+<td>Anything before the reveal</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Host-as-taster option:</strong> if Benjamin wants to taste, the host role splits too. Setup happens before shop numbers are assigned, and results stay sealed until the reveal, so the host screen during tasting shows only vote counts, never rankings or shop names.</p>
+<h2>Event model</h2>
+<p>An event is 12 shops in 4 groups, 4 panels in a ring, and 3 rounds; the app must allow these numbers to change, but ships with this configuration.</p>
+<p><strong>Groups (hidden)</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Shops</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Bubble World, Pearl Fever, Happy Lemon</td>
+</tr>
+<tr>
+<td>2</td>
+<td>101 Boba, CoCo, CHICHA San Chen</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Chatime, Shiny Tea, Gong Cha</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ChunFunHow, MACU Tea, SunTea</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Panels and the ring schedule.</strong> Each panel judges two neighbouring groups; each group gets two panels.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Round</th>
+<th>Table 1</th>
+<th>Table 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Group 1: Red + Blue (10)</td>
+<td>Group 3: Green + Yellow (11)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Group 2: Blue + Green (10)</td>
+<td>Group 4: Yellow + Red (11)</td>
+</tr>
+<tr>
+<td>Final</td>
+<td>4 group winners: all 21</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Cups and letters</strong></p>
+<ul>
+<li>A <em>cup</em> is one shop served in one round at one table. Group rounds have 3 cups per table; the final has 4.</li>
+<li>Each cup gets a random letter, drawn fresh per round from a pool that skips look-alikes (no I, O, Q, S, Z).</li>
+<li>Letters never repeat across rounds within an event, so nobody can follow a letter from round to round.</li>
+<li>The final draws from the sealed second drink of each finalist and gets new letters.</li>
+</ul>
+<p><strong>Panel assignment</strong></p>
+<ul>
+<li>On join, the app assigns the next panel in a balanced order (Red, Blue, Green, Yellow, repeat) until sizes hit 5/5/5/6.</li>
+<li>The host can move a taster between panels before Round 1 opens (couples or friends split up, a late arrival).</li>
+</ul>
+<h2>Taster flow</h2>
+<p>A taster scans one QR code, gets a panel colour, and then only ever sees the round in front of them: letters, a placemat order, and a ranking list.</p>
+<ol>
+<li><strong>Join.</strong> Scan the event QR code, enter a first name (unique per event; the app appends an initial on clashes). The app shows the panel colour full-screen so the host can hand out the matching sticker.</li>
+<li><strong>Wait.</strong> A holding screen: "Your next round: Round 1 at Table 1" or "You're resting this round." It updates live when the host opens a round.</li>
+<li><strong>Set out cups.</strong> When a round opens for their panel, the screen shows their placemat order, e.g. "Left to right: K · R · D".</li>
+<li><strong>Taste and rank.</strong> Drag the letters into order, 1st at the top. Every cup must be placed; no ties.</li>
+<li><strong>Notes (optional).</strong> Per cup: free text (280 characters) and quick tags — sweet, not sweet enough, strong tea, weak tea, creamy, watery, chewy pearls, hard pearls, mushy pearls.</li>
+<li><strong>Submit.</strong> A confirm step shows the ranking once more. After submit the ranking locks; notes stay editable until the round closes.</li>
+<li><strong>Final.</strong> Same screen with 4 cups.</li>
+<li><strong>Reveal.</strong> After the host ends the event, each taster's phone shows their own rankings with shop names, next to the group result.</li>
+</ol>
+<p><strong>Rules the UI enforces</strong></p>
+<ul>
+<li>No results, counts or other votes on a taster's screen before the reveal.</li>
+<li>A taster can only submit for a round their panel is in, once.</li>
+<li>Losing the connection keeps the draft on the phone and submits when it's back.</li>
+</ul>
+<h2>Blinding</h2>
+<p>The shop-to-letter mapping exists only on the server; the bagger holds one half (shop → number) and each labeller the other (number → letter), so both can taste.</p>
+<p><strong>Bagger screen</strong></p>
+<ul>
+<li><strong>Check-in:</strong> a list of the 12 shops. Tapping a shop as its bags arrive assigns it a random unused number 1–12 and shows it large, to write on the bags. Logs arrival time.</li>
+<li><strong>Pour list per round:</strong> "Table 1: pour #7, #2, #11 — 10 cups each. Table 2: pour #4, #9, #1 — 11 cups each." Numbers only, cup counts from panel sizes.</li>
+<li><strong>Final pour list:</strong> the 4 finalists' numbers, 21 cups each, from the sealed second drink.</li>
+<li>Never shows letters.</li>
+</ul>
+<p><strong>Labeller screen (one per table)</strong></p>
+<ul>
+<li>Opens only for the labeller's table and the current round.</li>
+<li>Shows "#7 → K, #2 → R, #11 → D". The labeller covers each number with its letter and sets cups on the tray.</li>
+<li>Never shows shop names. Hidden again once the round closes, so the labeller can't look back.</li>
+</ul>
+<p><strong>Letter generation</strong></p>
+<ul>
+<li>When the host opens a round, the server draws letters with a cryptographic RNG from the unused pool and stores the number → letter map for that round.</li>
+<li>The two tables in a round never share a letter.</li>
+</ul>
+<p><strong>Placemat rotation</strong></p>
+<ul>
+<li>For each round, the app builds a Latin square of cup orders (3 orders for 3 cups, 4 for 4) and deals them across the panel's tasters, so each position is filled equally often by each cup.</li>
+<li>The taster's screen shows only their own order.</li>
+</ul>
+<p><strong>Leaks to avoid</strong></p>
+<ul>
+<li>Cup letters must not follow shop order, number order or alphabetical order.</li>
+<li>The API never sends shop ids to taster devices; taster payloads carry only round id and letters.</li>
+<li>No shop names in page titles, URLs, logs on screen or error messages.</li>
+</ul>
+<h2>Host controls</h2>
+<p>The host runs the event as a fixed sequence of states, and the app refuses steps out of order.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>State</th>
+<th>Host action</th>
+<th>What unlocks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Setup</td>
+<td>Enter shops, groups, panel sizes, round schedule; print join QR</td>
+<td>Join page</td>
+</tr>
+<tr>
+<td>Joining</td>
+<td>Watch panels fill; move tasters between panels</td>
+<td>Bagger check-in</td>
+</tr>
+<tr>
+<td>Check-in</td>
+<td>Bagger assigns numbers as drinks arrive</td>
+<td>Round 1 (once all 12 checked in, or host overrides)</td>
+</tr>
+<tr>
+<td>Round open</td>
+<td>Open Round 1 or 2: letters drawn, labeller and taster screens go live</td>
+<td>Votes</td>
+</tr>
+<tr>
+<td>Round closed</td>
+<td>Close when all expected votes are in, or force-close with a count shown</td>
+<td>Scoring for that round</td>
+</tr>
+<tr>
+<td>Final open</td>
+<td>Opens only after both group rounds are scored</td>
+<td>Final votes</td>
+</tr>
+<tr>
+<td>Reveal</td>
+<td>Step through reveal slides on the TV</td>
+<td>Tasters' personal results</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Live view during a round</strong></p>
+<ul>
+<li>Per table: "9 of 10 voted", with the names of who's missing.</li>
+<li>No rankings, no partial results, no shop names.</li>
+</ul>
+<p><strong>Advancing winners</strong></p>
+<ul>
+<li>When a group round closes, the app scores each group, stores the winner, and adds it to the final silently.</li>
+<li>The host sees "Group 1 scored — winner locked" and nothing more until the reveal.</li>
+<li>Override: the host can reopen a round for a missing voter, which re-scores it.</li>
+</ul>
+<p><strong>Mistakes the host can fix</strong></p>
+<ul>
+<li>Wrong panel at join, before Round 1 opens.</li>
+<li>A spilled cup: mark one taster's cup as "repoured", which keeps the letter.</li>
+<li>A shop that didn't arrive: withdraw it before its round opens; its group runs with 2 cups.</li>
+</ul>
+<h2>Scoring</h2>
+<p>Each round is scored from full rankings by head-to-head wins, with a fixed tiebreak order so the app always produces exactly one winner.</p>
+<p><strong>Algorithm (per group round and for the final)</strong></p>
+<ol>
+<li>For every pair of cups A and B, count rankings with A above B and with B above A. A wins the pair if its count is higher; equal counts are a tied pair.</li>
+<li>Each cup's score = pairs won (a tied pair counts 0 for both).</li>
+<li>Highest score wins.</li>
+<li><strong>Tiebreak 1:</strong> if exactly two cups share the top score, the winner of their own pair wins.</li>
+<li><strong>Tiebreak 2:</strong> if that pair is tied, or three or more cups share the top score, use points: in an n-cup round, 1st = n points, 2nd = n−1, down to 1. Highest total wins.</li>
+<li><strong>Tiebreak 3:</strong> most 1st-place rankings.</li>
+<li><strong>Tiebreak 4:</strong> still tied → the app flags it and the host decides with a coin flip in the app (logged).</li>
+</ol>
+<p><strong>Worked example: a 3-cup group, 10 voters, cups K, R, D</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Ranking</th>
+<th>Voters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K &gt; R &gt; D</td>
+<td>4</td>
+</tr>
+<tr>
+<td>R &gt; D &gt; K</td>
+<td>3</td>
+</tr>
+<tr>
+<td>D &gt; K &gt; R</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pair</th>
+<th>Result</th>
+<th>Winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K vs R</td>
+<td>7–3</td>
+<td>K</td>
+</tr>
+<tr>
+<td>R vs D</td>
+<td>7–3</td>
+<td>R</td>
+</tr>
+<tr>
+<td>D vs K</td>
+<td>6–4</td>
+<td>D</td>
+</tr>
+</tbody>
+</table></div>
+<p>Every cup has 1 win, a three-way loop, so points decide: K = 4×3 + 3×1 + 3×2 = <strong>21</strong>, R = 4×2 + 3×3 + 3×1 = 20, D = 4×1 + 3×2 + 3×3 = 19. <strong>K wins.</strong></p>
+<p><strong>Ties by group size</strong></p>
+<ul>
+<li>Groups judged by 11 voters and the final (21) can't have tied pairs; only loops need points.</li>
+<li>Groups judged by 10 voters can have tied pairs (5–5), so tiebreak 1 can fall through to points.</li>
+</ul>
+<p><strong>Stored results</strong></p>
+<ul>
+<li>The full pair matrix, scores, points and which rule decided the winner, so the reveal can say "won on points".</li>
+</ul>
+<h2>Reveal mode</h2>
+<p>A full-screen TV view the host steps through with a clicker or the space bar, building from the first group to the champion.</p>
+<ol>
+<li><strong>Title slide:</strong> "21 tasters · 12 shops · 4 blind groups."</li>
+<li><strong>Group 1 to Group 4, one slide each:</strong> first the group's theme ("The local showdown"), then on the next click the shops by name in finishing order, with head-to-head wins and 1st-place votes, and how it was decided ("won on points").</li>
+<li><strong>Notes reel:</strong> 3–5 short notes per group, picked by the host from a list once the final closes. Shown without names unless the taster opted in at join.</li>
+<li><strong>Final:</strong> the four finalists, then 4th, 3rd and 2nd revealed one per click.</li>
+<li><strong>Champion slide:</strong> shop name, branch, drink, vote breakdown.</li>
+<li><strong>Fun stats:</strong> most divisive cup (largest spread of rankings), the taster whose picks matched the overall result best, the most-used tag.</li>
+</ol>
+<p><strong>After the reveal</strong></p>
+<ul>
+<li>Each taster's phone unlocks their own sheet: every cup they tasted with the shop name, their rank and the group's result.</li>
+<li>The host can export everything as CSV.</li>
+</ul>
+<h2>Data model and API</h2>
+<p>Nine tables hold the event; the secret lives in three of them, and taster-facing endpoints never read those.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Table</th>
+<th>Key fields</th>
+<th>Secret?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>event</code></td>
+<td>id, name, date, state, join_code</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>shop</code></td>
+<td>id, event_id, name, branch, order_text, group_no, secret_no, arrived_at</td>
+<td>Yes: group_no, secret_no</td>
+</tr>
+<tr>
+<td><code>panel</code></td>
+<td>id, event_id, colour, size_target</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>taster</code></td>
+<td>id, event_id, name, panel_id, show_name_in_reveal</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>round</code></td>
+<td>id, event_id, kind (group / final), seq, state, opened_at, closed_at</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>cup</code></td>
+<td>id, round_id, table_no, shop_id, letter</td>
+<td>Yes: shop_id</td>
+</tr>
+<tr>
+<td><code>ballot</code></td>
+<td>id, round_id, taster_id, ranking (ordered letters), placemat_order, submitted_at</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>note</code></td>
+<td>id, ballot_id, letter, text, tags[]</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>result</code></td>
+<td>round_id, table_no, pair_matrix, scores, points, winner_shop_id, decided_by</td>
+<td>Yes until reveal</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>API sketch</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Endpoint</th>
+<th>Caller</th>
+<th>Returns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>POST /join</code></td>
+<td>Taster</td>
+<td>taster id, panel colour</td>
+</tr>
+<tr>
+<td><code>GET /me/round</code></td>
+<td>Taster</td>
+<td>current round id, table, letters, placemat order, own ballot status</td>
+</tr>
+<tr>
+<td><code>POST /ballot</code></td>
+<td>Taster</td>
+<td>ok; rejects duplicates or wrong panel</td>
+</tr>
+<tr>
+<td><code>GET /bagger/checkin</code>, <code>POST /bagger/arrive</code></td>
+<td>Bagger (PIN)</td>
+<td>shops and numbers; never letters</td>
+</tr>
+<tr>
+<td><code>GET /bagger/pour?round=</code></td>
+<td>Bagger</td>
+<td>numbers and cup counts per table</td>
+</tr>
+<tr>
+<td><code>GET /labeller/map?table=</code></td>
+<td>Labeller (PIN)</td>
+<td>number → letter for the open round only</td>
+</tr>
+<tr>
+<td><code>POST /host/round/{id}/open</code>, <code>/close</code></td>
+<td>Host (PIN)</td>
+<td>state; close triggers scoring</td>
+</tr>
+<tr>
+<td><code>GET /host/progress</code></td>
+<td>Host</td>
+<td>votes in vs expected per table</td>
+</tr>
+<tr>
+<td><code>GET /reveal/{step}</code></td>
+<td>Reveal screen (host PIN)</td>
+<td>the slide's data, only when the event is in Reveal</td>
+</tr>
+<tr>
+<td><code>GET /export.csv</code></td>
+<td>Host, after reveal</td>
+<td>all ballots, notes, results with shop names</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Live updates:</strong> server-sent events or a websocket push round state changes to every screen, with polling every 5 s as a fallback.</p>
+<p><strong>Suggested stack:</strong> a single small web app (Next.js or SvelteKit) with SQLite or Supabase, deployed on Vercel or Fly; role screens are routes protected by per-role PINs printed on the host's setup sheet.</p>
+<h2>Requirements, edge cases and build checklist</h2>
+<p>The app has to survive one noisy afternoon on 21 phones, so reliability and speed matter more than polish.</p>
+<p><strong>Non-functional</strong></p>
+<ul>
+<li>Loads in under 2 s on mobile data; works on iOS Safari and Android Chrome from the last 3 years.</li>
+<li>Handles 21 tasters + 4 role screens + 1 TV at once with no lag on round open.</li>
+<li>No accounts: join by QR + name; role screens by PIN.</li>
+<li>Large tap targets; ranking works one-handed while holding a cup.</li>
+<li>Readable in a bright room; panel colours also carry their name, not colour alone.</li>
+<li>All writes idempotent so a double-tap or a reconnect can't create two ballots.</li>
+</ul>
+<p><strong>Edge cases</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Behaviour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Taster's phone dies mid-round</td>
+<td>Host can enter their ranking from a paper ballot on the host screen</td>
+</tr>
+<tr>
+<td>Taster leaves early</td>
+<td>Round closes on host's force-close; scoring uses ballots received</td>
+</tr>
+<tr>
+<td>Late arrival</td>
+<td>Joins any panel short of its target before Round 1; after that, joins for the final only</td>
+</tr>
+<tr>
+<td>A shop doesn't arrive</td>
+<td>Host withdraws it before its round; group runs with 2 cups</td>
+</tr>
+<tr>
+<td>Spilled or wrong cup</td>
+<td>Labeller repours under the same letter; app logs it</td>
+</tr>
+<tr>
+<td>Exact tie after every rule</td>
+<td>App flags it; host runs the in-app coin flip</td>
+</tr>
+<tr>
+<td>Network drop at venue</td>
+<td>Drafts stay on the phone; host screen shows "offline" badges</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Build checklist</strong></p>
+<ul>
+<li>Event setup screen with the 12 shops, 4 groups, 4 panels and ring schedule preloaded</li>
+<li>Join flow with balanced panel assignment and panel moves</li>
+<li>Bagger check-in and pour lists</li>
+<li>Labeller screens with per-round letter draw</li>
+<li>Taster round screen: placemat order, drag-to-rank, notes, tags, submit lock</li>
+<li>Host round controls and live vote progress</li>
+<li>Scoring engine with the tiebreak chain and unit tests for loops and 5–5 pairs</li>
+<li>Final round seeded from group winners</li>
+<li>Reveal mode and personal result sheets</li>
+<li>CSV export</li>
+<li>Dry run with 4–5 people and water cups before the event</li>
+</ul>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Benjamin Liu</p>
+    </div>
+  </footer>
+</body>
+</html>
