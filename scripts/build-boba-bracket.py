@@ -19,7 +19,7 @@ TEMPLATE = """<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boba Bracket - Benjamin Liu</title>
-  <meta name="description" content="A 12-shop blind bubble tea bracket for 21 tasters, plus profiles of 28 Metro Vancouver shops and five ways to split them.">
+  <meta name="description" content="Profiles of 28 Metro Vancouver bubble tea shops, the classic milk tea to order at each, and five ways to split them into a taste-test bracket.">
   <link rel="stylesheet" href="../assets/css/style.css">
   <script src="../assets/js/theme.js"></script>
   <style>

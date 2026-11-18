@@ -11,7 +11,7 @@ This repository contains a lightweight personal site with a few small, client-si
 - **Statement Splitter** — Split Capital One Venture X PDF statements by cardholder with true PDF redaction. Runs entirely client-side using MuPDF WASM.
 - **Anesthesia Study Guide** — A mobile-friendly chapter index and review page covering Miller 10e + Barash 9e complete chapter key points. Includes a desktop table of contents, mobile slide-out contents drawer, and chapter expand/collapse controls.
 - **[Anesthesia Exam Simulator](https://yipingbenjaminl.github.io/exam-sets.html)** — Choose between three 260-question practice exam sets, answer with instant feedback, and review rationales, textbook references, and domain/difficulty filters for every question.
-- **[Boba Bracket](https://yipingbenjaminl.github.io/food/boba-bracket.html)** — The final 12-shop blind bracket plan (groups, panels, schedule, scoring, run of show), plus profiles of 28 Metro Vancouver bubble tea shops (origin, signature, rating, price), the classic milk tea to order at each, five ways to split them into taste-test brackets, and the methodology behind it.
+- **[Boba Bracket](https://yipingbenjaminl.github.io/food/boba-bracket.html)** — Profiles of 28 Metro Vancouver bubble tea shops (origin, signature, rating, price), the classic milk tea to order at each, five ways to split them into taste-test brackets, and the methodology behind it.
 
 ## Structure
 
