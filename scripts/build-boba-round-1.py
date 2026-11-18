@@ -12,7 +12,7 @@ import markdown
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "boba-bracket-round-1.md"
-OUT = ROOT / "food" / "boba-bracket-round-1-8a1e870a.html"
+OUT = ROOT / "food" / "boba-bracket-round-1.html"
 
 base = runpy.run_path(str(ROOT / "scripts" / "build-boba-bracket.py"))
 TEMPLATE = (
