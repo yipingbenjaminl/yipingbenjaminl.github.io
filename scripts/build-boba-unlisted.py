@@ -11,6 +11,8 @@ import runpy
 import markdown
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+EVENT_DATE = "Nov. 22, 2026"
+
 PAGES = [
     ("boba-bracket-round-1", "Boba Bracket Round 1", "Organizer plan for round 1 of the Boba Bracket."),
     ("boba-bracket-app-spec", "Boba Bracket App Spec", "Spec for the blind ranking app used at the Boba Bracket."),
@@ -25,7 +27,7 @@ def template(title: str, desc: str) -> str:
     t = (
         base["TEMPLATE"]
         .replace("<title>Boba Bracket - Benjamin Liu</title>",
-                 f'<title>{title} - Benjamin Liu</title>\n  <meta name="robots" content="noindex, nofollow">')
+                 f'<title>{title} - {EVENT_DATE}</title>\n  <meta name="robots" content="noindex, nofollow">')
         .replace(BASE_DESC, f'<meta name="description" content="{desc}">')
         .replace('    <a href="/#tools" class="back-link">&larr; Back to Tools</a>\n', "")
     )
