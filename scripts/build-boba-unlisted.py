@@ -26,7 +26,7 @@ assert BASE_DESC in base["TEMPLATE"]
 def template(title: str, desc: str) -> str:
     t = (
         base["TEMPLATE"]
-        .replace("<title>Boba Bracket - Benjamin Liu</title>",
+        .replace("<title>Boba Bracket - Nov. 22, 2026</title>",
                  f'<title>{title} - {EVENT_DATE}</title>\n  <meta name="robots" content="noindex, nofollow">')
         .replace(BASE_DESC, f'<meta name="description" content="{desc}">')
         .replace('    <a href="/#tools" class="back-link">&larr; Back to Tools</a>\n', "")
