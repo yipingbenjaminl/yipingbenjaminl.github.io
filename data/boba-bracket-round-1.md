@@ -11,7 +11,7 @@ Every order is large, cold, 50% sugar, less ice, the shop's default milk and sta
 | Group (hidden) | Shop | Branch | Order |
 | --- | --- | --- | --- |
 | 1 | Bubble World | 3377 Kingsway | Original Milky Tea (confirm pearls included) |
-| 1 | Pearl Fever | 228 Schoolhouse St, Coquitlam | Black Milk Tea, add pearls |
+| 1 | Sharetea | 1020 Mainland St, Yaletown | Classic Pearl Milk Tea (black tea) |
 | 1 | Happy Lemon | 1188 Robson St | A1 Pearl Milk Tea |
 | 2 | 101 Boba | 4458 Main St | Milk Tea, add standard pearls (not Ultimate Chew) |
 | 2 | CoCo | 3275 Kingsway | Pearl Milk Tea |
@@ -50,7 +50,7 @@ Everyone tastes, including helpers, so the secret is split between two people.
 
 - **Bagger (1):** takes bags from drivers, gives each shop a secret number 1–12, and pours cups marked by number. Never sees letters.
 - **Labellers (2, one per table):** cover numbers with that round's random letters and set out cups. Never see bags or shop names.
-- **Drivers (6):** hand bags straight to the bagger.
+- **Drivers (5):** hand bags straight to the bagger.
 - Letters change every round and are never reused. Placemat orders rotate so each cup sits in each position equally often.
 - Don't share the shop list or the group themes with tasters before the reveal.
 
@@ -60,18 +60,17 @@ Order ahead about 10 minutes before arriving; aim for all drinks to land within 
 
 | Driver | Shops |
 | --- | --- |
-| 1 | Pearl Fever (Coquitlam, leave first) |
-| 2 | Shiny Tea (Richmond, leave second) |
-| 3 | Chatime, Gong Cha, Happy Lemon |
-| 4 | ChunFunHow, SunTea |
-| 5 | CHICHA San Chen, MACU Tea |
-| 6 | 101 Boba, CoCo, Bubble World |
+| 1 | Shiny Tea (Richmond, leave first) |
+| 2 | Chatime, Gong Cha, Happy Lemon |
+| 3 | Sharetea (Yaletown), SunTea, ChunFunHow |
+| 4 | CHICHA San Chen, MACU Tea |
+| 5 | 101 Boba, CoCo, Bubble World |
 
 ## Run of show
 
 | Time (T = drinks arrive) | What happens |
 | --- | --- |
-| T −75 | Drivers leave, Coquitlam and Richmond first; set up two tables and a hidden pour station |
+| T −75 | Drivers leave, Richmond first; set up two tables and a hidden pour station |
 | T 0 | Check-in: bagger numbers and bags each shop; second drinks stay sealed |
 | T +10 | Briefing: blind, letters change each round, rank by "Which would you order again?" |
 | T +15 | Round 1 at both tables |
@@ -91,7 +90,7 @@ Order ahead about 10 minutes before arriving; aim for all drinks to land within 
 
 - Check all 12 shops' hours on the date; SunTea sits inside a grocery store, so check its hours too.
 - Confirm Bubble World's Original Milky Tea comes with pearls.
-- Get Pearl Fever's price and confirm the Coquitlam branch is open.
+- Sharetea Yaletown opens at 12:30 PM on Sundays, so no pickups before then; confirm it's open on the day.
 - Send each driver their route and the shop's phone number.
 
 Shop research, profiles and the other bracket options are on the [Boba Bracket page](boba-bracket.html).

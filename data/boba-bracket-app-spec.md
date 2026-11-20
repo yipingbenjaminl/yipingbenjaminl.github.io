@@ -49,7 +49,7 @@ An event is 12 shops in 4 groups, 4 panels in a ring, and 3 rounds; the app must
 
 | Group | Shops |
 | --- | --- |
-| 1 | Bubble World, Pearl Fever, Happy Lemon |
+| 1 | Bubble World, Sharetea, Happy Lemon |
 | 2 | 101 Boba, CoCo, CHICHA San Chen |
 | 3 | Chatime, Shiny Tea, Gong Cha |
 | 4 | ChunFunHow, MACU Tea, SunTea |
