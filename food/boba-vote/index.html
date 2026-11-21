@@ -373,7 +373,7 @@ function hostView(){
       const byPanel = Object.fromEntries(d.panels.map(p => [p.name, d.tasters.filter(t => t.panel === p.name)]));
       app.innerHTML = `
         <h1>Host</h1>
-        <p class="muted">${d.tasters.length} of 21 tasters joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
+        <p class="muted">${d.tasters.length} taster${d.tasters.length === 1 ? '' : 's'} joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
         <h2>Rounds</h2>
         ${d.rounds.map(r => `<div class="card">
           <div class="row" style="justify-content:space-between"><h2 style="margin:0">${r.id === 3 ? 'Final' : 'Round ' + r.id}</h2>
@@ -392,7 +392,7 @@ function hostView(){
         <p class="small muted">Closing a round scores it automatically. Results stay hidden until the <a href="#reveal">reveal</a>.</p>
         <h2>Panels</h2>
         <div class="tables">${d.panels.map(p => `<div class="card" style="margin:0">
-          <span class="pill" style="background:${PANEL_COLORS[p.name]}">${p.name} · ${byPanel[p.name].length}/${p.target}</span>
+          <span class="pill" style="background:${PANEL_COLORS[p.name]}">${p.name} · ${byPanel[p.name].length}</span>
           <table style="margin-top:8px">${byPanel[p.name].map(t => `<tr><td>${esc(t.name)}</td><td style="width:110px">
             <select data-move="${t.id}" ${started ? 'disabled' : ''}>${d.panels.map(q => `<option ${q.name === p.name ? 'selected' : ''}>${q.name}</option>`).join('')}</select></td></tr>`).join('')}</table>
         </div>`).join('')}</div>

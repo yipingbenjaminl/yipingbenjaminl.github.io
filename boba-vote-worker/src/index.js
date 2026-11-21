@@ -2,13 +2,8 @@
 // The page lives on GitHub Pages (food/boba-vote/); this Worker only serves /api/*.
 import { scoreRound } from './scoring.js';
 
-const PANELS = [
-  { name: 'Red', target: 5 },
-  { name: 'Blue', target: 5 },
-  { name: 'Green', target: 5 },
-  { name: 'Yellow', target: 6 },
-];
-const PANEL_NAMES = PANELS.map((p) => p.name);
+// Panels stay balanced for any headcount: each new taster joins the smallest panel.
+const PANEL_NAMES = ['Red', 'Blue', 'Green', 'Yellow'];
 
 // Group g holds cup numbers 3g-2 .. 3g. The bagger's paper key maps numbers to shops.
 const groupNums = (g) => [3 * g - 2, 3 * g - 1, 3 * g];
@@ -89,11 +84,11 @@ async function join(env, body) {
   if (existing) return json({ taster: existing, rejoined: true });
 
   const counts = await panelCounts(env);
-  // Fill the panel furthest below its target; ties go in panel order.
+  // Join the panel with the fewest people; ties go in panel order (Red, Blue, Green, Yellow).
   let best = null;
-  for (const p of PANELS) {
-    const gap = p.target - (counts[p.name] || 0);
-    if (!best || gap > best.gap) best = { name: p.name, gap };
+  for (const name of PANEL_NAMES) {
+    const n = counts[name] || 0;
+    if (!best || n < best.n) best = { name, n };
   }
   const id = crypto.randomUUID();
   await env.DB.prepare('INSERT INTO tasters (id, name, panel) VALUES (?, ?, ?)').bind(id, name, best.name).run();
@@ -212,7 +207,7 @@ async function hostState(env) {
       return { table: slot.table, panels: slot.panels, expected: expected.length, voted: expected.length - missing.length, missing };
     }),
   }));
-  return json({ tasters, panels: PANELS, rounds: roundInfo });
+  return json({ tasters, panels: PANEL_NAMES.map((name) => ({ name })), rounds: roundInfo });
 }
 
 async function movePanel(env, body) {

@@ -119,13 +119,7 @@ function shuffle(arr, rng) {
 }
 
 // src/index.js
-var PANELS = [
-  { name: "Red", target: 5 },
-  { name: "Blue", target: 5 },
-  { name: "Green", target: 5 },
-  { name: "Yellow", target: 6 }
-];
-var PANEL_NAMES = PANELS.map((p) => p.name);
+var PANEL_NAMES = ["Red", "Blue", "Green", "Yellow"];
 var groupNums = (g) => [3 * g - 2, 3 * g - 1, 3 * g];
 var PLAN = {
   1: [
@@ -187,9 +181,9 @@ async function join(env, body) {
   if (existing) return json({ taster: existing, rejoined: true });
   const counts = await panelCounts(env);
   let best = null;
-  for (const p of PANELS) {
-    const gap = p.target - (counts[p.name] || 0);
-    if (!best || gap > best.gap) best = { name: p.name, gap };
+  for (const name2 of PANEL_NAMES) {
+    const n = counts[name2] || 0;
+    if (!best || n < best.n) best = { name: name2, n };
   }
   const id = crypto.randomUUID();
   await env.DB.prepare("INSERT INTO tasters (id, name, panel) VALUES (?, ?, ?)").bind(id, name, best.name).run();
@@ -289,7 +283,7 @@ async function hostState(env) {
       return { table: slot.table, panels: slot.panels, expected: expected.length, voted: expected.length - missing.length, missing };
     })
   }));
-  return json({ tasters, panels: PANELS, rounds: roundInfo });
+  return json({ tasters, panels: PANEL_NAMES.map((name) => ({ name })), rounds: roundInfo });
 }
 async function movePanel(env, body) {
   if (!PANEL_NAMES.includes(body.panel)) throw httpError(400, "Unknown panel");
