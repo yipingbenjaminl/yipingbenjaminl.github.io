@@ -205,7 +205,7 @@ function renderTaster(){
           ? `<h2>That's all the tasting</h2><p class="muted">Eyes on the TV for the reveal.</p>`
           : me.state === 'resting'
             ? `<h2>You're resting this round</h2><p class="muted">Sip some water. ${me.next ? `Next up: round ${me.next.round} at table ${me.next.table}.` : ''}</p>`
-            : `<h2>Hang tight</h2><p class="muted">${me.next ? `Your first round: round ${me.next.round} at table ${me.next.table}.` : 'Waiting for the next round.'} This screen updates by itself.</p>`}
+            : `<h2>Hang tight</h2><p class="muted">${me.next ? `Next up: ${me.next.round === 3 ? 'the final' : 'round ' + me.next.round} at table ${me.next.table}.` : 'Waiting for the next round.'} This screen updates by itself.</p>`}
       </div>
       <p class="center small muted">Not ${esc(me.taster.name)}? <a href="#" id="switch">Switch</a></p>`;
     const sw = document.getElementById('switch');
