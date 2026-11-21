@@ -5,4 +5,4 @@ compatibility_date = "2025-06-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "boba-bracket"
-database_id = "REPLACE_WITH_DATABASE_ID"
+database_id = "37be08bf-89bb-4b9a-b2b9-cf51062f5f2e"
