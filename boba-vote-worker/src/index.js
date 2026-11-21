@@ -5,7 +5,7 @@ import { scoreRound } from './scoring.js';
 // Panels stay balanced for any headcount: each new taster joins the smallest panel.
 const PANEL_NAMES = ['Red', 'Blue', 'Green', 'Yellow'];
 
-// Group g holds cup numbers 3g-2 .. 3g. The bagger's paper key maps numbers to shops.
+// Group g holds cup numbers 3g-2 .. 3g. The page maps numbers to shop names (see SHOPS in index.html).
 const groupNums = (g) => [3 * g - 2, 3 * g - 1, 3 * g];
 
 // Ring schedule: each panel judges two neighbouring groups.
@@ -49,22 +49,11 @@ async function route(request, env, url) {
   if (path === '/api/me' && method === 'GET') return me(env, url.searchParams.get('id'));
   if (path === '/api/ballot' && method === 'POST') return submitBallot(env, body, 'app');
 
-  // ---------- Bagger (numbers only, never letters) ----------
-  if (path === '/api/bagger' && method === 'GET') {
-    requirePin(request, env.BAGGER_PIN);
-    return bagger(env);
-  }
-
-  // ---------- Labeller (number -> letter for one table, current round only) ----------
-  if (path === '/api/label' && method === 'GET') {
-    requirePin(request, env.LABELLER_PIN);
-    return label(env, Number(url.searchParams.get('table')));
-  }
-
   // ---------- Host ----------
   if (path.startsWith('/api/host/')) {
     requirePin(request, env.HOST_PIN);
     if (path === '/api/host/state' && method === 'GET') return hostState(env);
+    if (path === '/api/host/pour' && method === 'GET') return pourSheet(env);
     if (path === '/api/host/panel' && method === 'POST') return movePanel(env, body);
     if (path === '/api/host/open' && method === 'POST') return openRound(env, Number(body.round));
     if (path === '/api/host/close' && method === 'POST') return closeRound(env, Number(body.round));
@@ -162,34 +151,25 @@ async function submitBallot(env, body, source) {
   return json({ ok: true });
 }
 
-// ===================== Bagger / Labeller =====================
+// ===================== Pour sheet (host) =====================
 
-async function bagger(env) {
+// What to pour for the open round (or the next one): cup number, its letter once drawn, and cups per table.
+async function pourSheet(env) {
   const counts = await panelCounts(env);
   const round = await openRoundRow(env) || await nextPendingRound(env);
   if (!round) return json({ round: null });
-  const tables = [];
-  for (const slot of PLAN[round.id]) {
-    let nums;
-    if (slot.group) nums = groupNums(slot.group);
-    else {
-      const rows = await env.DB.prepare('SELECT num FROM cups WHERE round_id = 3 ORDER BY num').all();
-      nums = rows.results.map((r) => r.num);
-    }
-    const cups = slot.panels.reduce((s, p) => s + (counts[p] || 0), 0);
-    tables.push({ table: slot.table, numbers: nums, cupsEach: cups });
-  }
+  const cups = (await env.DB.prepare('SELECT table_no, num, letter FROM cups WHERE round_id = ?').bind(round.id).all()).results;
+  const tables = PLAN[round.id].map((slot) => {
+    const drawn = cups.filter((c) => c.table_no === slot.table).sort((a, b) => a.num - b.num);
+    const nums = slot.group ? groupNums(slot.group) : drawn.map((c) => c.num);
+    return {
+      table: slot.table,
+      panels: slot.panels,
+      cupsEach: slot.panels.reduce((n, p) => n + (counts[p] || 0), 0),
+      cups: nums.map((num) => ({ num, letter: (drawn.find((c) => c.num === num) || {}).letter || null })),
+    };
+  });
   return json({ round: round.id, status: round.status, tables });
-}
-
-async function label(env, table) {
-  const round = await openRoundRow(env);
-  if (!round) return json({ round: null });
-  const slot = PLAN[round.id].find((s) => s.table === table);
-  if (!slot) return json({ round: round.id, table, cups: [] });
-  const rows = await env.DB.prepare('SELECT num, letter FROM cups WHERE round_id = ? AND table_no = ? ORDER BY num')
-    .bind(round.id, table).all();
-  return json({ round: round.id, table, cups: rows.results });
 }
 
 // ===================== Host =====================

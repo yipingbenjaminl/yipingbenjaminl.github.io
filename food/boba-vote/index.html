@@ -100,6 +100,9 @@ const app = document.getElementById('app');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const PANEL_COLORS = {Red:'var(--Red)',Blue:'var(--Blue)',Green:'var(--Green)',Yellow:'var(--Yellow)'};
 const TAGS = ['Sweet','Not sweet enough','Strong tea','Weak tea','Creamy','Watery','Chewy pearls','Hard pearls','Mushy pearls'];
+// Cup numbers by group. Label each shop's bags with its number at check-in.
+const SHOPS = {1:'Bubble World', 2:'Sharetea', 3:'Happy Lemon', 4:'101 Boba', 5:'CoCo', 6:'CHICHA San Chen',
+  7:'Chatime', 8:'Shiny Tea', 9:'Gong Cha', 10:'ChunFunHow', 11:'MACU Tea', 12:'SunTea'};
 
 async function api(path, {method='GET', body, pin}={}){
   const headers = {};
@@ -122,8 +125,6 @@ function route(){
   document.body.dataset.view = h || 'taster';
   app.classList.toggle('wide', h === 'host' || h === 'reveal');
   if (h === 'host') return hostView();
-  if (h === 'bagger') return baggerView();
-  if (h.startsWith('label')) return labelView();
   if (h === 'reveal') return revealView();
   return tasterView();
 }
@@ -317,56 +318,13 @@ function pinFailed(role, title, e){
   document.getElementById('err').textContent = e.message;
 }
 
-// ================= Bagger =================
-function baggerView(){
-  pinGate('bagger', 'Bagger', pin => {
-    const load = async () => {
-      let d; try { d = await api('/api/bagger', {pin}); } catch(e){ if (e.status === 401) return pinFailed('bagger','Bagger',e); return; }
-      if (!d.round) { app.innerHTML = `<h1>Bagger</h1><div class="card"><p>All rounds are done.</p></div>`; return; }
-      app.innerHTML = `<h1>Bagger</h1>
-        <p class="muted">Round ${d.round}${d.round === 3 ? ' · the final' : ''} · <span class="status ${d.status}">${d.status === 'pending' ? 'up next' : d.status}</span></p>
-        ${d.tables.map(t => `<div class="card"><h2 style="margin-top:0">Table ${t.table}</h2>
-          ${t.numbers.length ? `<p>Pour <b>${t.cupsEach} cups</b> of each:</p><div class="map">${t.numbers.map(n => `<div>#${n}<small>${t.cupsEach} cups</small></div>`).join('')}</div>`
-            : `<p class="muted">Numbers appear when the host opens the final.</p>`}
-        </div>`).join('')}
-        <p class="muted small">${d.round === 3 ? 'Pour the final from the sealed second drinks.' : 'Pour from drink 1. Keep drink 2 sealed.'} Mark each cup with its number, then hand the tray to the labeller.</p>`;
-    };
-    load(); poll(load);
-  });
-}
-
-// ================= Labeller =================
-function labelView(){
-  pinGate('label', 'Labeller', pin => {
-    let table = Number(store.get('bb_label_table')) || 0;
-    const pick = () => {
-      app.innerHTML = `<h1>Labeller</h1><div class="card"><p>Which table are you labelling?</p>
-        <div class="row"><button data-t="1">Table 1</button><button data-t="2">Table 2</button></div></div>`;
-      app.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { table = Number(b.dataset.t); store.set('bb_label_table', table); load(); poll(load); });
-    };
-    const load = async () => {
-      let d; try { d = await api('/api/label?table=' + table, {pin}); } catch(e){ if (e.status === 401) return pinFailed('label','Labeller',e); return; }
-      app.innerHTML = `<h1>Labeller · Table ${table}</h1>` + (!d.round
-        ? `<div class="card center"><div class="boba"><i></i><i></i><i></i></div><p class="muted">No round open. This screen updates by itself.</p></div>`
-        : d.cups.length === 0
-          ? `<div class="card"><p class="muted">Round ${d.round} is at table 1 only. Help carry trays.</p></div>`
-          : `<p class="muted">Round ${d.round}${d.round === 3 ? ' · the final' : ''}: cover each number with its letter.</p>
-             <div class="card map">${d.cups.map(c => `<div><small>#${c.num}</small> → ${esc(c.letter)}</div>`).join('')}</div>
-             <p class="muted small">Hidden again when the host closes the round.</p>`)
-        + `<button class="ghost" id="sw">Switch table</button>`;
-      document.getElementById('sw').onclick = () => { clearInterval(pollTimer); store.set('bb_label_table', null); pick(); };
-    };
-    if (table) { load(); poll(load); } else pick();
-  });
-}
-
 // ================= Host =================
 function hostView(){
   pinGate('host', 'Host', pin => {
     let busy = false;
     const load = async () => {
       if (busy) return;
-      let d; try { d = await api('/api/host/state', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host','Host',e); return; }
+      let d, pour; try { [d, pour] = await Promise.all([api('/api/host/state', {pin}), api('/api/host/pour', {pin})]); } catch(e){ if (e.status === 401) return pinFailed('host','Host',e); return; }
       const started = d.rounds.some(r => r.status !== 'pending');
       const focused = document.activeElement && ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName);
       if (focused) return; // don't redraw under the host's fingers
@@ -374,6 +332,14 @@ function hostView(){
       app.innerHTML = `
         <h1>Host</h1>
         <p class="muted">${d.tasters.length} taster${d.tasters.length === 1 ? '' : 's'} joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
+        ${pour.round ? `<h2>Pour sheet · ${pour.round === 3 ? 'Final' : 'Round ' + pour.round}${pour.status === 'pending' ? ' (up next)' : ''}</h2>
+        <div class="tables">${pour.tables.map(t => `<div class="card" style="margin:0">
+          <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')} · ${t.cupsEach} cups of each</span>
+          ${t.cups.length ? `<table style="margin-top:8px">${t.cups.map(c => `<tr><td style="width:44px"><b>#${c.num}</b></td><td>${esc(SHOPS[c.num] || '')}</td>
+            <td style="text-align:right;font:800 24px var(--display)">${c.letter ? esc(c.letter) : '<span class="muted small">letter on open</span>'}</td></tr>`).join('')}</table>`
+            : `<p class="muted small">The 4 finalists appear when you open the final.</p>`}
+        </div>`).join('')}</div>
+        <p class="small muted">${pour.round === 3 ? 'Pour the final from the sealed second drinks.' : 'Pour from drink 1 and keep drink 2 sealed.'} Mark each cup with its letter.</p>` : ''}
         <h2>Rounds</h2>
         ${d.rounds.map(r => `<div class="card">
           <div class="row" style="justify-content:space-between"><h2 style="margin:0">${r.id === 3 ? 'Final' : 'Round ' + r.id}</h2>
@@ -433,10 +399,10 @@ function revealView(){
   pinGate('host', 'Reveal', async pin => {
     let d;
     try { d = await api('/api/host/results', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host','Reveal',e); app.innerHTML = `<p class="err">${esc(e.message)}</p>`; return; }
-    const names = JSON.parse(store.get('bb_names') || '{}');
+    const names = Object.assign({}, SHOPS, JSON.parse(store.get('bb_names') || '{}'));
     const themes = JSON.parse(store.get('bb_themes') || '{}');
     app.innerHTML = `<h1>Reveal setup</h1>
-      <p class="muted">Type each shop name from the bagger's paper key. Saved on this device only.</p>
+      <p class="muted">Shop names are filled in from the plan. Change any that moved; edits are saved on this device.</p>
       ${[1,2,3,4].map(g => `<div class="card"><input data-theme="${g}" placeholder="Group ${g} theme (optional), e.g. The 1990s pioneers" value="${esc(themes[g] || '')}">
         ${[3*g-2,3*g-1,3*g].map(n => `<div class="row" style="margin-top:8px"><span style="flex:0 0 48px;font:800 22px var(--display)">#${n}</span><input data-num="${n}" placeholder="Shop for #${n}" value="${esc(names[n] || '')}"></div>`).join('')}</div>`).join('')}
       <button id="start">Start the reveal</button>
