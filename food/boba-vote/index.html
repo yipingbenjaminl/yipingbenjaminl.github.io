@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Boba Bracket Vote - Nov. 22, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#f7f1e8;--card:#fffaf3;--ink:#2b1d14;--muted:#7a6656;--line:#e6d9c8;
+  --tea:#9a6a3e;--tea-soft:#efe1cf;--pearl:#2b1d14;--ok:#2f7d4f;--warn:#b5541c;
+  --Red:#d2463c;--Blue:#3567c4;--Green:#2f8a55;--Yellow:#d9a21b;
+  --display:"Fraunces",Georgia,serif;--body:"DM Sans",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#17110c;--card:#221912;--ink:#f3e9dc;--muted:#b7a28d;--line:#3a2c20;--tea:#d8a46f;--tea-soft:#3a2b1d;--pearl:#f3e9dc;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.45 var(--body)}
+.wrap{max-width:560px;margin:0 auto;padding:max(20px,env(safe-area-inset-top)) 16px 48px}
+.wide{max-width:960px}
+h1{font:800 clamp(28px,8vw,40px)/1.05 var(--display);margin:8px 0 4px;letter-spacing:-.01em}
+h2{font:600 22px/1.2 var(--display);margin:24px 0 8px}
+p{margin:0 0 12px}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;width:100%}
+textarea{min-height:44px;resize:vertical}
+button{font:600 17px var(--body);border:0;border-radius:14px;padding:14px 18px;cursor:pointer;background:var(--ink);color:var(--bg);width:100%}
+button.secondary{background:var(--tea-soft);color:var(--ink)}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:disabled{opacity:.45;cursor:default}
+.row{display:flex;gap:10px;align-items:center}
+.row>*{flex:1}
+.err{color:var(--warn);font-size:15px;min-height:1.2em;margin:8px 0 0}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;font-weight:700;font-size:15px;color:#fff}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.big-panel{border-radius:22px;padding:28px 18px;text-align:center;color:#fff;font:800 44px/1 var(--display)}
+.placemat{display:flex;gap:10px;justify-content:center;margin:10px 0 4px}
+.placemat span{font:800 28px var(--display);width:60px;height:60px;border-radius:50%;display:grid;place-items:center;border:2px dashed var(--tea)}
+.cups{display:grid;gap:12px;margin-top:14px}
+.cup{display:flex;align-items:center;gap:14px;background:var(--bg);border:2px solid var(--line);border-radius:16px;padding:12px 14px;cursor:pointer;user-select:none;width:100%;color:var(--ink);text-align:left}
+.cup .letter{font:800 30px var(--display);width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--tea-soft)}
+.cup .rank{margin-left:auto;font:800 20px var(--display);min-width:56px;text-align:right;color:var(--tea)}
+.cup.picked{border-color:var(--tea)}
+.cup.picked .letter{background:var(--tea);color:#fff}
+.notes{display:grid;gap:10px;margin-top:6px}
+.notes label{font-size:14px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.tag{font:500 13px var(--body);padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);width:auto}
+.tag.on{background:var(--tea);border-color:var(--tea);color:#fff}
+.order{font:800 34px var(--display);letter-spacing:.06em;text-align:center;margin:8px 0}
+.center{text-align:center}
+.boba{display:flex;gap:6px;justify-content:center;margin:10px 0}
+.boba i{width:12px;height:12px;border-radius:50%;background:var(--pearl);opacity:.85;animation:bob 1.4s infinite ease-in-out}
+.boba i:nth-child(2){animation-delay:.2s}.boba i:nth-child(3){animation-delay:.4s}
+@keyframes bob{50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion:reduce){.boba i{animation:none}}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:500}
+.tables{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.status{font-weight:700;text-transform:capitalize}
+.status.open{color:var(--ok)}.status.closed{color:var(--muted)}
+.map{display:grid;gap:12px}
+.map div{display:flex;justify-content:space-between;align-items:center;font:800 40px var(--display);background:var(--bg);border-radius:16px;padding:12px 20px}
+.map small{font:500 15px var(--body);color:var(--muted)}
+/* Reveal */
+.stage{min-height:70vh;display:flex;flex-direction:column;justify-content:center}
+.slide-title{font:800 clamp(34px,6vw,64px)/1.05 var(--display);margin:0 0 10px}
+.podium{display:grid;gap:12px;margin-top:16px}
+.place{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 20px}
+.place .n{font:800 34px var(--display);width:48px;color:var(--tea)}
+.place .name{font:700 clamp(20px,3vw,30px) var(--body)}
+.place .meta{margin-left:auto;text-align:right;color:var(--muted);font-size:15px}
+.place.win{border:2px solid var(--tea)}
+.quote{font:italic 600 20px/1.35 var(--display);margin:8px 0;color:var(--muted)}
+.nav{display:flex;gap:10px;margin-top:20px}
+.nav button{width:auto;flex:1}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<main class="wrap" id="app"><div class="boba"><i></i><i></i><i></i></div></main>
+<script>
+// API base: ?api=... (remembered), else the deployed Worker.
+const DEFAULT_API = 'https://boba-bracket.REPLACE-ME.workers.dev';
+const store = {
+  get(k){ try{ return localStorage.getItem(k) }catch(e){ return null } },
+  set(k,v){ try{ v==null?localStorage.removeItem(k):localStorage.setItem(k,v) }catch(e){} },
+};
+const qs = new URLSearchParams(location.search);
+if (qs.get('api')) store.set('bb_api', qs.get('api').replace(/\/+$/,''));
+const API = store.get('bb_api') || DEFAULT_API;
+
+const app = document.getElementById('app');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const PANEL_COLORS = {Red:'var(--Red)',Blue:'var(--Blue)',Green:'var(--Green)',Yellow:'var(--Yellow)'};
+const TAGS = ['Sweet','Not sweet enough','Strong tea','Weak tea','Creamy','Watery','Chewy pearls','Hard pearls','Mushy pearls'];
+
+async function api(path, {method='GET', body, pin}={}){
+  const headers = {};
+  if (body) headers['Content-Type'] = 'application/json';
+  if (pin) headers['X-Pin'] = pin;
+  let res;
+  try { res = await fetch(API + path, {method, headers, body: body ? JSON.stringify(body) : undefined}); }
+  catch(e){ throw new Error('No connection. Check your signal and try again.'); }
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) { const err = new Error(data.error || 'Something went wrong'); err.status = res.status; throw err; }
+  return data;
+}
+
+let pollTimer = null;
+function poll(fn, ms=4000){ clearInterval(pollTimer); pollTimer = setInterval(fn, ms); }
+
+function route(){
+  clearInterval(pollTimer);
+  const h = location.hash.replace('#','');
+  document.body.dataset.view = h || 'taster';
+  app.classList.toggle('wide', h === 'host' || h === 'reveal');
+  if (h === 'host') return hostView();
+  if (h === 'bagger') return baggerView();
+  if (h.startsWith('label')) return labelView();
+  if (h === 'reveal') return revealView();
+  return tasterView();
+}
+window.addEventListener('hashchange', route);
+
+// ================= Taster =================
+let T = { me:null, ranking:[], notes:{}, tags:{}, confirm:false, lastKey:'' };
+
+function tasterView(){
+  const id = store.get('bb_taster');
+  if (!id) return joinScreen();
+  refreshMe(true);
+  poll(() => refreshMe(false));
+}
+
+function joinScreen(msg=''){
+  app.innerHTML = `
+    <h1>Boba Bracket</h1>
+    <p class="muted">Blind taste-off · Nov. 22, 2026</p>
+    <div class="card">
+      <label for="name" class="small muted">Your first name</label>
+      <input id="name" autocomplete="given-name" maxlength="40" placeholder="e.g. Jamie">
+      <div style="height:12px"></div>
+      <button id="join">Join</button>
+      <p class="err" id="err">${esc(msg)}</p>
+    </div>`;
+  const go = async () => {
+    const name = document.getElementById('name').value.trim();
+    if (!name) { document.getElementById('err').textContent = 'Enter your name first.'; return; }
+    document.getElementById('join').disabled = true;
+    try {
+      const d = await api('/api/join', {method:'POST', body:{name}});
+      store.set('bb_taster', d.taster.id);
+      T = { me:null, ranking:[], notes:{}, tags:{}, confirm:false, lastKey:'', joined:d.taster, rejoined:d.rejoined };
+      tasterView();
+    } catch(e){ document.getElementById('err').textContent = e.message; document.getElementById('join').disabled = false; }
+  };
+  document.getElementById('join').onclick = go;
+  document.getElementById('name').onkeydown = e => { if (e.key === 'Enter') go(); };
+}
+
+async function refreshMe(force){
+  const id = store.get('bb_taster');
+  let me;
+  try { me = await api('/api/me?id=' + encodeURIComponent(id)); }
+  catch(e){
+    if (e.status === 404) { store.set('bb_taster', null); return joinScreen(e.message); }
+    if (force) app.innerHTML = `<h1>Boba Bracket</h1><div class="card"><p class="err">${esc(e.message)}</p></div>`;
+    return;
+  }
+  const key = [me.state, me.round, me.table, (me.placemat||[]).join('')].join('|');
+  if (!force && key === T.lastKey) return; // nothing changed; don't disturb the ranking in progress
+  if (key !== T.lastKey) { T.ranking = []; T.notes = {}; T.tags = {}; T.confirm = false; }
+  T.lastKey = key; T.me = me;
+  renderTaster();
+}
+
+function header(me){
+  return `<div class="row" style="justify-content:space-between">
+      <div><h1 style="font-size:28px">Boba Bracket</h1><p class="muted small" style="margin:0">Hi ${esc(me.taster.name)}</p></div>
+      <span class="pill" style="background:${PANEL_COLORS[me.taster.panel]};flex:0">${esc(me.taster.panel)}</span>
+    </div>`;
+}
+
+function renderTaster(){
+  const me = T.me;
+  if (me.state === 'waiting' || me.state === 'resting' || me.state === 'finished') {
+    const firstTime = T.joined && !T.seenPanel;
+    T.seenPanel = true;
+    app.innerHTML = header(me) + (firstTime ? `
+      <div class="card center">
+        <p class="muted">You're on the</p>
+        <div class="big-panel" style="background:${PANEL_COLORS[me.taster.panel]}">${esc(me.taster.panel)} panel</div>
+        <p class="muted small" style="margin-top:12px">Grab a ${esc(me.taster.panel.toLowerCase())} sticker from the host.</p>
+      </div>` : '') + `
+      <div class="card center">
+        <div class="boba"><i></i><i></i><i></i></div>
+        ${me.state === 'finished'
+          ? `<h2>That's all the tasting</h2><p class="muted">Eyes on the TV for the reveal.</p>`
+          : me.state === 'resting'
+            ? `<h2>You're resting this round</h2><p class="muted">Sip some water. ${me.next ? `Next up: round ${me.next.round} at table ${me.next.table}.` : ''}</p>`
+            : `<h2>Hang tight</h2><p class="muted">${me.next ? `Your first round: round ${me.next.round} at table ${me.next.table}.` : 'Waiting for the next round.'} This screen updates by itself.</p>`}
+      </div>
+      <p class="center small muted">Not ${esc(me.taster.name)}? <a href="#" id="switch">Switch</a></p>`;
+    const sw = document.getElementById('switch');
+    if (sw) sw.onclick = e => { e.preventDefault(); store.set('bb_taster', null); joinScreen(); };
+    return;
+  }
+  if (me.state === 'submitted') {
+    app.innerHTML = header(me) + `
+      <div class="card center">
+        <p class="muted">Round ${me.round}${me.round === 3 ? ' · the final' : ''} · locked in</p>
+        <div class="order">${me.ranking.map(esc).join(' › ')}</div>
+        <p class="muted small">Best on the left. Waiting for everyone else.</p>
+        <div class="boba"><i></i><i></i><i></i></div>
+      </div>`;
+    return;
+  }
+  // Tasting
+  const n = me.placemat.length;
+  if (T.confirm) {
+    app.innerHTML = header(me) + `
+      <div class="card center">
+        <p class="muted">Your ranking, best first</p>
+        <div class="order">${T.ranking.map(esc).join(' › ')}</div>
+        <p class="muted small">You can't change it after this.</p>
+        <button id="lock">Lock it in</button>
+        <div style="height:10px"></div>
+        <button class="ghost" id="back">Go back</button>
+        <p class="err" id="err"></p>
+      </div>`;
+    document.getElementById('back').onclick = () => { T.confirm = false; renderTaster(); };
+    document.getElementById('lock').onclick = submitRanking;
+    return;
+  }
+  const ord = i => ['1st','2nd','3rd','4th'][i];
+  app.innerHTML = header(me) + `
+    <div class="card">
+      <p class="muted small" style="margin:0">Round ${me.round}${me.round === 3 ? ' · the final' : ''} · Table ${me.table}</p>
+      <h2 style="margin-top:4px">Set your cups out like this</h2>
+      <div class="placemat">${me.placemat.map(l => `<span>${esc(l)}</span>`).join('')}</div>
+      <p class="center muted small">left to right</p>
+    </div>
+    <div class="card">
+      <h2 style="margin-top:0">Which would you order again?</h2>
+      <p class="muted small">Tap your favourite first, then the next. Tap again to undo.</p>
+      <div class="cups">${me.placemat.slice().sort().map(l => {
+        const i = T.ranking.indexOf(l);
+        return `<button class="cup ${i >= 0 ? 'picked' : ''}" data-l="${esc(l)}"><span class="letter">${esc(l)}</span><span class="muted small">Cup ${esc(l)}</span><span class="rank">${i >= 0 ? ord(i) : ''}</span></button>`;
+      }).join('')}</div>
+    </div>
+    <div class="card">
+      <h2 style="margin-top:0">Notes <span class="muted small">(optional)</span></h2>
+      <div class="notes">${me.placemat.slice().sort().map(l => `
+        <div><label for="n-${esc(l)}">Cup ${esc(l)}</label>
+          <textarea id="n-${esc(l)}" data-note="${esc(l)}" maxlength="200" placeholder="Anything memorable?">${esc(T.notes[l] || '')}</textarea>
+          <div class="tags">${TAGS.map(t => `<button class="tag ${(T.tags[l]||[]).includes(t) ? 'on' : ''}" data-tl="${esc(l)}" data-t="${esc(t)}">${esc(t)}</button>`).join('')}</div>
+        </div>`).join('')}</div>
+    </div>
+    <button id="next" ${T.ranking.length === n ? '' : 'disabled'}>${T.ranking.length === n ? 'Review and submit' : `Rank all ${n} cups`}</button>`;
+  app.querySelectorAll('.cup').forEach(b => b.onclick = () => {
+    const l = b.dataset.l; const i = T.ranking.indexOf(l);
+    if (i >= 0) T.ranking.splice(i, 1); else T.ranking.push(l);
+    keepScroll(renderTaster);
+  });
+  app.querySelectorAll('[data-note]').forEach(t => t.oninput = () => { T.notes[t.dataset.note] = t.value; });
+  app.querySelectorAll('.tag').forEach(b => b.onclick = () => {
+    const l = b.dataset.tl, t = b.dataset.t; const arr = T.tags[l] ||= [];
+    const i = arr.indexOf(t); if (i >= 0) arr.splice(i, 1); else arr.push(t);
+    b.classList.toggle('on');
+  });
+  document.getElementById('next').onclick = () => { T.confirm = true; renderTaster(); window.scrollTo(0, 0); };
+}
+
+function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
+
+async function submitRanking(){
+  const btn = document.getElementById('lock'); btn.disabled = true;
+  const notes = {};
+  for (const l of T.me.placemat) {
+    const parts = [...(T.tags[l] || [])];
+    if ((T.notes[l] || '').trim()) parts.push(T.notes[l].trim());
+    if (parts.length) notes[l] = parts.join(' · ');
+  }
+  try {
+    await api('/api/ballot', {method:'POST', body:{id:store.get('bb_taster'), round:T.me.round, ranking:T.ranking, notes}});
+    T.lastKey = ''; await refreshMe(true);
+  } catch(e){
+    if (e.status === 409) { T.lastKey = ''; return refreshMe(true); }
+    document.getElementById('err').textContent = e.message; btn.disabled = false;
+  }
+}
+
+// ================= PIN screens =================
+function pinGate(role, title, onOk){
+  const k = 'bb_pin_' + role;
+  const saved = (() => { try { return sessionStorage.getItem(k) } catch(e){ return null } })();
+  if (saved) return onOk(saved);
+  app.innerHTML = `<h1>${esc(title)}</h1>
+    <div class="card"><label class="small muted" for="pin">PIN</label>
+    <input id="pin" inputmode="numeric" autocomplete="off"><div style="height:12px"></div>
+    <button id="go">Continue</button><p class="err" id="err"></p></div>`;
+  const go = () => { const p = document.getElementById('pin').value.trim(); try { sessionStorage.setItem(k, p) } catch(e){} onOk(p); };
+  document.getElementById('go').onclick = go;
+  document.getElementById('pin').onkeydown = e => { if (e.key === 'Enter') go(); };
+}
+function pinFailed(role, title, e){
+  try { sessionStorage.removeItem('bb_pin_' + role) } catch(_){}
+  clearInterval(pollTimer);
+  pinGate(role, title, () => route());
+  document.getElementById('err').textContent = e.message;
+}
+
+// ================= Bagger =================
+function baggerView(){
+  pinGate('bagger', 'Bagger', pin => {
+    const load = async () => {
+      let d; try { d = await api('/api/bagger', {pin}); } catch(e){ if (e.status === 401) return pinFailed('bagger','Bagger',e); return; }
+      if (!d.round) { app.innerHTML = `<h1>Bagger</h1><div class="card"><p>All rounds are done.</p></div>`; return; }
+      app.innerHTML = `<h1>Bagger</h1>
+        <p class="muted">Round ${d.round}${d.round === 3 ? ' · the final' : ''} · <span class="status ${d.status}">${d.status === 'pending' ? 'up next' : d.status}</span></p>
+        ${d.tables.map(t => `<div class="card"><h2 style="margin-top:0">Table ${t.table}</h2>
+          ${t.numbers.length ? `<p>Pour <b>${t.cupsEach} cups</b> of each:</p><div class="map">${t.numbers.map(n => `<div>#${n}<small>${t.cupsEach} cups</small></div>`).join('')}</div>`
+            : `<p class="muted">Numbers appear when the host opens the final.</p>`}
+        </div>`).join('')}
+        <p class="muted small">${d.round === 3 ? 'Pour the final from the sealed second drinks.' : 'Pour from drink 1. Keep drink 2 sealed.'} Mark each cup with its number, then hand the tray to the labeller.</p>`;
+    };
+    load(); poll(load);
+  });
+}
+
+// ================= Labeller =================
+function labelView(){
+  pinGate('label', 'Labeller', pin => {
+    let table = Number(store.get('bb_label_table')) || 0;
+    const pick = () => {
+      app.innerHTML = `<h1>Labeller</h1><div class="card"><p>Which table are you labelling?</p>
+        <div class="row"><button data-t="1">Table 1</button><button data-t="2">Table 2</button></div></div>`;
+      app.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { table = Number(b.dataset.t); store.set('bb_label_table', table); load(); poll(load); });
+    };
+    const load = async () => {
+      let d; try { d = await api('/api/label?table=' + table, {pin}); } catch(e){ if (e.status === 401) return pinFailed('label','Labeller',e); return; }
+      app.innerHTML = `<h1>Labeller · Table ${table}</h1>` + (!d.round
+        ? `<div class="card center"><div class="boba"><i></i><i></i><i></i></div><p class="muted">No round open. This screen updates by itself.</p></div>`
+        : d.cups.length === 0
+          ? `<div class="card"><p class="muted">Round ${d.round} is at table 1 only. Help carry trays.</p></div>`
+          : `<p class="muted">Round ${d.round}${d.round === 3 ? ' · the final' : ''}: cover each number with its letter.</p>
+             <div class="card map">${d.cups.map(c => `<div><small>#${c.num}</small> → ${esc(c.letter)}</div>`).join('')}</div>
+             <p class="muted small">Hidden again when the host closes the round.</p>`)
+        + `<button class="ghost" id="sw">Switch table</button>`;
+      document.getElementById('sw').onclick = () => { clearInterval(pollTimer); store.set('bb_label_table', null); pick(); };
+    };
+    if (table) { load(); poll(load); } else pick();
+  });
+}
+
+// ================= Host =================
+function hostView(){
+  pinGate('host', 'Host', pin => {
+    let busy = false;
+    const load = async () => {
+      if (busy) return;
+      let d; try { d = await api('/api/host/state', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host','Host',e); return; }
+      const started = d.rounds.some(r => r.status !== 'pending');
+      const focused = document.activeElement && ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName);
+      if (focused) return; // don't redraw under the host's fingers
+      const byPanel = Object.fromEntries(d.panels.map(p => [p.name, d.tasters.filter(t => t.panel === p.name)]));
+      app.innerHTML = `
+        <h1>Host</h1>
+        <p class="muted">${d.tasters.length} of 21 tasters joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
+        <h2>Rounds</h2>
+        ${d.rounds.map(r => `<div class="card">
+          <div class="row" style="justify-content:space-between"><h2 style="margin:0">${r.id === 3 ? 'Final' : 'Round ' + r.id}</h2>
+            <span class="status ${r.status}" style="flex:0">${r.status}</span></div>
+          <div class="tables" style="margin-top:10px">${r.tables.map(t => `<div>
+            <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')}</span><br>
+            <span style="font:800 26px var(--display)">${t.voted}/${t.expected}</span> <span class="muted small">voted</span>
+            ${r.status !== 'pending' && t.missing.length ? `<p class="small muted">Waiting on: ${t.missing.map(esc).join(', ')}</p>` : ''}
+          </div>`).join('')}</div>
+          <div class="row" style="margin-top:12px">
+            ${r.status === 'open' ? `<button data-close="${r.id}">Close ${r.id === 3 ? 'final' : 'round ' + r.id}</button>`
+              : `<button class="${r.status === 'closed' ? 'secondary' : ''}" data-open="${r.id}">${r.status === 'closed' ? 'Reopen' : 'Open'} ${r.id === 3 ? 'final' : 'round ' + r.id}</button>`}
+          </div>
+        </div>`).join('')}
+        <p class="err" id="err"></p>
+        <p class="small muted">Closing a round scores it automatically. Results stay hidden until the <a href="#reveal">reveal</a>.</p>
+        <h2>Panels</h2>
+        <div class="tables">${d.panels.map(p => `<div class="card" style="margin:0">
+          <span class="pill" style="background:${PANEL_COLORS[p.name]}">${p.name} · ${byPanel[p.name].length}/${p.target}</span>
+          <table style="margin-top:8px">${byPanel[p.name].map(t => `<tr><td>${esc(t.name)}</td><td style="width:110px">
+            <select data-move="${t.id}" ${started ? 'disabled' : ''}>${d.panels.map(q => `<option ${q.name === p.name ? 'selected' : ''}>${q.name}</option>`).join('')}</select></td></tr>`).join('')}</table>
+        </div>`).join('')}</div>
+        <p class="small muted">${started ? 'Panels are locked now that tasting has started.' : 'Move people between panels before round 1 opens.'}</p>
+        <h2>Paper ballot</h2>
+        <div class="card">
+          <div class="row"><select id="pb-t">${d.tasters.map(t => `<option value="${t.id}">${esc(t.name)} (${t.panel})</option>`).join('')}</select>
+          <select id="pb-r"><option value="1">Round 1</option><option value="2">Round 2</option><option value="3">Final</option></select></div>
+          <div style="height:10px"></div>
+          <input id="pb-rank" placeholder="Letters best first, e.g. K R D">
+          <div style="height:10px"></div><button class="secondary" id="pb-go">Enter paper ballot</button>
+          <p class="err" id="pb-err"></p>
+        </div>
+        <h2>Reset</h2>
+        <div class="card"><p class="small muted">Wipes everyone and every vote. For after the dry run only.</p>
+          <div class="row"><input id="rs" placeholder="Type RESET"><button class="ghost" id="rs-go" style="flex:0 0 120px">Reset</button></div>
+        </div>`;
+      const act = async (fn) => { busy = true; try { await fn(); document.getElementById('err').textContent = ''; } catch(e){ const el = document.getElementById('err'); if (el) el.textContent = e.message; } busy = false; load(); };
+      app.querySelectorAll('[data-open]').forEach(b => b.onclick = () => act(() => api('/api/host/open', {method:'POST', pin, body:{round:Number(b.dataset.open)}})));
+      app.querySelectorAll('[data-close]').forEach(b => b.onclick = () => act(() => api('/api/host/close', {method:'POST', pin, body:{round:Number(b.dataset.close)}})));
+      app.querySelectorAll('[data-move]').forEach(s => s.onchange = () => { s.blur(); act(() => api('/api/host/panel', {method:'POST', pin, body:{id:s.dataset.move, panel:s.value}})); });
+      document.getElementById('pb-go').onclick = async () => {
+        const ranking = document.getElementById('pb-rank').value.toUpperCase().split(/[^A-Z]+/).filter(Boolean);
+        try {
+          await api('/api/host/paper', {method:'POST', pin, body:{id:document.getElementById('pb-t').value, round:Number(document.getElementById('pb-r').value), ranking}});
+          document.getElementById('pb-rank').value = ''; document.getElementById('pb-rank').blur(); load();
+        } catch(e){ document.getElementById('pb-err').textContent = e.message; }
+      };
+      document.getElementById('rs-go').onclick = () => { const v = document.getElementById('rs').value.trim(); document.getElementById('rs').blur(); act(() => api('/api/host/reset', {method:'POST', pin, body:{confirm:v}})); };
+    };
+    load(); poll(load);
+  });
+}
+
+// ================= Reveal =================
+const GROUP_THEMES = {1:'Group 1', 2:'Group 2', 3:'Group 3', 4:'Group 4'};
+function revealView(){
+  pinGate('host', 'Reveal', async pin => {
+    let d;
+    try { d = await api('/api/host/results', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host','Reveal',e); app.innerHTML = `<p class="err">${esc(e.message)}</p>`; return; }
+    const names = JSON.parse(store.get('bb_names') || '{}');
+    const themes = JSON.parse(store.get('bb_themes') || '{}');
+    app.innerHTML = `<h1>Reveal setup</h1>
+      <p class="muted">Type each shop name from the bagger's paper key. Saved on this device only.</p>
+      ${[1,2,3,4].map(g => `<div class="card"><input data-theme="${g}" placeholder="Group ${g} theme (optional), e.g. The 1990s pioneers" value="${esc(themes[g] || '')}">
+        ${[3*g-2,3*g-1,3*g].map(n => `<div class="row" style="margin-top:8px"><span style="flex:0 0 48px;font:800 22px var(--display)">#${n}</span><input data-num="${n}" placeholder="Shop for #${n}" value="${esc(names[n] || '')}"></div>`).join('')}</div>`).join('')}
+      <button id="start">Start the reveal</button>
+      <p class="small muted" style="margin-top:10px">${d.final.status === 'closed' ? 'All rounds are closed.' : 'Heads up: the final isn’t closed yet.'}</p>`;
+    app.querySelectorAll('[data-num]').forEach(i => i.oninput = () => { names[i.dataset.num] = i.value; store.set('bb_names', JSON.stringify(names)); });
+    app.querySelectorAll('[data-theme]').forEach(i => i.oninput = () => { themes[i.dataset.theme] = i.value; store.set('bb_themes', JSON.stringify(themes)); });
+    document.getElementById('start').onclick = () => runReveal(d, names, themes);
+  });
+}
+
+function runReveal(d, names, themes){
+  const nm = n => names[n] && names[n].trim() ? names[n].trim() : `Cup #${n}`;
+  const pickNotes = (res, n, k=2) => [...new Set(res.notes[n] || [])].filter(t => t.length > 3).sort(() => Math.random() - 0.5).slice(0, k);
+  const why = r => r.decidedBy === 'head-to-head wins' ? 'won on head-to-heads' : r.decidedBy === 'coin flip' ? 'decided by coin flip' : `tiebreak: ${r.decidedBy}`;
+  const slides = [];
+  slides.push(() => `<p class="muted">Nov. 22, 2026</p><p class="slide-title">The Boba Bracket</p>
+    <p class="muted" style="font-size:22px">${d.tasters} tasters · 12 shops · 4 blind groups · 1 champion</p>`);
+  for (const g of d.groups) {
+    const r = g.result; if (!r || !r.voters) continue;
+    const title = themes[g.group] && themes[g.group].trim() ? themes[g.group].trim() : `Group ${g.group}`;
+    slides.push(() => `<p class="muted">Round ${g.round} · ${g.panels.join(' + ')} panels</p><p class="slide-title">${esc(title)}</p>
+      <p class="muted" style="font-size:22px">Cups ${r.order.map(n => esc(r.letters[n])).sort().join(', ')}. Who was who?</p>`);
+    slides.push(() => `<p class="muted">${esc(title)} · ${r.voters} voters · ${why(r)}</p>
+      <div class="podium">${r.stats.map((s, i) => `<div class="place ${i === 0 ? 'win' : ''}"><span class="n">${i + 1}</span>
+        <div><div class="name">${esc(nm(s.cup))}</div><div class="muted small">was cup ${esc(r.letters[s.cup])}</div>
+        ${pickNotes(r, s.cup, 1).map(t => `<div class="quote">“${esc(t)}”</div>`).join('')}</div>
+        <div class="meta">${s.wins} head-to-head win${s.wins === 1 ? '' : 's'}<br>${s.firsts} first-place vote${s.firsts === 1 ? '' : 's'}</div></div>`).join('')}</div>`);
+  }
+  const f = d.final.result;
+  if (f && f.voters) {
+    slides.push(() => `<p class="muted">The final · ${f.voters} voters</p><p class="slide-title">Four group winners</p>
+      <div class="podium">${f.order.slice().sort((a,b)=>a-b).map(n => `<div class="place"><div class="name">${esc(nm(n))}</div><div class="meta">was cup ${esc(f.letters[n])}</div></div>`).join('')}</div>`);
+    for (let k = f.stats.length - 1; k >= 1; k--) {
+      slides.push(() => `<p class="muted">The final</p><div class="podium">${f.stats.slice(k).map((s, i) => `<div class="place"><span class="n">${k + i + 1}</span>
+        <div class="name">${esc(nm(s.cup))}</div><div class="meta">${s.wins} win${s.wins === 1 ? '' : 's'} · ${s.firsts} first-place</div></div>`).join('')}</div>`);
+    }
+    const c = f.stats[0];
+    slides.push(() => `<p class="muted">Your champion · ${why(f)}</p><p class="slide-title">${esc(nm(c.cup))}</p>
+      <p style="font-size:22px">${c.firsts} of ${f.voters} tasters ranked it first in the final.</p>
+      ${pickNotes(f, c.cup, 3).map(t => `<div class="quote">“${esc(t)}”</div>`).join('')}`);
+  }
+  let i = 0;
+  const show = () => {
+    app.innerHTML = `<div class="stage">${slides[i]()}</div>
+      <div class="nav"><button class="ghost" id="prev" ${i === 0 ? 'disabled' : ''}>Back</button>
+      <button id="nxt" ${i === slides.length - 1 ? 'disabled' : ''}>Next</button></div>
+      <p class="small muted center">${i + 1} / ${slides.length} · space or arrow keys</p>`;
+    document.getElementById('prev').onclick = () => { if (i > 0) { i--; show(); } };
+    document.getElementById('nxt').onclick = () => { if (i < slides.length - 1) { i++; show(); } };
+  };
+  document.onkeydown = e => {
+    if (location.hash !== '#reveal') return;
+    if (['ArrowRight',' ','PageDown'].includes(e.key) && i < slides.length - 1) { e.preventDefault(); i++; show(); }
+    if (['ArrowLeft','PageUp'].includes(e.key) && i > 0) { e.preventDefault(); i--; show(); }
+  };
+  show();
+}
+
+route();
+</script>
+</body>
+</html>

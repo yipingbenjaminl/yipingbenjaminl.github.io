@@ -1,0 +1,397 @@
+// Boba Bracket voting API (Cloudflare Worker + D1).
+// The page lives on GitHub Pages (food/boba-vote/); this Worker only serves /api/*.
+import { scoreRound } from './scoring.js';
+
+const PANELS = [
+  { name: 'Red', target: 5 },
+  { name: 'Blue', target: 5 },
+  { name: 'Green', target: 5 },
+  { name: 'Yellow', target: 6 },
+];
+const PANEL_NAMES = PANELS.map((p) => p.name);
+
+// Group g holds cup numbers 3g-2 .. 3g. The bagger's paper key maps numbers to shops.
+const groupNums = (g) => [3 * g - 2, 3 * g - 1, 3 * g];
+
+// Ring schedule: each panel judges two neighbouring groups.
+const PLAN = {
+  1: [
+    { table: 1, group: 1, panels: ['Red', 'Blue'] },
+    { table: 2, group: 3, panels: ['Green', 'Yellow'] },
+  ],
+  2: [
+    { table: 1, group: 2, panels: ['Blue', 'Green'] },
+    { table: 2, group: 4, panels: ['Yellow', 'Red'] },
+  ],
+  3: [{ table: 1, group: null, panels: PANEL_NAMES }],
+};
+
+// No I, O, Q, S, Z (look-alikes). 21 letters; the event needs 16.
+const LETTERS = 'ABCDEFGHJKLMNPRTUVWXY'.split('');
+
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    if (request.method === 'OPTIONS') return cors(new Response(null, { status: 204 }));
+    if (!url.pathname.startsWith('/api/')) return cors(json({ ok: true, app: 'boba-bracket' }));
+    try {
+      const res = await route(request, env, url);
+      return cors(res);
+    } catch (err) {
+      const status = err.status || 500;
+      return cors(json({ error: err.expose ? err.message : 'Server error' }, status));
+    }
+  },
+};
+
+async function route(request, env, url) {
+  const path = url.pathname.replace(/\/+$/, '');
+  const method = request.method;
+  const body = method === 'POST' ? await request.json().catch(() => ({})) : {};
+
+  // ---------- Taster ----------
+  if (path === '/api/join' && method === 'POST') return join(env, body);
+  if (path === '/api/me' && method === 'GET') return me(env, url.searchParams.get('id'));
+  if (path === '/api/ballot' && method === 'POST') return submitBallot(env, body, 'app');
+
+  // ---------- Bagger (numbers only, never letters) ----------
+  if (path === '/api/bagger' && method === 'GET') {
+    requirePin(request, env.BAGGER_PIN);
+    return bagger(env);
+  }
+
+  // ---------- Labeller (number -> letter for one table, current round only) ----------
+  if (path === '/api/label' && method === 'GET') {
+    requirePin(request, env.LABELLER_PIN);
+    return label(env, Number(url.searchParams.get('table')));
+  }
+
+  // ---------- Host ----------
+  if (path.startsWith('/api/host/')) {
+    requirePin(request, env.HOST_PIN);
+    if (path === '/api/host/state' && method === 'GET') return hostState(env);
+    if (path === '/api/host/panel' && method === 'POST') return movePanel(env, body);
+    if (path === '/api/host/open' && method === 'POST') return openRound(env, Number(body.round));
+    if (path === '/api/host/close' && method === 'POST') return closeRound(env, Number(body.round));
+    if (path === '/api/host/paper' && method === 'POST') return submitBallot(env, body, 'paper');
+    if (path === '/api/host/results' && method === 'GET') return results(env, true);
+    if (path === '/api/host/reset' && method === 'POST') return reset(env, body);
+  }
+  throw httpError(404, 'Not found');
+}
+
+// ===================== Taster =====================
+
+async function join(env, body) {
+  const name = String(body.name || '').trim().replace(/\s+/g, ' ').slice(0, 40);
+  if (!name) throw httpError(400, 'Enter your name');
+  const existing = await env.DB.prepare('SELECT id, name, panel FROM tasters WHERE name = ?').bind(name).first();
+  if (existing) return json({ taster: existing, rejoined: true });
+
+  const counts = await panelCounts(env);
+  // Fill the panel furthest below its target; ties go in panel order.
+  let best = null;
+  for (const p of PANELS) {
+    const gap = p.target - (counts[p.name] || 0);
+    if (!best || gap > best.gap) best = { name: p.name, gap };
+  }
+  const id = crypto.randomUUID();
+  await env.DB.prepare('INSERT INTO tasters (id, name, panel) VALUES (?, ?, ?)').bind(id, name, best.name).run();
+  return json({ taster: { id, name, panel: best.name }, rejoined: false });
+}
+
+async function me(env, id) {
+  const taster = await getTaster(env, id);
+  const round = await openRoundRow(env);
+  const total = await env.DB.prepare('SELECT COUNT(*) AS n FROM tasters').first();
+  if (!round) {
+    const done = await env.DB.prepare("SELECT COUNT(*) AS n FROM rounds WHERE status = 'closed'").first();
+    return json({ taster, state: done.n === 3 ? 'finished' : 'waiting', tasters: total.n, next: await nextFor(env, taster) });
+  }
+  const slot = PLAN[round.id].find((s) => s.panels.includes(taster.panel));
+  if (!slot) return json({ taster, state: 'resting', round: round.id, next: await nextFor(env, taster) });
+
+  const cups = await env.DB.prepare('SELECT letter FROM cups WHERE round_id = ? AND table_no = ?')
+    .bind(round.id, slot.table).all();
+  const letters = cups.results.map((c) => c.letter).sort();
+  const ballot = await env.DB.prepare('SELECT ranking FROM ballots WHERE round_id = ? AND taster_id = ?')
+    .bind(round.id, taster.id).first();
+  return json({
+    taster,
+    state: ballot ? 'submitted' : 'tasting',
+    round: round.id,
+    table: slot.table,
+    placemat: placematOrder(letters, `${taster.id}:${round.id}`),
+    ranking: ballot ? JSON.parse(ballot.ranking) : null,
+  });
+}
+
+async function nextFor(env, taster) {
+  const rows = await env.DB.prepare("SELECT id FROM rounds WHERE status = 'pending' ORDER BY id").all();
+  for (const r of rows.results) {
+    const slot = PLAN[r.id].find((s) => s.panels.includes(taster.panel));
+    if (slot) return { round: r.id, table: slot.table };
+  }
+  return null;
+}
+
+async function submitBallot(env, body, source) {
+  const taster = await getTaster(env, body.id);
+  const roundId = Number(body.round);
+  const round = await env.DB.prepare('SELECT id, status FROM rounds WHERE id = ?').bind(roundId).first();
+  if (!round) throw httpError(400, 'Unknown round');
+  // Paper ballots can be entered by the host after a round closes; app ballots need an open round.
+  if (source === 'app' && round.status !== 'open') throw httpError(409, 'This round is closed');
+  if (source === 'paper' && round.status === 'pending') throw httpError(409, 'This round has not started');
+  const slot = PLAN[roundId].find((s) => s.panels.includes(taster.panel));
+  if (!slot) throw httpError(403, `${taster.panel} panel isn't tasting round ${roundId}`);
+
+  const cups = await env.DB.prepare('SELECT letter FROM cups WHERE round_id = ? AND table_no = ?')
+    .bind(roundId, slot.table).all();
+  const letters = cups.results.map((c) => c.letter);
+  const ranking = Array.isArray(body.ranking) ? body.ranking.map((l) => String(l).toUpperCase()) : [];
+  const valid = ranking.length === letters.length && new Set(ranking).size === letters.length
+    && ranking.every((l) => letters.includes(l));
+  if (!valid) throw httpError(400, `Rank all ${letters.length} cups: ${letters.sort().join(', ')}`);
+
+  const notes = {};
+  for (const l of letters) {
+    const t = body.notes && typeof body.notes[l] === 'string' ? body.notes[l].trim().slice(0, 280) : '';
+    if (t) notes[l] = t;
+  }
+  const res = await env.DB.prepare(
+    `INSERT INTO ballots (round_id, taster_id, table_no, ranking, notes, source)
+     VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT (round_id, taster_id) DO NOTHING`,
+  ).bind(roundId, taster.id, slot.table, JSON.stringify(ranking), JSON.stringify(notes), source).run();
+  if (!res.meta.changes) throw httpError(409, 'A ranking is already in for this round');
+  return json({ ok: true });
+}
+
+// ===================== Bagger / Labeller =====================
+
+async function bagger(env) {
+  const counts = await panelCounts(env);
+  const round = await openRoundRow(env) || await nextPendingRound(env);
+  if (!round) return json({ round: null });
+  const tables = [];
+  for (const slot of PLAN[round.id]) {
+    let nums;
+    if (slot.group) nums = groupNums(slot.group);
+    else {
+      const rows = await env.DB.prepare('SELECT num FROM cups WHERE round_id = 3 ORDER BY num').all();
+      nums = rows.results.map((r) => r.num);
+    }
+    const cups = slot.panels.reduce((s, p) => s + (counts[p] || 0), 0);
+    tables.push({ table: slot.table, numbers: nums, cupsEach: cups });
+  }
+  return json({ round: round.id, status: round.status, tables });
+}
+
+async function label(env, table) {
+  const round = await openRoundRow(env);
+  if (!round) return json({ round: null });
+  const slot = PLAN[round.id].find((s) => s.table === table);
+  if (!slot) return json({ round: round.id, table, cups: [] });
+  const rows = await env.DB.prepare('SELECT num, letter FROM cups WHERE round_id = ? AND table_no = ? ORDER BY num')
+    .bind(round.id, table).all();
+  return json({ round: round.id, table, cups: rows.results });
+}
+
+// ===================== Host =====================
+
+async function hostState(env) {
+  const tasters = (await env.DB.prepare('SELECT id, name, panel FROM tasters ORDER BY panel, name').all()).results;
+  const rounds = (await env.DB.prepare('SELECT id, status FROM rounds ORDER BY id').all()).results;
+  const ballots = (await env.DB.prepare('SELECT round_id, taster_id FROM ballots').all()).results;
+  const voted = new Set(ballots.map((b) => `${b.round_id}:${b.taster_id}`));
+  const roundInfo = rounds.map((r) => ({
+    ...r,
+    tables: PLAN[r.id].map((slot) => {
+      const expected = tasters.filter((t) => slot.panels.includes(t.panel));
+      const missing = expected.filter((t) => !voted.has(`${r.id}:${t.id}`)).map((t) => t.name);
+      return { table: slot.table, panels: slot.panels, expected: expected.length, voted: expected.length - missing.length, missing };
+    }),
+  }));
+  return json({ tasters, panels: PANELS, rounds: roundInfo });
+}
+
+async function movePanel(env, body) {
+  if (!PANEL_NAMES.includes(body.panel)) throw httpError(400, 'Unknown panel');
+  const started = await env.DB.prepare("SELECT COUNT(*) AS n FROM rounds WHERE status != 'pending'").first();
+  if (started.n > 0) throw httpError(409, 'Panels are locked once round 1 opens');
+  await getTaster(env, body.id);
+  await env.DB.prepare('UPDATE tasters SET panel = ? WHERE id = ?').bind(body.panel, body.id).run();
+  return json({ ok: true });
+}
+
+async function openRound(env, roundId) {
+  if (![1, 2, 3].includes(roundId)) throw httpError(400, 'Unknown round');
+  const current = await openRoundRow(env);
+  if (current && current.id !== roundId) throw httpError(409, `Close round ${current.id} first`);
+  const round = await env.DB.prepare('SELECT status FROM rounds WHERE id = ?').bind(roundId).first();
+  if (roundId > 1) {
+    const prev = await env.DB.prepare('SELECT status FROM rounds WHERE id = ?').bind(roundId - 1).first();
+    if (prev.status !== 'closed') throw httpError(409, `Round ${roundId - 1} must be closed first`);
+  }
+
+  const existing = await env.DB.prepare('SELECT COUNT(*) AS n FROM cups WHERE round_id = ?').bind(roundId).first();
+  if (existing.n === 0) {
+    // Draw letters for this round from the unused pool.
+    const used = new Set((await env.DB.prepare('SELECT letter FROM cups').all()).results.map((r) => r.letter));
+    const pool = shuffleSecure(LETTERS.filter((l) => !used.has(l)));
+    const stmts = [];
+    if (roundId === 3) {
+      const winners = await groupWinners(env);
+      if (winners.length !== 4) throw httpError(409, 'Rounds 1 and 2 need ballots before the final');
+      shuffleSecure(winners).forEach((num) => {
+        stmts.push(env.DB.prepare('INSERT INTO cups (round_id, table_no, num, letter) VALUES (3, 1, ?, ?)').bind(num, pool.pop()));
+      });
+    } else {
+      for (const slot of PLAN[roundId]) {
+        for (const num of shuffleSecure(groupNums(slot.group))) {
+          stmts.push(env.DB.prepare('INSERT INTO cups (round_id, table_no, num, letter) VALUES (?, ?, ?, ?)')
+            .bind(roundId, slot.table, num, pool.pop()));
+        }
+      }
+    }
+    await env.DB.batch(stmts);
+  }
+  await env.DB.prepare("UPDATE rounds SET status = 'open' WHERE id = ?").bind(roundId).run();
+  return json({ ok: true, round: roundId, reopened: round.status === 'closed' });
+}
+
+async function closeRound(env, roundId) {
+  await env.DB.prepare("UPDATE rounds SET status = 'closed' WHERE id = ? AND status = 'open'").bind(roundId).run();
+  return json({ ok: true });
+}
+
+async function groupWinners(env) {
+  const r = await results(env, false);
+  return r.groups.filter((g) => g.result && g.result.voters > 0).map((g) => g.result.winner);
+}
+
+// Results by cup number (shop names are added on the reveal screen from the paper key).
+async function results(env, asResponse) {
+  const cups = (await env.DB.prepare('SELECT round_id, table_no, num, letter FROM cups').all()).results;
+  const ballots = (await env.DB.prepare('SELECT round_id, table_no, ranking, notes FROM ballots').all()).results;
+  const rounds = Object.fromEntries((await env.DB.prepare('SELECT id, status FROM rounds').all()).results.map((r) => [r.id, r.status]));
+  const tasters = (await env.DB.prepare('SELECT COUNT(*) AS n FROM tasters').first()).n;
+
+  const scoreSlot = (roundId, table) => {
+    const slotCups = cups.filter((c) => c.round_id === roundId && c.table_no === table);
+    if (slotCups.length === 0) return null;
+    const byLetter = Object.fromEntries(slotCups.map((c) => [c.letter, c.num]));
+    const slotBallots = ballots.filter((b) => b.round_id === roundId && b.table_no === table);
+    const rankings = slotBallots.map((b) => JSON.parse(b.ranking).map((l) => byLetter[l]));
+    const res = scoreRound(slotCups.map((c) => c.num), rankings, seededRng(`${roundId}:${table}`));
+    const notes = {};
+    for (const b of slotBallots) {
+      for (const [l, t] of Object.entries(JSON.parse(b.notes))) (notes[byLetter[l]] ||= []).push(t);
+    }
+    return { ...res, letters: Object.fromEntries(slotCups.map((c) => [c.num, c.letter])), notes };
+  };
+
+  const groups = [];
+  for (const roundId of [1, 2]) {
+    for (const slot of PLAN[roundId]) {
+      groups.push({ round: roundId, table: slot.table, group: slot.group, panels: slot.panels, status: rounds[roundId], result: scoreSlot(roundId, slot.table) });
+    }
+  }
+  groups.sort((a, b) => a.group - b.group);
+  const data = { tasters, groups, final: { status: rounds[3], result: scoreSlot(3, 1) } };
+  return asResponse ? json(data) : data;
+}
+
+async function reset(env, body) {
+  if (body.confirm !== 'RESET') throw httpError(400, 'Type RESET to confirm');
+  await env.DB.batch([
+    env.DB.prepare('DELETE FROM ballots'),
+    env.DB.prepare('DELETE FROM cups'),
+    env.DB.prepare('DELETE FROM tasters'),
+    env.DB.prepare("UPDATE rounds SET status = 'pending'"),
+  ]);
+  return json({ ok: true });
+}
+
+// ===================== Helpers =====================
+
+async function getTaster(env, id) {
+  if (!id) throw httpError(400, 'Join first');
+  const t = await env.DB.prepare('SELECT id, name, panel FROM tasters WHERE id = ?').bind(String(id)).first();
+  if (!t) throw httpError(404, 'We lost your spot, please join again');
+  return t;
+}
+
+async function panelCounts(env) {
+  const rows = await env.DB.prepare('SELECT panel, COUNT(*) AS n FROM tasters GROUP BY panel').all();
+  return Object.fromEntries(rows.results.map((r) => [r.panel, r.n]));
+}
+
+async function openRoundRow(env) {
+  return env.DB.prepare("SELECT id, status FROM rounds WHERE status = 'open' ORDER BY id LIMIT 1").first();
+}
+
+async function nextPendingRound(env) {
+  return env.DB.prepare("SELECT id, status FROM rounds WHERE status = 'pending' ORDER BY id LIMIT 1").first();
+}
+
+// Same order every time for the same taster and round, different across tasters.
+function placematOrder(letters, seed) {
+  return shuffleWith(letters, seededRng(seed));
+}
+
+function seededRng(seed) {
+  let h = 2166136261;
+  for (let i = 0; i < seed.length; i++) h = Math.imul(h ^ seed.charCodeAt(i), 16777619);
+  return () => {
+    h += 0x6d2b79f5;
+    let t = h;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffleWith(arr, rng) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function shuffleSecure(arr) {
+  const buf = new Uint32Array(arr.length);
+  crypto.getRandomValues(buf);
+  let k = 0;
+  return shuffleWith(arr, () => buf[k++ % buf.length] / 4294967296);
+}
+
+function requirePin(request, pin) {
+  const given = request.headers.get('X-Pin') || '';
+  if (!pin || given !== pin) throw httpError(401, 'Wrong PIN');
+}
+
+function httpError(status, message) {
+  const e = new Error(message);
+  e.status = status;
+  e.expose = true;
+  return e;
+}
+
+function json(data, status = 200) {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+  });
+}
+
+function cors(res) {
+  const r = new Response(res.body, res);
+  r.headers.set('Access-Control-Allow-Origin', '*');
+  r.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  r.headers.set('Access-Control-Allow-Headers', 'Content-Type, X-Pin');
+  r.headers.set('Access-Control-Max-Age', '86400');
+  return r;
+}
