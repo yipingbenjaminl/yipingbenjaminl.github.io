@@ -384,6 +384,48 @@ function pinFailed(role, title, e){
 }
 
 // ================= Host =================
+// Which shops (cup numbers) each table gets in the group rounds, and the letters that round uses there.
+const GROUP_PLAN = {
+  1: [{ table: 1, nums: [1, 2, 3], letters: 'A–C' }, { table: 2, nums: [7, 8, 9], letters: 'D–F' }],
+  2: [{ table: 1, nums: [4, 5, 6], letters: 'G–I' }, { table: 2, nums: [10, 11, 12], letters: 'J–L' }],
+};
+
+// Pour sheets: the current round from the server, plus round 2's plan ahead of time while it's still to come.
+// Exact letters only exist once a round is opened (the server shuffles shops then), so later rounds show the letter range.
+function pourSheets(pour, d){
+  const counts = Object.fromEntries(d.panels.map(p => [p.name, d.tasters.filter(t => t.panel === p.name).length]));
+  const card = (round, t, cups) => `<div class="card" style="margin:0">
+      <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')} · ${t.panels.reduce((n, p) => n + (counts[p] || 0), 0)} cups of each</span>
+      <table style="margin-top:8px">${cups.map(c => `<tr><td style="width:44px"><b>#${c.num}</b></td><td>${esc(SHOPS[c.num] || '')}</td>
+        <td style="text-align:right;${c.letter ? 'font:800 24px var(--display)' : ''}">${c.letter ? esc(c.letter) : `<span class="muted small">${c.hint}</span>`}</td></tr>`).join('')}</table>
+    </div>`;
+  const head = (title, tag, status) => `<div class="row" style="justify-content:space-between;align-items:baseline;margin-top:18px">
+      <h2 style="margin:0">${title}</h2><span class="status ${status}" style="flex:0;white-space:nowrap">${tag}</span></div>`;
+  let html = '';
+  if (pour.round) {
+    const plan = GROUP_PLAN[pour.round];
+    html += head(`Pour sheet · ${pour.round === 3 ? 'Final' : 'Round ' + pour.round}`, pour.status === 'open' ? 'open now' : 'up next', pour.status)
+      + `<div class="tables" style="margin-top:10px">${pour.tables.map(t => {
+          const range = plan ? plan.find(p => p.table === t.table).letters : 'M–P';
+          return card(pour.round, t, t.cups.map(c => ({ ...c, hint: `one of ${range} · on open` })));
+        }).join('')}</div>`
+      + (pour.round === 3 && !pour.tables[0].cups.length ? `<p class="muted small">The 4 finalists appear when you open the final.</p>` : '')
+      + `<p class="small muted" style="margin:6px 0 0">${pour.round === 3 ? 'Pour the final from the sealed second drinks.' : 'Pour from drink 1 and keep drink 2 sealed.'} Mark each cup with its letter.</p>`;
+  }
+  // Round 2 ahead of time, while round 1 is still up next or open.
+  const r2 = d.rounds.find(r => r.id === 2);
+  if (pour.round === 1 && r2 && r2.status === 'pending') {
+    html += head('Pour sheet · Round 2', 'later', 'pending')
+      + `<div class="tables" style="margin-top:10px">${r2.tables.map(t => {
+          const p = GROUP_PLAN[2].find(x => x.table === t.table);
+          return card(2, t, p.nums.map(num => ({ num, letter: null, hint: `one of ${p.letters} · on open` })));
+        }).join('')}</div>
+      <p class="small muted" style="margin:6px 0 0">Sort round 2’s drinks to their tables now. Exact letters appear here when you open round 2.</p>`;
+  }
+  if (pour.round !== 3) html += `<p class="small muted" style="margin-top:14px">The final’s 4 cups (letters M–P) appear when you open the final.</p>`;
+  return html;
+}
+
 function hostView(){
   pinGate('host', 'Host', pin => {
     let busy = false;
@@ -397,14 +439,7 @@ function hostView(){
       app.innerHTML = `
         <h1>Host</h1>
         <p class="muted">${d.tasters.length} taster${d.tasters.length === 1 ? '' : 's'} joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
-        ${pour.round ? `<h2>Pour sheet · ${pour.round === 3 ? 'Final' : 'Round ' + pour.round}${pour.status === 'pending' ? ' (up next)' : ''}</h2>
-        <div class="tables">${pour.tables.map(t => `<div class="card" style="margin:0">
-          <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')} · ${t.cupsEach} cups of each</span>
-          ${t.cups.length ? `<table style="margin-top:8px">${t.cups.map(c => `<tr><td style="width:44px"><b>#${c.num}</b></td><td>${esc(SHOPS[c.num] || '')}</td>
-            <td style="text-align:right;font:800 24px var(--display)">${c.letter ? esc(c.letter) : '<span class="muted small">letter on open</span>'}</td></tr>`).join('')}</table>`
-            : `<p class="muted small">The 4 finalists appear when you open the final.</p>`}
-        </div>`).join('')}</div>
-        <p class="small muted">${pour.round === 3 ? 'Pour the final from the sealed second drinks.' : 'Pour from drink 1 and keep drink 2 sealed.'} Mark each cup with its letter.</p>` : ''}
+        ${pourSheets(pour, d)}
         <h2>Rounds</h2>
         ${d.rounds.map(r => `<div class="card">
           <div class="row" style="justify-content:space-between"><h2 style="margin:0">${r.id === 3 ? 'Final' : 'Round ' + r.id}</h2>
