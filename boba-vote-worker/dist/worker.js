@@ -173,15 +173,21 @@ async function join(env, body) {
   if (!name) throw httpError(400, "Enter your name");
   const existing = await env.DB.prepare("SELECT id, name, panel FROM tasters WHERE name = ?").bind(name).first();
   if (existing) return json({ taster: existing, rejoined: true });
-  const counts = await panelCounts(env);
-  let best = null;
-  for (const name2 of PANEL_NAMES) {
-    const n = counts[name2] || 0;
-    if (!best || n < best.n) best = { name: name2, n };
-  }
   const id = crypto.randomUUID();
-  await env.DB.prepare("INSERT INTO tasters (id, name, panel) VALUES (?, ?, ?)").bind(id, name, best.name).run();
-  return json({ taster: { id, name, panel: best.name }, rejoined: false });
+  const panels = PANEL_NAMES.map((p, i) => `SELECT '${p}' AS name, ${i} AS ord`).join(" UNION ALL ");
+  const row = await env.DB.prepare(
+    `INSERT INTO tasters (id, name, panel)
+     SELECT ?, ?, (SELECT p.name FROM (${panels}) p
+                   ORDER BY (SELECT COUNT(*) FROM tasters t WHERE t.panel = p.name), p.ord LIMIT 1)
+     WHERE true
+     ON CONFLICT (name) DO NOTHING
+     RETURNING id, name, panel`
+  ).bind(id, name).first();
+  if (!row) {
+    const same = await env.DB.prepare("SELECT id, name, panel FROM tasters WHERE name = ?").bind(name).first();
+    return json({ taster: same, rejoined: true });
+  }
+  return json({ taster: row, rejoined: false });
 }
 async function me(env, id) {
   const taster = await getTaster(env, id);

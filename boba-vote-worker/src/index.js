@@ -73,16 +73,24 @@ async function join(env, body) {
   const existing = await env.DB.prepare('SELECT id, name, panel FROM tasters WHERE name = ?').bind(name).first();
   if (existing) return json({ taster: existing, rejoined: true });
 
-  const counts = await panelCounts(env);
   // Join the panel with the fewest people; ties go in panel order (Red, Blue, Green, Yellow).
-  let best = null;
-  for (const name of PANEL_NAMES) {
-    const n = counts[name] || 0;
-    if (!best || n < best.n) best = { name, n };
-  }
+  // Counting and inserting happen in one statement so people joining at the same moment still spread evenly.
   const id = crypto.randomUUID();
-  await env.DB.prepare('INSERT INTO tasters (id, name, panel) VALUES (?, ?, ?)').bind(id, name, best.name).run();
-  return json({ taster: { id, name, panel: best.name }, rejoined: false });
+  const panels = PANEL_NAMES.map((p, i) => `SELECT '${p}' AS name, ${i} AS ord`).join(' UNION ALL ');
+  const row = await env.DB.prepare(
+    `INSERT INTO tasters (id, name, panel)
+     SELECT ?, ?, (SELECT p.name FROM (${panels}) p
+                   ORDER BY (SELECT COUNT(*) FROM tasters t WHERE t.panel = p.name), p.ord LIMIT 1)
+     WHERE true
+     ON CONFLICT (name) DO NOTHING
+     RETURNING id, name, panel`,
+  ).bind(id, name).first();
+  if (!row) {
+    // Same name joined at the same moment: hand back that person.
+    const same = await env.DB.prepare('SELECT id, name, panel FROM tasters WHERE name = ?').bind(name).first();
+    return json({ taster: same, rejoined: true });
+  }
+  return json({ taster: row, rejoined: false });
 }
 
 async function me(env, id) {
