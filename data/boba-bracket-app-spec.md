@@ -65,8 +65,9 @@ An event is 12 shops in 4 groups, 4 panels in a ring, and 3 rounds; the app must
 **Cups and letters**
 
 - A *cup* is one shop served in one round at one table. Group rounds have 3 cups per table; the final has 4.
-- Each cup gets a random letter, drawn fresh per round from a pool that skips look-alikes (no I, O, Q, S, Z).
-- Letters never repeat across rounds within an event, so nobody can follow a letter from round to round.
+- Cups are lettered in order through the event: A–C and D–F in Round 1, G–I and J–L in Round 2, M–P in the final.
+- Which shop gets which letter is shuffled within each table, so A is not always the same shop.
+- Letters never repeat across rounds, so nobody can follow a letter from round to round.
 - The final draws from the sealed second drink of each finalist and gets new letters.
 
 **Panel assignment**
@@ -112,7 +113,7 @@ The shop-to-letter mapping exists only on the server; the bagger holds one half 
 
 **Letter generation**
 
-- When the host opens a round, the server draws letters with a cryptographic RNG from the unused pool and stores the number → letter map for that round.
+- When the host opens a round, the server shuffles the shops at each table and gives them the next letters in order, then stores the number → letter map for that round.
 - The two tables in a round never share a letter.
 
 **Placemat rotation**

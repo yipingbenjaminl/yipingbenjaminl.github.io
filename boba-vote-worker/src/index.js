@@ -21,8 +21,8 @@ const PLAN = {
   3: [{ table: 1, group: null, panels: PANEL_NAMES }],
 };
 
-// No I, O, Q, S, Z (look-alikes). 21 letters; the event needs 16.
-const LETTERS = 'ABCDEFGHJKLMNPRTUVWXY'.split('');
+// Cups are lettered in order through the event: A-F round 1, G-L round 2, M-P final.
+const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
 export default {
   async fetch(request, env) {
@@ -160,8 +160,8 @@ async function pourSheet(env) {
   if (!round) return json({ round: null });
   const cups = (await env.DB.prepare('SELECT table_no, num, letter FROM cups WHERE round_id = ?').bind(round.id).all()).results;
   const tables = PLAN[round.id].map((slot) => {
-    const drawn = cups.filter((c) => c.table_no === slot.table).sort((a, b) => a.num - b.num);
-    const nums = slot.group ? groupNums(slot.group) : drawn.map((c) => c.num);
+    const drawn = cups.filter((c) => c.table_no === slot.table).sort((a, b) => a.letter.localeCompare(b.letter));
+    const nums = drawn.length ? drawn.map((c) => c.num) : slot.group ? groupNums(slot.group) : [];
     return {
       table: slot.table,
       panels: slot.panels,
@@ -211,9 +211,10 @@ async function openRound(env, roundId) {
 
   const existing = await env.DB.prepare('SELECT COUNT(*) AS n FROM cups WHERE round_id = ?').bind(roundId).first();
   if (existing.n === 0) {
-    // Draw letters for this round from the unused pool.
+    // Next letters in order (A, B, C...), continuing from earlier rounds.
+    // Shops are still shuffled within each table, so A is not always the same shop.
     const used = new Set((await env.DB.prepare('SELECT letter FROM cups').all()).results.map((r) => r.letter));
-    const pool = shuffleSecure(LETTERS.filter((l) => !used.has(l)));
+    const pool = LETTERS.filter((l) => !used.has(l)).reverse();
     const stmts = [];
     if (roundId === 3) {
       const winners = await groupWinners(env);

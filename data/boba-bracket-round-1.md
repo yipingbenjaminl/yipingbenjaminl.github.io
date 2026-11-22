@@ -46,12 +46,12 @@ Each taster tastes 10 samples of about 25 mL: 6 in the groups, 4 in the final.
 
 ## Roles and blinding
 
-Everyone tastes, including helpers, so the secret is split between two people.
+The host is the only one who knows which shop is which; everyone else, helpers included, tastes blind.
 
-- **Bagger (1):** takes bags from drivers, gives each shop a secret number 1–12, and pours cups marked by number. Never sees letters.
-- **Labellers (2, one per table):** cover numbers with that round's random letters and set out cups. Never see bags or shop names.
-- **Drivers (5):** hand bags straight to the bagger.
-- Letters change every round and are never reused. Placemat orders rotate so each cup sits in each position equally often.
+- **Drivers (5):** hand drinks to the host; they stay sealed in the kitchen until their round.
+- **Host:** opens each round in the app, then in the kitchen splits each shop's drink into red solo cups (2 per shop in the group rounds, 3 in the final), stirring first so the pearls spread evenly. Every cup from a shop gets the same letter from the pour sheet. Branded cups go straight into a bag.
+- **Tasters:** pour their own sample (about 1 oz plus a few pearls in group rounds, a couple of sips in the final) into small cups.
+- Letters run in order through the event: A–F in Round 1, G–L in Round 2, M–P in the final, shuffled within each table so A isn't always the same shop. Placemat orders rotate so each cup sits in each position equally often.
 - Don't share the shop list or the group themes with tasters before the reveal.
 
 ## Pickups
@@ -71,7 +71,7 @@ Order ahead about 10 minutes before arriving; aim for all drinks to land within 
 | Time (T = drinks arrive) | What happens |
 | --- | --- |
 | T −75 | Drivers leave, Richmond first; set up two tables and a hidden pour station |
-| T 0 | Check-in: bagger numbers and bags each shop; second drinks stay sealed |
+| T 0 | Check-in: all drinks stay sealed in the kitchen until their round |
 | T +10 | Briefing: blind, letters change each round, rank by "Which would you order again?" |
 | T +15 | Round 1 at both tables |
 | T +32 | Round 2 at both tables |
@@ -83,7 +83,7 @@ Order ahead about 10 minutes before arriving; aim for all drinks to land within 
 
 - **Drinks:** 24 (2 per shop), about $195 with GST.
 - **Cups:** about 240 two-ounce cups (3 packs of 100); about 210 small spoons or toothpicks.
-- Letter stickers or masking tape, Sharpies, trays, panel-colour stickers, 21 water cups, plain crackers, napkins, paper towel, garbage bags.
+- About 36 red solo cups (a 50-pack), 12 long spoons for stirring, masking tape, Sharpies, trays, panel-colour stickers, 21 water cups, plain crackers, napkins, paper towel, garbage bags.
 - Phones with the blind ranking app (see the [app spec](boba-bracket-app-spec.html)), plus paper ballots as backup.
 
 ## Before the day
