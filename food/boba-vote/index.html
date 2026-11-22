@@ -81,6 +81,42 @@ th{color:var(--muted);font-weight:500}
 .nav{display:flex;gap:10px;margin-top:20px}
 .nav button{width:auto;flex:1}
 .hidden{display:none!important}
+/* Bracket animation for the TV: sized in vw so it fills any screen */
+.bk{position:fixed;inset:0;z-index:20;background:var(--bg);color:var(--ink);display:grid;grid-template-columns:1.2fr .95fr .85fr;gap:3.2vw;padding:9vh 4vw 5vh;align-items:center;overflow:hidden}
+.bk-head{position:absolute;top:2.6vh;left:4vw;right:4vw;display:flex;justify-content:space-between;align-items:baseline}
+.bk-head b{font:800 2.6vw var(--display)}
+.bk-head span{font:500 1.1vw var(--body);color:var(--muted)}
+.bk-col{display:flex;flex-direction:column;justify-content:center;gap:1.4vh;height:100%}
+.bk-card{background:var(--card);border:.18vw solid var(--line);border-radius:1.2vw;padding:1.1vh 1.2vw 1.3vh;transition:border-color .45s,box-shadow .45s,opacity .45s}
+.bk-card.on{border-color:var(--tea);box-shadow:0 0 0 .45vw color-mix(in srgb,var(--tea) 22%,transparent)}
+.bk-card.dim{opacity:.55}
+.bk-card h3{margin:0 0 .5vh;font:700 .95vw var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.bk-list{position:relative}
+.bk-row{position:absolute;left:0;right:0;top:0;display:flex;align-items:center;gap:.8vw;font:600 1.3vw var(--body);opacity:0;transition:transform .8s cubic-bezier(.2,.8,.2,1),opacity .5s,color .4s}
+.bk-row.in{opacity:1}
+.bk-row .pl{width:2.2vw;font:800 1.3vw var(--display);color:var(--tea);opacity:0;transition:opacity .4s}
+.bk-row.ranked .pl{opacity:1}
+.bk-row .lt{margin-left:auto;font:500 .95vw var(--body);color:var(--muted)}
+.bk-row.out{opacity:.32}
+.bk-row.win{color:var(--tea)}
+.bk-final .bk-row{font-size:1.6vw}
+.bk-final .bk-row .pl{font-size:1.6vw;width:3.6vw}
+.bk-row.wait{opacity:1;color:var(--muted);font-weight:500;font-style:italic}
+.bk-champ{text-align:center;padding:4vh 1.5vw}
+.bk-champ .t{font:700 1vw var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.14em}
+.bk-champ .bk-cupicon{font-size:5vw;line-height:1;margin:2vh 0 1vh;transition:transform .6s}
+.bk-champ .nm{font:800 3vw/1.05 var(--display);min-height:3.3vw;transform:scale(.4);opacity:0;transition:transform .7s cubic-bezier(.2,1.4,.3,1),opacity .4s}
+.bk-champ.won .nm{transform:scale(1);opacity:1}
+.bk-champ.won .bk-cupicon{transform:rotate(-8deg) scale(1.15)}
+.bk-champ .why{font:500 1vw var(--body);color:var(--muted);margin-top:1.2vh;min-height:1.4vw;opacity:0;transition:opacity .5s .4s}
+.bk-champ.won .why{opacity:1}
+.bk-fly{position:fixed;z-index:30;background:var(--tea);color:#fff;border-radius:999px;padding:.5vh 1vw;font:700 1.3vw var(--body);white-space:nowrap;transition:left .9s cubic-bezier(.5,0,.2,1),top .9s cubic-bezier(.5,0,.2,1),transform .9s;pointer-events:none}
+.bk-pearl{position:fixed;top:-4vh;border-radius:50%;background:var(--pearl);opacity:.85;animation:bk-fall linear forwards;z-index:25}
+@keyframes bk-fall{to{transform:translateY(112vh)}}
+.bk-exit{position:fixed;right:1.2vw;bottom:1.2vh;z-index:40;width:auto;padding:.6vh 1vw;font-size:.9vw;opacity:0;animation:bk-hint 4s ease-out}
+.bk-exit:hover{opacity:.7;animation:none}
+@keyframes bk-hint{0%,60%{opacity:.6}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.bk-row,.bk-fly,.bk-champ .nm{transition:none}.bk-pearl{display:none}}
 </style>
 </head>
 <body>
@@ -175,7 +211,7 @@ async function refreshMe(force){
     if (force) app.innerHTML = `<h1>Boba Bracket</h1><div class="card"><p class="err">${esc(e.message)}</p></div>`;
     return;
   }
-  const key = [me.state, me.round, me.table, (me.placemat||[]).join('')].join('|');
+  const key = [me.state, me.round, me.table, (me.placemat||[]).join(''), me.revealed ? 'r' : ''].join('|');
   if (!force && key === T.lastKey) return; // nothing changed; don't disturb the ranking in progress
   if (key !== T.lastKey) { T.ranking = []; T.notes = {}; T.tags = {}; T.confirm = false; }
   T.lastKey = key; T.me = me;
@@ -191,6 +227,7 @@ function header(me){
 
 function renderTaster(){
   const me = T.me;
+  if (me.state === 'finished' && me.revealed && me.recap) return renderRecap(me);
   if (me.state === 'waiting' || me.state === 'resting' || me.state === 'finished') {
     const firstTime = T.joined && !T.seenPanel;
     T.seenPanel = true;
@@ -277,6 +314,34 @@ function renderTaster(){
     b.classList.toggle('on');
   });
   document.getElementById('next').onclick = () => { T.confirm = true; renderTaster(); window.scrollTo(0, 0); };
+}
+
+// After the host unlocks it at the end of the reveal: this taster's own rankings with the shops unmasked.
+function renderRecap(me){
+  const rc = me.recap;
+  const shop = n => SHOPS[n] || `Cup #${n}`;
+  const ord = i => ['1st','2nd','3rd','4th'][i - 1] || `${i}th`;
+  const hits = rc.rounds.filter(r => r.picks[0] && r.picks[0].num === r.winner).length;
+  app.innerHTML = header(me) + `
+    <div class="card center">
+      <p class="muted" style="margin:0">Your Boba Bracket</p>
+      ${rc.champion ? `<p class="muted small" style="margin:14px 0 0">Champion</p><p class="slide-title" style="font-size:34px">${esc(shop(rc.champion))}</p>` : ''}
+      ${rc.rounds.length ? `<p class="muted">Your favourite won ${hits} of the ${rc.rounds.length} round${rc.rounds.length === 1 ? '' : 's'} you tasted.</p>` : `<p class="muted">No rankings from you this time.</p>`}
+    </div>
+    ${rc.rounds.map(r => `<div class="card">
+      <p class="muted small" style="margin:0">${r.round === 3 ? 'The final' : `Round ${r.round} · Group ${r.group}`} · ${r.voters} voters</p>
+      <table style="margin-top:8px">
+        <tr><th>You</th><th>Shop</th><th style="text-align:right">Group</th></tr>
+        ${r.picks.map((p, i) => `<tr>
+          <td style="width:52px"><b>${ord(i + 1)}</b></td>
+          <td><b>${esc(shop(p.num))}</b> <span class="muted small">· cup ${esc(p.letter)}</span>
+            ${p.note ? `<div class="muted small">“${esc(p.note)}”</div>` : ''}</td>
+          <td style="text-align:right;white-space:nowrap">${p.place === 1 ? '🏆 1st' : ord(p.place)}</td></tr>`).join('')}
+      </table>
+      <p class="small muted" style="margin:10px 0 0">${r.picks[0] && r.picks[0].num === r.winner
+        ? 'Your favourite won.' : `${r.round === 3 ? 'Champion' : 'Group winner'}: ${esc(shop(r.winner))}.`}</p>
+    </div>`).join('')}
+    <p class="center small muted">Thanks for tasting!</p>`;
 }
 
 function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
@@ -406,7 +471,10 @@ function revealView(){
       ${[1,2,3,4].map(g => `<div class="card"><input data-theme="${g}" placeholder="Group ${g} theme (optional), e.g. The 1990s pioneers" value="${esc(themes[g] || '')}">
         ${[3*g-2,3*g-1,3*g].map(n => `<div class="row" style="margin-top:8px"><span style="flex:0 0 48px;font:800 22px var(--display)">#${n}</span><input data-num="${n}" placeholder="Shop for #${n}" value="${esc(names[n] || '')}"></div>`).join('')}</div>`).join('')}
       <button id="start">Start the reveal</button>
-      <p class="small muted" style="margin-top:10px">${d.final.status === 'closed' ? 'All rounds are closed.' : 'Heads up: the final isn’t closed yet.'}</p>`;
+      <div style="height:10px"></div>
+      <button class="secondary" id="loop" ${d.final.result && d.final.result.voters ? '' : 'disabled'}>Loop the bracket animation</button>
+      <p class="small muted" style="margin-top:10px">${d.final.status === 'closed' ? 'All rounds are closed.' : 'Heads up: the final isn’t closed yet.'} The animation shows every result, champion included. Press Esc to leave it.</p>`;
+    document.getElementById('loop').onclick = () => runBracket(d, names, themes);
     app.querySelectorAll('[data-num]').forEach(i => i.oninput = () => { names[i.dataset.num] = i.value; store.set('bb_names', JSON.stringify(names)); });
     app.querySelectorAll('[data-theme]').forEach(i => i.oninput = () => { themes[i.dataset.theme] = i.value; store.set('bb_themes', JSON.stringify(themes)); });
     document.getElementById('start').onclick = () => runReveal(d, names, themes);
@@ -445,13 +513,29 @@ function runReveal(d, names, themes){
       ${pickNotes(f, c.cup, 3).map(t => `<div class="quote">“${esc(t)}”</div>`).join('')}`);
   }
   let i = 0;
+  let revealed = !!d.revealed;
   const show = () => {
+    const last = i === slides.length - 1;
+    const canUnveil = last && d.final.status === 'closed';
     app.innerHTML = `<div class="stage">${slides[i]()}</div>
+      ${last && f && f.voters ? `<button class="secondary" id="loop">Loop the bracket animation</button><div style="height:10px"></div>` : ''}
+      ${canUnveil ? `<button id="unveil" class="${revealed ? 'ghost' : ''}">${revealed ? 'Results are on everyone’s phones · hide again' : 'Show everyone their results'}</button><p class="err" id="uv-err"></p>` : ''}
       <div class="nav"><button class="ghost" id="prev" ${i === 0 ? 'disabled' : ''}>Back</button>
-      <button id="nxt" ${i === slides.length - 1 ? 'disabled' : ''}>Next</button></div>
+      <button id="nxt" ${last ? 'disabled' : ''}>Next</button></div>
       <p class="small muted center">${i + 1} / ${slides.length} · space or arrow keys</p>`;
     document.getElementById('prev').onclick = () => { if (i > 0) { i--; show(); } };
     document.getElementById('nxt').onclick = () => { if (i < slides.length - 1) { i++; show(); } };
+    const lp = document.getElementById('loop');
+    if (lp) lp.onclick = () => runBracket(d, names, themes);
+    const uv = document.getElementById('unveil');
+    if (uv) uv.onclick = async () => {
+      uv.disabled = true;
+      try {
+        const pin = (() => { try { return sessionStorage.getItem('bb_pin_host') } catch(e){ return null } })();
+        const res = await api('/api/host/unveil', {method:'POST', pin, body:{on: !revealed}});
+        revealed = res.revealed; show();
+      } catch(e){ uv.disabled = false; document.getElementById('uv-err').textContent = e.message; }
+    };
   };
   document.onkeydown = e => {
     if (location.hash !== '#reveal') return;
@@ -459,6 +543,138 @@ function runReveal(d, names, themes){
     if (['ArrowLeft','PageUp'].includes(e.key) && i > 0) { e.preventDefault(); i--; show(); }
   };
   show();
+}
+
+// Full-screen looping bracket for the TV: each group ranks, its winner moves to the final, the final ranks, the champion lands.
+function runBracket(d, names, themes){
+  const nm = n => names[n] && String(names[n]).trim() ? String(names[n]).trim() : `Cup #${n}`;
+  const groups = d.groups.filter(g => g.result && g.result.voters).sort((a, b) => a.group - b.group);
+  const f = d.final.result;
+  if (!f || !f.voters || !groups.length) return;
+  const title = g => themes[g.group] && themes[g.group].trim() ? themes[g.group].trim() : `Group ${g.group}`;
+  const ord = i => ['1st','2nd','3rd','4th'][i];
+  const why = r => r.decidedBy === 'head-to-head wins' ? 'won on head-to-heads' : r.decidedBy === 'coin flip' ? 'won on a coin flip' : `won on ${r.decidedBy}`;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let run = 0; // bumps on exit so a sleeping loop stops
+  const el = document.createElement('div');
+  el.className = 'bk';
+  document.body.appendChild(el);
+  const exitBtn = document.createElement('button');
+  exitBtn.className = 'ghost bk-exit'; exitBtn.textContent = 'Esc to exit';
+  document.body.appendChild(exitBtn);
+  const stop = () => { run++; el.remove(); exitBtn.remove(); document.querySelectorAll('.bk-fly,.bk-pearl').forEach(x => x.remove()); document.removeEventListener('keydown', onKey); };
+  const onKey = e => { if (e.key === 'Escape') stop(); };
+  document.addEventListener('keydown', onKey);
+  exitBtn.onclick = stop;
+  try { document.documentElement.requestFullscreen && document.documentElement.requestFullscreen().catch(() => {}); } catch(e){}
+
+  const ROW = 4.4; // vh per row in a group card
+  const FROW = 6;  // vh per row in the final card
+  const place = (rowEl, i, h) => { rowEl.style.transform = `translateY(${i * h}vh)`; };
+
+  const build = () => {
+    el.innerHTML = `
+      <div class="bk-head"><b>The Boba Bracket</b><span>${d.tasters} tasters · 12 shops · blind</span></div>
+      <div class="bk-col bk-groups">${groups.map(g => `<div class="bk-card" data-g="${g.group}">
+        <h3>Round ${g.round} · ${esc(title(g))}</h3>
+        <div class="bk-list" style="height:${3 * ROW}vh">${Object.keys(g.result.letters).map(n => Number(n))
+          .sort((a, b) => g.result.letters[a].localeCompare(g.result.letters[b]))
+          .map(n => `<div class="bk-row" data-n="${n}"><span class="pl"></span><span>${esc(nm(n))}</span><span class="lt">cup ${esc(g.result.letters[n])}</span></div>`).join('')}</div>
+      </div>`).join('')}</div>
+      <div class="bk-col"><div class="bk-card bk-final">
+        <h3>The final · ${f.voters} voters</h3>
+        <div class="bk-list" style="height:${groups.length * FROW}vh">${groups.map((g, i) => `<div class="bk-row wait" data-slot="${g.group}" style="transform:translateY(${i * FROW}vh)">
+          <span class="pl"></span><span class="who">${esc(title(g))} winner</span><span class="lt"></span></div>`).join('')}</div>
+      </div></div>
+      <div class="bk-col"><div class="bk-card bk-champ"><div class="t">Champion</div><div class="bk-cupicon">🧋</div><div class="nm"></div><div class="why"></div></div></div>`;
+    // Starting order: cup letter order.
+    el.querySelectorAll('.bk-groups .bk-list').forEach(list => [...list.children].forEach((r, i) => place(r, i, ROW)));
+  };
+
+  const fly = async (fromEl, toEl, text, my) => {
+    const a = fromEl.getBoundingClientRect(), b = toEl.getBoundingClientRect();
+    const t = document.createElement('div');
+    t.className = 'bk-fly'; t.textContent = text;
+    t.style.left = a.left + 'px'; t.style.top = a.top + 'px';
+    document.body.appendChild(t);
+    await sleep(reduce ? 0 : 60, my);
+    t.style.left = b.left + 'px'; t.style.top = b.top + 'px';
+    await sleep(reduce ? 0 : 950, my);
+    t.remove();
+  };
+
+  const pearls = (my) => {
+    if (reduce) return;
+    for (let k = 0; k < 46; k++) {
+      const p = document.createElement('span');
+      const s = 0.8 + Math.random() * 1.2;
+      p.className = 'bk-pearl';
+      p.style.left = Math.random() * 100 + 'vw';
+      p.style.width = p.style.height = s + 'vw';
+      p.style.animationDuration = (2.6 + Math.random() * 2.4) + 's';
+      p.style.animationDelay = (Math.random() * 1.6) + 's';
+      document.body.appendChild(p);
+      setTimeout(() => p.remove(), 7000);
+    }
+  };
+
+  const sleep = (ms, my) => new Promise((res, rej) => setTimeout(() => my === run ? res() : rej('stopped'), ms));
+
+  const loop = async () => {
+    const my = run;
+    try {
+      while (my === run) {
+        build();
+        await sleep(900, my);
+        for (const g of groups) {
+          const card = el.querySelector(`[data-g="${g.group}"]`);
+          card.classList.add('on');
+          const rows = [...card.querySelectorAll('.bk-row')];
+          for (const r of rows) { r.classList.add('in'); await sleep(320, my); }
+          await sleep(900, my);
+          // Reorder into the group's finishing order.
+          g.result.order.forEach((n, i) => {
+            const r = card.querySelector(`[data-n="${n}"]`);
+            place(r, i, ROW); r.classList.add('ranked'); r.querySelector('.pl').textContent = ord(i);
+          });
+          await sleep(1100, my);
+          const winRow = card.querySelector(`[data-n="${g.result.winner}"]`);
+          rows.forEach(r => r.classList.toggle(r === winRow ? 'win' : 'out', true));
+          await sleep(600, my);
+          const slot = el.querySelector(`[data-slot="${g.group}"]`);
+          await fly(winRow.children[1], slot.querySelector('.who'), nm(g.result.winner), my);
+          slot.classList.remove('wait'); slot.classList.add('in');
+          slot.dataset.n = g.result.winner;
+          slot.querySelector('.who').textContent = nm(g.result.winner);
+          slot.querySelector('.lt').textContent = `cup ${f.letters[g.result.winner] || ''}`;
+          card.classList.remove('on'); card.classList.add('dim');
+          await sleep(500, my);
+        }
+        // The final.
+        const fcard = el.querySelector('.bk-final');
+        fcard.classList.add('on');
+        await sleep(1300, my);
+        f.order.forEach((n, i) => {
+          const r = fcard.querySelector(`[data-n="${n}"]`);
+          if (!r) return;
+          place(r, i, FROW); r.classList.add('ranked'); r.querySelector('.pl').textContent = ord(i);
+        });
+        await sleep(1500, my);
+        const champRow = fcard.querySelector(`[data-n="${f.winner}"]`);
+        fcard.querySelectorAll('.bk-row').forEach(r => r.classList.add(r === champRow ? 'win' : 'out'));
+        await sleep(700, my);
+        const champ = el.querySelector('.bk-champ');
+        await fly(champRow.children[1], champ.querySelector('.nm'), nm(f.winner), my);
+        champ.querySelector('.nm').textContent = nm(f.winner);
+        const c = f.stats[0];
+        champ.querySelector('.why').textContent = `${c.firsts} of ${f.voters} ranked it first · ${why(f)}`;
+        champ.classList.add('won'); fcard.classList.remove('on'); champ.parentElement.firstElementChild.classList.add('on');
+        pearls(my);
+        await sleep(8000, my);
+      }
+    } catch(e){ if (e !== 'stopped') throw e; }
+  };
+  loop();
 }
 
 route();

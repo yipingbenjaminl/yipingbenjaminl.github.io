@@ -86,7 +86,7 @@ A taster scans one QR code, gets a panel colour, and then only ever sees the rou
 5. **Notes (optional).** Per cup: free text (280 characters) and quick tags — sweet, not sweet enough, strong tea, weak tea, creamy, watery, chewy pearls, hard pearls, mushy pearls.
 6. **Submit.** A confirm step shows the ranking once more. After submit the ranking locks; notes stay editable until the round closes.
 7. **Final.** Same screen with 4 cups.
-8. **Reveal.** After the host ends the event, each taster's phone shows their own rankings with shop names, next to the group result.
+8. **Reveal.** The TV shows the slideshow, then a looping bracket animation (groups rank, winners advance, champion lands). When the host taps "Show everyone their results" at the end, each taster's phone shows their own rankings with shop names, next to each group's result.
 
 **Rules the UI enforces**
 

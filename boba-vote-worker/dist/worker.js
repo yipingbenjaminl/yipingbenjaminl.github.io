@@ -163,6 +163,7 @@ async function route(request, env, url) {
     if (path === "/api/host/close" && method === "POST") return closeRound(env, Number(body.round));
     if (path === "/api/host/paper" && method === "POST") return submitBallot(env, body, "paper");
     if (path === "/api/host/results" && method === "GET") return results(env, true);
+    if (path === "/api/host/unveil" && method === "POST") return unveil(env, body);
     if (path === "/api/host/reset" && method === "POST") return reset(env, body);
   }
   throw httpError(404, "Not found");
@@ -188,7 +189,11 @@ async function me(env, id) {
   const total = await env.DB.prepare("SELECT COUNT(*) AS n FROM tasters").first();
   if (!round) {
     const done = await env.DB.prepare("SELECT COUNT(*) AS n FROM rounds WHERE status = 'closed'").first();
-    return json({ taster, state: done.n === 3 ? "finished" : "waiting", tasters: total.n, next: await nextFor(env, taster) });
+    if (done.n === 3) {
+      const revealed = await getSetting(env, "revealed") === "1";
+      return json({ taster, state: "finished", tasters: total.n, revealed, recap: revealed ? await recapFor(env, taster) : null });
+    }
+    return json({ taster, state: "waiting", tasters: total.n, next: await nextFor(env, taster) });
   }
   const slot = PLAN[round.id].find((s) => s.panels.includes(taster.panel));
   if (!slot) return json({ taster, state: "resting", round: round.id, next: await nextFor(env, taster) });
@@ -344,7 +349,38 @@ async function results(env, asResponse) {
   }
   groups.sort((a, b) => a.group - b.group);
   const data = { tasters, groups, final: { status: rounds[3], result: scoreSlot(3, 1) } };
-  return asResponse ? json(data) : data;
+  if (!asResponse) return data;
+  data.revealed = await getSetting(env, "revealed") === "1";
+  return json(data);
+}
+async function unveil(env, body) {
+  const on = body.on !== false;
+  if (on) {
+    const fin = await env.DB.prepare("SELECT status FROM rounds WHERE id = 3").first();
+    if (fin.status !== "closed") throw httpError(409, "Close the final first");
+  }
+  await setSetting(env, "revealed", on ? "1" : "0");
+  return json({ ok: true, revealed: on });
+}
+async function recapFor(env, taster) {
+  const r = await results(env, false);
+  const mine = (await env.DB.prepare("SELECT round_id, table_no, ranking, notes FROM ballots WHERE taster_id = ? ORDER BY round_id").bind(taster.id).all()).results;
+  const rounds = [];
+  for (const b of mine) {
+    const res = b.round_id === 3 ? r.final.result : (r.groups.find((g) => g.round === b.round_id && g.table === b.table_no) || {}).result;
+    if (!res) continue;
+    const byLetter = Object.fromEntries(Object.entries(res.letters).map(([num, l]) => [l, Number(num)]));
+    const notes = JSON.parse(b.notes);
+    rounds.push({
+      round: b.round_id,
+      table: b.table_no,
+      group: b.round_id === 3 ? null : PLAN[b.round_id].find((s) => s.table === b.table_no).group,
+      voters: res.voters,
+      winner: res.winner,
+      picks: JSON.parse(b.ranking).map((l) => ({ letter: l, num: byLetter[l], place: res.order.indexOf(byLetter[l]) + 1, note: notes[l] || "" }))
+    });
+  }
+  return { rounds, champion: r.final.result ? r.final.result.winner : null };
 }
 async function reset(env, body) {
   if (body.confirm !== "RESET") throw httpError(400, "Type RESET to confirm");
@@ -354,7 +390,23 @@ async function reset(env, body) {
     env.DB.prepare("DELETE FROM tasters"),
     env.DB.prepare("UPDATE rounds SET status = 'pending'")
   ]);
+  await setSetting(env, "revealed", "0");
   return json({ ok: true });
+}
+var settingsReady = false;
+async function ensureSettings(env) {
+  if (settingsReady) return;
+  await env.DB.prepare("CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)").run();
+  settingsReady = true;
+}
+async function getSetting(env, key) {
+  await ensureSettings(env);
+  const row = await env.DB.prepare("SELECT value FROM settings WHERE key = ?").bind(key).first();
+  return row ? row.value : null;
+}
+async function setSetting(env, key, value) {
+  await ensureSettings(env);
+  await env.DB.prepare("INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value").bind(key, value).run();
 }
 async function getTaster(env, id) {
   if (!id) throw httpError(400, "Join first");

@@ -4,6 +4,13 @@ DROP TABLE IF EXISTS ballots;
 DROP TABLE IF EXISTS cups;
 DROP TABLE IF EXISTS rounds;
 DROP TABLE IF EXISTS tasters;
+DROP TABLE IF EXISTS settings;
+
+-- revealed = '1' once the host unlocks personal recaps. The Worker also creates this table on first use.
+CREATE TABLE settings (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL
+);
 
 CREATE TABLE tasters (
   id TEXT PRIMARY KEY,
