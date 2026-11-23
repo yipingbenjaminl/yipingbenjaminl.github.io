@@ -1,12 +1,14 @@
 # Boba Bracket: Shop Profiles & Category Options
 
-Updated November 15, 2026
+Updated November 23, 2026
 
 Recommended split: four regional brackets of 6 to 9 shops (Downtown & West, Cambie & South Van, East Van & Burnaby, Richmond), so each session's pickups stay within one area and drinks arrive fresh. Four other splits are below if you'd rather group by brand origin, price tier, rating or specialty.
 
 The 28 shops break down as 13 Taiwanese brands, 6 from mainland China, 1 from the UK and 8 local BC brands. Google ratings run from 3.6 to 4.7, and base drink prices from $5.00 to $11.99.
 
 One scheduling flag: Sharetea Kingsway is listed as closed November 16–19, 2026.
+
+New for Bracket #2: six bracket options built around a shared drink, from every shop’s current menu, each with the exact item to order (see “Bracket options by shared drink” below).
 
 ## At a glance
 
@@ -208,9 +210,187 @@ That's 96 drinks across five sessions. Hold the East Van session after November 
 
 If you'd rather run fewer, bigger sessions with more drivers, Option 2 (origin and era) is the best alternative: three brackets of 8 to 11, each with a clear storyline.
 
+## Bracket options by shared drink
+
+Added November 23, 2026, for Bracket #2. Bracket #1 had every shop make the same classic pearl milk tea. These options pick a different drink that many shops sell under the same or nearly the same name, so every cup in a bracket is the same kind of drink. Each option is exactly 12 shops, which is what the voting app runs (4 groups of 3).
+
+Drink names come from each branch’s Google Maps menu, read November 23, 2026. Where a listing’s menu was thin (Boba Run, Pearl Fever, TeaByDo, The Bubble Tea Shop), the most recent menu photo on the listing filled it in. “Order” is the item name as it appears on that shop’s menu.
+
+### Which drinks the shops share
+
+Bracket #1’s classic pearl milk tea is on all 28 menus. After that:
+
+| Drink | Shops | Not yet tasted |
+| --- | --- | --- |
+| Jasmine green milk tea | 22 | 13 |
+| Taro milk or milk tea | 20 | 10 |
+| Brown sugar pearl milk (no tea) | 18 | 11 |
+| Roasted oolong milk tea | 16 | 9 |
+| Matcha latte | 16 | 10 |
+| Passion fruit green tea | 13 | 7 |
+| Oolong tea with cheese foam | 10 | 5 |
+| Grapefruit green tea | 9 | 4 |
+| Winter melon (tea, milk or punch) | 8 | 3 |
+| Thai milk tea | 7 | 3 |
+| Grass jelly milk tea | 6 | 1 |
+| Peach oolong milk tea | 6 | 5 |
+| Earl Grey milk tea | 6 | 4 |
+| Mango pomelo sago | 5 | 3 |
+
+The first six have enough shops for a 12-shop bracket; the rest are listed at the end of this section.
+
+### Option A: Brown Sugar Pearl Milk (11 new + 1 from Bracket #1)
+
+Fresh milk with brown sugar syrup and pearls, no tea ("tiger milk"). It puts the pearls and syrup front and centre.
+
+| Shop | Order | Area | Bracket #1 |
+| --- | --- | --- | --- |
+| Alfa Tea Concept | Brown Sugar Pearl Milk | Burnaby | — |
+| Ben Gong's Tea | Organic Milk Brown Sugar Pearl | Burnaby | — |
+| Chahalo | Fresh Milk W Brown Sugar Boba | Richmond | — |
+| Choo Tea | Brown Sugar Milk With Pearl | Burnaby | — |
+| Hey Tea | Supreme Brown Sugar Bobo Milk | Richmond | — |
+| Money Tea | Brown Sugar Milk With Pearls | Burnaby | — |
+| Pearl Fever | Brown Sugar Milk | Coquitlam | — |
+| Presotea | Brown Sugar Pearl Latte | Richmond | — |
+| Sweet7 | Brown Sugar Pearl With Milk | Downtown & West | — |
+| The Alley | Deerioca Fever | Downtown & West | — |
+| Xing Fu Tang | Signature Brown Sugar Pearl Fresh Milk | Burnaby | — |
+| Shiny Tea | Brown Sugar Milk | Richmond | Runner-up |
+
+- **Good for:** almost a fresh bracket: 11 shops nobody has tasted, plus Shiny Tea, Bracket #1’s runner-up, as the defending finalist.
+- **Watch for:** it’s a different test from Bracket #1, since there’s no tea to compare. Pearls will vary: Hey Tea calls its brown-sugar pearls “bobo”, and Xing Fu Tang stir-fries its pearls in brown sugar in front of customers. Pickups lean east and south: 5 in Burnaby, 4 in Richmond and Pearl Fever in Coquitlam.
+
+### Option B: Jasmine Green Milk Tea (12 new)
+
+The green-tea counterpart to Bracket #1’s black milk tea. It’s the drink the most shops share after the classic.
+
+| Shop | Order | Area | Bracket #1 |
+| --- | --- | --- | --- |
+| Alfa Tea Concept | Jasmine Green Milk Tea | Burnaby | — |
+| Ben Gong's Tea | Green Milk Tea | Burnaby | — |
+| Chahalo | Jasmine Green Milk Tea | Richmond | — |
+| Choo Tea | Jasmine Milk Tea | Burnaby | — |
+| Hey Tea | Jasmine Milk Tea | Richmond | — |
+| Paragon Tea Room | Jasmine Oat BBT | Cambie & South Van | — |
+| Pearl Fever | Green Milk Tea | Coquitlam | — |
+| Sweet7 | Jasmine Milk Tea | Downtown & West | — |
+| TeaByDo | Jasmine Fresh Milk Tea | Richmond | — |
+| The Alley | Jasmine Green Milk Tea | Downtown & West | — |
+| The Bubble Tea Shop | Jasmine Green Milk Tea | Downtown & West | — |
+| Xing Fu Tang | Jasmine Green Milk Tea | Burnaby | — |
+
+- **Good for:** the only option with no repeats at all: all 12 shops are new.
+- **Watch for:** Paragon makes it with oat milk by default and TeaByDo’s is a fresh-milk tea; Ben Gong’s and Pearl Fever call theirs “Green Milk Tea” without saying jasmine. Use Bracket #1’s rule: add pearls where they aren’t included.
+
+### Option C: Roasted Oolong Milk Tea (8 new + 4 from Bracket #1)
+
+A darker, toasty milk tea. Eight new shops meet four from Bracket #1, including the champion, on a different drink.
+
+| Shop | Order | Area | Bracket #1 |
+| --- | --- | --- | --- |
+| Alfa Tea Concept | Roasted Oolong Milk Tea | Burnaby | — |
+| Chahalo | Roasted Oolong Milk Tea | Richmond | — |
+| Choo Tea | Roasted Milk Tea | Burnaby | — |
+| Paragon Tea Room | Oolong Oat BBT | Cambie & South Van | — |
+| Presotea | Roasted Oolong Milk Tea | Richmond | — |
+| Sweet7 | Signature Roasted Oolong Latte | Downtown & West | — |
+| TeaByDo | Oolong Fresh Milk Tea | Richmond | — |
+| The Bubble Tea Shop | Roasted Milk Tea | Downtown & West | — |
+| 101 Boba | Roasted Milk Tea | Vancouver East | 3rd |
+| Chatime | Chatime Roasted Milk Tea | Downtown & West | Tasted |
+| ChunFunHow | Roasted Oolong Milk Tea | Downtown & West | Champion |
+| Happy Lemon | Roasted Milk Tea | Downtown & West | Tasted |
+
+- **Good for:** a rematch: ChunFunHow and 101 Boba defend their Bracket #1 finishes against new challengers.
+- **Watch for:** five of the twelve are in Downtown & West, so pickups are fairly compact. Sweet7’s version is a latte and Paragon’s uses oat milk; TeaByDo calls its roasted-oolong drink “Oolong Fresh Milk Tea”.
+
+### Option D: Taro Milk Tea (8 new + 4 from Bracket #1)
+
+A taro milk or milk tea is on 20 of the 28 menus. Eight new shops meet four from Bracket #1.
+
+| Shop | Order | Area | Bracket #1 |
+| --- | --- | --- | --- |
+| Ben Gong's Tea | Large Taro Milk Tea With Pearl | Burnaby | — |
+| Choo Tea | Fresh Taro Milk With Taro Ball | Burnaby | — |
+| Money Tea | Fresh Taro Milk | Burnaby | — |
+| Pearl Fever | Taro Milk | Coquitlam | — |
+| Presotea | Taro Milk Tea | Richmond | — |
+| Sweet7 | Fresh Taro Milk Tea With Mochi Balls | Downtown & West | — |
+| TeaByDo | Signature Taro Ball Milk Tea | Richmond | — |
+| Xing Fu Tang | Taro Milk Tea | Burnaby | — |
+| CoCo | Taro Milk Tea | Vancouver East | Tasted |
+| Happy Lemon | Taro Milk Tea With Pearls | Downtown & West | Tasted |
+| Sharetea | Taro Pearl Milk Tea | Vancouver East | Tasted |
+| Shiny Tea | Taro Milk Tea | Richmond | Runner-up |
+
+- **Good for:** a crowd favourite where fresh-taro and powder versions go head to head.
+- **Watch for:** some shops advertise fresh taro (Choo Tea, Money Tea, Sweet7) and TeaByDo adds taro balls, so the drinks may look different from each other, which makes it harder to keep blind. Choo Tea’s, Money Tea’s and Pearl Fever’s are taro milk with no tea.
+
+### Option E: Passion Fruit Green Tea (7 new + 5 from Bracket #1)
+
+A fruit tea with no milk, for a change of pace. Seven new shops meet five from Bracket #1.
+
+| Shop | Order | Area | Bracket #1 |
+| --- | --- | --- | --- |
+| Alfa Tea Concept | Passionfruit Fresho Tea | Burnaby | — |
+| Ben Gong's Tea | Passion Fruit Tea | Burnaby | — |
+| Money Tea | Lemon Passion Fruit Green Tea | Burnaby | — |
+| Pearl Fever | Passionfruit Tea | Coquitlam | — |
+| Presotea | Passion Fruit Green Tea | Richmond | — |
+| The Alley | Passionfruit Green Tea | Downtown & West | — |
+| The Bubble Tea Shop | Passion Fruit | Downtown & West | — |
+| 101 Boba | Passionfruit Green Tea | Vancouver East | 3rd |
+| Chatime | Passionfruit Tea | Downtown & West | Tasted |
+| CoCo | Passion Fruit Green Tea | Vancouver East | Tasted |
+| Gong Cha | Passion Fruit Green Tea | Downtown & West | Tasted |
+| Happy Lemon | Passionfruit Green Tea | Downtown & West | Tasted |
+
+- **Good for:** a lighter bracket, and it tests the fruit-tea side of shops that mostly got judged on milk tea.
+- **Watch for:** recipes drift: Money Tea adds lemon, Alfa calls it “Fresho” tea, and The Bubble Tea Shop and Pearl Fever build it from a flavour menu. Decide up front whether to add pearls; most fruit teas come without.
+
+### Option F: Matcha Latte (10 new + 2 from Bracket #1)
+
+Matcha with milk, the drink that brings in the two untasted shops (CHAYAN and Boba Run) that aren’t in any other option.
+
+| Shop | Order | Area | Bracket #1 |
+| --- | --- | --- | --- |
+| Boba Run | Matcha Latte | Cambie & South Van | — |
+| Chahalo | Matcha Latte | Richmond | — |
+| CHAYAN | Matcha Latte | Richmond | — |
+| Hey Tea | Cloud Matcha Latte | Richmond | — |
+| Paragon Tea Room | Classic Matcha BBT | Cambie & South Van | — |
+| Pearl Fever | Matcha Milk Tea | Coquitlam | — |
+| Sweet7 | Matcha Latte | Downtown & West | — |
+| The Alley | Matcha Latte | Downtown & West | — |
+| The Bubble Tea Shop | Matcha Latte | Downtown & West | — |
+| Xing Fu Tang | Matcha Bobo Milk | Burnaby | — |
+| 101 Boba | Matcha Latte | Vancouver East | 3rd |
+| MACU Tea | Matcha Latte | Cambie & South Van | Tasted |
+
+- **Good for:** covering the shops the other options miss, and a style several new shops lead with (Paragon is a matcha specialist).
+- **Watch for:** matcha settles fast, so stir each drink before pouring. Paragon’s comes with boba (“BBT”), Xing Fu Tang’s is a brown-sugar “Bobo Milk” and Pearl Fever’s is listed as Matcha Milk Tea; most others need pearls added. Of the Bracket #1 shops with a matcha drink, only 101 Boba and MACU Tea are included, to keep the rest of the slots for new shops.
+
+### Smaller matches
+
+These drinks are shared by fewer than 12 shops. Running one would mean a smaller bracket, which the voting app doesn’t support yet (it expects 12 shops in 4 groups of 3).
+
+| Drink | Shops |
+| --- | --- |
+| Oolong tea with cheese foam (10) | 101 Boba (Cheecap Tea), Alfa Tea Concept (Cheefoam Roasted Oolong Tea), Ben Gong's Tea (Oolong Cheese Cover Tea), CHICHA San Chen (Dong-Ding+Mousse), Choo Tea (Oolong Tea With Salty Cream), Gong Cha (Milk Foam Oolong Tea), Happy Lemon (Oolong Tea With Salted Cheese), MACU Tea (ChiChi Golden Leaf Brew Tea), Presotea (Cheese Cream Peach Oolong Tea), The Alley (Snow Velvet Peach Oolong Tea) |
+| Grapefruit green tea (9) | 101 Boba (Grapefruit Green Tea), Alfa Tea Concept (Ruby Grapefruit Fresho Tea), Choo Tea (Grapefruit And Peach Fruit Green Tea), ChunFunHow (Grapefruit Tea With Pulp), CoCo (Grapefruit Green Tea), MACU Tea (Ruby Grapefruit LiLi Tea), Sharetea (Grapefruit Green Tea), The Bubble Tea Shop (Grapefruit), Xing Fu Tang (Fresh Grapefruit Green Tea) |
+| Winter melon (tea, milk or punch) (8) | Alfa Tea Concept (Winter Melon Drink), ChunFunHow (Winter Melon Juice), Gong Cha (Wintermelon Milk Tea), MACU Tea (Winter Melon Latte), Sharetea (Wintermelon Tea), Shiny Tea (Winter Melon Milk), The Alley (Winter Melon Punch), The Bubble Tea Shop (Wintermelon Milk Tea) |
+| Thai milk tea (7) | Boba Run (Thai Iced Tea), Bubble World (Thai Milk Tea), Chatime (Thai Milk Tea), Happy Lemon (Thai Milk Tea), Paragon Tea Room (Thai Tea BBT), Sharetea (Thai Pearl Milk Tea), The Bubble Tea Shop (Thai Red Milk Tea) |
+| Grass jelly milk tea (6) | Chatime (Grass Jelly Roasted Milk Tea), CoCo (3 Guys Milk Tea), Gong Cha (Milk Tea With Grass Jelly), Happy Lemon (Roasted Milk Tea With Grass Jelly), Money Tea (Grass Jelly Milk Tea), Shiny Tea (Grass Jelly Milk Tea) |
+| Peach oolong milk tea (6) | Ben Gong's Tea (Peach Oolong Milk Tea), Boba Run (Peach Oolong Milk Tea), Money Tea (Peach Oolong Milk Tea), Presotea (Peach Oolong Milk Tea), SunTea (Peach Oolong Milk Tea), Xing Fu Tang (White Peach Oolong Milk Tea) |
+| Earl Grey milk tea (6) | Boba Run (Earl Grey Milk Tea), Bubble World (Milky Earl Grey Tea), Gong Cha (Earl Grey Milk Tea), Paragon Tea Room (Vancouver Fog BBT), Presotea (Earl Grey Milk Tea), The Bubble Tea Shop (Earl Grey Milk Tea) |
+| Mango pomelo sago (5) | Ben Gong's Tea (Mango Pomelo Sago), CoCo (Mango Pomelo Sago), Happy Lemon (Mango Pomelo Sago), Sweet7 (Signature Mango Pomelo Sago), TeaByDo (Mango Pomelo Sago) |
+
+Bracket #1 finishers: ChunFunHow (champion), Shiny Tea (2nd), 101 Boba (3rd), Bubble World (4th).
+
 ## Methodology
 
-The list and categories came from a seven-step process run between October 20 and November 15, 2026. Anyone repeating these steps with the same rules should land on a similar list; the judgment calls are flagged so they can be challenged.
+The list and categories came from a seven-step process run between October 20 and November 15, 2026; step 8 was added on November 23 for the Bracket #2 options. Anyone repeating these steps with the same rules should land on a similar list; the judgment calls are flagged so they can be challenged.
 
 ### Steps
 
@@ -221,6 +401,7 @@ The list and categories came from a seven-step process run between October 20 an
 5. **Pick and verify the drink.** The rule: each shop's plain black-tea milk tea with tapioca pearls, ordered large, 50% sugar, less ice. If pearls aren't included, add them. If there's no plain black milk tea, take the closest option in this order: black tea base, then oolong, then anything else, and flag it. Each drink was confirmed on that branch's Google Maps menu (signed in, so the full menu shows), on the brand's own site (CoCo, Sharetea, The Alley), or by the organizer calling the shop (CHAYAN, Chahalo, Ben Gong's, Molly Tea).
 6. **Profile each shop.** Ratings, review counts, addresses and hours came from Google Places on November 15. Brand origin, founding year and store count came from brand sites, Wikipedia and local food press (Daily Hive, Noms Magazine, Richmond News, Foodgressing). Where sources disagreed, the most-cited figure was used. "Known for" came from menu highlights, review summaries and press coverage.
 7. **Build the categories.** The constraints: no bracket over 12, and every shop in exactly one bracket. Only attributes available for all 28 shops were used: area, origin and era, price, rating, and specialty. Cut points were set to give balanced sizes, then adjusted by hand where needed.
+8. **Match drinks across menus (November 23, 2026).** Read every shop's menu from its Google Maps listing. Where the listing's menu was thin (Boba Run, Pearl Fever, TeaByDo, The Bubble Tea Shop), used the most recent menu photo posted to the listing. Grouped drinks with the same or nearly the same name, counted the shops for each, and built 12-shop options from the drinks at least 12 shops share, filling with untasted shops first. Every item in the option tables was checked against the menu it came from.
 
 ### Decision rules behind each option
 
@@ -238,7 +419,8 @@ Option 1 is recommended because drinks are bought once and pearls harden within 
 
 - **What counts as a chain.** Counting global brands with one local shop (Happy Lemon, TeaByDo, Chahalo) is a choice; a strict local-only rule would drop them.
 - **Which branch.** Highest-rated was the default, but ratings differ between branches of the same brand (Gong Cha downtown 4.6 vs Granville 4.0), so branch choice can shift results.
-- **Closest-drink substitutions.** Xing Fu Tang (brown sugar), Boba Run (Hong Kong style), Sweet7 and Paragon (oolong), Chahalo (dark tea) and TeaByDo (coconut jelly, no tapioca) aren't true like-for-like drinks.
+- **Closest-drink substitutions.** Xing Fu Tang (brown sugar), Boba Run (Hong Kong style), Sweet7 and Paragon (oolong), Chahalo (dark tea) and TeaByDo (coconut jelly) aren't true like-for-like drinks. TeaByDo's menu board (photo from September 2026) now lists a handmade brown sugar pearl milk tea and a brown sugar pearl topping, both marked sold out that day, so pearls may be available after all.
+- **Drink matching (Bracket #2 options).** Drinks were matched by name, not recipe: “Green Milk Tea” counts as jasmine green milk tea, and lattes, fresh-milk teas and oat-milk versions count as milk teas. Each table names the shop's own item so the differences are visible.
 - **Founding years.** Sources conflict for The Alley (2013 vs 2015) and Happy Lemon (Taipei vs Shanghai). ChunFunHow's founding year wasn't found.
 - **Specialty tags.** These are judgment calls from reviews and menus. Gong Cha, for example, could fit Classic & boba as easily as Fruit & foam.
 - **Coverage.** Places searches cap at about 10 results each, so a small chain in an unsearched neighbourhood could still be missing.
@@ -248,10 +430,11 @@ Option 1 is recommended because drinks are bought once and pearls harden within 
 - Ratings and review counts change daily. SunTea City Square's 4.5 rests on 20 reviews.
 - Menu prices on Google can lag in-store prices. Prices for Chahalo and Pearl Fever weren't captured.
 - Some brand facts come from search-result excerpts rather than full pages; the Sources list links each one.
+- The drink-matched options use menus read November 23, 2026. Seasonal items come and go: MACU Tea's menu had no mango drinks that day, and Chatime's and Presotea's included limited-time drinks.
 
 ## Sources
 
-Ratings, review counts, addresses and hours come from Google Maps listings checked November 15, 2026. Drink names and prices come from each branch's Google Maps menu, except CoCo, Sharetea and The Alley, which were confirmed on the brands' own sites. Brand founding years and store counts vary between sources; the most commonly cited figure is used.
+Ratings, review counts, addresses and hours come from Google Maps listings checked November 15, 2026. Drink names and prices come from each branch's Google Maps menu, except CoCo, Sharetea and The Alley, which were confirmed on the brands' own sites. The drink-matched options use the same Google Maps menus, re-read November 23, 2026, plus menu photos posted to the Boba Run (June 2026), Pearl Fever (October 2020 and July 2025), TeaByDo (August–November 2026) and The Bubble Tea Shop (May 2026) listings. Brand founding years and store counts vary between sources; the most commonly cited figure is used.
 
 - [50 Lan (101 Boba)](https://wiki.riteme.site/wiki/50_Lan)
 - [Alfa Tea replacing MACU](https://nomsmagazine.com/?p=70299)
