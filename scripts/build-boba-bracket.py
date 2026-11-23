@@ -19,7 +19,7 @@ TEMPLATE = """<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boba Bracket - Nov. 22, 2026</title>
-  <meta name="description" content="Profiles of 28 Metro Vancouver bubble tea shops, the classic milk tea to order at each, and five ways to split them into a taste-test bracket, plus every shop selling six shared drinks and ways to pick 12 from each.">
+  <meta name="description" content="Profiles of 28 Metro Vancouver bubble tea shops, the classic milk tea to order at each, and five ways to split them into a taste-test bracket, plus every shop selling six shared drinks, ways to pick 12 from each, and which make taro milk from real taro.">
   <link rel="stylesheet" href="../assets/css/style.css">
   <script src="../assets/js/theme.js"></script>
   <style>
@@ -35,6 +35,18 @@ TEMPLATE = """<!DOCTYPE html>
     .doc li {{ margin-bottom: 8px; }}
     .doc a {{ color: var(--accent); }}
     .doc a:hover {{ color: var(--accent-hover); }}
+    .doc h2, .doc h3 {{ scroll-margin-top: 84px; }}
+    .doc .anchor {{ margin-left: 8px; font-weight: 400; text-decoration: none; color: var(--text-muted); opacity: 0; transition: opacity .15s; }}
+    .doc h2:hover .anchor, .doc h3:hover .anchor, .doc .anchor:focus {{ opacity: 1; }}
+    .doc .toc {{ margin: 8px 0 24px; padding: 14px 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); font-size: 0.9rem; }}
+    .doc .toc ul {{ margin: 0 0 0 18px; }}
+    .doc .toc > ul {{ margin-left: 0; list-style: none; columns: 2; column-gap: 32px; }}
+    .doc .toc > ul > li {{ break-inside: avoid; margin-bottom: 10px; font-weight: 600; }}
+    .doc .toc li li {{ font-weight: 400; margin-bottom: 4px; }}
+    .doc .toc a {{ text-decoration: none; }}
+    .doc .toc a:hover {{ text-decoration: underline; }}
+    .to-top {{ position: fixed; right: 20px; bottom: 20px; padding: 8px 14px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--accent); text-decoration: none; font-size: 0.85rem; box-shadow: 0 2px 10px rgba(0,0,0,.12); }}
+    .to-top:hover {{ color: var(--accent-hover); }}
     .table-wrap {{ overflow-x: auto; margin: 8px 0 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }}
     .doc table {{ border-collapse: collapse; width: 100%; font-size: 0.875rem; }}
     .doc th, .doc td {{ text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--border); }}
@@ -45,6 +57,7 @@ TEMPLATE = """<!DOCTYPE html>
       .doc-page {{ padding: 88px 16px 64px; }}
       .doc h1 {{ font-size: 1.5rem; }}
       .doc table {{ font-size: 0.8rem; }}
+      .doc .toc > ul {{ columns: 1; }}
     }}
   </style>
 </head>
@@ -60,11 +73,12 @@ TEMPLATE = """<!DOCTYPE html>
   </nav>
 
   <main class="doc-page">
-    <a href="/#tools" class="back-link">&larr; Back to Tools</a>
+    <a href="/#tools" class="back-link" id="top">&larr; Back to Tools</a>
     <article class="doc">
 {body}
     </article>
   </main>
+  <a href="#top" class="to-top">&uarr; Top</a>
 
   <footer class="footer">
     <div class="container">
@@ -77,7 +91,12 @@ TEMPLATE = """<!DOCTYPE html>
 
 
 def build() -> None:
-    html = markdown.markdown(SRC.read_text(encoding="utf-8"), extensions=["tables", "sane_lists"])
+    html = markdown.markdown(
+        SRC.read_text(encoding="utf-8"),
+        extensions=["tables", "sane_lists", "toc"],
+        # Linked contents ([TOC] in the markdown) and a # link on every section heading.
+        extension_configs={"toc": {"toc_depth": "2-3", "permalink": "#", "permalink_class": "anchor", "permalink_title": "Link to this section"}},
+    )
     html = html.replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
     # Open external links in a new tab.
     html = re.sub(r'<a href="(https?://[^"]+)">', r'<a href="\1" target="_blank" rel="noopener">', html)

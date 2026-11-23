@@ -8,7 +8,11 @@ The 28 shops break down as 13 Taiwanese brands, 6 from mainland China, 1 from th
 
 One scheduling flag: Sharetea Kingsway is listed as closed November 16–19, 2026.
 
-New for Bracket #2: every shop that sells each of six shared drinks, from each shop’s current menu, with the exact item to order and four ways to pick 12 (see “Bracket options by shared drink” below).
+New for Bracket #2: [every shop that sells each of six shared drinks](#bracket-options-by-shared-drink), from each shop’s current menu, with the exact item to order and [four ways to pick 12](#four-ways-to-pick-12), plus [which shops make taro milk from real taro versus powder](#taro-milk-fresh-taro-or-powder).
+
+**On this page**
+
+[TOC]
 
 ## At a glance
 
@@ -310,7 +314,40 @@ In each table, ✓ marks the shops a method picks.
 - **Rematch:** 9 new + 3 from Bracket #1; 5 areas (4 Downtown & West, 3 Richmond, 3 Burnaby, 1 Vancouver East, 1 Coquitlam).
 - **Fewest areas:** 5 new + 7 from Bracket #1; 3 areas (7 Downtown & West, 3 Vancouver East, 2 Burnaby).
 - **Top rated:** 3 new + 9 from Bracket #1; 5 areas (6 Downtown & West, 2 Cambie & South Van, 2 Vancouver East, 1 Burnaby, 1 Richmond).
-- **Watch for:** Some are taro milk with no tea (Choo Tea, Money Tea, Pearl Fever, ChunFunHow, Gong Cha, The Bubble Tea Shop). Some shops advertise fresh taro (Choo Tea, Money Tea, Sweet7, SunTea) and others add taro balls (TeaByDo), so the drinks may look different from each other, which makes it harder to keep blind. CHICHA’s Taro King, Chatime’s Taro Coconut Latte and The Alley’s Deerioca Ube Taro are the loosest matches.
+- **Watch for:** Some are taro milk with no tea (Choo Tea, Money Tea, Pearl Fever, ChunFunHow, Gong Cha, The Bubble Tea Shop). Some shops advertise fresh taro (Choo Tea, Money Tea, Sweet7, SunTea) and others add taro balls (TeaByDo), so the drinks may look different from each other, which makes it harder to keep blind. CHICHA’s Taro King, Chatime’s Taro Coconut Latte and The Alley’s Deerioca Ube Taro are the loosest matches. For which shops use real taro, see [Taro milk: fresh taro or powder?](#taro-milk-fresh-taro-or-powder).
+
+### Taro milk: fresh taro or powder?
+
+Added November 23, 2026. This narrows the taro list to taro milk (taro and milk, no tea) and flags whether each shop makes it from real taro or a powder. Evidence comes from each shop's Google Maps menu descriptions (the Chinese names are often the giveaway: 芋泥 means mashed taro paste, 芋香 means taro-flavoured), Google reviews that mention taro, and Sharetea's own site.
+
+14 of the 20 taro shops sell a taro milk:
+
+| Shop | Taro milk to order | Flag | Evidence |
+| --- | --- | --- | --- |
+| CHICHA San Chen | Taro Party | 🟢 Fresh | Menu: fresh milk with slow-cooked taro paste (慢熟芋泥) |
+| Choo Tea | Fresh Taro Milk With Taro Ball | 🟢 Fresh | Menu: taro paste and taro balls (芋泥芋圆) |
+| ChunFunHow | Taro Fresh Milk | 🟢 Fresh | Menu: “Dajia taro and fresh milk”; Dajia is Taiwan's best-known taro-growing area |
+| Money Tea | Fresh Taro Milk | 🟢 Fresh | Menu: taro paste with fresh milk (芋泥鲜奶) |
+| Sweet7 | Fresh Taro With Milk | 🟢 Fresh | Menu: taro paste with fresh milk (芋泥鲜奶) |
+| SunTea | Taro Ball Taro Fresh Milk | 🟢 Fresh | Menu: “fresh taro puree, taro balls, fresh milk, and sea salt cream” |
+| Xing Fu Tang | Fresh Taro Red Bean Milk | 🟢 Fresh | Five reviews mention “fresh taro”; comes with red bean |
+| The Alley | Deerioca Ube Taro | 🟢 Fresh | Menu: “mashed taro and fresh milk”, but it also has brown sugar pearls and ube sauce |
+| Sharetea | Handmade Taro With Fresh Milk | 🟢 Real taro | [Sharetea's site](https://www.1992sharetea.com/news/what-is-taro-bubble-tea): “made with candied taro and fresh milk” |
+| Happy Lemon | Taro And Purple Sweet Potato With Fresh Milk | 🟡 Probably fresh | Offers an “extra fresh taro” add-on; one review says “real taste”, an older one says “powder particles”; also has purple sweet potato |
+| Chatime | Taro Coconut Latte | 🟡 Unclear | Menu says “real ground taro”, but it's purple, uses coconut milk instead of dairy, and “ground” could mean a taro powder |
+| Pearl Fever | Taro Milk | 🔴 Likely powder | Listed among flavoured milks (mango, honeydew, chocolate). Reviews mention a separate fresh taro option, so ask for that in store |
+| The Bubble Tea Shop | Taro (Bubble Milk) | 🔴 Likely powder | One of 17 flavours alongside honeydew and vanilla bean; no reviews either way |
+| Gong Cha | Taro Milk Drink | 🔴 Powder | Reviews: “very powdery taste… tiny grains”, “something wrong with the powder” |
+
+The other six have only a taro milk tea, so they're out on a taro-milk rule:
+
+- **CoCo:** the menu describes its Taro Milk Tea as “sweet taro paste”, so it's probably real taro.
+- **Bubble World:** a review calls its taro “a crystal powder”. Real taro only goes into its white Fresh Taro Slush.
+- **Ben Gong's Tea:** a review says “artificial flavored taro”.
+- **Presotea and Shiny Tea:** probably powder. Presotea's is named 芋香 (taro-flavoured), and Shiny saves “fresh taro” for its slush.
+- **TeaByDo:** the only real taro is the taro balls in its Signature Taro Ball Milk Tea.
+
+**For a bracket:** a 12-shop all-real-taro bracket doesn't quite fit. There are 10 clearly fresh shops; Chatime makes 11 only if “real ground taro” counts as real, and Pearl Fever's in-store fresh taro option could be 12th if the shop confirms it. The alternative is fresh versus powder head to head: the 10 fresh shops plus Gong Cha and The Bubble Tea Shop as the powder control.
 
 ### Brown sugar pearl milk (no tea) (18 shops, 11 not yet tasted)
 
@@ -482,7 +519,7 @@ Option 1 is recommended because drinks are bought once and pearls harden within 
 
 ## Sources
 
-Ratings, review counts, addresses and hours come from Google Maps listings checked November 15, 2026. Drink names and prices come from each branch's Google Maps menu, except CoCo, Sharetea and The Alley, which were confirmed on the brands' own sites. The drink-matched options use the same Google Maps menus, re-read November 23, 2026, plus menu photos posted to the Boba Run (June 2026), Pearl Fever (October 2020 and July 2025), TeaByDo (August–November 2026) and The Bubble Tea Shop (May 2026) listings. Brand founding years and store counts vary between sources; the most commonly cited figure is used.
+Ratings, review counts, addresses and hours come from Google Maps listings checked November 15, 2026. Drink names and prices come from each branch's Google Maps menu, except CoCo, Sharetea and The Alley, which were confirmed on the brands' own sites. The taro fresh-or-powder flags also draw on Google reviews that mention taro (searched November 23, 2026) and [Sharetea's page on taro bubble tea](https://www.1992sharetea.com/news/what-is-taro-bubble-tea). The drink-matched options use the same Google Maps menus, re-read November 23, 2026, plus menu photos posted to the Boba Run (June 2026), Pearl Fever (October 2020 and July 2025), TeaByDo (August–November 2026) and The Bubble Tea Shop (May 2026) listings. Brand founding years and store counts vary between sources; the most commonly cited figure is used.
 
 - [50 Lan (101 Boba)](https://wiki.riteme.site/wiki/50_Lan)
 - [Alfa Tea replacing MACU](https://nomsmagazine.com/?p=70299)
