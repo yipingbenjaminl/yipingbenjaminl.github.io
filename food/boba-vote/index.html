@@ -39,8 +39,6 @@ button:disabled{opacity:.45;cursor:default}
 .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;font-weight:700;font-size:15px;color:#fff}
 .dot{width:12px;height:12px;border-radius:50%;display:inline-block}
 .big-panel{border-radius:22px;padding:28px 18px;text-align:center;color:#fff;font:800 44px/1 var(--display)}
-.placemat{display:flex;gap:10px;justify-content:center;margin:10px 0 4px}
-.placemat span{font:800 28px var(--display);width:60px;height:60px;border-radius:50%;display:grid;place-items:center;border:2px dashed var(--tea)}
 .cups{display:grid;gap:12px;margin-top:14px}
 .cup{display:flex;align-items:center;gap:14px;background:var(--bg);border:2px solid var(--line);border-radius:16px;padding:12px 14px;cursor:pointer;user-select:none;width:100%;color:var(--ink);text-align:left}
 .cup .letter{font:800 30px var(--display);width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--tea-soft)}
@@ -136,9 +134,8 @@ const app = document.getElementById('app');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const PANEL_COLORS = {Red:'var(--Red)',Blue:'var(--Blue)',Green:'var(--Green)',Yellow:'var(--Yellow)'};
 const TAGS = ['Sweet','Not sweet enough','Strong tea','Weak tea','Creamy','Watery','Chewy pearls','Hard pearls','Mushy pearls'];
-// Cup numbers by group. Label each shop's bags with its number at check-in.
-const SHOPS = {1:'Bubble World', 2:'Sharetea', 3:'Happy Lemon', 4:'101 Boba', 5:'CoCo', 6:'CHICHA San Chen',
-  7:'Chatime', 8:'Shiny Tea', 9:'Gong Cha', 10:'ChunFunHow', 11:'MACU Tea', 12:'SunTea'};
+// Shop names live on the server (host screen > Shops and drinks); phones only get them in the recap after the reveal.
+const STATUS_LABELS = {ordered:'Ordered', picked_up:'Picked up', arrived:'Arrived'};
 
 async function api(path, {method='GET', body, pin}={}){
   const headers = {};
@@ -211,7 +208,7 @@ async function refreshMe(force){
     if (force) app.innerHTML = `<h1>Boba Bracket</h1><div class="card"><p class="err">${esc(e.message)}</p></div>`;
     return;
   }
-  const key = [me.state, me.round, me.table, (me.placemat||[]).join(''), me.revealed ? 'r' : ''].join('|');
+  const key = [me.state, me.round, me.table, (me.placemat||[]).join(''), me.revealed ? 'r' : '', me.catchup ? 'c' : ''].join('|');
   if (!force && key === T.lastKey) return; // nothing changed; don't disturb the ranking in progress
   if (key !== T.lastKey) { T.ranking = []; T.notes = {}; T.tags = {}; T.confirm = false; }
   T.lastKey = key; T.me = me;
@@ -250,6 +247,16 @@ function renderTaster(){
     if (sw) sw.onclick = e => { e.preventDefault(); store.set('bb_taster', null); joinScreen(); };
     return;
   }
+  if (me.state === 'held') {
+    app.innerHTML = header(me) + `
+      <div class="card center">
+        <p class="muted">Round ${me.round} · Table ${me.table}</p>
+        <div class="boba"><i></i><i></i><i></i></div>
+        <h2>Your table is waiting on a drink</h2>
+        <p class="muted">One of this round’s drinks is still on its way. Your cups appear here as soon as it arrives. This screen updates by itself.</p>
+      </div>`;
+    return;
+  }
   if (me.state === 'submitted') {
     app.innerHTML = header(me) + `
       <div class="card center">
@@ -278,15 +285,15 @@ function renderTaster(){
     return;
   }
   const ord = i => ['1st','2nd','3rd','4th'][i];
-  app.innerHTML = header(me) + `
+  app.innerHTML = header(me) + (me.catchup ? `
+    <div class="card" style="border-color:var(--tea)">
+      <p style="margin:0"><b>Catch up on round ${me.round}</b></p>
+      <p class="muted small" style="margin:6px 0 0">You missed this round. Ask the host for cups ${me.placemat.slice().sort().map(esc).join(', ')} and rank them before the final opens. Or skip it and wait for the final.</p>
+      <div style="height:10px"></div><button class="ghost" id="skip">Skip round ${me.round}</button>
+    </div>` : '') + `
     <div class="card">
-      <p class="muted small" style="margin:0">Round ${me.round}${me.round === 3 ? ' · the final' : ''} · Table ${me.table}</p>
-      <h2 style="margin-top:4px">Set your cups out like this</h2>
-      <div class="placemat">${me.placemat.map(l => `<span>${esc(l)}</span>`).join('')}</div>
-      <p class="center muted small">left to right</p>
-    </div>
-    <div class="card">
-      <h2 style="margin-top:0">Which would you order again?</h2>
+      <p class="muted small" style="margin:0">Round ${me.round}${me.round === 3 ? ' · the final' : ''} · Table ${me.table} · cups ${me.placemat.slice().sort().map(esc).join(', ')}</p>
+      <h2 style="margin-top:4px">Which would you order again?</h2>
       <p class="muted small">Tap your favourite first, then the next. Tap again to undo.</p>
       <div class="cups">${me.placemat.slice().sort().map(l => {
         const i = T.ranking.indexOf(l);
@@ -314,12 +321,18 @@ function renderTaster(){
     b.classList.toggle('on');
   });
   document.getElementById('next').onclick = () => { T.confirm = true; renderTaster(); window.scrollTo(0, 0); };
+  const skip = document.getElementById('skip');
+  if (skip) skip.onclick = async () => {
+    skip.disabled = true;
+    try { await api('/api/skip', {method:'POST', body:{id:store.get('bb_taster'), round:me.round}}); } catch(e){ skip.disabled = false; return; }
+    refreshMe(true);
+  };
 }
 
 // After the host unlocks it at the end of the reveal: this taster's own rankings with the shops unmasked.
 function renderRecap(me){
   const rc = me.recap;
-  const shop = n => SHOPS[n] || `Cup #${n}`;
+  const shop = n => (rc.shops && rc.shops[n]) || `Cup #${n}`;
   const ord = i => ['1st','2nd','3rd','4th'][i - 1] || `${i}th`;
   const hits = rc.rounds.filter(r => r.picks[0] && r.picks[0].num === r.winner).length;
   app.innerHTML = header(me) + `
@@ -384,47 +397,62 @@ function pinFailed(role, title, e){
 }
 
 // ================= Host =================
-// Which shops (cup numbers) each table gets in the group rounds, and the letters that round uses there.
-const GROUP_PLAN = {
-  1: [{ table: 1, nums: [1, 2, 3], letters: 'A–C' }, { table: 2, nums: [7, 8, 9], letters: 'D–F' }],
-  2: [{ table: 1, nums: [4, 5, 6], letters: 'G–I' }, { table: 2, nums: [10, 11, 12], letters: 'J–L' }],
-};
-
-// Pour sheets: the current round from the server, plus round 2's plan ahead of time while it's still to come.
-// Exact letters only exist once a round is opened (the server shuffles shops then), so later rounds show the letter range.
-function pourSheets(pour, d){
-  const counts = Object.fromEntries(d.panels.map(p => [p.name, d.tasters.filter(t => t.panel === p.name).length]));
-  const card = (round, t, cups) => `<div class="card" style="margin:0">
-      <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')} · ${t.panels.reduce((n, p) => n + (counts[p] || 0), 0)} cups of each</span>
-      <table style="margin-top:8px">${cups.map(c => `<tr><td style="width:44px"><b>#${c.num}</b></td><td>${esc(SHOPS[c.num] || '')}</td>
-        <td style="text-align:right;${c.letter ? 'font:800 24px var(--display)' : ''}">${c.letter ? esc(c.letter) : `<span class="muted small">${c.hint}</span>`}</td></tr>`).join('')}</table>
+// Shops and drinks: rename shops (before round 1), track each drink, mark late ones, and generate the groups.
+function drinksBoard(d){
+  const locked = d.groupsLocked;
+  const r1Groups = [1, 3]; // round 1's groups (table 1, table 2)
+  const lateInR1 = d.shops.filter(s => s.late && r1Groups.includes(s.grp));
+  const stale = !locked && d.groupsGenerated && lateInR1.length;
+  return `<h2>Shops and drinks</h2>
+    <div class="card">
+      <p class="small muted" style="margin-top:0">${locked
+        ? 'Groups are locked. Keep marking drinks as they arrive; a table waits while one of its drinks is late.'
+        : 'Before round 1: mark any shop whose drinks aren’t here yet as <b>late</b>, then generate the groups. Late shops go to round 2, so round 1 can start without them. You can redraw until round 1 opens.'}</p>
+      ${d.shops.map(s => `<div style="padding:10px 0;border-top:1px solid var(--line)">
+        <div class="row" style="align-items:center;gap:8px">
+          ${locked ? `<b style="flex:1">${esc(s.name)}</b>` : `<input data-shopname="${s.num}" value="${esc(s.name)}" maxlength="40" style="flex:1;padding:8px 10px">`}
+          <span class="muted small" style="flex:0 0 auto;white-space:nowrap">${d.groupsGenerated || locked ? 'Group ' + s.grp : ''}</span>
+        </div>
+        <div class="tags">${Object.entries(STATUS_LABELS).map(([k, v]) =>
+          `<button class="tag ${s.status === k ? 'on' : ''}" data-status="${s.num}" data-v="${k}">${v}</button>`).join('')}
+          <button class="tag ${s.late ? 'on' : ''}" data-late="${s.num}" style="margin-left:auto;${s.late ? 'background:var(--warn);border-color:var(--warn)' : ''}">${s.late ? 'Late' : 'Mark late'}</button></div>
+      </div>`).join('')}
+      ${stale ? `<p class="err">${lateInR1.map(s => esc(s.name)).join(', ')} ${lateInR1.length === 1 ? 'is' : 'are'} late but in round 1. Generate again to move ${lateInR1.length === 1 ? 'it' : 'them'} to round 2.</p>` : ''}
+      ${locked ? '' : `<div style="height:10px"></div><button data-generate>${d.groupsGenerated ? 'Redraw groups' : 'Generate groups'}</button>
+        <p class="small muted" style="margin:8px 0 0">${d.groupsGenerated ? 'Groups drawn. Letters for rounds 1 and 2 are on the pour sheets below.' : 'Not drawn yet. If you open round 1 without drawing, the groups in the order listed are used.'}</p>`}
     </div>`;
-  const head = (title, tag, status) => `<div class="row" style="justify-content:space-between;align-items:baseline;margin-top:18px">
-      <h2 style="margin:0">${title}</h2><span class="status ${status}" style="flex:0;white-space:nowrap">${tag}</span></div>`;
-  let html = '';
-  if (pour.round) {
-    const plan = GROUP_PLAN[pour.round];
-    html += head(`Pour sheet · ${pour.round === 3 ? 'Final' : 'Round ' + pour.round}`, pour.status === 'open' ? 'open now' : 'up next', pour.status)
-      + `<div class="tables" style="margin-top:10px">${pour.tables.map(t => {
-          const range = plan ? plan.find(p => p.table === t.table).letters : 'M–P';
-          return card(pour.round, t, t.cups.map(c => ({ ...c, hint: `one of ${range} · on open` })));
-        }).join('')}</div>`
-      + (pour.round === 3 && !pour.tables[0].cups.length ? `<p class="muted small">The 4 finalists appear when you open the final.</p>` : '')
-      + `<p class="small muted" style="margin:6px 0 0">${pour.round === 3 ? 'Pour the final from the sealed second drinks.' : 'Pour from drink 1 and keep drink 2 sealed.'} Mark each cup with its letter.</p>`;
-  }
-  // Round 2 ahead of time, while round 1 is still up next or open.
-  const r2 = d.rounds.find(r => r.id === 2);
-  if (pour.round === 1 && r2 && r2.status === 'pending') {
-    html += head('Pour sheet · Round 2', 'later', 'pending')
-      + `<div class="tables" style="margin-top:10px">${r2.tables.map(t => {
-          const p = GROUP_PLAN[2].find(x => x.table === t.table);
-          return card(2, t, p.nums.map(num => ({ num, letter: null, hint: `one of ${p.letters} · on open` })));
-        }).join('')}</div>
-      <p class="small muted" style="margin:6px 0 0">Sort round 2’s drinks to their tables now. Exact letters appear here when you open round 2.</p>`;
-  }
-  if (pour.round !== 3) html += `<p class="small muted" style="margin-top:14px">The final’s 4 cups (letters M–P) appear when you open the final.</p>`;
-  return html;
 }
+
+// Pour sheets for every round still to come: shop name and cup letter only.
+function pourSheets(pour){
+  const sheets = (pour.sheets || []).filter(s => s.status !== 'closed');
+  const head = (s) => {
+    const tag = s.status === 'open' ? 'open now' : s.round === pour.round ? 'up next' : 'later';
+    return `<div class="row" style="justify-content:space-between;align-items:baseline;margin-top:18px">
+      <h2 style="margin:0">Pour sheet · ${s.round === 3 ? 'Final' : 'Round ' + s.round}</h2><span class="status ${s.status}" style="flex:0;white-space:nowrap">${tag}</span></div>`;
+  };
+  return sheets.map(s => {
+    if (s.round === 3 && !s.tables[0].cups.length) {
+      return head(s) + `<p class="small muted">The 4 finalists (letters M–P) appear when you open the final. Pour them from the second drinks in the fridge.</p>`;
+    }
+    return head(s) + `<div class="tables" style="margin-top:10px">${s.tables.map(t => `<div class="card" style="margin:0">
+        <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')} · ${t.cupsEach} cups of each</span>
+        ${t.held ? `<p class="err" style="margin:6px 0 0">Table waiting for: ${t.cups.filter(c => c.late).map(c => esc(c.name)).join(', ')}</p>` : ''}
+        <table style="margin-top:8px">${t.cups.map(c => `<tr>
+          <td>${esc(c.name)}${c.late ? ' <span class="small" style="color:var(--warn);font-weight:700">late</span>' : ''}</td>
+          <td style="text-align:right;${c.letter ? 'font:800 26px var(--display)' : ''}">${c.letter ? esc(c.letter) : '<span class="muted small">letter when drawn</span>'}</td></tr>`).join('')}</table>
+      </div>`).join('')}</div>
+      <p class="small muted" style="margin:6px 0 0">${s.round === 3 ? 'Pour the final from the second drinks in the fridge.' : 'Pour from drink 1; keep drink 2 sealed in the fridge.'} Mark each cup with its letter.</p>`;
+  }).join('');
+}
+
+// mm:ss left on a round's 10-minute voting timer.
+function timerText(deadline){
+  const left = Math.round((deadline - Date.now()) / 1000);
+  if (left <= 0) return 'Time’s up · close when ready';
+  return `${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')} left to vote`;
+}
+let timerTick = null;
 
 function hostView(){
   pinGate('host', 'Host', pin => {
@@ -436,18 +464,24 @@ function hostView(){
       const focused = document.activeElement && ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName);
       if (focused) return; // don't redraw under the host's fingers
       const byPanel = Object.fromEntries(d.panels.map(p => [p.name, d.tasters.filter(t => t.panel === p.name)]));
+      const skew = Date.now() - (d.now || Date.now()); // server clock -> this device's clock
       app.innerHTML = `
         <h1>Host</h1>
         <p class="muted">${d.tasters.length} taster${d.tasters.length === 1 ? '' : 's'} joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
-        ${pourSheets(pour, d)}
+        ${drinksBoard(d)}
+        ${pourSheets(pour)}
         <h2>Rounds</h2>
         ${d.rounds.map(r => `<div class="card">
           <div class="row" style="justify-content:space-between"><h2 style="margin:0">${r.id === 3 ? 'Final' : 'Round ' + r.id}</h2>
             <span class="status ${r.status}" style="flex:0">${r.status}</span></div>
+          ${r.status === 'open' && r.openedAt ? `<p data-deadline="${r.openedAt + skew + d.votingMinutes * 60000}" style="font:800 30px var(--display);margin:10px 0 0"></p>
+            <p class="small muted" style="margin:2px 0 0">Anyone still tasting when time’s up can hand you a paper ballot.</p>` : ''}
           <div class="tables" style="margin-top:10px">${r.tables.map(t => `<div>
             <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')}</span><br>
+            ${r.status === 'open' && t.waitingFor && t.waitingFor.length
+              ? `<p class="err" style="margin:4px 0">Waiting for ${t.waitingFor.map(esc).join(', ')}. Mark it arrived to start this table.</p>` : ''}
             <span style="font:800 26px var(--display)">${t.voted}/${t.expected}</span> <span class="muted small">voted</span>
-            ${r.status !== 'pending' && t.missing.length ? `<p class="small muted">Waiting on: ${t.missing.map(esc).join(', ')}</p>` : ''}
+            ${r.status !== 'pending' && t.missing.length ? `<p class="small muted">Not in yet: ${t.missing.map(esc).join(', ')}${r.status === 'closed' && r.id < 3 ? ' (they can still vote from their phone until the final opens)' : ''}</p>` : ''}
           </div>`).join('')}</div>
           <div class="row" style="margin-top:12px">
             ${r.status === 'open' ? `<button data-close="${r.id}">Close ${r.id === 3 ? 'final' : 'round ' + r.id}</button>`
@@ -480,6 +514,20 @@ function hostView(){
       app.querySelectorAll('[data-open]').forEach(b => b.onclick = () => act(() => api('/api/host/open', {method:'POST', pin, body:{round:Number(b.dataset.open)}})));
       app.querySelectorAll('[data-close]').forEach(b => b.onclick = () => act(() => api('/api/host/close', {method:'POST', pin, body:{round:Number(b.dataset.close)}})));
       app.querySelectorAll('[data-move]').forEach(s => s.onchange = () => { s.blur(); act(() => api('/api/host/panel', {method:'POST', pin, body:{id:s.dataset.move, panel:s.value}})); });
+      const shopApi = body => api('/api/host/shop', {method:'POST', pin, body});
+      app.querySelectorAll('[data-shopname]').forEach(i => {
+        i.onkeydown = e => { if (e.key === 'Enter') i.blur(); };
+        i.onchange = () => { i.blur(); act(() => shopApi({num:Number(i.dataset.shopname), name:i.value})); };
+      });
+      app.querySelectorAll('[data-status]').forEach(b => b.onclick = () => act(() => shopApi({num:Number(b.dataset.status), status:b.dataset.v})));
+      app.querySelectorAll('[data-late]').forEach(b => b.onclick = () => act(() => shopApi({num:Number(b.dataset.late), late:!b.classList.contains('on')})));
+      const gen = app.querySelector('[data-generate]');
+      if (gen) gen.onclick = () => act(() => api('/api/host/generate', {method:'POST', pin, body:{}}));
+      const tick = () => app.querySelectorAll('[data-deadline]').forEach(el => {
+        el.textContent = timerText(Number(el.dataset.deadline));
+        el.style.color = Number(el.dataset.deadline) - Date.now() < 60000 ? 'var(--warn)' : '';
+      });
+      tick(); clearInterval(timerTick); timerTick = setInterval(tick, 1000);
       document.getElementById('pb-go').onclick = async () => {
         const ranking = document.getElementById('pb-rank').value.toUpperCase().split(/[^A-Z]+/).filter(Boolean);
         try {
@@ -499,18 +547,26 @@ function revealView(){
   pinGate('host', 'Reveal', async pin => {
     let d;
     try { d = await api('/api/host/results', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host','Reveal',e); app.innerHTML = `<p class="err">${esc(e.message)}</p>`; return; }
-    const names = Object.assign({}, SHOPS, JSON.parse(store.get('bb_names') || '{}'));
+    // Names come from the host's shop list; edits here only change how they read on the TV (saved on this device).
+    // A saved tweak only applies while the host's name for that shop is unchanged, so last bracket's edits don't leak in.
+    const saved = (() => { try { return JSON.parse(store.get('bb_tv_names') || '{}'); } catch(e){ return {}; } })();
+    const names = Object.assign({}, d.shops || {});
+    for (const [n, v] of Object.entries(saved)) if (v && v.base === names[n]) names[n] = v.name;
     const themes = JSON.parse(store.get('bb_themes') || '{}');
+    const members = g => { const grp = d.groups.find(x => x.group === g); return grp && grp.members ? grp.members : [3*g-2, 3*g-1, 3*g]; };
     app.innerHTML = `<h1>Reveal setup</h1>
-      <p class="muted">Shop names are filled in from the plan. Change any that moved; edits are saved on this device.</p>
+      <p class="muted">Shop names come from the host screen. Tweak how any reads on the TV here; edits are saved on this device.</p>
       ${[1,2,3,4].map(g => `<div class="card"><input data-theme="${g}" placeholder="Group ${g} theme (optional), e.g. The 1990s pioneers" value="${esc(themes[g] || '')}">
-        ${[3*g-2,3*g-1,3*g].map(n => `<div class="row" style="margin-top:8px"><span style="flex:0 0 48px;font:800 22px var(--display)">#${n}</span><input data-num="${n}" placeholder="Shop for #${n}" value="${esc(names[n] || '')}"></div>`).join('')}</div>`).join('')}
+        ${members(g).map(n => `<div class="row" style="margin-top:8px"><input data-num="${n}" placeholder="Shop name" value="${esc(names[n] || '')}"></div>`).join('')}</div>`).join('')}
       <button id="start">Start the reveal</button>
       <div style="height:10px"></div>
       <button class="secondary" id="loop" ${d.final.result && d.final.result.voters ? '' : 'disabled'}>Loop the bracket animation</button>
       <p class="small muted" style="margin-top:10px">${d.final.status === 'closed' ? 'All rounds are closed.' : 'Heads up: the final isn’t closed yet.'} The animation shows every result, champion included. Press Esc to leave it.</p>`;
     document.getElementById('loop').onclick = () => runBracket(d, names, themes);
-    app.querySelectorAll('[data-num]').forEach(i => i.oninput = () => { names[i.dataset.num] = i.value; store.set('bb_names', JSON.stringify(names)); });
+    app.querySelectorAll('[data-num]').forEach(i => i.oninput = () => {
+      const n = i.dataset.num; names[n] = i.value;
+      saved[n] = { base: (d.shops || {})[n], name: i.value }; store.set('bb_tv_names', JSON.stringify(saved));
+    });
     app.querySelectorAll('[data-theme]').forEach(i => i.oninput = () => { themes[i.dataset.theme] = i.value; store.set('bb_themes', JSON.stringify(themes)); });
     document.getElementById('start').onclick = () => runReveal(d, names, themes);
   });
