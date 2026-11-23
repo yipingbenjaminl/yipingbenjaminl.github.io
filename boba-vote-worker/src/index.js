@@ -69,6 +69,7 @@ async function route(request, env, url) {
     if (path === '/api/host/results' && method === 'GET') return results(env, true);
     if (path === '/api/host/unveil' && method === 'POST') return unveil(env, body);
     if (path === '/api/host/reset' && method === 'POST') return reset(env, body);
+    if (path === '/api/host/theme' && method === 'POST') return setTheme(env, body);
   }
   throw httpError(404, 'Not found');
 }
@@ -313,7 +314,23 @@ async function hostState(env) {
     groupsLocked: rounds.some((r) => r.status !== 'pending'),
     now: Date.now(),
     votingMinutes: VOTING_MINUTES,
+    themes: await getThemes(env),
   });
+}
+
+// Optional group themes for the TV reveal ("The 1990s pioneers"), keyed by the server's group number.
+async function getThemes(env) {
+  const rows = (await env.DB.prepare("SELECT key, value FROM settings WHERE key LIKE 'theme:%'").all()).results;
+  return Object.fromEntries(rows.map((r) => [r.key.slice(6), r.value]));
+}
+
+async function setTheme(env, body) {
+  const group = Number(body.group);
+  if (![1, 2, 3, 4].includes(group)) throw httpError(400, 'Unknown group');
+  const text = String(body.theme || '').trim().replace(/\s+/g, ' ').slice(0, 60);
+  if (text) await setSetting(env, `theme:${group}`, text);
+  else await env.DB.prepare('DELETE FROM settings WHERE key = ?').bind(`theme:${group}`).run();
+  return json({ ok: true, themes: await getThemes(env) });
 }
 
 // Drinks board and shop list: rename (before round 1), mark late, or move a drink along ordered -> picked up -> arrived.
@@ -473,6 +490,7 @@ async function results(env, asResponse) {
   const data = { tasters, groups, final: { status: rounds[3], result: scoreSlot(3, 1) }, shops };
   if (!asResponse) return data;
   data.revealed = (await getSetting(env, 'revealed')) === '1';
+  data.themes = await getThemes(env);
   return json(data);
 }
 

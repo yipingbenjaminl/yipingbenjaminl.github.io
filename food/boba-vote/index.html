@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<title>Boba Bracket Vote - Nov. 22, 2026</title>
+<title>Boba Bracket Vote</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap">
 <style>
@@ -80,8 +80,8 @@ th{color:var(--muted);font-weight:500}
 .nav button{width:auto;flex:1}
 .hidden{display:none!important}
 /* Bracket animation for the TV: sized in vw so it fills any screen */
-.bk{position:fixed;inset:0;z-index:20;background:var(--bg);color:var(--ink);display:grid;grid-template-columns:1.2fr .95fr .85fr;gap:3.2vw;padding:9vh 4vw 5vh;align-items:center;overflow:hidden}
-.bk-head{position:absolute;top:2.6vh;left:4vw;right:4vw;display:flex;justify-content:space-between;align-items:baseline}
+.bk{position:fixed;inset:0;z-index:20;background:var(--bg);color:var(--ink);display:grid;grid-template-columns:1.2fr .95fr .85fr;gap:2.2vw;padding:8vh 2.5vw 3vh;align-items:center;overflow:hidden}
+.bk-head{position:absolute;top:2vh;left:2.5vw;right:2.5vw;display:flex;justify-content:space-between;align-items:baseline}
 .bk-head b{font:800 2.6vw var(--display)}
 .bk-head span{font:500 1.1vw var(--body);color:var(--muted)}
 .bk-col{display:flex;flex-direction:column;justify-content:center;gap:1.4vh;height:100%}
@@ -100,6 +100,7 @@ th{color:var(--muted);font-weight:500}
 .bk-final .bk-row{font-size:1.6vw}
 .bk-final .bk-row .pl{font-size:1.6vw;width:3.6vw}
 .bk-row.wait{opacity:1;color:var(--muted);font-weight:500;font-style:italic}
+.bk-row>span:not(.pl){white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .bk-champ{text-align:center;padding:4vh 1.5vw}
 .bk-champ .t{font:700 1vw var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.14em}
 .bk-champ .bk-cupicon{font-size:5vw;line-height:1;margin:2vh 0 1vh;transition:transform .6s}
@@ -115,6 +116,49 @@ th{color:var(--muted);font-weight:500}
 .bk-exit:hover{opacity:.7;animation:none}
 @keyframes bk-hint{0%,60%{opacity:.6}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.bk-row,.bk-fly,.bk-champ .nm{transition:none}.bk-pearl{display:none}}
+/* TV screen (#reveal before the reveal): sized in vw/vh so it reads from across the room */
+.tv{position:fixed;inset:0;overflow:auto;background:var(--bg);padding:8vh 2.5vw 3vh;display:flex;flex-direction:column}
+.tv-head{position:absolute;top:2vh;left:2.5vw;right:2.5vw;display:flex;justify-content:space-between;align-items:baseline}
+.tv-head b{font:800 max(22px,2.4vw) var(--display)}
+.tv-head span{font:500 max(14px,1.2vw) var(--body);color:var(--muted)}
+.tv-body{flex:1;display:flex;flex-direction:column;justify-content:center}
+.tv-kicker{font:700 max(13px,1.3vw) var(--body);text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:0 0 1vh}
+.tv-title{font:800 max(36px,6.4vw)/1.02 var(--display);margin:0 0 1.5vh}
+.tv-sub{font:500 max(17px,2.1vw)/1.35 var(--body);color:var(--muted);margin:0 0 3vh}
+.tv-tables{display:grid;gap:2vw;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
+.tv-card{background:var(--card);border:1px solid var(--line);border-radius:max(16px,1.4vw);padding:3.4vh 2.2vw}
+.tv-card .pill{font-size:max(15px,1.7vw);padding:.8vh 1.2vw}
+.tv-bar{height:max(10px,1.8vh);border-radius:999px;background:var(--tea-soft);overflow:hidden;margin:2.4vh 0 1.4vh}
+.tv-bar i{display:block;height:100%;background:var(--tea);border-radius:999px;transition:width .6s}
+.tv-count{font:800 max(30px,5vw)/1.15 var(--display);margin:0}
+.tv-bar+.tv-count{margin-top:1.4vh}
+.tv-count span{font:500 max(15px,1.9vw) var(--body);color:var(--muted)}
+.tv-names{font:500 max(15px,1.7vw)/1.4 var(--body);color:var(--muted);margin:1.4vh 0 0}
+.tv-held{font:700 max(18px,2.3vw)/1.3 var(--body);color:var(--warn);margin:2.4vh 0 0}
+.tv-lobby{display:grid;grid-template-columns:1fr 1.1fr;gap:4vw;align-items:center}
+.tv-panels{display:grid;gap:1.6vw;grid-template-columns:1fr 1fr}
+.tv-qr{background:#fffaf3;border-radius:12px;padding:10px;display:inline-block;line-height:0}
+.tv-qr img,.tv-qr canvas{display:block}
+.tv-url{font:700 max(16px,1.5vw) var(--body);margin:1.6vh 0 0}
+.tv-join{position:absolute;right:2vw;bottom:2vh;display:flex;gap:1vw;align-items:center;font:500 max(13px,1vw)/1.35 var(--body);color:var(--muted)}
+.tv-join b{color:var(--ink)}
+.tv-actions{display:flex;gap:1.2vw;justify-content:center;margin-top:3vh}
+.tv-actions button{width:auto;font-size:max(17px,1.4vw);padding:1.6vh 2.4vw}
+@media (max-width:760px){.tv-lobby{grid-template-columns:1fr}.tv-join{display:none}}
+/* Reveal slides fill the TV too */
+body[data-view="reveal"] .wrap.wide{max-width:none;padding:3vh 3vw 2vh}
+body[data-view="reveal"] .stage{min-height:84vh}
+body[data-view="reveal"] .stage>.muted{font-size:max(16px,1.8vw);margin-bottom:1vh}
+body[data-view="reveal"] .slide-title{font-size:max(34px,6vw)}
+body[data-view="reveal"] .stage p[style*="font-size:22px"]{font-size:max(20px,2.2vw)!important}
+body[data-view="reveal"] .podium{gap:1.6vh;margin-top:2vh}
+body[data-view="reveal"] .place{padding:2.4vh 2vw;gap:1.8vw;border-radius:1.4vw}
+body[data-view="reveal"] .place .n{font-size:max(30px,3.6vw);width:4.4vw}
+body[data-view="reveal"] .place .name{font-size:max(20px,2.8vw)}
+body[data-view="reveal"] .place .muted.small,body[data-view="reveal"] .place .meta{font-size:max(14px,1.4vw)}
+body[data-view="reveal"] .quote{font-size:max(18px,2vw)}
+body[data-view="reveal"] .nav{margin-top:1.5vh}
+body[data-view="reveal"] .nav button,body[data-view="reveal"] #loop,body[data-view="reveal"] #unveil{padding:1.2vh 1vw;font-size:max(14px,1vw)}
 </style>
 </head>
 <body>
@@ -135,6 +179,8 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const PANEL_COLORS = {Red:'var(--Red)',Blue:'var(--Blue)',Green:'var(--Green)',Yellow:'var(--Yellow)'};
 const TAGS = ['Sweet','Not sweet enough','Strong tea','Weak tea','Creamy','Watery','Chewy pearls','Hard pearls','Mushy pearls'];
 // Shop names live on the server (host screen > Shops and drinks); phones only get them in the recap after the reveal.
+// The server numbers groups 1/3 (round 1) and 2/4 (round 2); people see them numbered in tasting order.
+const groupLabel = g => ({1: 1, 3: 2, 2: 3, 4: 4})[g] || g;
 const STATUS_LABELS = {ordered:'Ordered', picked_up:'Picked up', arrived:'Arrived'};
 
 async function api(path, {method='GET', body, pin}={}){
@@ -176,7 +222,7 @@ function tasterView(){
 function joinScreen(msg=''){
   app.innerHTML = `
     <h1>Boba Bracket</h1>
-    <p class="muted">Blind taste-off · Nov. 22, 2026</p>
+    <p class="muted">Blind taste-off</p>
     <div class="card">
       <label for="name" class="small muted">Your first name</label>
       <input id="name" autocomplete="given-name" maxlength="40" placeholder="e.g. Jamie">
@@ -342,7 +388,7 @@ function renderRecap(me){
       ${rc.rounds.length ? `<p class="muted">Your favourite won ${hits} of the ${rc.rounds.length} round${rc.rounds.length === 1 ? '' : 's'} you tasted.</p>` : `<p class="muted">No rankings from you this time.</p>`}
     </div>
     ${rc.rounds.map(r => `<div class="card">
-      <p class="muted small" style="margin:0">${r.round === 3 ? 'The final' : `Round ${r.round} · Group ${r.group}`} · ${r.voters} voters</p>
+      <p class="muted small" style="margin:0">${r.round === 3 ? 'The final' : `Round ${r.round} · Group ${groupLabel(r.group)}`} · ${r.voters} voters</p>
       <table style="margin-top:8px">
         <tr><th>You</th><th>Shop</th><th style="text-align:right">Group</th></tr>
         ${r.picks.map((p, i) => `<tr>
@@ -411,7 +457,7 @@ function drinksBoard(d){
       ${d.shops.map(s => `<div style="padding:10px 0;border-top:1px solid var(--line)">
         <div class="row" style="align-items:center;gap:8px">
           ${locked ? `<b style="flex:1">${esc(s.name)}</b>` : `<input data-shopname="${s.num}" value="${esc(s.name)}" maxlength="40" style="flex:1;padding:8px 10px">`}
-          <span class="muted small" style="flex:0 0 auto;white-space:nowrap">${d.groupsGenerated || locked ? 'Group ' + s.grp : ''}</span>
+          <span class="muted small" style="flex:0 0 auto;white-space:nowrap">${d.groupsGenerated || locked ? 'Group ' + groupLabel(s.grp) : ''}</span>
         </div>
         <div class="tags">${Object.entries(STATUS_LABELS).map(([k, v]) =>
           `<button class="tag ${s.status === k ? 'on' : ''}" data-status="${s.num}" data-v="${k}">${v}</button>`).join('')}
@@ -446,13 +492,6 @@ function pourSheets(pour){
   }).join('');
 }
 
-// mm:ss left on a round's 10-minute voting timer.
-function timerText(deadline){
-  const left = Math.round((deadline - Date.now()) / 1000);
-  if (left <= 0) return 'Time’s up · close when ready';
-  return `${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')} left to vote`;
-}
-let timerTick = null;
 
 function hostView(){
   pinGate('host', 'Host', pin => {
@@ -464,7 +503,6 @@ function hostView(){
       const focused = document.activeElement && ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName);
       if (focused) return; // don't redraw under the host's fingers
       const byPanel = Object.fromEntries(d.panels.map(p => [p.name, d.tasters.filter(t => t.panel === p.name)]));
-      const skew = Date.now() - (d.now || Date.now()); // server clock -> this device's clock
       app.innerHTML = `
         <h1>Host</h1>
         <p class="muted">${d.tasters.length} taster${d.tasters.length === 1 ? '' : 's'} joined · join link: <b>${esc(location.origin + location.pathname)}</b></p>
@@ -474,8 +512,6 @@ function hostView(){
         ${d.rounds.map(r => `<div class="card">
           <div class="row" style="justify-content:space-between"><h2 style="margin:0">${r.id === 3 ? 'Final' : 'Round ' + r.id}</h2>
             <span class="status ${r.status}" style="flex:0">${r.status}</span></div>
-          ${r.status === 'open' && r.openedAt ? `<p data-deadline="${r.openedAt + skew + d.votingMinutes * 60000}" style="font:800 30px var(--display);margin:10px 0 0"></p>
-            <p class="small muted" style="margin:2px 0 0">Anyone still tasting when time’s up can hand you a paper ballot.</p>` : ''}
           <div class="tables" style="margin-top:10px">${r.tables.map(t => `<div>
             <b>Table ${t.table}</b> <span class="muted small">${t.panels.join(' + ')}</span><br>
             ${r.status === 'open' && t.waitingFor && t.waitingFor.length
@@ -489,7 +525,14 @@ function hostView(){
           </div>
         </div>`).join('')}
         <p class="err" id="err"></p>
-        <p class="small muted">Closing a round scores it automatically. Results stay hidden until the <a href="#reveal">reveal</a>.</p>
+        <p class="small muted">Closing a round scores it automatically. Results stay hidden until the <a href="#reveal">reveal</a> on the TV screen.</p>
+        <h2>TV screen</h2>
+        <div class="card">
+          <p class="small muted" style="margin-top:0">Put <b>${esc(location.origin + location.pathname)}#reveal</b> on the TV at the start and leave it. It shows how to join, where each panel sits and how many votes are in, never a result, until you close the final. Then press Start the reveal there.</p>
+          <p class="small muted">Group themes (optional) show as the group titles in the reveal:</p>
+          ${[1, 3, 2, 4].map(g => `<div class="row" style="margin-top:8px"><span class="small muted" style="flex:0 0 132px">Group ${groupLabel(g)} · round ${g === 1 || g === 3 ? 1 : 2}</span>
+            <input data-themegrp="${g}" maxlength="60" placeholder="e.g. The 1990s pioneers" value="${esc((d.themes || {})[g] || '')}" style="padding:8px 10px"></div>`).join('')}
+        </div>
         <h2>Panels</h2>
         <div class="tables">${d.panels.map(p => `<div class="card" style="margin:0">
           <span class="pill" style="background:${PANEL_COLORS[p.name]}">${p.name} · ${byPanel[p.name].length}</span>
@@ -521,13 +564,12 @@ function hostView(){
       });
       app.querySelectorAll('[data-status]').forEach(b => b.onclick = () => act(() => shopApi({num:Number(b.dataset.status), status:b.dataset.v})));
       app.querySelectorAll('[data-late]').forEach(b => b.onclick = () => act(() => shopApi({num:Number(b.dataset.late), late:!b.classList.contains('on')})));
+      app.querySelectorAll('[data-themegrp]').forEach(i => {
+        i.onkeydown = e => { if (e.key === 'Enter') i.blur(); };
+        i.onchange = () => { i.blur(); act(() => api('/api/host/theme', {method:'POST', pin, body:{group:Number(i.dataset.themegrp), theme:i.value}})); };
+      });
       const gen = app.querySelector('[data-generate]');
       if (gen) gen.onclick = () => act(() => api('/api/host/generate', {method:'POST', pin, body:{}}));
-      const tick = () => app.querySelectorAll('[data-deadline]').forEach(el => {
-        el.textContent = timerText(Number(el.dataset.deadline));
-        el.style.color = Number(el.dataset.deadline) - Date.now() < 60000 ? 'var(--warn)' : '';
-      });
-      tick(); clearInterval(timerTick); timerTick = setInterval(tick, 1000);
       document.getElementById('pb-go').onclick = async () => {
         const ranking = document.getElementById('pb-rank').value.toUpperCase().split(/[^A-Z]+/).filter(Boolean);
         try {
@@ -542,33 +584,109 @@ function hostView(){
 }
 
 // ================= Reveal =================
-const GROUP_THEMES = {1:'Group 1', 2:'Group 2', 3:'Group 3', 4:'Group 4'};
+// Groups in the order they were tasted: round 1's tables, then round 2's.
+const tastingOrder = (a, b) => a.round - b.round || a.table - b.table;
+const shopCount = d => Object.keys(d.shops || {}).length || d.groups.reduce((n, g) => n + (g.members || []).length, 0);
+const todayLabel = () => new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+// The TV screen. Put #reveal on the TV at the start of the night and leave it: it shows how to join,
+// where each panel sits, the voting countdown and how many votes are in, and never a result,
+// until the final is closed. Then the host starts the reveal from here.
+const PANEL_ORDER = ['Red', 'Blue', 'Green', 'Yellow'];
+let qrLib = null;
+function loadQr(){
+  if (!qrLib) qrLib = new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
+    s.onload = () => res(window.QRCode); s.onerror = rej;
+    document.head.appendChild(s);
+  });
+  return qrLib;
+}
+function drawQr(el, text, px){
+  if (!el || el.dataset.drawn === text) return;
+  loadQr().then(Q => { el.innerHTML = ''; new Q(el, { text, width: px, height: px, colorDark: '#2b1d14', colorLight: '#fffaf3' }); el.dataset.drawn = text; }).catch(() => {});
+}
+
+function tvPhase(d){
+  const st = id => d.rounds.find(r => r.id === id).status;
+  if (st(3) === 'closed') return { kind: 'done' };
+  const open = d.rounds.find(r => r.status === 'open');
+  if (open) return { kind: 'open', round: open };
+  if (d.rounds.every(r => r.status === 'pending')) return { kind: 'lobby' };
+  const next = d.rounds.find(r => r.status === 'pending');
+  const lastClosed = d.rounds.filter(r => r.status === 'closed').pop();
+  return { kind: 'between', done: lastClosed, next };
+}
+
 function revealView(){
-  pinGate('host', 'Reveal', async pin => {
-    let d;
-    try { d = await api('/api/host/results', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host','Reveal',e); app.innerHTML = `<p class="err">${esc(e.message)}</p>`; return; }
-    // Names come from the host's shop list; edits here only change how they read on the TV (saved on this device).
-    // A saved tweak only applies while the host's name for that shop is unchanged, so last bracket's edits don't leak in.
-    const saved = (() => { try { return JSON.parse(store.get('bb_tv_names') || '{}'); } catch(e){ return {}; } })();
-    const names = Object.assign({}, d.shops || {});
-    for (const [n, v] of Object.entries(saved)) if (v && v.base === names[n]) names[n] = v.name;
-    const themes = JSON.parse(store.get('bb_themes') || '{}');
-    const members = g => { const grp = d.groups.find(x => x.group === g); return grp && grp.members ? grp.members : [3*g-2, 3*g-1, 3*g]; };
-    app.innerHTML = `<h1>Reveal setup</h1>
-      <p class="muted">Shop names come from the host screen. Tweak how any reads on the TV here; edits are saved on this device.</p>
-      ${[1,2,3,4].map(g => `<div class="card"><input data-theme="${g}" placeholder="Group ${g} theme (optional), e.g. The 1990s pioneers" value="${esc(themes[g] || '')}">
-        ${members(g).map(n => `<div class="row" style="margin-top:8px"><input data-num="${n}" placeholder="Shop name" value="${esc(names[n] || '')}"></div>`).join('')}</div>`).join('')}
-      <button id="start">Start the reveal</button>
-      <div style="height:10px"></div>
-      <button class="secondary" id="loop" ${d.final.result && d.final.result.voters ? '' : 'disabled'}>Loop the bracket animation</button>
-      <p class="small muted" style="margin-top:10px">${d.final.status === 'closed' ? 'All rounds are closed.' : 'Heads up: the final isn’t closed yet.'} The animation shows every result, champion included. Press Esc to leave it.</p>`;
-    document.getElementById('loop').onclick = () => runBracket(d, names, themes);
-    app.querySelectorAll('[data-num]').forEach(i => i.oninput = () => {
-      const n = i.dataset.num; names[n] = i.value;
-      saved[n] = { base: (d.shops || {})[n], name: i.value }; store.set('bb_tv_names', JSON.stringify(saved));
-    });
-    app.querySelectorAll('[data-theme]').forEach(i => i.oninput = () => { themes[i.dataset.theme] = i.value; store.set('bb_themes', JSON.stringify(themes)); });
-    document.getElementById('start').onclick = () => runReveal(d, names, themes);
+  pinGate('host', 'TV screen', pin => {
+    let mode = 'live';
+    const joinUrl = location.origin + location.pathname;
+    const roundName = id => id === 3 ? 'The final' : 'Round ' + id;
+    const pill = name => `<span class="pill" style="background:${PANEL_COLORS[name]}">${esc(name)}</span>`;
+    const load = async () => {
+      if (mode !== 'live') return;
+      let d; try { d = await api('/api/host/state', {pin}); } catch(e){ if (e.status === 401) return pinFailed('host', 'TV screen', e); return; }
+      if (mode !== 'live') return;
+      const ph = tvPhase(d);
+      const byPanel = Object.fromEntries(PANEL_ORDER.map(p => [p, d.tasters.filter(t => t.panel === p)]));
+      const head = `<div class="tv-head"><b>The Boba Bracket</b><span>${d.tasters.length} taster${d.tasters.length === 1 ? '' : 's'} · blind</span></div>`;
+      const joinCorner = `<div class="tv-join"><div class="tv-qr" data-qr></div><div><b>Late? Join here</b><br><span>${esc(joinUrl.replace(/^https?:\/\//, ''))}</span></div></div>`;
+      let body = '';
+      if (ph.kind === 'lobby') {
+        body = `<div class="tv-lobby">
+          <div><p class="tv-kicker">Blind taste-off</p><p class="tv-title">Scan to join</p>
+            <p class="tv-sub">You’ll get a panel colour. Rank the cups on your phone; nothing is revealed until the end.</p>
+            <div class="tv-qr tv-qr-big" data-qr></div><p class="tv-url">${esc(joinUrl.replace(/^https?:\/\//, ''))}</p></div>
+          <div class="tv-panels">${PANEL_ORDER.map(p => `<div class="tv-card"><div class="row" style="justify-content:space-between">${pill(p)}<span class="tv-count">${byPanel[p].length}</span></div>
+            <p class="tv-names">${byPanel[p].map(t => esc(t.name)).join(' · ') || '<span class="muted">No one yet</span>'}</p></div>`).join('')}</div>
+        </div>`;
+      } else if (ph.kind === 'open') {
+        const r = ph.round;
+        const total = r.tables.reduce((n, t) => n + t.expected, 0), voted = r.tables.reduce((n, t) => n + t.voted, 0);
+        body = `<p class="tv-kicker">Now tasting</p><p class="tv-title">${roundName(r.id)}</p>
+          <p class="tv-sub">${voted} of ${total} votes in. Rank your cups on your phone.</p>
+          <div class="tv-tables">${r.tables.map(t => {
+            const held = t.waitingFor && t.waitingFor.length;
+            return `<div class="tv-card">
+              <p class="tv-kicker">${r.id === 3 ? 'Everyone' : 'Table ' + t.table}</p>
+              <div class="row" style="flex-wrap:wrap;gap:8px;justify-content:flex-start">${t.panels.map(pill).join('')}</div>
+              ${held ? `<p class="tv-held">Waiting on a drink. Hang tight, it’s on its way.</p>`
+                : `<div class="tv-bar"><i style="width:${t.expected ? Math.round(100 * t.voted / t.expected) : 0}%"></i></div>
+                   <p class="tv-count">${t.voted} <span>of ${t.expected} in</span></p>
+                   ${t.voted < t.expected ? `<p class="tv-names">Still tasting: ${t.missing.map(esc).join(' · ')}</p>` : `<p class="tv-names">Everyone’s in.</p>`}`}
+            </div>`;
+          }).join('')}</div>`;
+      } else if (ph.kind === 'between') {
+        const n = ph.next;
+        body = `<p class="tv-kicker">${roundName(ph.done.id)} is done · results stay secret until the end</p>
+          <p class="tv-title">Up next: ${roundName(n.id)}</p>
+          <p class="tv-sub">${n.id === 3 ? 'Everyone tastes the four finalists.' : 'Find your table:'}</p>
+          ${n.id === 3 ? '' : `<div class="tv-tables">${n.tables.map(t => `<div class="tv-card"><p class="tv-kicker">Table ${t.table}</p>
+            <div class="row" style="flex-wrap:wrap;gap:8px;justify-content:flex-start">${t.panels.map(pill).join('')}</div></div>`).join('')}</div>
+            ${(() => { const rest = PANEL_ORDER.filter(p => !n.tables.some(t => t.panels.includes(p)));
+              return `<p class="tv-sub" style="margin-top:2vh">${rest.length ? rest.map(esc).join(' and ') + (rest.length === 1 ? ' rests' : ' rest') + ' this round.' : 'Every panel tastes this round.'}</p>`; })()}`}
+          <p class="tv-names" style="margin-top:2vh">Missed a round? You can still vote it on your phone until the final opens.</p>`;
+      } else {
+        const votes = d.rounds.reduce((n, r) => n + r.tables.reduce((m, t) => m + t.voted, 0), 0);
+        body = `<div class="center"><p class="tv-kicker">All votes are in</p><p class="tv-title">Time for the reveal</p>
+          <p class="tv-sub">${d.tasters.length} tasters · ${votes} rankings · ${d.shops.length} shops</p>
+          <div class="tv-actions"><button id="start">Start the reveal</button><button class="secondary" id="loop">Loop the bracket animation</button></div>
+          <p class="err" id="tv-err"></p></div>`;
+      }
+      app.innerHTML = `<div class="tv">${head}<div class="tv-body">${body}</div>${ph.kind === 'open' || ph.kind === 'between' ? joinCorner : ''}</div>`;
+      app.querySelectorAll('[data-qr]').forEach(el => drawQr(el, joinUrl, el.classList.contains('tv-qr-big') ? 260 : 120));
+      const fresh = async () => { const r = await api('/api/host/results', {pin}); return [r, Object.assign({}, r.shops || {}), r.themes || {}]; };
+      const start = document.getElementById('start');
+      if (start) start.onclick = async () => {
+        start.disabled = true;
+        try { const [r, names, themes] = await fresh(); mode = 'slides'; clearInterval(pollTimer); runReveal(r, names, themes); }
+        catch(e){ start.disabled = false; document.getElementById('tv-err').textContent = e.message; }
+      };
+      const lp = document.getElementById('loop');
+      if (lp) lp.onclick = async () => { try { const [r, names, themes] = await fresh(); runBracket(r, names, themes); } catch(e){ document.getElementById('tv-err').textContent = e.message; } };
+    };
+    load(); poll(load);
   });
 }
 
@@ -577,11 +695,11 @@ function runReveal(d, names, themes){
   const pickNotes = (res, n, k=2) => [...new Set(res.notes[n] || [])].filter(t => t.length > 3).sort(() => Math.random() - 0.5).slice(0, k);
   const why = r => r.decidedBy === 'head-to-head wins' ? 'won on head-to-heads' : r.decidedBy === 'coin flip' ? 'decided by coin flip' : `tiebreak: ${r.decidedBy}`;
   const slides = [];
-  slides.push(() => `<p class="muted">Nov. 22, 2026</p><p class="slide-title">The Boba Bracket</p>
-    <p class="muted" style="font-size:22px">${d.tasters} tasters · 12 shops · 4 blind groups · 1 champion</p>`);
-  for (const g of d.groups) {
+  slides.push(() => `<p class="muted">${esc(todayLabel())}</p><p class="slide-title">The Boba Bracket</p>
+    <p class="muted" style="font-size:22px">${d.tasters} tasters · ${shopCount(d)} shops · ${d.groups.length} blind groups · 1 champion</p>`);
+  for (const g of d.groups.slice().sort(tastingOrder)) {
     const r = g.result; if (!r || !r.voters) continue;
-    const title = themes[g.group] && themes[g.group].trim() ? themes[g.group].trim() : `Group ${g.group}`;
+    const title = themes[g.group] && themes[g.group].trim() ? themes[g.group].trim() : `Group ${groupLabel(g.group)}`;
     slides.push(() => `<p class="muted">Round ${g.round} · ${g.panels.join(' + ')} panels</p><p class="slide-title">${esc(title)}</p>
       <p class="muted" style="font-size:22px">Cups ${r.order.map(n => esc(r.letters[n])).sort().join(', ')}. Who was who?</p>`);
     slides.push(() => `<p class="muted">${esc(title)} · ${r.voters} voters · ${why(r)}</p>
@@ -639,10 +757,10 @@ function runReveal(d, names, themes){
 // Full-screen looping bracket for the TV: each group ranks, its winner moves to the final, the final ranks, the champion lands.
 function runBracket(d, names, themes){
   const nm = n => names[n] && String(names[n]).trim() ? String(names[n]).trim() : `Cup #${n}`;
-  const groups = d.groups.filter(g => g.result && g.result.voters).sort((a, b) => a.group - b.group);
+  const groups = d.groups.filter(g => g.result && g.result.voters).sort(tastingOrder);
   const f = d.final.result;
   if (!f || !f.voters || !groups.length) return;
-  const title = g => themes[g.group] && themes[g.group].trim() ? themes[g.group].trim() : `Group ${g.group}`;
+  const title = g => themes[g.group] && themes[g.group].trim() ? themes[g.group].trim() : `Group ${groupLabel(g.group)}`;
   const ord = i => ['1st','2nd','3rd','4th'][i];
   const why = r => r.decidedBy === 'head-to-head wins' ? 'won on head-to-heads' : r.decidedBy === 'coin flip' ? 'won on a coin flip' : `won on ${r.decidedBy}`;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -665,7 +783,7 @@ function runBracket(d, names, themes){
 
   const build = () => {
     el.innerHTML = `
-      <div class="bk-head"><b>The Boba Bracket</b><span>${d.tasters} tasters · 12 shops · blind</span></div>
+      <div class="bk-head"><b>The Boba Bracket</b><span>${d.tasters} tasters · ${shopCount(d)} shops · blind</span></div>
       <div class="bk-col bk-groups">${groups.map(g => `<div class="bk-card" data-g="${g.group}">
         <h3>Round ${g.round} · ${esc(title(g))}</h3>
         <div class="bk-list" style="height:${3 * ROW}vh">${Object.keys(g.result.letters).map(n => Number(n))
