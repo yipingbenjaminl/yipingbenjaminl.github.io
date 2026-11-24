@@ -90,5 +90,6 @@ else{const f={rating:(a,b)=>b.r-a.r||b.rc-a.rc,reviews:(a,b)=>b.rc-a.rc,walk:(a,
 $("list").addEventListener("click",e=>{const b=e.target.closest(".pick");if(!b)return;const id=b.dataset.id;picks.has(id)?picks.delete(id):picks.add(id);try{localStorage.setItem("picks",JSON.stringify([...picks]))}catch(e){}render()});
 render();
 </script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c182145a266643f2bdfd091ff545c8df"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
